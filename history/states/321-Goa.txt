@@ -7,10 +7,10 @@ state={
 	state_category = enclave
 
 	history={
-		owner = BEN
+		owner = SSA
 		add_core_of = BEN
 		add_core_of = IND
-		add_core_of = LUS
+		add_core_of = SSA
 		victory_points = {
 			1273 1
 		}

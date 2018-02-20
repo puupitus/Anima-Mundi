@@ -11,12 +11,13 @@ state={
 		chromium=2
 	}
 	history={
-		owner = NOR
+		owner = SWE
 		buildings = {
 			infrastructure = 2
 		}
 		add_core_of = FIN
 		add_core_of = NOR
+		add_core_of = SWE
 	}
 
 	provinces={

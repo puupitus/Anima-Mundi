@@ -9,8 +9,8 @@ state={
 		rubber=1
 	}
 	history={
-		owner = WAF
-		add_core_of = WAF
+		owner = SSA
+		add_core_of = SSA
 		add_core_of = LUS
 		buildings = {
 			infrastructure = 2

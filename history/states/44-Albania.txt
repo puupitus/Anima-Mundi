@@ -11,7 +11,7 @@ state={
 	state_category = town
 
 	history={
-		owner = YUG
+		owner = HUN
 		victory_points = {
 			9914 5
 		}
@@ -24,7 +24,7 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = YUG
+		add_core_of = HUN
 		add_core_of = ITA
 		add_core_of = BYZ
 		add_core_of = LOM

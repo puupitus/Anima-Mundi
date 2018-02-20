@@ -10,11 +10,11 @@ state={
 	}
 
 	history={
-		owner = GUK
+		owner = RUS
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SIB
+		add_core_of = RUS
 		add_core_of = GUK
 	}
 

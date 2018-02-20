@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = CAF
+		owner = BNL
 		buildings = {
 			infrastructure = 2
 

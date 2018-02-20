@@ -7,12 +7,12 @@ state={
 		rubber=4
 	}
 	history={
-		owner = CAF
+		owner = BNL
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = CAF
+		add_core_of = BNL
 		add_core_of = ABY
 	}
 

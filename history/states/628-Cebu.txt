@@ -8,7 +8,7 @@ state=
 
 	history=
 	{
-		owner = AST
+		owner = IBE
 		buildings = {
 			infrastructure = 3
 			12118 = {

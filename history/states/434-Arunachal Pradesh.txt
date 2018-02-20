@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = BEN
+		owner = DEN
 		add_core_of = BEN
 		add_core_of = IND
 		buildings = {

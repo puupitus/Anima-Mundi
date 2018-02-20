@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = CAL
+		owner = MEX
 		add_core_of = CAL
 		add_core_of = MEX
 		add_core_of = CSA

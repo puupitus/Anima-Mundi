@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = TCS
+		owner = OTT
 		victory_points = {
 			7661 1
 		}
@@ -16,7 +16,7 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = TCS
+		add_core_of = OTT
 
 	}
 

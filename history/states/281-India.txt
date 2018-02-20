@@ -7,7 +7,7 @@ state={
 	state_category = enclave
 
 	history={
-		owner = BEN
+		owner = FRA
 		add_core_of = BEN
 		add_core_of = IND
 		buildings = {

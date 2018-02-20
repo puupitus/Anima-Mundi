@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = LUS
+		owner = IBE
 		victory_points = {
 			740 3
 		}

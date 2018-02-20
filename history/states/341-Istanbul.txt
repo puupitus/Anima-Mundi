@@ -11,7 +11,7 @@ state= {
 
 	history= {
 		add_core_of = BYZ
-		owner = BYZ
+		owner = OTT
 		victory_points = {
 			9833 20
 		}

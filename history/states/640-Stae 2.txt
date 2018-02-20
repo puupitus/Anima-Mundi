@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = BEN
+		owner = DEN
 		add_core_of = BEN
 		add_core_of = IND
 		add_core_of = SIA

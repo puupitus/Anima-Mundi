@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = IRE
+		owner = BRI
 		buildings = {
 			infrastructure = 6
 			dockyard = 2

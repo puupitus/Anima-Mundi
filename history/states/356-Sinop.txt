@@ -6,7 +6,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = BYZ
+		owner = OTT
 		buildings = {
 			infrastructure = 3
 			6995 = {

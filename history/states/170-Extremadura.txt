@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = LUS
+		owner = IBE
 
 		buildings = {
 			infrastructure = 5

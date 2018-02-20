@@ -8,9 +8,9 @@ state=
 
 	history=
 	{
-		owner = CAF
+		owner = IBE
 		add_core_of = BNL
-		add_core_of = CAF
+		add_core_of = IBE
 		buildings = {
 			infrastructure = 2
 			1903 = {

@@ -8,7 +8,7 @@ state=
 
 	history=
 	{
-		owner = AST
+		owner = BEN
 		buildings = {
 			infrastructure = 3
 			4429 = {
@@ -17,6 +17,7 @@ state=
 		}
 		add_core_of = AST
 		add_core_of = JAP
+		add_core_of = BEN
 	}
 	provinces={
 		4429 7419 10145

@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = AST
+		owner = BEN
 		buildings = {
 			infrastructure = 3
 			4241 = {
@@ -19,6 +19,7 @@ state={
 		}
 		add_core_of = AST
 		add_core_of = JAP
+		add_core_of = BEN
 	}
 
 	provinces={

@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = HBC
+		owner = QUE
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
