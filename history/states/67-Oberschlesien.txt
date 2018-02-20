@@ -1,0 +1,30 @@
+
+state={
+	id=67
+	name="STATE_67"
+	manpower = 1402591
+	resources={
+		steel=60
+		aluminium=20
+	}
+
+	state_category = city
+
+	history={
+		owner = KRA
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = PRS
+		add_core_of = BAV
+		add_core_of = RHI
+		add_core_of = KRA
+		add_core_of = POL
+		add_core_of = MOR
+		add_core_of = BOH
+	}
+
+	provinces={
+		479 6512 9457 9511 11467
+	}
+}

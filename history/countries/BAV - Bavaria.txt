@@ -1,0 +1,108 @@
+capital = 52
+
+oob = "BAV_1936"
+
+BAV = { create_wargoal = { type = annex_everything target = PRS } }
+BAV = { create_wargoal = { type = annex_everything target = RHI } }
+RHI = { create_wargoal = { type = annex_everything target = PRS } }
+RHI = { create_wargoal = { type = annex_everything target = BAV } }
+PRS = { create_wargoal = { type = annex_everything target = RHI } }
+PRS = { create_wargoal = { type = annex_everything target = BAV } }
+BAV = { declare_war_on = { target = PRS type = annex_everything } }
+BAV = { declare_war_on = { target = RHI type = annex_everything } }
+RHI = { declare_war_on = { target = PRS type = annex_everything } }
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+	early_carrier = 1
+}
+
+set_convoys = 50
+set_research_slots = 5
+set_national_unity = 0.7
+
+set_politics = {
+
+		parties = {
+			third_position = {
+				popularity = 40
+			}
+
+			socialism = {
+				popularity = 30
+			}
+
+			republicanism = {
+				popularity = 20
+			}
+
+			monarchism = {
+				popularity = 10
+			}
+		}
+	ruling_party = third_position
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Franz Josef Strauß"
+	picture = "franz_josef_strauss.dds"
+	ideology = conservatistic
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Rupprecht von Bayern"
+	picture = "rupprecht_von_bayern.dds"
+	ideology = absolutism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Ernst Thälmann"
+	picture = "ernst_thalmann.dds"
+	ideology = marxist
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Rosa Luxemburg"
+	picture = "rosa_luxemburg.dds"
+	ideology = nazism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_corps_commander = {
+	name = "Heinz Guderian"
+	picture = "heinz_guderian.dds"
+	skill = 1
+}
+
+
+create_field_marshal = {
+	name = "Walter Model"
+	picture = "walter_model.dds"
+	skill = 2
+}

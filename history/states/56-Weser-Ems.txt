@@ -1,0 +1,40 @@
+state={
+	id=56
+	name="STATE_56"
+	manpower = 2058467
+
+	state_category = city
+
+	history={
+		owner = RHI
+		victory_points = {
+			241 5
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			dockyard = 2
+			241 = {
+				naval_base = 8
+
+			}
+			air_base = 3
+
+		}
+		add_core_of = PRS
+		add_core_of = RHI
+		add_core_of = BAV
+		add_core_of = BNL
+		add_core_of = SWE
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+				dockyard = 3
+			}
+		}
+	}
+
+	provinces={
+		241 247 309 336 3234 9281 11233 11264 11360 11388
+	}
+}

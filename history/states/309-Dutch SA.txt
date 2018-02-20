@@ -1,0 +1,32 @@
+
+state={
+	id=309
+	name="STATE_309"
+	manpower = 152000
+
+	resources={
+		aluminium=12
+	}
+
+	state_category = rural
+
+	history={
+		owner = SPA
+		add_core_of = CAR
+		add_core_of = COL
+		add_core_of = SSA
+		add_core_of = BNL
+		add_core_of = SPA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			12828 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		1928 10906 12828
+	}
+}

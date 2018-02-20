@@ -1,0 +1,102 @@
+capital = 378
+
+oob = "CAL_1936"
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+	early_carrier = 1
+}
+
+set_convoys = 50
+set_research_slots = 5
+set_national_unity = 0.7
+
+set_politics = {
+
+		parties = {
+			third_position = {
+				popularity = 20
+			}
+
+			socialism = {
+				popularity = 30
+			}
+
+			republicanism = {
+				popularity = 40
+			}
+
+			monarchism = {
+				popularity = 10
+			}
+		}
+	ruling_party = republicanism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Herbert Hoover"
+	picture = "herbert_hoover.dds"
+	ideology = conservatistic
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "George I"
+	picture = "george_i.dds"
+	ideology = absolutism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "John Reed"
+	picture = "john_reed.dds"
+	ideology = marxist
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Emma Goldman"
+	picture = "emma_goldman.dds"
+	ideology = nazism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_corps_commander = {
+	name = "Omar Bradley"
+	picture = "omar_bradley.dds"
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Ernest King"
+	picture = "Ernest King.dds"
+	skill = 1
+}
+
+create_field_marshal = {
+	name = "George Marshall"
+	picture = "george_marshall.dds"
+	skill = 2
+}

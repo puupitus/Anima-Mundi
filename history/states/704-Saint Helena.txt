@@ -1,0 +1,24 @@
+state={
+	id=704
+	name="STATE_704"
+	manpower=2485
+	state_category = tiny_island
+
+	history= {
+		owner = FRA
+		add_core_of = WAF
+		add_core_of = SAF
+		add_core_of = FRA
+
+		buildings = {
+			infrastructure = 1
+			13016 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		13016
+	}
+}
