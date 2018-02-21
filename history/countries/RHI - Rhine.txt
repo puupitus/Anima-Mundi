@@ -1,4 +1,4 @@
-capital = 51
+capital = 62
 
 oob = "RHI_1936"
 # Starting tech
@@ -34,18 +34,18 @@ set_politics = {
 			}
 
 			socialism = {
-				popularity = 40
+				popularity = 20
 			}
 
 			republicanism = {
-				popularity = 20
+				popularity = 40
 			}
 
 			monarchism = {
 				popularity = 30
 			}
 		}
-	ruling_party = socialism
+	ruling_party = republicanism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

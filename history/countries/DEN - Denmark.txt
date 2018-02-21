@@ -1,6 +1,40 @@
 capital = 37
 
 oob = "DEN_1936"
+set_major = yes
+create_faction = "Oldenburg Realms"
+puppet = NOR
+NOR = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
+puppet = SWE
+SWE = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
+puppet = RHI
+RHI = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+}
+puppet = BAL
+BAL = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
+puppet = WAF
+WAF = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
+
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

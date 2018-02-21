@@ -2,41 +2,29 @@ capital = 16
 
 oob = "FRA_1936"
 set_major = yes
-create_faction = "Republican League"
+create_faction = "Nouveau Régime"
 puppet = FAF
 FAF = {
 	set_politics = {
 		ruling_party = republicanism
 			}
 		}
-puppet = BAL
-BAL = {
+puppet = QUE
+QUE = {
 	set_politics = {
-		ruling_party = republicanism
+		ruling_party = monarchism
 			}
 		}
-puppet = BLR
-BLR = {
+puppet = IBE
+IBE = {
 	set_politics = {
-		ruling_party = republicanism
+		ruling_party = monarchism
 			}
 		}
-puppet = POL
-POL = {
+puppet = BAV
+BAV = {
 	set_politics = {
-		ruling_party = republicanism
-			}
-		}
-puppet = IRE
-IRE = {
-	set_politics = {
-		ruling_party = republicanism
-			}
-		}
-puppet = SIP
-SIP = {
-	set_politics = {
-		ruling_party = republicanism
+		ruling_party = monarchism
 			}
 		}
 puppet = DAI
@@ -45,18 +33,7 @@ DAI = {
 		ruling_party = republicanism
 			}
 		}
-puppet = TUA
-TUA = {
-	set_politics = {
-		ruling_party = republicanism
-			}
-		}
-puppet = QUE
-QUE = {
-	set_politics = {
-		ruling_party = republicanism
-			}
-		}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -86,7 +63,7 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 30
+				popularity = 20
 			}
 
 			socialism = {
@@ -94,14 +71,14 @@ set_politics = {
 			}
 
 			republicanism = {
-				popularity = 40
+				popularity = 30
 			}
 
 			monarchism = {
-				popularity = 20
+				popularity = 40
 			}
 		}
-	ruling_party = republicanism
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

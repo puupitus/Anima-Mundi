@@ -1,8 +1,6 @@
 capital = 110
 
 oob = "NOR_1936"
-set_major = yes
-create_faction = "Thule Society"
 
 # Starting tech
 set_technology = {
@@ -33,7 +31,7 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 40
+				popularity = 30
 			}
 
 			socialism = {
@@ -45,10 +43,10 @@ set_politics = {
 			}
 
 			monarchism = {
-				popularity = 30
+				popularity = 40
 			}
 		}
-	ruling_party = third_position
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

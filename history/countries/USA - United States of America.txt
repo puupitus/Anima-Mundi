@@ -1,4 +1,4 @@
-capital = 357
+capital = 361
 
 oob = "USA_1936"
 set_major = yes
@@ -31,7 +31,7 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 40
+				popularity = 30
 			}
 
 			socialism = {
@@ -39,14 +39,14 @@ set_politics = {
 			}
 
 			republicanism = {
-				popularity = 30
+				popularity = 40
 			}
 
 			monarchism = {
 				popularity = 20
 			}
 		}
-	ruling_party = third_position
+	ruling_party = republicanism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

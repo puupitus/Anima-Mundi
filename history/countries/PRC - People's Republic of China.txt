@@ -3,9 +3,6 @@ capital = 622
 oob = "PRC_1936"
 set_major = yes
 
-PRC = { create_wargoal = { type = annex_everything target = ROC } }
-PRC = { declare_war_on = { target = ROC type = annex_everything } }
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -35,11 +32,11 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 30
+				popularity = 40
 			}
 
 			socialism = {
-				popularity = 40
+				popularity = 30
 			}
 
 			republicanism = {
@@ -50,7 +47,7 @@ set_politics = {
 				popularity = 10
 			}
 		}
-	ruling_party = socialism
+	ruling_party = third_position
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

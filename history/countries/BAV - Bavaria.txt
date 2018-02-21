@@ -2,16 +2,6 @@ capital = 52
 
 oob = "BAV_1936"
 
-BAV = { create_wargoal = { type = annex_everything target = PRS } }
-BAV = { create_wargoal = { type = annex_everything target = RHI } }
-RHI = { create_wargoal = { type = annex_everything target = PRS } }
-RHI = { create_wargoal = { type = annex_everything target = BAV } }
-PRS = { create_wargoal = { type = annex_everything target = RHI } }
-PRS = { create_wargoal = { type = annex_everything target = BAV } }
-BAV = { declare_war_on = { target = PRS type = annex_everything } }
-BAV = { declare_war_on = { target = RHI type = annex_everything } }
-RHI = { declare_war_on = { target = PRS type = annex_everything } }
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -41,7 +31,7 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 40
+				popularity = 20
 			}
 
 			socialism = {
@@ -49,14 +39,14 @@ set_politics = {
 			}
 
 			republicanism = {
-				popularity = 20
+				popularity = 10
 			}
 
 			monarchism = {
-				popularity = 10
+				popularity = 40
 			}
 		}
-	ruling_party = third_position
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

@@ -2,13 +2,13 @@ capital = 282
 
 oob = "JAP_1936"
 set_major = yes
-
-puppet = MAN
-MAN = {
+create_faction = "Dai Tōa Kyōeiken"
+puppet = CAL
+CAL = {
 	set_politics = {
 		ruling_party = monarchism
 			}
-		}
+}
 
 # Starting tech
 set_technology = {
@@ -39,7 +39,7 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 2+
+				popularity = 20
 			}
 
 			socialism = {

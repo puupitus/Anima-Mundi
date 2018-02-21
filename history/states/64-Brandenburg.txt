@@ -9,7 +9,7 @@ state={
 
 
 	history={
-		owner = PRS
+		owner = RHI
 		victory_points = {
 			6521 50
 		}
