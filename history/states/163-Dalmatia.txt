@@ -7,16 +7,18 @@ state=
 	state_category = enclave
 
 	history={
-		owner = LOM
+		owner = HUN
 		buildings = {
 			infrastructure = 5
 			3943 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = YUG
-		add_core_of = LOM
+		add_core_of = HUN
 		add_core_of = ITA
+		add_core_of = LOM
+		add_core_of = SIC
+		add_core_of = SAR
 	}
 	provinces={
 		3943

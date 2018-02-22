@@ -12,10 +12,10 @@ state={
 	}
 
 	history={
-		owner = MEX
+		owner = CAL
 		add_core_of = CAL
 		add_core_of = MEX
-		add_core_of = CSA
+		add_core_of = USA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2

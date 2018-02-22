@@ -2,6 +2,13 @@ capital = 500
 
 oob = "SSA_1936"
 set_major = yes
+create_faction = "Império Português"
+puppet = MYS
+MYS = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -53,33 +60,33 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Artur da Silva Bernardes"
-	picture = "artur_da_silva_bernardes.dds"
+	name = "Getúlio Vargas"
+	picture = "getulio_vargas.dds"
+	ideology = nazism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "António de Oliveira Salazar"
+	picture = "antonio_de_oliveira_salazar.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Getúlio Vargas"
-	picture = "getulio_vargas.dds"
+	name = "Manuel II"
+	picture = "manuel_ii.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Leon Trotsky"
-	picture = "leon_trotsky.dds"
+	name = "Bento António Gonçalves"
+	picture = "bento_antonio_goncalves.dds"
 	ideology = marxist
-	traits = { zeitgeist_default
-		#
-	}
-}
-create_country_leader = {
-	name = "José Oiticica"
-	picture = "jose_oiticica.dds"
-	ideology = nazism
 	traits = { zeitgeist_default
 		#
 	}

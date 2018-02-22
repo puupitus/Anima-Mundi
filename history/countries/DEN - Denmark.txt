@@ -15,20 +15,14 @@ SWE = {
 		ruling_party = monarchism
 			}
 }
-puppet = RHI
-RHI = {
-	set_politics = {
-		ruling_party = republicanism
-			}
-}
-puppet = BAL
-BAL = {
+puppet = WAF
+WAF = {
 	set_politics = {
 		ruling_party = monarchism
 			}
 }
-puppet = WAF
-WAF = {
+puppet = BYZ
+BYZ = {
 	set_politics = {
 		ruling_party = monarchism
 			}

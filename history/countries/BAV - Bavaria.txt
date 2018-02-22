@@ -35,7 +35,7 @@ set_politics = {
 			}
 
 			socialism = {
-				popularity = 30
+				popularity = 40
 			}
 
 			republicanism = {
@@ -43,7 +43,7 @@ set_politics = {
 			}
 
 			monarchism = {
-				popularity = 40
+				popularity = 30
 			}
 		}
 	ruling_party = monarchism
@@ -69,17 +69,17 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Ernst Thälmann"
-	picture = "ernst_thalmann.dds"
-	ideology = marxist
+	name = "Martin Bormann"
+	picture = "martin_bormann.dds"
+	ideology = nazism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Rosa Luxemburg"
-	picture = "rosa_luxemburg.dds"
-	ideology = nazism
+	name = "Ernst Thälmann"
+	picture = "ernst_thalmann.dds"
+	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}

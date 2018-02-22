@@ -30,7 +30,7 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 40
+				popularity = 30
 			}
 
 			socialism = {
@@ -42,10 +42,10 @@ set_politics = {
 			}
 
 			monarchism = {
-				popularity = 30
+				popularity = 40
 			}
 		}
-	ruling_party = third_position
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -76,8 +76,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Muhammad Ali Jinnah"
-	picture = "muhammad_ali_jinnah.dds"
+	name = "Mufti Jafar Hussain"
+	picture = "mufti_jafar_hussain.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

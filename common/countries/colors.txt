@@ -32,8 +32,8 @@ color = rgb { 247 224 23 }
 color_ui = rgb { 247 224 23 }
 }
 BLR = {
-color = rgb { 213 43 43 }
-color_ui = rgb { 213 43 43 }
+color = rgb { 229 192 192 }
+color_ui = rgb { 229 192 192 }
 }
 BNL = {
 color = rgb { 250 224 66 }
@@ -115,6 +115,10 @@ GUK = {
 	color = rgb { 0 204 0 }
 	color_ui = rgb { 0 204 0 }
 }
+HAN = {
+color = rgb { 255 206 8 }
+color_ui = rgb { 255 206 8 }
+}
 HBC = {
 color = rgb { 119 48 39 }
 color_ui = rgb { 155 62 51 }
@@ -144,8 +148,8 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 ITA = {
-	color = rgb { 150 14 220 }
-	color_ui = rgb { 150 14 220 }
+	color = rgb { 233 234 192 }
+	color_ui = rgb { 233 234 192 }
 }
 JAP = {
 	color = hsv { 0.05 0.3 1 }
@@ -178,6 +182,10 @@ color_ui = rgb { 147 12 20 }
 MOR = {
 color = rgb { 0 78 149 }
 color_ui = rgb { 0 78 149 }
+}
+MYS = {
+color = rgb { 153 51 51 }
+color_ui = rgb { 153 51 51 }
 }
 NOR = {
 color = rgb { 228  71  74 }
@@ -220,8 +228,8 @@ ROC = {
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
 ROM = {
-color = rgb { 221 201 45 }
-color_ui = rgb { 221 201 45 }
+color = rgb { 255 252 216 }
+color_ui = rgb { 255 252 216 }
 }
 RUS = {
 	color = rgb { 71 113 97 }
@@ -231,6 +239,10 @@ SAF = {
 	color = rgb { 255 178 102 }
 	color_ui = rgb { 255 178 102 }
 }
+SAR = {
+	color = rgb { 0 61 204 }
+	color_ui = rgb { 0 61 204 }
+}
 SIA = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 171 190 152 }
@@ -238,6 +250,10 @@ SIA = {
 SIB = {
 color = rgb { 201 31 43 }
 color_ui = rgb { 201 31 43 }
+}
+SIC = {
+color = rgb { 224 0 11 }
+color_ui = rgb { 224 0 11 }
 }
 SIP = {
 color = rgb { 0 85 61 }
@@ -286,6 +302,10 @@ color_ui = rgb { 67 82 137 }
 WAF = {
 color = rgb { 205  31  28 }
 color_ui = rgb { 205  31  28 }
+}
+WFI = {
+color = rgb { 184  186  224 }
+color_ui = rgb { 184  186  224 }
 }
 XIN = {
 color = rgb { 167 43 20 }

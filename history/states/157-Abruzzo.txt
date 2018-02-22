@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = LOM
+		owner = ITA
 		victory_points = {
 			925 1
 		}
@@ -21,8 +21,10 @@ state={
 				naval_base = 1
 			}
 		}
+		add_core_of = ITA
 		add_core_of = LOM
-		add_core_of = BYZ
+		add_core_of = SIC
+		add_core_of = SAR
 	}
 
 	provinces={

@@ -10,8 +10,9 @@ state={
 	}
 
 	history={
-		owner = SSA
+		owner = MYS
 		add_core_of = IND
+		add_core_of = MYS
 		victory_points = {
 			8087 1
 		}

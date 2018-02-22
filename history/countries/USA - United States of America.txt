@@ -53,8 +53,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Harry S. Truman"
-	picture = "harry_s_truman.dds"
+	name = "Huey Long"
+	picture = "huey_long.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#

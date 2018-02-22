@@ -60,16 +60,16 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Jawaharlal Nehru"
-	picture = "jawaharlal_nehru.dds"
+	name = "Osman Ali Khan"
+	picture = "osman_ali_khan.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Subhas Chandra Bose"
-	picture = "subhas_chandra_bose.dds"
+	name = "Mohandas Karamchand Gandhi"
+	picture = "mohandas_karamchand_gandhi.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#

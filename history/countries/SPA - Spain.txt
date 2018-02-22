@@ -3,42 +3,7 @@ capital = 307
 oob = "SPA_1936"
 set_major = yes
 create_faction = "Imperio Español"
-puppet = CAR
-CAR = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = CAM
-CAM = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = COL
-COL = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = PRU
-PRU = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = CHL
-CHL = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = ARG
-ARG = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -17,9 +17,11 @@ state={
 			air_base = 10
 
 		}
-		add_core_of = ITA
 		add_core_of = SWI
+		add_core_of = ITA
 		add_core_of = LOM
+		add_core_of = SIC
+		add_core_of = SAR
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 7

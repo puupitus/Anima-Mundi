@@ -38,6 +38,22 @@ RHI = {
 		}
 	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
 }
+HAN = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = {
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm
+		Beisswenger Duttmann Wilbs Berglen Behrmann
+		}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
 BAV = {
 	male = {
 		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich
@@ -333,6 +349,54 @@ ITA = {
 	 }
 	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso }
 }
+SAR = {
+	male = {
+		names = {
+			Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
+			Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
+			Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
+			Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+			Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio
+
+		  }
+	}
+	female = {
+		names = { Maria Anna }
+	}
+	surnames = {
+		Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
+		Caviglia Ceccherini Cialdini Cusani Dezza "di Robilant" "di Savoia"
+		Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti
+		Menabrea Orengo Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro
+		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli
+
+	 }
+	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso }
+}
+SIC = {
+	male = {
+		names = {
+			Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
+			Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
+			Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
+			Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+			Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio
+
+		  }
+	}
+	female = {
+		names = { Maria Anna }
+	}
+	surnames = {
+		Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
+		Caviglia Ceccherini Cialdini Cusani Dezza "di Robilant" "di Savoia"
+		Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti
+		Menabrea Orengo Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro
+		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli
+
+	 }
+	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso }
+}
 LOM = {
 	male = {
 		names = {
@@ -570,9 +634,40 @@ FIN = {
 	surnames = { Pertola Törni Marttinen Arjanen Rajala Ryti Juutilanen Virtanen Korhonen Nieminen Laine Järvinen Karhu Kari Markkula Matilla Luoma Heikkinen Helminen Lahti Olli Oksanen Jaakola Janhunen Mäkelä Mäkinen
 	  }
 }
+WFI = {
+	male = {
+		names = {
+			Lauri Pekka Mauno Jussi Alpo Petri Kari Juha Risto Viljo Paavo Eino Arvo Ville Mikko Petteri Aleksi Allu Ahti Ahto Erikki Eero Jani Jarno Johannes Kauko Kalevi Ilkka Eljas Erkki Auno Ilmo Kaarle
+		 }
+	}
 
+	female = {
+		names = { Anna }
+	}
+
+	surnames = { Pertola Törni Marttinen Arjanen Rajala Ryti Juutilanen Virtanen Korhonen Nieminen Laine Järvinen Karhu Kari Markkula Matilla Luoma Heikkinen Helminen Lahti Olli Oksanen Jaakola Janhunen Mäkelä Mäkinen
+	  }
+}
 
 DEN = {
+	male = {
+		names = { Aage Adam Alber Anders Asmund Axel Carl Christian Edvard Edvin
+		Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar Jakob
+		Jacob Johan Julius Knud Ludvig Magnus Michael Niels Olav Otto
+		Peter Poul Sigurd Sven Tage Thomas Thorvald Ukrik Valdemar Vilhelm  }
+	}
+	female = {
+		names = { Karen Alma Elsa Else Monica }
+	}
+	surnames = {
+		Ahlefeldt Asp-Persson Berger Bonde Carlsen Dannemand Danneskjold-Samso  Eberlin Falsen
+		Folsach Güntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe Hansen Have
+		Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg
+		Stemman Suenson Thygeson Trampe Urne  Wadenstierna Wedel-Heinen Zytphen-Adeler
+		}
+	callsigns = { }
+}
+WAF = {
 	male = {
 		names = { Aage Adam Alber Anders Asmund Axel Carl Christian Edvard Edvin
 		Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar Jakob
@@ -1528,6 +1623,16 @@ INS = {
 	surnames = { Widodo Bowo Subianto Sadikin Sosroatmodjo Ngantung Permatasari Damono Wibowo Thukul Hartinah Gunawan Haryanto Suprianto Sabara Abubakar "Bagus Oka" "Bagus Mantra" Martha}
 	callsigns = { }
 }
+BEN = {
+	male = {
+		names = { Joko Fauzi Prabowo Ali Soemarno Henk Widji Teuku Hadi Azwar Mustafa Zaini Abdul Anak Ida Dewa }
+	}
+	female = {
+		names = { Diah Siti }
+	}
+	surnames = { Widodo Bowo Subianto Sadikin Sosroatmodjo Ngantung Permatasari Damono Wibowo Thukul Hartinah Gunawan Haryanto Suprianto Sabara Abubakar "Bagus Oka" "Bagus Mantra" Martha}
+	callsigns = { }
+}
 
 BHU = {
 	male = {
@@ -1620,7 +1725,7 @@ IND = {
 		}
 	callsigns = { }
 }
-BEN = {
+MYS = {
 	male = {
 		names = {
 			Mohandas Narenda Dalbir Bipin Subrata Amarjeet Sanijv Ravi Praveen Surinder Balwant Sarath Amit Bimal Kumar Ranbir Manoj Suresh Sunil Sushila Meena Velu Aniruddha Shokin Ashwani Ashok Abhay Devraj Rudramurti Punita Anand Dipankar Ramnath Bahadur Atan Syed Kesur Bana Chain Ganga Gian Jadunath Mukund Surinder Triveni Varinder Sonam Ram Yogendra
@@ -1833,24 +1938,7 @@ MAL = {
 ###############################################################
 # Africa
 ###############################################################
-WAF = {
-	male = {
-		names = {
-			Aaron Alexander Andre Benton Caesar Cathay Charles Colin Ebenezer Edgar
-			Edward Frederick George Henry James Joseph Lewis Lloyd Matin Michael
-			Milton Osborne  Robert Samuel Stewart Thomas William Wilson
-		 }
-	}
-	female = {
-		names = { }
-	}
-	surnames = {
-		Anderson Antoine Augusta Basset Beaty Blake Brooks Brown Cailloux Carney
-		Delany Douglass  Fields Flipper Gardner Griffin Hawkins Holland Jackson
-		King Mink Nell Pinn Ratcliff Remond Smith Stukes Tubman Veale
-	 }
-	callsigns = { }
-}
+
 ABY = {
 	male = {
 		names = {

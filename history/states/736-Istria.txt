@@ -6,10 +6,11 @@ state={
 
 	history={
 		owner = LOM
+		add_core_of = HUN
 		add_core_of = ITA
-		add_core_of = SWI
-		add_core_of = YUG
 		add_core_of = LOM
+		add_core_of = SIC
+		add_core_of = SAR
 		buildings = {
 			infrastructure = 2
 			11735 = {

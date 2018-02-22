@@ -26,6 +26,7 @@ state={
 		add_core_of = PRS
 		add_core_of = BAV
 		add_core_of = RHI
+		add_core_of = HAN
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 2

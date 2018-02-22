@@ -8,7 +8,7 @@ state=
 
 	history=
 	{
-		owner = FRA
+		owner = SAR
 		victory_points = {
 			11773 3
 		}
@@ -24,10 +24,12 @@ state=
 				naval_base = 5
 			}
 		}
-		add_core_of = ITA
 		add_core_of = IBE
 		add_core_of = FRA
+		add_core_of = ITA
 		add_core_of = LOM
+		add_core_of = SIC
+		add_core_of = SAR
 	}
 	provinces=
 	{

@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = FAF
+		owner = IBE
 		add_core_of = FAF
 		add_core_of = IBE
 

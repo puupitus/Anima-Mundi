@@ -11,8 +11,8 @@ state=
 	}
 
 	history={
-		owner = BNL
-		add_core_of = BEN
+		owner = AST
+		add_core_of = MYS
 		add_core_of = IND
 		victory_points = {
 			10201 3

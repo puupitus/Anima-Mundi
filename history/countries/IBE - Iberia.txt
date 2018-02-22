@@ -76,8 +76,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Buenaventura Durruti"
-	picture = "jose_buenaventura_durruti_dumange.dds"
+	name = "Ramón Serrano Suñer"
+	picture = "ramon_serrano_suner.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

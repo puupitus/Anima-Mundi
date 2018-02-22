@@ -77,17 +77,17 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Sanzō Nosaka"
-	picture = "sanzo_nosaka.dds"
-	ideology = marxist
+	name = "Hirohito"
+	picture = "hirohito.dds"
+	ideology = nazism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Hideki Tojo"
-	picture = "hideki_tojo.dds"
-	ideology = nazism
+	name = "Sanzō Nosaka"
+	picture = "sanzo_nosaka.dds"
+	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}

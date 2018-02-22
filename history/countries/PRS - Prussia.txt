@@ -60,8 +60,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Wilhelm II"
-	picture = "wilhelm_ii.dds"
+	name = "Paul von Hindenburg"
+	picture = "paul_von_hindenburg.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#

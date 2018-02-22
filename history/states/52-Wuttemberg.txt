@@ -20,9 +20,10 @@ state={
 			industrial_complex = 1
 			air_base = 6
 		}
+		add_core_of = RHI
 		add_core_of = BAV
 		add_core_of = PRS
-		add_core_of = RHI
+		add_core_of = HAN
 
 		1939.1.1 = {
 			buildings = {

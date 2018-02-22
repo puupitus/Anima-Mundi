@@ -2,7 +2,7 @@ capital = 126
 
 oob = "BRI_1936"
 set_major = yes
-create_faction = "Eight Coalition"
+create_faction = "Eighth Coalition"
 
 puppet = HBC
 HBC = {
@@ -12,6 +12,7 @@ HBC = {
 }
 add_to_faction = AST
 add_to_faction = IND
+add_to_faction = IRE
 
 # Starting tech
 set_technology = {

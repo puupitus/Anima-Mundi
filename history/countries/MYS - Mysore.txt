@@ -1,6 +1,6 @@
-capital = 430
+capital = 425
 
-oob = "BEN_1936"
+oob = "MYS_1936"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -52,33 +52,41 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Mohandas Karamchand Gandhi"
-	picture = "mohandas_karamchand_gandhi.dds"
+	name = "Jayachamarajendra Wadiyar"
+	picture = "jayachamarajendra_wadiyar.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Osman Ali Khan"
-	picture = "osman_ali_khan.dds"
+	name = "Jayachamarajendra Wadiyar"
+	picture = "jayachamarajendra_wadiyar.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Hemanta Kumar Sarkar"
-	picture = "hemanta_kumar_sarkar.dds"
+	name = "Lakshmi Sehgal"
+	picture = "lakshmi_sehgal.dds"
+	ideology = nazism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Lakshmi Sehgal"
+	picture = "lakshmi_sehgal.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "M. N. Govindan Nair"
-	picture = "m_n_govindan_nair.dds"
-	ideology = nazism
+	name = "Lakshmi Sehgal"
+	picture = "lakshmi_sehgal.dds"
+	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}

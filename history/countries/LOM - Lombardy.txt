@@ -30,7 +30,7 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 30
+				popularity = 40
 			}
 
 			socialism = {
@@ -42,35 +42,28 @@ set_politics = {
 			}
 
 			monarchism = {
-				popularity = 40
+				popularity = 30
 			}
 		}
-	ruling_party = monarchism
+	ruling_party = third_position
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+
 create_country_leader = {
-	name = "Francesco Saverio Nitti"
-	picture = "francesco_saverio_nitti.dds"
-	ideology = conservatistic
-	traits = { zeitgeist_default
-		#
-	}
-}
-create_country_leader = {
-	name = "Peter Ferdinand"
-	picture = "peter_ferdinand.dds"
+	name = "Vittorio Emanuele III"
+	picture = "vittorio_emanuele_iii.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Ivanoe Bonomi"
-	picture = "ivanoe_bonomi.dds"
-	ideology = marxist
+	name = "Vittorio Emanuele III"
+	picture = "vittorio_emanuele_iii.dds"
+	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
@@ -79,6 +72,14 @@ create_country_leader = {
 	name = "Benito Mussolini"
 	picture = "benito_mussolini.dds"
 	ideology = nazism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Benito Mussolini"
+	picture = "benito_mussolini.dds"
+	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}

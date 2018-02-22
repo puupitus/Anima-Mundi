@@ -21,12 +21,6 @@ IBE = {
 		ruling_party = monarchism
 			}
 		}
-puppet = BAV
-BAV = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-		}
 puppet = DAI
 DAI = {
 	set_politics = {

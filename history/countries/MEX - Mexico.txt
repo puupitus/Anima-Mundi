@@ -76,8 +76,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Ricardo Flores Magón"
-	picture = "ricardo_flores_magon.dds"
+	name = "Salvador Abascal"
+	picture = "salvador_abascal.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

@@ -10,12 +10,13 @@ state= {
 	}
 
 	history={
-		owner = MEX
+		owner = CAL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
 		add_core_of = MEX
+		add_core_of = CAL
 		victory_points = {
 			4865 1
 		}

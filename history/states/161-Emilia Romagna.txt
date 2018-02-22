@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = LOM
+		owner = SAR
 		victory_points = {
 			6606 3
 		}
@@ -25,6 +25,8 @@ state={
 		}
 		add_core_of = ITA
 		add_core_of = LOM
+		add_core_of = SIC
+		add_core_of = SAR
 	}
 
 	provinces={

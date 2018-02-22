@@ -38,27 +38,20 @@ set_politics = {
 			}
 
 			republicanism = {
-				popularity = 40
+				popularity = 30
 			}
 
 			monarchism = {
-				popularity = 30
+				popularity = 40
 			}
 		}
-	ruling_party = republicanism
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Konrad Adenauer"
-	picture = "konrad_adenauer.dds"
-	ideology = conservatistic
-	traits = { zeitgeist_default
-		#
-	}
-}
+
 create_country_leader = {
 	name = "Friedrich Karl"
 	picture = "friedrich_karl.dds"
@@ -68,16 +61,24 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Karl Liebknecht"
-	picture = "karl_liebknecht.dds"
+	name = "Friedrich Karl"
+	picture = "friedrich_karl.dds"
+	ideology = conservatistic
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Rosa Luxemburg"
+	picture = "rosa_luxemburg.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Rudolf Rocker"
-	picture = "rudolf_rocker.dds"
+	name = "Rudolf Hess"
+	picture = "rudolf_hess.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

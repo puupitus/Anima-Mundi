@@ -53,16 +53,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Edwin Linkomies"
-	picture = "edwin_linkomies.dds"
-	ideology = absolutism
-	traits = { zeitgeist_default
-		#
-	}
-}
-create_country_leader = {
-	name = "Risto Ryti"
-	picture = "risto_ryti.dds"
+	name = "Väinö Tanner"
+	picture = "vaino_tanner.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
@@ -71,6 +63,14 @@ create_country_leader = {
 create_country_leader = {
 	name = "Väinö Tanner"
 	picture = "vaino_tanner.dds"
+	ideology = absolutism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Oskari Tokoi"
+	picture = "oskari_tokoi.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#

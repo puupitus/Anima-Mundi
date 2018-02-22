@@ -60,9 +60,17 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "George I"
-	picture = "george_i.dds"
+	name = "Hideki Tojo"
+	picture = "hideki_tojo.dds"
 	ideology = absolutism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Hideki Tojo"
+	picture = "hideki_tojo.dds"
+	ideology = nazism
 	traits = { zeitgeist_default
 		#
 	}
@@ -71,14 +79,6 @@ create_country_leader = {
 	name = "John Reed"
 	picture = "john_reed.dds"
 	ideology = marxist
-	traits = { zeitgeist_default
-		#
-	}
-}
-create_country_leader = {
-	name = "Emma Goldman"
-	picture = "emma_goldman.dds"
-	ideology = nazism
 	traits = { zeitgeist_default
 		#
 	}

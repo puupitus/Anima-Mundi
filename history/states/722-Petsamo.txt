@@ -6,7 +6,7 @@ state={
 	state_category = enclave
 
 	history={
-		owner = NOR
+		owner = WFI
 		buildings = {
 			infrastructure = 3
 			9140 = {
@@ -15,6 +15,7 @@ state={
 		}
 		add_core_of = FIN
 		add_core_of = NOR
+		add_core_of = WFI
 	}
 
 	provinces={

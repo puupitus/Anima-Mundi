@@ -21,7 +21,7 @@ state={
 
 		}
 		add_core_of = PAK
-		add_core_of = BEN
+		add_core_of = MYS
 		add_core_of = IND
 
 	}

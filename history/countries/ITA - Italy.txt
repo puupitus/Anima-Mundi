@@ -55,25 +55,17 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Alcide De Gasperi"
-	picture = "alcide_de_gasperi.dds"
+	name = "Pius XI"
+	picture = "pius_xi.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Vittorio Emanuele III"
-	picture = "vittorio_emanuele_iii.dds"
+	name = "Pius XI"
+	picture = "pius_xi.dds"
 	ideology = absolutism
-	traits = { zeitgeist_default
-		#
-	}
-}
-create_country_leader = {
-	name = "Palmiro Togliatti"
-	picture = "palmiro_togliatti.dds"
-	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
@@ -82,6 +74,14 @@ create_country_leader = {
 	name = "Michele Bianchi"
 	picture = "michele_bianchi.dds"
 	ideology = nazism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Michele Bianchi"
+	picture = "michele_bianchi.dds"
+	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}

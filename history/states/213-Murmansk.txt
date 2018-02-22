@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = NOR
+		owner = WFI
 		victory_points = {
 			3134 5
 		}
@@ -25,6 +25,7 @@ state={
 		add_core_of = SOV
 		add_core_of = FIN
 		add_core_of = NOR
+		add_core_of = WFI
 	}
 
 	provinces={

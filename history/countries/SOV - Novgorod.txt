@@ -3,24 +3,6 @@ capital = 263
 oob = "SOV_1936"
 set_major = yes
 create_faction = "Socialist Confederacy"
-puppet = FIN
-FIN = {
-	set_politics = {
-		ruling_party = socialism
-			}
-}
-puppet = BLR
-BLR = {
-	set_politics = {
-		ruling_party = socialism
-			}
-}
-puppet = UKR
-UKR = {
-	set_politics = {
-		ruling_party = socialism
-			}
-}
 puppet = TCS
 TCS = {
 	set_politics = {

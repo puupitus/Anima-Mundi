@@ -5,12 +5,13 @@ state= {
 	resources={
 		oil=4
 	}
-	
+
 	state_category = rural
 
 	history= {
-		owner = JAP
+		owner = RUS
 		add_core_of = JAP
+		add_core_of = RUS
 		#add_claim_by = SOV # Removed because of too much aggression
 		buildings = {
 			infrastructure = 3

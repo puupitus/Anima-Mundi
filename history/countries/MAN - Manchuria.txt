@@ -60,8 +60,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Pu Yi"
-	picture = "pu_yi.dds"
+	name = "Zaifeng"
+	picture = "zaifeng.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#

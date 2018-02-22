@@ -13,7 +13,7 @@ state={
 
 	history={
 		owner = DEN
-		add_core_of = BEN
+		add_core_of = MYS
 		add_core_of = IND
 		add_core_of = PAK
 		buildings = {
