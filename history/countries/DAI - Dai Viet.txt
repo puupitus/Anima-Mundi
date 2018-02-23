@@ -52,8 +52,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Ngo Dinh Diem"
-	picture = "ngo_dinh_diem.dds"
+	name = "Jules Brévié"
+	picture = "jules_brevie.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
@@ -76,8 +76,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Hồ Chí Minh"
-	picture = "ho_chi_minh.dds"
+	name = "Trương Tử Anh"
+	picture = "truong_tu_anh.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

@@ -1,4 +1,4 @@
-capital = 473
+capital = 378
 
 oob = "CAL_1936"
 # Starting tech
@@ -30,22 +30,22 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 10
+				popularity = 40
 			}
 
 			socialism = {
-				popularity = 20
+				popularity = 10
 			}
 
 			republicanism = {
-				popularity = 30
+				popularity = 20
 			}
 
 			monarchism = {
-				popularity = 40
+				popularity = 30
 			}
 		}
-	ruling_party = monarchism
+	ruling_party = third_position
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -60,17 +60,17 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Hideki Tojo"
-	picture = "hideki_tojo.dds"
-	ideology = absolutism
+	name = "Yoshimichi Hara"
+	picture = "yoshimichi_hara.dds"
+	ideology = nazism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Hideki Tojo"
-	picture = "hideki_tojo.dds"
-	ideology = nazism
+	name = "Yasuhito"
+	picture = "yasuhito.dds"
+	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}

@@ -6,7 +6,13 @@ create_faction = "Dai Tōa Kyōeiken"
 puppet = CAL
 CAL = {
 	set_politics = {
-		ruling_party = monarchism
+		ruling_party = third_position
+			}
+}
+puppet = MAN
+MAN = {
+	set_politics = {
+		ruling_party = third_position
 			}
 }
 
@@ -39,7 +45,7 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 20
+				popularity = 40
 			}
 
 			socialism = {
@@ -47,14 +53,14 @@ set_politics = {
 			}
 
 			republicanism = {
-				popularity = 30
+				popularity = 20
 			}
 
 			monarchism = {
-				popularity = 40
+				popularity = 30
 			}
 		}
-	ruling_party = monarchism
+	ruling_party = third_position
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
