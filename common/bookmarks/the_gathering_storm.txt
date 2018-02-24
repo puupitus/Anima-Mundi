@@ -37,12 +37,6 @@ bookmarks = {
 			ideas = {	}
 			focuses = { }
 		}
-		"LUS"={
-			history = "LUS_ZEITGEIST_DESC"
-			ideology = third_position
-			ideas = {	}
-			focuses = { }
-		}
 		"USA"={
 			history = "USA_ZEITGEIST_DESC"
 			ideology = third_position

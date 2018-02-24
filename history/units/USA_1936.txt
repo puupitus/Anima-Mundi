@@ -52,7 +52,7 @@ units = {
 	##### LAND UNITS #####
 	division = {
     name = "1. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -60,7 +60,7 @@ units = {
 	}
 	division = {
     name = "2. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -68,7 +68,7 @@ units = {
 	}
 	division = {
     name = "3. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -76,7 +76,7 @@ units = {
 	}
 	division = {
     name = "4. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -84,7 +84,7 @@ units = {
 	}
 	division = {
     name = "5. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -92,7 +92,7 @@ units = {
 	}
 	division = {
     name = "6. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -100,7 +100,7 @@ units = {
 	}
 	division = {
     name = "7. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -108,7 +108,7 @@ units = {
 	}
 	division = {
     name = "8. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -116,7 +116,7 @@ units = {
 	}
 	division = {
     name = "9. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -124,7 +124,7 @@ units = {
 	}
 	division = {
     name = "10. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -132,7 +132,7 @@ units = {
 	}
 	division = {
     name = "11. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -140,7 +140,7 @@ units = {
 	}
 	division = {
     name = "12. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -148,7 +148,7 @@ units = {
 	}
 	division = {
 		name = "13. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -156,7 +156,7 @@ units = {
 	}
 	division = {
 		name = "14. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -164,7 +164,7 @@ units = {
 	}
 	division = {
 		name = "15. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -172,7 +172,7 @@ units = {
 	}
 	division = {
 		name = "16. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -180,7 +180,7 @@ units = {
 	}
 	division = {
 		name = "17. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -188,7 +188,7 @@ units = {
 	}
 	division = {
 		name = "18. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -196,7 +196,7 @@ units = {
 	}
 	division = {
 		name = "19. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -204,7 +204,7 @@ units = {
 	}
 	division = {
 		name = "20. Infantry Division"
-		location = 9832
+		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -213,7 +213,7 @@ units = {
 
 	division = {
     name = "1. Artillery Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Artillery Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -221,7 +221,7 @@ units = {
 	}
 	division = {
     name = "2. Artillery Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Artillery Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -229,7 +229,7 @@ units = {
 	}
 	division = {
 		name = "3. Artillery Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Artillery Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -237,7 +237,7 @@ units = {
 	}
 	division = {
 		name = "4. Artillery Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Artillery Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -245,7 +245,7 @@ units = {
 	}
 	division = {
 		name = "5. Artillery Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Artillery Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -253,7 +253,7 @@ units = {
 	}
 	division = {
 		name = "6. Artillery Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Artillery Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -261,7 +261,7 @@ units = {
 	}
 	division = {
 		name = "7. Artillery Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Artillery Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -269,7 +269,7 @@ units = {
 	}
 	division = {
 		name = "8. Artillery Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Artillery Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -277,7 +277,7 @@ units = {
 	}
 	division = {
 		name = "9. Artillery Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Artillery Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -285,7 +285,7 @@ units = {
 	}
 	division = {
 		name = "10. Artillery Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Artillery Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -294,7 +294,7 @@ units = {
 
 	division = {
     name = "1. Cavalry Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -302,7 +302,7 @@ units = {
 	}
 	division = {
     name = "2. Cavalry Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -310,7 +310,7 @@ units = {
 	}
 	division = {
     name = "3. Cavalry Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -318,7 +318,7 @@ units = {
 	}
 	division = {
 		name = "4. Cavalry Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -326,7 +326,7 @@ units = {
 	}
 	division = {
 		name = "5. Cavalry Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -334,7 +334,7 @@ units = {
 	}
 	division = {
 		name = "6. Cavalry Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -342,7 +342,7 @@ units = {
 	}
 	division = {
 		name = "7. Cavalry Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -350,7 +350,7 @@ units = {
 	}
 	division = {
 		name = "8. Cavalry Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -358,7 +358,7 @@ units = {
 	}
 	division = {
 		name = "9. Cavalry Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -366,7 +366,7 @@ units = {
 	}
 	division = {
 		name = "10. Cavalry Regiment"
-		location = 9832
+		location = 3878
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -377,8 +377,8 @@ units = {
 	##### NAVAL UNITS #####
 	navy = {
 		name = "Main Fleet"
-		base = 9832
-		location =  9832
+		base = 3878
+		location =  3878
 		ship = { definition = carrier equipment = { carrier_1 = { amount = 1 } }
 			air_wings = {
 				cv_fighter_equipment_1 =  { amount = 10 }
