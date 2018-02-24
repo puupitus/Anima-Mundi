@@ -83,8 +83,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Hirohito"
-	picture = "hirohito.dds"
+	name = "Hideki Tojo"
+	picture = "hideki_tojo.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

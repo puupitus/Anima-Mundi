@@ -27,6 +27,12 @@ DAI = {
 		ruling_party = republicanism
 			}
 		}
+puppet = CAF
+CAF = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+		}
 
 # Starting tech
 set_technology = {

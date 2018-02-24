@@ -1,6 +1,13 @@
 capital = 442
 
 oob = "PAK_1936"
+set_major = yes
+puppet = IRA
+IRA = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
