@@ -16,7 +16,7 @@ state={
 		add_core_of = IND
 		add_core_of = MYS
 		victory_points = {
-			8011 1
+			8011 15
 		}
 		buildings = {
 			infrastructure = 4
