@@ -9,6 +9,7 @@ state={
 		owner = SPA
 		add_core_of = CAR
 		add_core_of = SPA
+		add_core_of = MEX
 		buildings = {
 			infrastructure = 4
 			10440 = {

@@ -1021,18 +1021,18 @@
  XIN_third_position_ADJ:0 "Uyghur"
  ################################################################################
 
- YUG_monarchism:0 "Margraviate of Yugoslavia"
- YUG_republicanism:0 "Yugoslavian Confederation"
- YUG_socialism:0 "Syndicate Yugoslavia"
- YUG_third_position:0 "Chetnik Yugoslavia"
- YUG_monarchism_DEF:0 "The Margraviate of Yugoslavia"
+ YUG_monarchism:0 "Principality of Serbia"
+ YUG_republicanism:0 "Serbian Republic"
+ YUG_socialism:0 "Socialist Federal Republic of Yugoslavia"
+ YUG_third_position:0 "Chetnik Serbia"
+ YUG_monarchism_DEF:0 "The Principality of Serbia"
  YUG_republicanism_DEF:0 "The Yugoslavian Confederation"
- YUG_socialism_DEF:0 "The SCFRY"
- YUG_third_position_DEF:0 "The Partisan Yugoslavia"
- YUG_monarchism_ADJ:0 "Yugoslavian"
- YUG_republicanism_ADJ:0 "Yugoslavian"
+ YUG_socialism_DEF:0 "The Socialist Federal Republic of Yugoslavia"
+ YUG_third_position_DEF:0 "The Chetnik Serbia"
+ YUG_monarchism_ADJ:0 "Serbian"
+ YUG_republicanism_ADJ:0 "Serbian"
  YUG_socialism_ADJ:0 "Yugoslavian"
- YUG_third_position_ADJ:0 "Yugoslavian"
+ YUG_third_position_ADJ:0 "Serbian"
  ################################################################################
 
  WFI_monarchism:0 "Grand Duchy of White Finland"

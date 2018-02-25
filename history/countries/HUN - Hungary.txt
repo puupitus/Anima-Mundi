@@ -39,6 +39,12 @@ SWI = {
 		ruling_party = monarchism
 			}
 }
+puppet = YUG
+YUG = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

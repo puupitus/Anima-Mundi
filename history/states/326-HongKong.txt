@@ -7,9 +7,10 @@ state=
 	history=
 	{
 		owner = AST
-		add_core_of = ROC
 		add_core_of = AST
 		add_core_of = BRI
+		add_core_of = PRC
+		add_core_of = MAN
 		victory_points = {
 			10062 3
 		}

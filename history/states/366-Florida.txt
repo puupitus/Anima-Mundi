@@ -28,6 +28,8 @@ state={
 		add_core_of = USA
 		add_core_of = CAR
 		add_core_of = SPA
+		add_core_of = MEX
+
 		victory_points = {
 			1843 5
 		}

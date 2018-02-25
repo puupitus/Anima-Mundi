@@ -12,6 +12,7 @@ state={
 		}
 		add_core_of = HBC
 		add_core_of = CAL
+		add_core_of = USA
 	}
 
 	provinces={

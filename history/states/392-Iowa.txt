@@ -12,7 +12,6 @@ state={
 			infrastructure = 6
 			industrial_complex = 4
 		}
-		add_core_of = CSA
 		add_core_of = USA
 		add_core_of = QUE
 		victory_points = {

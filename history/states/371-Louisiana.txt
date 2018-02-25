@@ -21,9 +21,10 @@ state={
 
 			}
 		}
-		add_core_of = CSA
+		add_core_of = USA
 		add_core_of = FRA
 		add_core_of = QUE
+		add_core_of = MEX
 		victory_points = {
 			7552 10
 		}

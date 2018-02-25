@@ -27,7 +27,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = IRE
 		victory_points = {
 			6732 20
 		}
