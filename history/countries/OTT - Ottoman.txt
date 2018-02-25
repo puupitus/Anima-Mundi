@@ -33,12 +33,6 @@ CYR = {
 		ruling_party = monarchism
 			}
 }
-puppet = SOM
-SOM = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -1,38 +1,7 @@
 capital = 263
 
 oob = "SOV_1936"
-set_major = yes
-create_faction = "Socialist Confederacy"
-puppet = TCS
-TCS = {
-	set_politics = {
-		ruling_party = socialism
-			}
-}
-puppet = ALT
-ALT = {
-	set_politics = {
-		ruling_party = socialism
-			}
-}
-puppet = XIN
-XIN = {
-	set_politics = {
-		ruling_party = socialism
-			}
-}
-puppet = MON
-MON = {
-	set_politics = {
-		ruling_party = socialism
-			}
-}
-puppet = SIB
-SIB = {
-	set_politics = {
-		ruling_party = socialism
-			}
-}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -62,11 +31,11 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 10
+				popularity = 40
 			}
 
 			socialism = {
-				popularity = 40
+				popularity = 30
 			}
 
 			republicanism = {
@@ -74,10 +43,10 @@ set_politics = {
 			}
 
 			monarchism = {
-				popularity = 30
+				popularity = 10
 			}
 		}
-	ruling_party = socialism
+	ruling_party = third_position
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
