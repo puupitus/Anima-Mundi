@@ -1,0 +1,66 @@
+#############################
+# GERMAN CIVIL WAR  EVENTS  #
+#############################
+
+add_namespace = GCW
+add_namespace = GCW_exact_date_trigger
+
+country_event = {
+	id = GCW_exact_date_trigger.1
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		date > 1936.2.15
+	}
+
+	option = {
+		every_country = { news_event = { id = GCW.1  } }
+	}
+}
+news_event = {		#German Tensions
+	id = GCW.1
+	title = GCW.1.t
+	desc = GCW.1.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = GCW.1.a
+	}
+}
+country_event = {
+	id = GCW_exact_date_trigger.2
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		date > 1936.3.15
+	}
+
+	option = {
+		every_country = { news_event = { id = GCW.2  } }
+    BAV = { create_wargoal = { type = annex_everything target = HAN } }
+    BAV = { create_wargoal = { type = annex_everything target = RHI } }
+    BAV = { declare_war_on = { target = HAN type = annex_everything } }
+    BAV = { declare_war_on = { target = RHI type = annex_everything } }
+    HAN = { create_wargoal = { type = annex_everything target = RHI } }
+    HAN = { declare_war_on = { target = RHI type = annex_everything } }
+    BAV = { set_country_flag = GERMAN_CIVIL_WAR }
+    HAN = { set_country_flag = GERMAN_CIVIL_WAR }
+    RHI = { set_country_flag = GERMAN_CIVIL_WAR }
+	}
+}
+news_event = {		#German Civil War
+	id = GCW.2
+	title = GCW.2.t
+	desc = GCW.2.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = GCW.2.a
+	}
+}
