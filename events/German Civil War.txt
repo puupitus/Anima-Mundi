@@ -64,3 +64,53 @@ news_event = {		#German Civil War
 		name = GCW.2.a
 	}
 }
+country_event = {
+	id = GCW.3
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+    BAV = {
+    AND = {
+    owns_state = 52
+    owns_state = 59
+    owns_state = 62
+    }
+    }
+    HAN = {
+    AND = {
+    owns_state = 52
+    owns_state = 59
+    owns_state = 62
+    }
+    }
+    RHI = {
+    AND = {
+    owns_state = 52
+    owns_state = 59
+    owns_state = 62
+    }
+    }
+    }
+}
+
+	option = {
+		every_country = { news_event = { id = GCW.4  } }
+    BAV = { clr_country_flag = GERMAN_CIVIL_WAR }
+    HAN = { clr_country_flag = GERMAN_CIVIL_WAR }
+    RHI = { clr_country_flag = GERMAN_CIVIL_WAR }
+	}
+}
+news_event = {		#German Civil War Over
+	id = GCW.4
+	title = GCW.4.t
+	desc = GCW.4.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = GCW.4.a
+	}
+}
