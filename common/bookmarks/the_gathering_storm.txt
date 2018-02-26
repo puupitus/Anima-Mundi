@@ -9,37 +9,37 @@ bookmarks = {
 
 		"FRA"={
 			history = "FRA_ZEITGEIST_DESC"
-			ideology = republicanism
+			ideology = monarchism
 			ideas = {	}
 			focuses = { }
 		}
-		"SPA"={
-			history = "SPA_ZEITGEIST_DESC"
-			ideology = monarchism
+		"POL"={
+			history = "POL_ZEITGEIST_DESC"
+			ideology = third_position
 			ideas = {	}
 			focuses = { }
 		}
 		"JAP"={
-			history = "MON_ZEITGEIST_DESC"
+			history = "JAP_ZEITGEIST_DESC"
+			ideology = third_position
+			ideas = {	}
+			focuses = { }
+		}
+		"HUN"={
+			history = "HUN_ZEITGEIST_DESC"
 			ideology = monarchism
 			ideas = {	}
 			focuses = { }
 		}
-		"ITA"={
-			history = "ITA_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
-		"SSA"={
-			history = "SSA_ZEITGEIST_DESC"
+		"MEX"={
+			history = "MEX_ZEITGEIST_DESC"
 			ideology = socialism
 			ideas = {	}
 			focuses = { }
 		}
-		"USA"={
-			history = "USA_ZEITGEIST_DESC"
-			ideology = third_position
+		"OTT"={
+			history = "OTT_ZEITGEIST_DESC"
+			ideology = monarchism
 			ideas = {	}
 			focuses = { }
 		}
@@ -48,181 +48,6 @@ bookmarks = {
 			history = "OTHER_ZEITGEIST_DESC"
 		}
 
-		"IBE"={
-			minor = yes
-			history = "IBE_ZEITGEIST_DESC"
-			ideology = third_position
-			ideas = {	}
-			focuses = { }
-		}
-		"BRI"={
-			minor = yes
-			history = "BRI_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
-		"PRC"={
-			minor = yes
-			history = "PRC_ZEITGEIST_DESC"
-			ideology = socialism
-			ideas = {	}
-			focuses = { }
-		}
-		"ROC"={
-			minor = yes
-			history = "ROC_ZEITGEIST_DESC"
-			ideology = republicanism
-			ideas = {	}
-			focuses = { }
-		}
-		"NOR"={
-			minor = yes
-			history = "NOR_ZEITGEIST_DESC"
-			ideology = third_position
-			ideas = {	}
-			focuses = { }
-		}
-		"EGY"={
-			minor = yes
-			history = "EGY_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
-		"BAV"={
-			minor = yes
-			history = "BAV_ZEITGEIST_DESC"
-			ideology = third_position
-			ideas = {	}
-			focuses = { }
-		}
-		"RHI"={
-			minor = yes
-			history = "RHI_ZEITGEIST_DESC"
-			ideology = socialism
-			ideas = {	}
-			focuses = { }
-		}
-		"PRS"={
-			minor = yes
-			history = "PRS_ZEITGEIST_DESC"
-			ideology = republicanism
-			ideas = {	}
-			focuses = { }
-		}
-		"CAF"={
-			minor = yes
-			history = "CAF_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
-		"CSA"={
-			minor = yes
-			history = "CSA_ZEITGEIST_DESC"
-			ideology = republicanism
-			ideas = {	}
-			focuses = { }
-		}
-		"AST"={
-			minor = yes
-			history = "AST_ZEITGEIST_DESC"
-			ideology = republicanism
-			ideas = {	}
-			focuses = { }
-		}
-		"BOH"={
-			minor = yes
-			history = "BOH_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
-		"MOR"={
-			minor = yes
-			history = "MOR_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
-		"KRA"={
-			minor = yes
-			history = "KRA_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
-		"HUN"={
-			minor = yes
-			history = "HUN_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
-		"INS"={
-			minor = yes
-			history = "INS_ZEITGEIST_DESC"
-			ideology = republicanism
-			ideas = {	}
-			focuses = { }
-		}
-		"FIN"={
-			minor = yes
-			history = "FIN_ZEITGEIST_DESC"
-			ideology = third_position
-			ideas = {	}
-			focuses = { }
-		}
-		"SOV"={
-			minor = yes
-			history = "SOV_ZEITGEIST_DESC"
-			ideology = third_position
-			ideas = {	}
-			focuses = { }
-		}
-		"UKR"={
-			minor = yes
-			history = "UKR_ZEITGEIST_DESC"
-			ideology = third_position
-			ideas = {	}
-			focuses = { }
-		}
-		"TCS"={
-			minor = yes
-			history = "TCS_ZEITGEIST_DESC"
-			ideology = socialism
-			ideas = {	}
-			focuses = { }
-		}
-		"BYZ"={
-			minor = yes
-			history = "BYZ_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
-		"ROM"={
-			minor = yes
-			history = "ROM_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
-		"BUL"={
-			minor = yes
-			history = "BUL_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
-		"YUG"={
-			minor = yes
-			history = "YUG_ZEITGEIST_DESC"
-			ideology = monarchism
-			ideas = {	}
-			focuses = { }
-		}
 
 
 

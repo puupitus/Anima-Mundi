@@ -11,7 +11,7 @@ state={
 	state_category = town
 
 	history={
-		owner = OTT
+		owner = ALB
 		victory_points = {
 			9914 5
 		}
@@ -31,6 +31,7 @@ state={
 		add_core_of = SIC
 		add_core_of = SAR
 		add_core_of = YUG
+		add_core_of = ALB
 
 		1939.4.12 = {
 			owner = ITA
