@@ -1,6 +1,7 @@
 capital = 43
 
 oob = "HUN_1936"
+set_country_flag = EUROPEAN
 set_major = yes
 create_faction = "Sacrum Imperium Romanum"
 puppet = BNL

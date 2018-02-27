@@ -3,6 +3,7 @@ capital = 271
 oob = "ABY_1936"
 set_major = yes
 create_faction = "African Union"
+set_country_flag = AFRICAN
 puppet = TUA
 TUA = {
 	set_politics = {

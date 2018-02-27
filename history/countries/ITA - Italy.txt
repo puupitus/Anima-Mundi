@@ -1,7 +1,7 @@
 capital = 2
 
 oob = "ITA_1936"
-set_major = yes
+set_country_flag = EUROPEAN
 
 
 # Starting tech

@@ -1,6 +1,7 @@
 capital = 439
 oob = "IND_1936"
-set_major = yes
+set_country_flag = ASIAN
+set_country_flag = MUSLIM
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

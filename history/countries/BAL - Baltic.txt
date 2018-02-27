@@ -1,6 +1,7 @@
 capital = 12
 
 oob = "BAL_1936"
+set_country_flag = EUROPEAN
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

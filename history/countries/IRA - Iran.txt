@@ -1,6 +1,8 @@
 capital = 266
 
 oob = "IRA_1936"
+set_country_flag = MIDDLE_EASTERN
+set_country_flag = MUSLIM
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

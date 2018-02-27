@@ -1,6 +1,8 @@
 capital = 442
 
 oob = "PAK_1936"
+set_country_flag = ASIAN
+set_country_flag = MUSLIM
 set_major = yes
 puppet = IRA
 IRA = {

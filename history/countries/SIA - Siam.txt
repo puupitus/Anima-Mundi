@@ -1,6 +1,7 @@
 capital = 289
 
 oob = "SIA_1936"
+set_country_flag = ASIAN
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

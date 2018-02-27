@@ -1356,6 +1356,8 @@ country = {
 		prerequisite = { focus = join_a_faction }
 		available = {
 		ROOT = { has_government = socialism }
+		NOT = { MEX = { has_war_with = ROOT } }
+		MEX = { is_faction_leader = yes }
 		}
 		mutually_exclusive = {
 		focus = eighth_coalition
@@ -1394,6 +1396,8 @@ country = {
 		prerequisite = { focus = join_a_faction }
 		available = {
 		ROOT = { has_government = republicanism }
+		NOT = { BRI = { has_war_with = ROOT } }
+		BRI = { is_faction_leader = yes }
 		}
 		mutually_exclusive = {
 		focus = socialist_confederacy
@@ -1434,6 +1438,8 @@ country = {
 		ROOT = { has_government = monarchism }
 		ROOT = { has_country_flag = MUSLIM }
 		ROOT = { has_country_flag = ASIAN }
+		NOT = { BEN = { has_war_with = ROOT } }
+		BEN = { is_faction_leader = yes }
 		}
 		mutually_exclusive = {
 		focus = socialist_confederacy
@@ -1473,6 +1479,8 @@ country = {
 		available = {
 		ROOT = { has_government = monarchism }
 		ROOT = { has_country_flag = AFRICAN }
+		NOT = { ABY = { has_war_with = ROOT } }
+		ABY = { is_faction_leader = yes }
 		}
 		mutually_exclusive = {
 		focus = socialist_confederacy
@@ -1512,6 +1520,8 @@ country = {
 		available = {
 		ROOT = { has_government = monarchism }
 		ROOT = { has_country_flag = EUROPEAN }
+		NOT = { DEN = { has_war_with = ROOT } }
+		DEN = { is_faction_leader = yes }
 		}
 		mutually_exclusive = {
 		focus = socialist_confederacy
@@ -1552,6 +1562,8 @@ country = {
 		available = {
 		ROOT = { has_government = monarchism }
 		ROOT = { has_country_flag = EUROPEAN }
+		NOT = { FRA = { has_war_with = ROOT } }
+		FRA = { is_faction_leader = yes }
 		}
 		mutually_exclusive = {
 		focus = socialist_confederacy
@@ -1591,6 +1603,8 @@ country = {
 		available = {
 		ROOT = { has_government = monarchism }
 		ROOT = { has_country_flag = EUROPEAN }
+		NOT = { HUN = { has_war_with = ROOT } }
+		HUN = { is_faction_leader = yes }
 		}
 		mutually_exclusive = {
 		focus = socialist_confederacy
@@ -1630,7 +1644,11 @@ country = {
 		available = {
 		ROOT = { has_government = monarchism }
 		ROOT = { has_country_flag = MUSLIM }
+		OR = {
 		ROOT = { has_country_flag = MIDDLE_EASTERN }
+		ROOT = { has_country_flag = AFRICAN } }
+		NOT = { OTT = { has_war_with = ROOT } }
+		OTT = { is_faction_leader = yes }
 		}
 		mutually_exclusive = {
 		focus = socialist_confederacy
@@ -1670,6 +1688,8 @@ country = {
 		available = {
 		ROOT = { has_government = monarchism }
 		ROOT = { has_country_flag = AMERICAN }
+		NOT = { SPA = { has_war_with = ROOT } }
+		SPA = { is_faction_leader = yes }
 		}
 		mutually_exclusive = {
 		focus = socialist_confederacy
@@ -1709,6 +1729,8 @@ country = {
 		available = {
 		ROOT = { has_government = monarchism }
 		ROOT = { has_country_flag = AMERICAN }
+		NOT = { SSA = { has_war_with = ROOT } }
+		SSA = { is_faction_leader = yes }
 		}
 		mutually_exclusive = {
 		focus = socialist_confederacy
@@ -1747,6 +1769,8 @@ country = {
 		prerequisite = { focus = join_a_faction }
 		available = {
 		ROOT = { has_government = third_position }
+		NOT = { POL = { has_war_with = ROOT } }
+		POL = { is_faction_leader = yes }
 		}
 		mutually_exclusive = {
 		focus = socialist_confederacy
@@ -1788,6 +1812,8 @@ country = {
 		ROOT = { has_government = third_position }
 		ROOT = { has_government = monarchism } }
 		ROOT = { has_country_flag = ASIAN }
+		NOT = { JAP = { has_war_with = ROOT } }
+		JAP = { is_faction_leader = yes }
 		}
 		mutually_exclusive = {
 		focus = socialist_confederacy

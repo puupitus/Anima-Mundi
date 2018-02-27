@@ -1,6 +1,7 @@
 capital = 282
 
 oob = "JAP_1936"
+set_country_flag = ASIAN
 set_major = yes
 create_faction = "Dai Tōa Kyōeiken"
 puppet = CAL

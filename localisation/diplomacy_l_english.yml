@@ -971,4 +971,9 @@
  MARE_NOSTRUM:0 "Mare Nostrum"
  ENHANCE_CORPORATE_RULE:0 "Enhance Corporate Rule"
  COMMUNIST_TAKEOVER:0 "Communist Takeover"
- 
+ EUROPEAN:0 "European"
+ ASIAN:0 "Asian"
+ AMERICAN:0 "American"
+ AFRICAN:0 "African"
+ MIDDLE_EASTERN:0 "Middle Eastern"
+ MUSLIM:0 "Muslim"

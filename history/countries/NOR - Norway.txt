@@ -1,6 +1,7 @@
 capital = 110
 
 oob = "NOR_1936"
+set_country_flag = EUROPEAN
 
 # Starting tech
 set_technology = {

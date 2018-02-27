@@ -1,6 +1,7 @@
 capital = 319
 
 oob = "CAR_1936"
+set_country_flag = AMERICAN
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

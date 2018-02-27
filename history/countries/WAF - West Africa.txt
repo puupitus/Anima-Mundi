@@ -1,6 +1,7 @@
 capital = 274
 
 oob = "WAF_1936"
+set_country_flag = AFRICAN
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

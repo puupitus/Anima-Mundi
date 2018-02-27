@@ -1,6 +1,8 @@
 capital = 341
 
 oob = "OTT_1936"
+set_country_flag = MIDDLE_EASTERN
+set_country_flag = MUSLIM
 set_major = yes
 create_faction = "Ottoman Empire"
 puppet = BUL
