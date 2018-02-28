@@ -1330,6 +1330,7 @@ country = {
 		ROOT = { has_country_flag = PATH_CHOSEN }
 		ROOT = { NOT = { has_country_flag = LOYAL } }
 		ROOT = { NOT = { has_country_flag = GERMAN_CIVIL_WAR } }
+		ROOT = { NOT = { has_country_flag = FINNISH_CIVIL_WAR } }
 		ROOT = { is_subject = NO }
 		}
 		x = 11

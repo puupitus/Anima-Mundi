@@ -1,0 +1,103 @@
+##############################
+# FINNISH CIVIL WAR  EVENTS  #
+##############################
+
+add_namespace = FCW
+add_namespace = FCW_exact_date_trigger
+
+country_event = {
+	id = FCW_exact_date_trigger.1
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		date > 1936.3.15
+	}
+
+	option = {
+		every_country = { news_event = { id = FCW.1  } }
+	}
+}
+news_event = {		#Finnish Tensions
+	id = FCW.1
+	title = FCW.1.t
+	desc = FCW.1.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = FCW.1.a
+	}
+}
+country_event = {
+	id = FCW_exact_date_trigger.2
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		date > 1936.4.15
+	}
+
+	option = {
+		every_country = { news_event = { id = FCW.2  } }
+    FIN = { create_wargoal = { type = annex_everything target = WFI } }
+    FIN = { declare_war_on = { target = WFI type = annex_everything } }
+    WFI = { create_wargoal = { type = annex_everything target = FIN } }
+    WFI = { declare_war_on = { target = FIN type = annex_everything } }
+    FIN = { set_country_flag = FINNISH_CIVIL_WAR }
+    WFI = { set_country_flag = FINNISH_CIVIL_WAR }
+	}
+}
+news_event = {		#Finnish Civil War
+	id = FCW.2
+	title = FCW.2.t
+	desc = FCW.2.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = FCW.2.a
+	}
+}
+country_event = {
+	id = FCW.3
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+    FIN = {
+    AND = {
+    owns_state = 111
+    owns_state = 149
+    }
+    }
+    WFI = {
+    AND = {
+    owns_state = 111
+    owns_state = 149
+    }
+    }
+    }
+}
+
+	option = {
+		every_country = { news_event = { id = FCW.4  } }
+    FIN = { clr_country_flag = FINNISH_CIVIL_WAR }
+    WFI = { clr_country_flag = FINNISH_CIVIL_WAR }
+	}
+}
+news_event = {		#Finnish Civil War Over
+	id = FCW.4
+	title = FCW.4.t
+	desc = FCW.4.d
+	picture = GFX_zeitgeist
+
+	is_triggered_only = yes
+
+	option = {
+		name = FCW.4.a
+	}
+}
