@@ -1333,7 +1333,7 @@ country = {
 		icon = GFX_one_finland
 		available = {
     ROOT = { NOT = { is_subject = yes } }
-    ROOT = { has_country_flag = WFINISH_CIVIL_WAR_OVER }
+    ROOT = { has_country_flag = FINNISH_CIVIL_WAR_OVER }
     }
 		x = 9
 		y = 6
@@ -1442,7 +1442,7 @@ country = {
     focus = WFI_finnic_monarchy
     }
     available = {
-    ROOT = { has_country_flag = RED_WFILAND }
+    ROOT = { has_country_flag = RED_FINLAND }
     }
 		x = 9
 		y = 8
@@ -1500,7 +1500,7 @@ country = {
     focus = WFI_finnic_monarchy
     }
     available = {
-    ROOT = { has_country_flag = WHITE_WFILAND }
+    ROOT = { has_country_flag = WHITE_FINLAND }
     }
 		x = 11
 		y = 8
