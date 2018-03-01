@@ -85,8 +85,8 @@ country_event = {
 
 	option = {
 		every_country = { news_event = { id = FCW.4  } }
-    FIN = { clr_country_flag = FINNISH_CIVIL_WAR }
-    WFI = { clr_country_flag = FINNISH_CIVIL_WAR }
+    FIN = { set_country_flag = FINNISH_CIVIL_WAR_OVER }
+    WFI = { set_country_flag = FINNISH_CIVIL_WAR_OVER }
 	}
 }
 news_event = {		#Finnish Civil War Over

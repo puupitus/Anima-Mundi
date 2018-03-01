@@ -1,12 +1,12 @@
 focus_tree = {
-id = RHI_focus
+id = HAN_focus
 
 country = {
   factor = 0
 
   modifier = {
     add = 10
-    tag = RHI
+    tag = HAN
   }
 }
 
@@ -19,7 +19,7 @@ country = {
 ####################
 
 	focus = {
-		id = RHI_war_games
+		id = HAN_war_games
 		icon = GFX_goal_generic_build_tank
 		x = 5
 		y = 0
@@ -37,9 +37,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_army_effort
+		id = HAN_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = RHI_war_games }
+		prerequisite = { focus = HAN_war_games }
 		x = 1
 		y = 1
 		cost = 10
@@ -60,10 +60,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_infantry_equipment
+		id = HAN_infantry_equipment
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = RHI_army_effort }
-		mutually_exclusive = { focus = RHI_special_forces }
+		prerequisite = { focus = HAN_army_effort }
+		mutually_exclusive = { focus = HAN_special_forces }
 		x = 0
 		y = 2
 		cost = 10
@@ -83,10 +83,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_special_forces
+		id = HAN_special_forces
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = RHI_army_effort }
-		mutually_exclusive = { focus = RHI_infantry_equipment }
+		prerequisite = { focus = HAN_army_effort }
+		mutually_exclusive = { focus = HAN_infantry_equipment }
 		x = 2
 		y = 2
 		cost = 10
@@ -115,10 +115,10 @@ country = {
 
 
 	focus = {
-		id = RHI_support_equipment
+		id = HAN_support_equipment
 		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = RHI_infantry_equipment focus = RHI_special_forces }
-		mutually_exclusive = { focus = RHI_artillery_equipment }
+		prerequisite = { focus = HAN_infantry_equipment focus = HAN_special_forces }
+		mutually_exclusive = { focus = HAN_artillery_equipment }
 		x = 0
 		y = 3
 		cost = 10
@@ -138,10 +138,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_artillery_equipment
+		id = HAN_artillery_equipment
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = RHI_infantry_equipment focus = RHI_special_forces }
-		mutually_exclusive = { focus = RHI_support_equipment }
+		prerequisite = { focus = HAN_infantry_equipment focus = HAN_special_forces }
+		mutually_exclusive = { focus = HAN_support_equipment }
 		x = 2
 		y = 3
 		cost = 10
@@ -161,10 +161,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_doctrines
+		id = HAN_doctrines
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = RHI_support_equipment focus = RHI_artillery_equipment }
-		mutually_exclusive = { focus = RHI_mechanization }
+		prerequisite = { focus = HAN_support_equipment focus = HAN_artillery_equipment }
+		mutually_exclusive = { focus = HAN_mechanization }
 		x = 0
 		y = 4
 		cost = 10
@@ -184,10 +184,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_mechanization
+		id = HAN_mechanization
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = RHI_support_equipment focus = RHI_artillery_equipment }
-		mutually_exclusive = { focus = RHI_doctrines }
+		prerequisite = { focus = HAN_support_equipment focus = HAN_artillery_equipment }
+		mutually_exclusive = { focus = HAN_doctrines }
 		x = 2
 		y = 4
 		cost = 10
@@ -208,10 +208,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_elite_training
+		id = HAN_elite_training
 		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = RHI_doctrines focus = RHI_mechanization }
-		mutually_exclusive = { focus = RHI_mass_conscription }
+		prerequisite = { focus = HAN_doctrines focus = HAN_mechanization }
+		mutually_exclusive = { focus = HAN_mass_conscription }
 		x = 0
 		y = 5
 		cost = 10
@@ -227,10 +227,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_mass_conscription
+		id = HAN_mass_conscription
 		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = RHI_doctrines focus = RHI_mechanization }
-		mutually_exclusive = { focus = RHI_elite_training }
+		prerequisite = { focus = HAN_doctrines focus = HAN_mechanization }
+		mutually_exclusive = { focus = HAN_elite_training }
 		x = 2
 		y = 5
 		cost = 10
@@ -246,9 +246,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_aviation_effort
+		id = HAN_aviation_effort
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = RHI_war_games }
+		prerequisite = { focus = HAN_war_games }
 		x = 5
 		y = 1
 		cost = 10
@@ -332,10 +332,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_fighter_focus
+		id = HAN_fighter_focus
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = RHI_aviation_effort }
-		mutually_exclusive = { focus = RHI_bomber_focus }
+		prerequisite = { focus = HAN_aviation_effort }
+		mutually_exclusive = { focus = HAN_bomber_focus }
 		x = 4
 		y = 2
 		cost = 10
@@ -360,10 +360,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_bomber_focus
+		id = HAN_bomber_focus
 		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = RHI_aviation_effort }
-		mutually_exclusive = { focus = RHI_fighter_focus }
+		prerequisite = { focus = HAN_aviation_effort }
+		mutually_exclusive = { focus = HAN_fighter_focus }
 		x = 6
 		y = 2
 		cost = 10
@@ -389,10 +389,10 @@ country = {
 
 
 	focus = {
-		id = RHI_CAS_effort
+		id = HAN_CAS_effort
 		icon = GFX_goal_generic_CAS
 		prerequisite = { focus = fighter_focus focus = bomber_focus }
-		mutually_exclusive = { focus = RHI_NAV_effort }
+		mutually_exclusive = { focus = HAN_NAV_effort }
 		x = 4
 		y = 3
 		cost = 10
@@ -413,10 +413,10 @@ country = {
 
 
 	focus = {
-		id = RHI_NAV_effort
+		id = HAN_NAV_effort
 		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { focus = RHI_fighter_focus focus = RHI_bomber_focus }
-		mutually_exclusive = { focus = RHI_CAS_effort }
+		prerequisite = { focus = HAN_fighter_focus focus = HAN_bomber_focus }
+		mutually_exclusive = { focus = HAN_CAS_effort }
 		x = 6
 		y = 3
 		cost = 10
@@ -436,9 +436,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_naval_effort
+		id = HAN_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = RHI_war_games }
+		prerequisite = { focus = HAN_war_games }
 		x = 9
 		y = 1
 		cost = 10
@@ -565,10 +565,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_submarines
+		id = HAN_submarines
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = RHI_naval_effort }
-		mutually_exclusive = { focus = RHI_destroyers }
+		prerequisite = { focus = HAN_naval_effort }
+		mutually_exclusive = { focus = HAN_destroyers }
 		x = 8
 		y = 2
 		cost = 10
@@ -593,10 +593,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_destroyers
+		id = HAN_destroyers
 		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { focus = RHI_naval_effort }
-		mutually_exclusive = { focus = RHI_submarines }
+		prerequisite = { focus = HAN_naval_effort }
+		mutually_exclusive = { focus = HAN_submarines }
 		x = 10
 		y = 2
 		cost = 10
@@ -621,10 +621,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_naval_doctrines
+		id = HAN_naval_doctrines
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = RHI_submarines focus = RHI_destroyers }
-		mutually_exclusive = { focus = RHI_capital_ships }
+		prerequisite = { focus = HAN_submarines focus = HAN_destroyers }
+		mutually_exclusive = { focus = HAN_capital_ships }
 		x = 8
 		y = 3
 		cost = 10
@@ -648,10 +648,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_capital_ships
+		id = HAN_capital_ships
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = RHI_submarines focus = RHI_destroyers }
-		mutually_exclusive = { focus = RHI_naval_doctrines}
+		prerequisite = { focus = HAN_submarines focus = HAN_destroyers }
+		mutually_exclusive = { focus = HAN_naval_doctrines}
 		x = 10
 		y = 3
 		cost = 10
@@ -688,10 +688,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_coastal_defense
+		id = HAN_coastal_defense
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = RHI_naval_doctrines focus = RHI_capital_ships }
-		mutually_exclusive = { focus = RHI_power_projection}
+		prerequisite = { focus = HAN_naval_doctrines focus = HAN_capital_ships }
+		mutually_exclusive = { focus = HAN_power_projection}
 		x = 8
 		y = 4
 		cost = 10
@@ -709,10 +709,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_power_projection
+		id = HAN_power_projection
 		icon = GFX_goal_generic_navy_carrier
-		prerequisite = { focus = RHI_naval_doctrines focus = RHI_capital_ships }
-		mutually_exclusive = { focus = RHI_coastal_defense}
+		prerequisite = { focus = HAN_naval_doctrines focus = HAN_capital_ships }
+		mutually_exclusive = { focus = HAN_coastal_defense}
 		x = 10
 		y = 4
 		cost = 10
@@ -730,7 +730,7 @@ country = {
 	}
 
 	focus = {
-		id = RHI_industrial_effort
+		id = HAN_industrial_effort
 		icon = GFX_goal_generic_production
 		x = 14
 		y = 0
@@ -752,9 +752,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_construction_effort
+		id = HAN_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = RHI_industrial_effort }
+		prerequisite = { focus = HAN_industrial_effort }
 		x = 12
 		y = 1
 		cost = 10
@@ -824,9 +824,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_armament_effort
+		id = HAN_armament_effort
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = RHI_industrial_effort }
+		prerequisite = { focus = HAN_industrial_effort }
 		x = 14
 		y = 1
 		cost = 10
@@ -895,9 +895,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_construction_effort_2
+		id = HAN_construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = RHI_construction_effort }
+		prerequisite = { focus = HAN_construction_effort }
 		x = 12
 		y = 2
 		cost = 10
@@ -966,9 +966,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_armament_effort_2
+		id = HAN_armament_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = RHI_armament_effort }
+		prerequisite = { focus = HAN_armament_effort }
 		x = 14
 		y = 2
 		cost = 10
@@ -1037,9 +1037,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_construction_effort_3
+		id = HAN_construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = RHI_construction_effort_2 }
+		prerequisite = { focus = HAN_construction_effort_2 }
 		x = 12
 		y = 3
 		cost = 10
@@ -1108,9 +1108,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_armament_effort_3
+		id = HAN_armament_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = RHI_armament_effort_2 }
+		prerequisite = { focus = HAN_armament_effort_2 }
 		x = 14
 		y = 3
 		cost = 10
@@ -1179,9 +1179,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_infrastructure_effort
+		id = HAN_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = RHI_industrial_effort }
+		prerequisite = { focus = HAN_industrial_effort }
 		x = 16
 		y = 1
 		cost = 10
@@ -1274,9 +1274,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_radar_technology
+		id = HAN_radar_technology
 		icon = GFX_goal_generic_radar
-		prerequisite = { focus = RHI_infrastructure_effort }
+		prerequisite = { focus = HAN_infrastructure_effort }
 		x = 16
 		y = 2
 		cost = 10
@@ -1300,9 +1300,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_advanced_technologies
+		id = HAN_advanced_technologies
 		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = RHI_radar_technology }
+		prerequisite = { focus = HAN_radar_technology }
 		x = 16
 		y = 3
 		cost = 10
@@ -1329,7 +1329,7 @@ country = {
 		}
 	}
   focus = {
-		id = RHI_united_west_germany
+		id = HAN_united_west_germany
 		icon = GFX_goal_tripartite_pact
 		available = {
     ROOT = { NOT = { is_subject = yes } }
@@ -1353,14 +1353,14 @@ country = {
 		}
 	}
   focus = {
-		id = RHI_bundesrepublik
+		id = HAN_bundesrepublik
 		icon = GFX_bundesrepublik
 		prerequisite = {
-    focus = RHI_united_west_germany
+    focus = HAN_united_west_germany
     }
     mutually_exclusive = {
-    focus = RHI_auferstanden_aus_ruinen
-    focus = RHI_kaiserreich
+    focus = HAN_auferstanden_aus_ruinen
+    focus = HAN_kaiserreich
     }
 		x = 5
 		y = 7
@@ -1370,7 +1370,7 @@ country = {
 
 
 		ai_will_do = {
-			factor = 0
+			factor = 100
 		}
 
 
@@ -1383,10 +1383,10 @@ country = {
 		}
 	}
   focus = {
-		id = RHI_join_eighth_coalition
+		id = HAN_join_eighth_coalition
 		icon = GFX_eighth_coalition
 		prerequisite = {
-    focus = RHI_bundesrepublik
+    focus = HAN_bundesrepublik
     }
     available = {
 		ROOT = { has_government = republicanism }
@@ -1410,14 +1410,14 @@ country = {
 		}
 	}
   focus = {
-		id = RHI_auferstanden_aus_ruinen
+		id = HAN_auferstanden_aus_ruinen
 		icon = GFX_auferstanden_aus_ruinen
 		prerequisite = {
-    focus = RHI_united_west_germany
+    focus = HAN_united_west_germany
     }
     mutually_exclusive = {
-    focus = RHI_bundesrepublik
-    focus = RHI_kaiserreich
+    focus = HAN_bundesrepublik
+    focus = HAN_kaiserreich
     }
 		x = 9
 		y = 7
@@ -1440,10 +1440,10 @@ country = {
 		}
 	}
   focus = {
-		id = RHI_join_socialist_confederacy
+		id = HAN_join_socialist_confederacy
 		icon = GFX_socialist_confederacy
 		prerequisite = {
-    focus = RHI_auferstanden_aus_ruinen
+    focus = HAN_auferstanden_aus_ruinen
     }
     available = {
 		ROOT = { has_government = socialism }
@@ -1467,14 +1467,14 @@ country = {
 		}
 	}
   focus = {
-		id = RHI_kaiserreich
+		id = HAN_kaiserreich
 		icon = GFX_kaiserreich
 		prerequisite = {
-    focus = RHI_united_west_germany
+    focus = HAN_united_west_germany
     }
     mutually_exclusive = {
-    focus = RHI_auferstanden_aus_ruinen
-    focus = RHI_bundesrepublik
+    focus = HAN_auferstanden_aus_ruinen
+    focus = HAN_bundesrepublik
     }
 		x = 13
 		y = 7
@@ -1484,7 +1484,7 @@ country = {
 
 
 		ai_will_do = {
-			factor = 100
+			factor = 0
 		}
 
 
@@ -1498,14 +1498,14 @@ country = {
 		}
 	}
   focus = {
-		id = RHI_join_nouveau_regime
+		id = HAN_join_nouveau_regime
 		icon = GFX_nouveau_regime
 		prerequisite = {
-    focus = RHI_kaiserreich
+    focus = HAN_kaiserreich
     }
     mutually_exclusive = {
-    focus = RHI_join_oldenburg_realms
-    focus = RHI_join_sacrum_imperium_romanum
+    focus = HAN_join_oldenburg_realms
+    focus = HAN_join_sacrum_imperium_romanum
     }
     available = {
 		ROOT = { has_government = monarchism }
@@ -1529,14 +1529,14 @@ country = {
 		}
 	}
   focus = {
-		id = RHI_join_oldenburg_realms
+		id = HAN_join_oldenburg_realms
 		icon = GFX_oldenburg_realms
 		prerequisite = {
-    focus = RHI_kaiserreich
+    focus = HAN_kaiserreich
     }
     mutually_exclusive = {
-    focus = RHI_join_nouveau_regime
-    focus = RHI_join_sacrum_imperium_romanum
+    focus = HAN_join_nouveau_regime
+    focus = HAN_join_sacrum_imperium_romanum
     }
     available = {
 		ROOT = { has_government = monarchism }
@@ -1560,14 +1560,14 @@ country = {
 		}
 	}
   focus = {
-		id = RHI_join_sacrum_imperium_romanum
+		id = HAN_join_sacrum_imperium_romanum
 		icon = GFX_sacrum_imperium_romanum
 		prerequisite = {
-    focus = RHI_kaiserreich
+    focus = HAN_kaiserreich
     }
     mutually_exclusive = {
-    focus = RHI_join_oldenburg_realms
-    focus = RHI_join_nouveau_regime
+    focus = HAN_join_oldenburg_realms
+    focus = HAN_join_nouveau_regime
     }
     available = {
 		ROOT = { has_government = monarchism }

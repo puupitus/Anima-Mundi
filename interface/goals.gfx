@@ -978,6 +978,34 @@ spriteTypes = {
 		name = "GFX_dai_toa_kyoeiken"
 		texturefile = "gfx/interface/goals/dai_toa_kyoeiken.dds"
 	}
+	SpriteType = {
+		name = "GFX_bundesrepublik"
+		texturefile = "gfx/interface/goals/bundesrepublik.dds"
+	}
+	SpriteType = {
+		name = "GFX_auferstanden_aus_ruinen"
+		texturefile = "gfx/interface/goals/auferstanden_aus_ruinen.dds"
+	}
+	SpriteType = {
+		name = "GFX_kaiserreich"
+		texturefile = "gfx/interface/goals/kaiserreich.dds"
+	}
+	SpriteType = {
+		name = "GFX_one_finland"
+		texturefile = "gfx/interface/goals/one_finland.dds"
+	}
+	SpriteType = {
+		name = "GFX_proletarian_dictatorship"
+		texturefile = "gfx/interface/goals/proletarian_dictatorship.dds"
+	}
+	SpriteType = {
+		name = "GFX_greater_finland"
+		texturefile = "gfx/interface/goals/greater_finland.dds"
+	}
+	SpriteType = {
+		name = "GFX_finnic_monarchy"
+		texturefile = "gfx/interface/goals/finnic_monarchy.dds"
+	}
 
 
 

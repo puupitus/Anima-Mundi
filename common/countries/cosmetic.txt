@@ -171,3 +171,15 @@ CHL_south = {
 color = rgb { 192  97  97 }
 color_ui = rgb { 192  97  97 }
 }
+FRWG = {
+color = rgb { 255  206  0 }
+color_ui = rgb { 255  206  0 }
+}
+DRWG = {
+color = rgb { 255  206  0 }
+color_ui = rgb { 255  206  0 }
+}
+WGE = {
+color = rgb { 255  206  0 }
+color_ui = rgb { 255  206  0 }
+}

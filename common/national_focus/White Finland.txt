@@ -1,12 +1,12 @@
 focus_tree = {
-id = RHI_focus
+id = WFI_focus
 
 country = {
   factor = 0
 
   modifier = {
     add = 10
-    tag = RHI
+    tag = WFI
   }
 }
 
@@ -19,7 +19,7 @@ country = {
 ####################
 
 	focus = {
-		id = RHI_war_games
+		id = WFI_war_games
 		icon = GFX_goal_generic_build_tank
 		x = 5
 		y = 0
@@ -37,9 +37,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_army_effort
+		id = WFI_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = RHI_war_games }
+		prerequisite = { focus = WFI_war_games }
 		x = 1
 		y = 1
 		cost = 10
@@ -60,10 +60,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_infantry_equipment
+		id = WFI_infantry_equipment
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = RHI_army_effort }
-		mutually_exclusive = { focus = RHI_special_forces }
+		prerequisite = { focus = WFI_army_effort }
+		mutually_exclusive = { focus = WFI_special_forces }
 		x = 0
 		y = 2
 		cost = 10
@@ -83,10 +83,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_special_forces
+		id = WFI_special_forces
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = RHI_army_effort }
-		mutually_exclusive = { focus = RHI_infantry_equipment }
+		prerequisite = { focus = WFI_army_effort }
+		mutually_exclusive = { focus = WFI_infantry_equipment }
 		x = 2
 		y = 2
 		cost = 10
@@ -115,10 +115,10 @@ country = {
 
 
 	focus = {
-		id = RHI_support_equipment
+		id = WFI_support_equipment
 		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = RHI_infantry_equipment focus = RHI_special_forces }
-		mutually_exclusive = { focus = RHI_artillery_equipment }
+		prerequisite = { focus = WFI_infantry_equipment focus = WFI_special_forces }
+		mutually_exclusive = { focus = WFI_artillery_equipment }
 		x = 0
 		y = 3
 		cost = 10
@@ -138,10 +138,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_artillery_equipment
+		id = WFI_artillery_equipment
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = RHI_infantry_equipment focus = RHI_special_forces }
-		mutually_exclusive = { focus = RHI_support_equipment }
+		prerequisite = { focus = WFI_infantry_equipment focus = WFI_special_forces }
+		mutually_exclusive = { focus = WFI_support_equipment }
 		x = 2
 		y = 3
 		cost = 10
@@ -161,10 +161,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_doctrines
+		id = WFI_doctrines
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = RHI_support_equipment focus = RHI_artillery_equipment }
-		mutually_exclusive = { focus = RHI_mechanization }
+		prerequisite = { focus = WFI_support_equipment focus = WFI_artillery_equipment }
+		mutually_exclusive = { focus = WFI_mechanization }
 		x = 0
 		y = 4
 		cost = 10
@@ -184,10 +184,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_mechanization
+		id = WFI_mechanization
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = RHI_support_equipment focus = RHI_artillery_equipment }
-		mutually_exclusive = { focus = RHI_doctrines }
+		prerequisite = { focus = WFI_support_equipment focus = WFI_artillery_equipment }
+		mutually_exclusive = { focus = WFI_doctrines }
 		x = 2
 		y = 4
 		cost = 10
@@ -208,10 +208,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_elite_training
+		id = WFI_elite_training
 		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = RHI_doctrines focus = RHI_mechanization }
-		mutually_exclusive = { focus = RHI_mass_conscription }
+		prerequisite = { focus = WFI_doctrines focus = WFI_mechanization }
+		mutually_exclusive = { focus = WFI_mass_conscription }
 		x = 0
 		y = 5
 		cost = 10
@@ -227,10 +227,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_mass_conscription
+		id = WFI_mass_conscription
 		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = RHI_doctrines focus = RHI_mechanization }
-		mutually_exclusive = { focus = RHI_elite_training }
+		prerequisite = { focus = WFI_doctrines focus = WFI_mechanization }
+		mutually_exclusive = { focus = WFI_elite_training }
 		x = 2
 		y = 5
 		cost = 10
@@ -246,9 +246,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_aviation_effort
+		id = WFI_aviation_effort
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = RHI_war_games }
+		prerequisite = { focus = WFI_war_games }
 		x = 5
 		y = 1
 		cost = 10
@@ -332,10 +332,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_fighter_focus
+		id = WFI_fighter_focus
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = RHI_aviation_effort }
-		mutually_exclusive = { focus = RHI_bomber_focus }
+		prerequisite = { focus = WFI_aviation_effort }
+		mutually_exclusive = { focus = WFI_bomber_focus }
 		x = 4
 		y = 2
 		cost = 10
@@ -360,10 +360,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_bomber_focus
+		id = WFI_bomber_focus
 		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = RHI_aviation_effort }
-		mutually_exclusive = { focus = RHI_fighter_focus }
+		prerequisite = { focus = WFI_aviation_effort }
+		mutually_exclusive = { focus = WFI_fighter_focus }
 		x = 6
 		y = 2
 		cost = 10
@@ -389,10 +389,10 @@ country = {
 
 
 	focus = {
-		id = RHI_CAS_effort
+		id = WFI_CAS_effort
 		icon = GFX_goal_generic_CAS
 		prerequisite = { focus = fighter_focus focus = bomber_focus }
-		mutually_exclusive = { focus = RHI_NAV_effort }
+		mutually_exclusive = { focus = WFI_NAV_effort }
 		x = 4
 		y = 3
 		cost = 10
@@ -413,10 +413,10 @@ country = {
 
 
 	focus = {
-		id = RHI_NAV_effort
+		id = WFI_NAV_effort
 		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { focus = RHI_fighter_focus focus = RHI_bomber_focus }
-		mutually_exclusive = { focus = RHI_CAS_effort }
+		prerequisite = { focus = WFI_fighter_focus focus = WFI_bomber_focus }
+		mutually_exclusive = { focus = WFI_CAS_effort }
 		x = 6
 		y = 3
 		cost = 10
@@ -436,9 +436,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_naval_effort
+		id = WFI_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = RHI_war_games }
+		prerequisite = { focus = WFI_war_games }
 		x = 9
 		y = 1
 		cost = 10
@@ -565,10 +565,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_submarines
+		id = WFI_submarines
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = RHI_naval_effort }
-		mutually_exclusive = { focus = RHI_destroyers }
+		prerequisite = { focus = WFI_naval_effort }
+		mutually_exclusive = { focus = WFI_destroyers }
 		x = 8
 		y = 2
 		cost = 10
@@ -593,10 +593,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_destroyers
+		id = WFI_destroyers
 		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { focus = RHI_naval_effort }
-		mutually_exclusive = { focus = RHI_submarines }
+		prerequisite = { focus = WFI_naval_effort }
+		mutually_exclusive = { focus = WFI_submarines }
 		x = 10
 		y = 2
 		cost = 10
@@ -621,10 +621,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_naval_doctrines
+		id = WFI_naval_doctrines
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = RHI_submarines focus = RHI_destroyers }
-		mutually_exclusive = { focus = RHI_capital_ships }
+		prerequisite = { focus = WFI_submarines focus = WFI_destroyers }
+		mutually_exclusive = { focus = WFI_capital_ships }
 		x = 8
 		y = 3
 		cost = 10
@@ -648,10 +648,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_capital_ships
+		id = WFI_capital_ships
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = RHI_submarines focus = RHI_destroyers }
-		mutually_exclusive = { focus = RHI_naval_doctrines}
+		prerequisite = { focus = WFI_submarines focus = WFI_destroyers }
+		mutually_exclusive = { focus = WFI_naval_doctrines}
 		x = 10
 		y = 3
 		cost = 10
@@ -688,10 +688,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_coastal_defense
+		id = WFI_coastal_defense
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = RHI_naval_doctrines focus = RHI_capital_ships }
-		mutually_exclusive = { focus = RHI_power_projection}
+		prerequisite = { focus = WFI_naval_doctrines focus = WFI_capital_ships }
+		mutually_exclusive = { focus = WFI_power_projection}
 		x = 8
 		y = 4
 		cost = 10
@@ -709,10 +709,10 @@ country = {
 	}
 
 	focus = {
-		id = RHI_power_projection
+		id = WFI_power_projection
 		icon = GFX_goal_generic_navy_carrier
-		prerequisite = { focus = RHI_naval_doctrines focus = RHI_capital_ships }
-		mutually_exclusive = { focus = RHI_coastal_defense}
+		prerequisite = { focus = WFI_naval_doctrines focus = WFI_capital_ships }
+		mutually_exclusive = { focus = WFI_coastal_defense}
 		x = 10
 		y = 4
 		cost = 10
@@ -730,7 +730,7 @@ country = {
 	}
 
 	focus = {
-		id = RHI_industrial_effort
+		id = WFI_industrial_effort
 		icon = GFX_goal_generic_production
 		x = 14
 		y = 0
@@ -752,9 +752,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_construction_effort
+		id = WFI_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = RHI_industrial_effort }
+		prerequisite = { focus = WFI_industrial_effort }
 		x = 12
 		y = 1
 		cost = 10
@@ -824,9 +824,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_armament_effort
+		id = WFI_armament_effort
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = RHI_industrial_effort }
+		prerequisite = { focus = WFI_industrial_effort }
 		x = 14
 		y = 1
 		cost = 10
@@ -895,9 +895,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_construction_effort_2
+		id = WFI_construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = RHI_construction_effort }
+		prerequisite = { focus = WFI_construction_effort }
 		x = 12
 		y = 2
 		cost = 10
@@ -966,9 +966,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_armament_effort_2
+		id = WFI_armament_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = RHI_armament_effort }
+		prerequisite = { focus = WFI_armament_effort }
 		x = 14
 		y = 2
 		cost = 10
@@ -1037,9 +1037,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_construction_effort_3
+		id = WFI_construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = RHI_construction_effort_2 }
+		prerequisite = { focus = WFI_construction_effort_2 }
 		x = 12
 		y = 3
 		cost = 10
@@ -1108,9 +1108,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_armament_effort_3
+		id = WFI_armament_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = RHI_armament_effort_2 }
+		prerequisite = { focus = WFI_armament_effort_2 }
 		x = 14
 		y = 3
 		cost = 10
@@ -1179,9 +1179,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_infrastructure_effort
+		id = WFI_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = RHI_industrial_effort }
+		prerequisite = { focus = WFI_industrial_effort }
 		x = 16
 		y = 1
 		cost = 10
@@ -1274,9 +1274,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_radar_technology
+		id = WFI_radar_technology
 		icon = GFX_goal_generic_radar
-		prerequisite = { focus = RHI_infrastructure_effort }
+		prerequisite = { focus = WFI_infrastructure_effort }
 		x = 16
 		y = 2
 		cost = 10
@@ -1300,9 +1300,9 @@ country = {
 	}
 
 	focus = {
-		id = RHI_advanced_technologies
+		id = WFI_advanced_technologies
 		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = RHI_radar_technology }
+		prerequisite = { focus = WFI_radar_technology }
 		x = 16
 		y = 3
 		cost = 10
@@ -1329,11 +1329,11 @@ country = {
 		}
 	}
   focus = {
-		id = RHI_united_west_germany
-		icon = GFX_goal_tripartite_pact
+		id = WFI_one_finland
+		icon = GFX_one_finland
 		available = {
     ROOT = { NOT = { is_subject = yes } }
-    ROOT = { has_country_flag = GERMAN_CIVIL_WAR_OVER }
+    ROOT = { has_country_flag = WFINISH_CIVIL_WAR_OVER }
     }
 		x = 9
 		y = 6
@@ -1348,21 +1348,20 @@ country = {
 
 
 		completion_reward = {
-			add_ideas = united_west_germany
+			add_ideas = one_finland
       add_political_power = 150
 		}
 	}
   focus = {
-		id = RHI_bundesrepublik
-		icon = GFX_bundesrepublik
+		id = WFI_democracy_for_all
+		icon = GFX_goal_support_democracy
 		prerequisite = {
-    focus = RHI_united_west_germany
+    focus = WFI_one_finland
     }
     mutually_exclusive = {
-    focus = RHI_auferstanden_aus_ruinen
-    focus = RHI_kaiserreich
+    focus = WFI_respect_my_authority
     }
-		x = 5
+		x = 7
 		y = 7
 		cost = 10
 
@@ -1370,30 +1369,28 @@ country = {
 
 
 		ai_will_do = {
-			factor = 0
+			factor = 20
 		}
 
 
 		completion_reward = {
-			add_ideas = rep_drift
-      add_popularity = { ideology = republicanism popularity = 0.25 }
-      set_politics = { ruling_party = republicanism elections_allowed = no }
-      set_cosmetic_tag = FRWG
-      set_capital = 64
+    add_ideas = rep_drift
+    add_popularity = { ideology = republicanism popularity = 0.25 }
+    set_politics = { ruling_party = republicanism elections_allowed = no }
 		}
 	}
   focus = {
-		id = RHI_join_eighth_coalition
+		id = WFI_join_eighth_coalition
 		icon = GFX_eighth_coalition
 		prerequisite = {
-    focus = RHI_bundesrepublik
+    focus = WFI_democracy_for_all
     }
     available = {
 		ROOT = { has_government = republicanism }
 		NOT = { BRI = { has_war_with = ROOT } }
 		BRI = { is_faction_leader = yes }
 		}
-		x = 5
+		x = 7
 		y = 8
 		cost = 10
 
@@ -1406,20 +1403,19 @@ country = {
 
 
 		completion_reward = {
-      BRI = { add_to_faction = ROOT }
+			BRI = { add_to_faction = ROOT }
 		}
 	}
   focus = {
-		id = RHI_auferstanden_aus_ruinen
-		icon = GFX_auferstanden_aus_ruinen
+		id = WFI_respect_my_authority
+		icon = GFX_focus_generic_strike_at_democracy1
 		prerequisite = {
-    focus = RHI_united_west_germany
+    focus = WFI_one_finland
     }
     mutually_exclusive = {
-    focus = RHI_bundesrepublik
-    focus = RHI_kaiserreich
+    focus = WFI_democracy_for_all
     }
-		x = 9
+		x = 11
 		y = 7
 		cost = 10
 
@@ -1427,7 +1423,36 @@ country = {
 
 
 		ai_will_do = {
-			factor = 0
+			factor = 80
+		}
+
+
+		completion_reward = {
+      add_political_power = 150
+		}
+	}
+  focus = {
+		id = WFI_proletarian_dictatorship
+		icon = GFX_proletarian_dictatorship
+		prerequisite = {
+    focus = WFI_respect_my_authority
+    }
+    mutually_exclusive = {
+    focus = WFI_greater_finland
+    focus = WFI_finnic_monarchy
+    }
+    available = {
+    ROOT = { has_country_flag = RED_WFILAND }
+    }
+		x = 9
+		y = 8
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 80
 		}
 
 
@@ -1435,15 +1460,13 @@ country = {
     add_ideas = soc_drift
     add_popularity = { ideology = socialism popularity = 0.25 }
     set_politics = { ruling_party = socialism elections_allowed = no }
-    set_cosmetic_tag = DRWG
-    set_capital = 64
 		}
 	}
   focus = {
-		id = RHI_join_socialist_confederacy
+		id = WFI_join_socialist_confederacy
 		icon = GFX_socialist_confederacy
 		prerequisite = {
-    focus = RHI_auferstanden_aus_ruinen
+    focus = WFI_proletarian_dictatorship
     }
     available = {
 		ROOT = { has_government = socialism }
@@ -1451,7 +1474,7 @@ country = {
 		MEX = { is_faction_leader = yes }
 		}
 		x = 9
-		y = 8
+		y = 9
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1467,24 +1490,82 @@ country = {
 		}
 	}
   focus = {
-		id = RHI_kaiserreich
-		icon = GFX_kaiserreich
+		id = WFI_greater_finland
+		icon = GFX_greater_finland
 		prerequisite = {
-    focus = RHI_united_west_germany
+    focus = WFI_respect_my_authority
     }
     mutually_exclusive = {
-    focus = RHI_auferstanden_aus_ruinen
-    focus = RHI_bundesrepublik
+    focus = WFI_proletarian_dictatorship
+    focus = WFI_finnic_monarchy
     }
-		x = 13
-		y = 7
+    available = {
+    ROOT = { has_country_flag = WHITE_WFILAND }
+    }
+		x = 11
+		y = 8
 		cost = 10
 
 		available_if_capitulated = yes
 
 
 		ai_will_do = {
-			factor = 100
+			factor = 80
+		}
+
+
+		completion_reward = {
+    add_ideas = tp_drift
+    add_popularity = { ideology = third_position popularity = 0.25 }
+    set_politics = { ruling_party = third_position elections_allowed = no }
+		}
+	}
+  focus = {
+		id = WFI_join_zeitgeist_pact
+		icon = GFX_zeitgeist_pact
+		prerequisite = {
+    focus = WFI_greater_finland
+    }
+    available = {
+		ROOT = { has_government = third_position }
+		NOT = { POL = { has_war_with = ROOT } }
+		POL = { is_faction_leader = yes }
+		}
+		x = 11
+		y = 9
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 20
+		}
+
+
+		completion_reward = {
+			POL = { add_to_faction = ROOT }
+		}
+	}
+  focus = {
+		id = WFI_finnic_monarchy
+		icon = GFX_finnic_monarchy
+		prerequisite = {
+    focus = WFI_respect_my_authority
+    }
+    mutually_exclusive = {
+    focus = WFI_greater_finland
+    focus = WFI_proletarian_dictatorship
+    }
+		x = 13
+		y = 8
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 20
 		}
 
 
@@ -1492,28 +1573,24 @@ country = {
     add_ideas = mon_drift
     add_popularity = { ideology = monarchism popularity = 0.25 }
     set_politics = { ruling_party = monarchism elections_allowed = no }
-    set_cosmetic_tag = WGE
-    set_capital = 64
-    create_country_leader = { name = "Wilhelm II" picture = "wilhelm_ii.dds" ideology = absolutism }
 		}
 	}
   focus = {
-		id = RHI_join_nouveau_regime
+		id = WFI_join_nouveau_regime
 		icon = GFX_nouveau_regime
 		prerequisite = {
-    focus = RHI_kaiserreich
+    focus = WFI_finnic_monarchy
     }
     mutually_exclusive = {
-    focus = RHI_join_oldenburg_realms
-    focus = RHI_join_sacrum_imperium_romanum
+    focus = WFI_join_oldenburg_realms
     }
     available = {
 		ROOT = { has_government = monarchism }
 		NOT = { FRA = { has_war_with = ROOT } }
 		FRA = { is_faction_leader = yes }
 		}
-		x = 11
-		y = 8
+		x = 13
+		y = 9
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1529,22 +1606,21 @@ country = {
 		}
 	}
   focus = {
-		id = RHI_join_oldenburg_realms
+		id = WFI_join_oldenburg_realms
 		icon = GFX_oldenburg_realms
 		prerequisite = {
-    focus = RHI_kaiserreich
+    focus = WFI_finnic_monarchy
     }
     mutually_exclusive = {
-    focus = RHI_join_nouveau_regime
-    focus = RHI_join_sacrum_imperium_romanum
+    focus = WFI_join_nouveau_regime
     }
     available = {
 		ROOT = { has_government = monarchism }
 		NOT = { DEN = { has_war_with = ROOT } }
 		DEN = { is_faction_leader = yes }
 		}
-		x = 13
-		y = 8
+		x = 15
+		y = 9
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1557,36 +1633,5 @@ country = {
 
 		completion_reward = {
 			DEN = { add_to_faction = ROOT }
-		}
-	}
-  focus = {
-		id = RHI_join_sacrum_imperium_romanum
-		icon = GFX_sacrum_imperium_romanum
-		prerequisite = {
-    focus = RHI_kaiserreich
-    }
-    mutually_exclusive = {
-    focus = RHI_join_oldenburg_realms
-    focus = RHI_join_nouveau_regime
-    }
-    available = {
-		ROOT = { has_government = monarchism }
-		NOT = { HUN = { has_war_with = ROOT } }
-		HUN = { is_faction_leader = yes }
-		}
-		x = 15
-		y = 8
-		cost = 10
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 20
-		}
-
-
-		completion_reward = {
-			HUN = { add_to_faction = ROOT }
 		}
 	}

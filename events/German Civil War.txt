@@ -97,9 +97,9 @@ country_event = {
 
 	option = {
 		every_country = { news_event = { id = GCW.4  } }
-    BAV = { clr_country_flag = GERMAN_CIVIL_WAR }
-    HAN = { clr_country_flag = GERMAN_CIVIL_WAR }
-    RHI = { clr_country_flag = GERMAN_CIVIL_WAR }
+    BAV = { set_country_flag = GERMAN_CIVIL_WAR_OVER }
+    HAN = { set_country_flag = GERMAN_CIVIL_WAR_OVER }
+    RHI = { set_country_flag = GERMAN_CIVIL_WAR_OVER }
 	}
 }
 news_event = {		#German Civil War Over

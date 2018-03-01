@@ -47,6 +47,41 @@ bookmarks = {
 	  "---"={
 			history = "OTHER_ZEITGEIST_DESC"
 		}
+		"FIN"={
+			minor = yes
+			history = "FIN_ZEITGEIST_DESC"
+			ideology = socialism
+			ideas = {	}
+			focuses = { }
+		}
+		"WFI"={
+			minor = yes
+			history = "WFI_ZEITGEIST_DESC"
+			ideology = third_position
+			ideas = {	}
+			focuses = { }
+		}
+		"RHI"={
+			minor = yes
+			history = "RHI_ZEITGEIST_DESC"
+			ideology = monarchism
+			ideas = {	}
+			focuses = { }
+		}
+		"HAN"={
+			minor = yes
+			history = "HAN_ZEITGEIST_DESC"
+			ideology = republicanism
+			ideas = {	}
+			focuses = { }
+		}
+		"BAV"={
+			minor = yes
+			history = "BAV_ZEITGEIST_DESC"
+			ideology = socialism
+			ideas = {	}
+			focuses = { }
+		}
 
 
 
