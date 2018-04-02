@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = SIP
+		owner = OTT
 		victory_points = {
 			2097 5
 		}
@@ -30,6 +30,7 @@ state={
 		add_core_of = SIP
 		add_core_of = IRA
 		add_core_of = ARA
+		add_core_of = OTT
 	}
 
 	provinces={

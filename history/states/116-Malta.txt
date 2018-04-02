@@ -5,7 +5,7 @@ state=
 	manpower = 241621
 	state_category = small_island
 	history= {
-		owner = FRA
+		owner = OSJ
 		add_core_of = BRI
 		add_core_of = IBE
 		add_core_of = FRA
@@ -14,6 +14,7 @@ state=
 		add_core_of = LOM
 		add_core_of = SIC
 		add_core_of = SAR
+		add_core_of = OSJ
 		victory_points = {
 			12003 5
 		}

@@ -26,6 +26,7 @@ state={
 		add_core_of = ABY
 		add_core_of = ARA
 		add_core_of = BYZ
+		add_core_of = OSJ
 	}
 
 	provinces={

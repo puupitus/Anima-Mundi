@@ -11,7 +11,7 @@ state={
 
 
 	history={
-		owner = SIP
+		owner = OTT
 		buildings = {
 			infrastructure = 3
 		}

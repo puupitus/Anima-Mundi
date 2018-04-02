@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = SIP
+		owner = OTT
 		victory_points = {
 			4111 3
 		}
@@ -17,6 +17,7 @@ state={
 		}
 		add_core_of = SIP
 		add_core_of = ARA
+		add_core_of = OTT
 
 	}
 

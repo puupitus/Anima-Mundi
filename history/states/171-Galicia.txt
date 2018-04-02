@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = SSA
+		owner = IBE
 		victory_points = {
 			758 3
 		}

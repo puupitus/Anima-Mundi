@@ -18,7 +18,7 @@ ALB = {
 			}
 }
 puppet = SIP
-SIP = {
+ALB = {
 	set_politics = {
 		ruling_party = monarchism
 			}

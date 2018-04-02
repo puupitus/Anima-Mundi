@@ -10,7 +10,7 @@ state= {
 
 	history=
 	{
-		owner = OTT
+		owner = OSJ
 		buildings = {
 			infrastructure = 4
 			air_base = 1

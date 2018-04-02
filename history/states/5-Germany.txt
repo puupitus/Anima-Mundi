@@ -6,8 +6,8 @@ state={
 	state_category = large_city
 
 	history={
-		owner = POL
-		controller = POL
+		owner = TEO
+		controller = TEO
 
 
 		victory_points = {
@@ -33,6 +33,7 @@ state={
 		add_core_of = BAL
 		add_core_of = HAN
 		add_core_of = POL
+		add_core_of = TEO
 		1939.1.1 = {
 			buildings = {
 				anti_air_building = 5
