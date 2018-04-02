@@ -1,7 +1,7 @@
 #reload countrycolors
 ABY = {
-	color = rgb { 162  89  67 }
-	color_ui = rgb { 162  89  67 }
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 152 130 191 }
 }
 ALB = {
 color = rgb { 153 0 0 }
@@ -96,8 +96,8 @@ DAI = {
 	color_ui = rgb { 255  255  0 }
 }
 DEN = {
-color = rgb { 198  12  48 }
-color_ui = rgb { 198  12  48 }
+color = rgb { 153 116 93 }
+color_ui = rgb { 153 116 93 }
 }
 EGY = {
 color = rgb { 231 214 158 }
@@ -192,8 +192,8 @@ color = rgb { 153 51 51 }
 color_ui = rgb { 153 51 51 }
 }
 NOR = {
-color = rgb { 228  71  74 }
-color_ui = rgb { 228  71  74 }
+color = rgb { 111 71 71 }
+color_ui = rgb { 111 71 71 }
 }
 OSJ = {
 color = rgb { 198 99 109 }
