@@ -7,7 +7,7 @@ state={
 	state_category = enclave
 
 	history={
-		owner = MYS
+		owner = SSA
 		add_core_of = MYS
 		add_core_of = IND
 		add_core_of = SSA

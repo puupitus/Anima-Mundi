@@ -56,8 +56,8 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Mao Zedong"
-	picture = "mao_zedong.dds"
+	name = "zhou_enlai"
+	picture = "zhou_enlai.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
@@ -72,8 +72,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Chiang Kai-shek"
-	picture = "chiang_kai_shek.dds"
+	name = "Pu Yi"
+	picture = "pu_yi.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

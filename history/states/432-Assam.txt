@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = DEN
+		owner = IND
 		add_core_of = MYS
 		add_core_of = IND
 		add_core_of = PAK

@@ -1,11 +1,7 @@
-capital = 592
+capital = 613
 
 oob = "ROC_1936"
 set_major = yes
-
-ROC = { create_wargoal = { type = annex_everything target = PRC } }
-ROC = { declare_war_on = { target = PRC type = annex_everything } }
-
 
 # Starting tech
 set_technology = {
@@ -36,7 +32,7 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 30
+				popularity = 10
 			}
 
 			socialism = {
@@ -48,7 +44,7 @@ set_politics = {
 			}
 
 			monarchism = {
-				popularity = 10
+				popularity = 30
 			}
 		}
 	ruling_party = republicanism
@@ -66,8 +62,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Yan Xishan"
-	picture = "yan_xishan.dds"
+	name = "Yuan Keding"
+	picture = "yuan_keding.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#

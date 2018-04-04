@@ -3,11 +3,6 @@ capital = 277
 oob = "MEX_1936"
 set_country_flag = AMERICAN
 set_major = yes
-create_faction = "Socialist Confederacy"
-add_to_faction = TCS
-add_to_faction = ALT
-add_to_faction = XIN
-add_to_faction = MON
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

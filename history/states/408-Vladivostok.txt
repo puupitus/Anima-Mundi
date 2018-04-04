@@ -25,6 +25,7 @@ state={
 		}
 		add_core_of = RUS
 		add_core_of = GUK
+		add_core_of = JOS
 	}
 
 	provinces={

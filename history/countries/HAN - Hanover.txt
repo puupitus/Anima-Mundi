@@ -31,22 +31,22 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 20
-			}
-
-			socialism = {
 				popularity = 10
 			}
 
-			republicanism = {
+			socialism = {
 				popularity = 40
+			}
+
+			republicanism = {
+				popularity = 20
 			}
 
 			monarchism = {
 				popularity = 30
 			}
 		}
-	ruling_party = republicanism
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -55,23 +55,15 @@ set_politics = {
 create_country_leader = {
 	name = "Paul von Hindenburg"
 	picture = "paul_von_hindenburg.dds"
-	ideology = conservatistic
-	traits = { zeitgeist_default
-		#
-	}
-}
-create_country_leader = {
-	name = "Konrad Adenauer"
-	picture = "konrad_adenauer.dds"
-	ideology = conservatistic
-	traits = { zeitgeist_default
-		#
-	}
-}
-create_country_leader = {
-	name = "Konrad Adenauer"
-	picture = "konrad_adenauer.dds"
 	ideology = absolutism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Konrad Adenauer"
+	picture = "konrad_adenauer.dds"
+	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}

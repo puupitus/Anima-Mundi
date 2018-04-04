@@ -13,13 +13,13 @@ FAF = {
 puppet = QUE
 QUE = {
 	set_politics = {
-		ruling_party = monarchism
+		ruling_party = republicanism
 			}
 		}
 puppet = IBE
 IBE = {
 	set_politics = {
-		ruling_party = monarchism
+		ruling_party = republicanism
 			}
 		}
 puppet = DAI
@@ -33,7 +33,21 @@ CAF = {
 	set_politics = {
 		ruling_party = republicanism
 			}
-		}
+}
+puppet = BAV
+BAV = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+}
+puppet = SAR
+SAR = {
+	set_politics = {
+		ruling_party = republicanism
+			}
+}
+add_to_faction = SIB
+add_to_faction = IRE
 
 # Starting tech
 set_technology = {
@@ -72,14 +86,14 @@ set_politics = {
 			}
 
 			republicanism = {
-				popularity = 30
+				popularity = 40
 			}
 
 			monarchism = {
-				popularity = 40
+				popularity = 30
 			}
 		}
-	ruling_party = monarchism
+	ruling_party = republicanism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

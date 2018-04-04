@@ -7,9 +7,10 @@ state={
 
 
 	history={
-		owner = FRA
+		owner = MYS
 		add_core_of = MYS
 		add_core_of = IND
+		add_core_of = PAK
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

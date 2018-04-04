@@ -1,4 +1,4 @@
-capital = 442
+capital = 439
 
 oob = "PAK_1936"
 set_country_flag = ASIAN

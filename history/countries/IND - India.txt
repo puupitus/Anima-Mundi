@@ -1,4 +1,4 @@
-capital = 439
+capital = 431
 oob = "IND_1936"
 set_country_flag = ASIAN
 set_country_flag = MUSLIM
@@ -35,18 +35,18 @@ set_politics = {
 			}
 
 			socialism = {
-				popularity = 30
+				popularity = 40
 			}
 
 			republicanism = {
-				popularity = 40
+				popularity = 30
 			}
 
 			monarchism = {
 				popularity = 10
 			}
 		}
-	ruling_party = republicanism
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

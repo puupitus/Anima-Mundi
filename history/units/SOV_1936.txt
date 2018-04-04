@@ -176,8 +176,8 @@ units = {
 	##### NAVAL UNITS #####
 	navy = {
 		name = "Main Fleet"
-		base = 214
-		location =  214
+		base = 3338
+		location =  3338
 		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 } } }
 		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 } } }
 		ship = { definition = submarine equipment = { submarine_1 = { amount = 1  } } }

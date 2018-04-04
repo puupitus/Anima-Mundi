@@ -1,4 +1,4 @@
-capital = 52
+capital = 55
 
 oob = "BAV_1936"
 set_country_flag = EUROPEAN
@@ -31,22 +31,22 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 20
-			}
-
-			socialism = {
-				popularity = 40
-			}
-
-			republicanism = {
 				popularity = 10
 			}
 
-			monarchism = {
+			socialism = {
 				popularity = 30
 			}
+
+			republicanism = {
+				popularity = 40
+			}
+
+			monarchism = {
+				popularity = 20
+			}
 		}
-	ruling_party = socialism
+	ruling_party = republicanism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

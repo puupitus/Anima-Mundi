@@ -40,8 +40,14 @@ BOH = {
 		ruling_party = monarchism
 			}
 }
-puppet = YUG
-YUG = {
+puppet = ITA
+ITA = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
+puppet = OSJ
+OSJ = {
 	set_politics = {
 		ruling_party = monarchism
 			}

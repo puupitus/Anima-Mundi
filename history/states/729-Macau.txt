@@ -9,6 +9,7 @@ state={
 		owner = SSA
 		add_core_of = PRC
 		add_core_of = MAN
+		add_core_of = XIN
 		add_core_of = SSA
 		victory_points = {
 			4189 1

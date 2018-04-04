@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = BAV
+		owner = HUN
 		buildings = {
 			infrastructure = 6
 		}
@@ -15,6 +15,7 @@ state={
 		add_core_of = BAV
 		add_core_of = PRS
 		add_core_of = HAN
+		add_core_of = HUN
 	}
 
 	provinces={
