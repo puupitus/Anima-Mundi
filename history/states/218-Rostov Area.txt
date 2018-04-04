@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = TCS
+		owner = SIB
 		victory_points = {
 			9417 15
 		}
@@ -20,10 +20,11 @@ state={
 				naval_base = 5
 			}
 		}
+		add_core_of = RUS
 		add_core_of = SOV
+		add_core_of = SIB
 		add_core_of = TCS
 		add_core_of = UKR
-		add_core_of = RUS
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

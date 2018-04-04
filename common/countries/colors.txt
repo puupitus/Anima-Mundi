@@ -272,8 +272,8 @@ color = rgb { 0 85 61 }
 color_ui = rgb { 0 85 61 }
 }
 SOV = {
-	color = rgb { 0 135 221 }
-	color_ui = rgb { 0 135 221 }
+	color = rgb { 255 204 51 }
+	color_ui = rgb { 255 204 51 }
 }
 SOM = {
 color = rgb { 65 137 221 }

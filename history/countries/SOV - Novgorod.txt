@@ -78,8 +78,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Alexander Kerensky"
-	picture = "alexander_kerensky.dds"
+	name = "Pavel Bermondt-Avalov"
+	picture = "pavel_bermondt_avalov.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

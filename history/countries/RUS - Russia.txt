@@ -53,32 +53,32 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Pyotr Nikolayevich Wrangel"
-	picture = "pyotr_nikolayevich_wrangel.dds"
+	name = "Alexander Kerensky"
+	picture = "alexander_kerensky.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Pyotr Nikolayevich Wrangel"
-	picture = "pyotr_nikolayevich_wrangel.dds"
+	name = "Alexander Kerensky"
+	picture = "alexander_kerensky.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Pyotr Nikolayevich Wrangel"
-	picture = "pyotr_nikolayevich_wrangel.dds"
+	name = "Alexander Kerensky"
+	picture = "alexander_kerensky.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Pyotr Nikolayevich Wrangel"
-	picture = "pyotr_nikolayevich_wrangel.dds"
+	name = "Alexander Kerensky"
+	picture = "alexander_kerensky.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

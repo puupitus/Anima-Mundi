@@ -3,7 +3,7 @@ capital = 622
 oob = "PRC_1936"
 set_country_flag = ASIAN
 set_major = yes
-
+create_faction = "League of Harmony and Justice"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -33,7 +33,7 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 40
+				popularity = 10
 			}
 
 			socialism = {
@@ -45,10 +45,10 @@ set_politics = {
 			}
 
 			monarchism = {
-				popularity = 10
+				popularity = 40
 			}
 		}
-	ruling_party = third_position
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

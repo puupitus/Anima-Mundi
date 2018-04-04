@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = FAF
+		owner = CAF
 		buildings = {
 			infrastructure = 2
 
