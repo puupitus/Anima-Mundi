@@ -9,7 +9,7 @@ state={
 
 
 	history={
-		owner = RHI
+		owner = BRA
 		victory_points = {
 			6521 50
 		}
@@ -28,6 +28,7 @@ state={
 		add_core_of = BAV
 		add_core_of = RHI
 		add_core_of = HAN
+		add_core_of = BRA
 		add_core_of = POL
 
 		1939.1.1 = {

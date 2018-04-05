@@ -44,8 +44,12 @@ color = rgb { 250 224 66 }
 color_ui = rgb { 250 224 66 }
 }
 BOH = {
-color = rgb { 205 212 228 }
-color_ui = rgb { 205 212 228 }
+color = rgb { 255 225 219 }
+color_ui = rgb { 255 225 219 }
+}
+BRA = {
+	color = rgb { 210 150 143 }
+	color_ui = rgb { 210 150 143 }
 }
 BRI = {
 	color = rgb { 201 56 93 }
@@ -180,8 +184,8 @@ color = rgb { 255 197 0 }
 color_ui = rgb { 255 197 0 }
 }
 MEX = {
-	color = rgb { 206 17 38 }
-	color_ui = rgb { 206 17 38 }
+	color = rgb { 104 152 83 }
+	color_ui = rgb { 104 152 83 }
 }
 MON = {
 color = rgb { 147 12 20 }

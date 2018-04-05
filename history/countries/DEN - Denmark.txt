@@ -34,6 +34,12 @@ RHI = {
 		ruling_party = monarchism
 			}
 }
+puppet = BAL
+BAL = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
 
 
 # Starting tech

@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = HUN
+		owner = SWI
 		buildings = {
 			infrastructure = 6
 		}
@@ -16,6 +16,8 @@ state={
 		add_core_of = PRS
 		add_core_of = HAN
 		add_core_of = HUN
+		add_core_of = BRA
+		add_core_of = SWI
 	}
 
 	provinces={

@@ -10,8 +10,20 @@ BNL = {
 		ruling_party = monarchism
 			}
 }
+puppet = SWI
+SWI = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
 puppet = TEO
 TEO = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
+puppet = BRA
+BRA = {
 	set_politics = {
 		ruling_party = monarchism
 			}
@@ -40,18 +52,7 @@ BOH = {
 		ruling_party = monarchism
 			}
 }
-puppet = ITA
-ITA = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = OSJ
-OSJ = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
+add_to_faction = ITA
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

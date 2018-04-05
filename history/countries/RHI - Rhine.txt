@@ -54,16 +54,16 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Friedrich Karl"
-	picture = "friedrich_karl.dds"
+	name = "Paul von Hindenburg"
+	picture = "paul_von_hindenburg.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Friedrich Karl"
-	picture = "friedrich_karl.dds"
+	name = "Paul von Hindenburg"
+	picture = "paul_von_hindenburg.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#

@@ -61,16 +61,16 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Konrad Adenauer"
-	picture = "konrad_adenauer.dds"
+	name = "Paul von Hindenburg"
+	picture = "paul_von_hindenburg.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Karl Liebknecht"
-	picture = "karl_liebknecht.dds"
+	name = "Ernst Thälmann"
+	picture = "ernst_thalmann.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#

@@ -25,9 +25,10 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = PRU
-		add_core_of = RHI
+		add_core_of = PRS
 		add_core_of = BAV
+		add_core_of = RHI
+		add_core_of = BRA
 		add_core_of = HAN
 
 		1939.1.1 = {

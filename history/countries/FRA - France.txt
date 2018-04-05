@@ -16,12 +16,6 @@ QUE = {
 		ruling_party = republicanism
 			}
 		}
-puppet = IBE
-IBE = {
-	set_politics = {
-		ruling_party = republicanism
-			}
-		}
 puppet = DAI
 DAI = {
 	set_politics = {
@@ -40,14 +34,7 @@ BAV = {
 		ruling_party = republicanism
 			}
 }
-puppet = SAR
-SAR = {
-	set_politics = {
-		ruling_party = republicanism
-			}
-}
-add_to_faction = SIB
-add_to_faction = IRE
+add_to_faction = SAR
 
 # Starting tech
 set_technology = {

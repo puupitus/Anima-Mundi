@@ -4,20 +4,10 @@ oob = "BRI_1936"
 set_country_flag = EUROPEAN
 set_major = yes
 create_faction = "Eighth Coalition"
-puppet = HAN
-HAN = {
-	set_politics = {
-		ruling_party = socialism
-			}
-}
 add_to_faction = AST
 add_to_faction = IND
-add_to_faction = MEX
-add_to_faction = TCS
-add_to_faction = ALT
-add_to_faction = MON
-add_to_faction = XIN
 add_to_faction = SIC
+add_to_faction = HAN
 
 
 # Starting tech

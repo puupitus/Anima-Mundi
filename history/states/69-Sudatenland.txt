@@ -52,6 +52,7 @@ state=
 		add_core_of = PRS
 		add_core_of = RHI
 		add_core_of = HAN
+		add_core_of = BRA
 		add_core_of = KRA
 
 		1938.9.30 = {

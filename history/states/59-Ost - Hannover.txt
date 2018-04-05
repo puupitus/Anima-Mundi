@@ -31,6 +31,7 @@ state={
 		add_core_of = RHI
 		add_core_of = BAV
 		add_core_of = HAN
+		add_core_of = BRA
 
 		1939.1.1 = {
 			buildings = {
