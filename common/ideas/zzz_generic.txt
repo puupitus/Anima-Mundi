@@ -607,7 +607,7 @@ removal_cost = -1
 picture = generic_democratic_drift_bonus
 
 modifier = {
-republicanism_drift = 0.05
+republicanism_drift = 0.1
 	 }
 }
 soc_drift = {
@@ -626,7 +626,7 @@ removal_cost = -1
 picture = generic_communism_drift_bonus
 
 modifier = {
-socialism_drift = 0.05
+socialism_drift = 0.1
 	 }
 }
 tp_drift = {
@@ -645,7 +645,7 @@ removal_cost = -1
 picture = generic_fascism_drift_bonus
 
 modifier = {
-third_position_drift = 0.05
+third_position_drift = 0.1
 	 }
 }
 mon_drift = {
@@ -664,7 +664,7 @@ removal_cost = -1
 picture = HUN_hungarian_monarchy
 
 modifier = {
-monarchism_drift = 0.05
+monarchism_drift = 0.1
 	 }
 }
 asoiaf_ei = {

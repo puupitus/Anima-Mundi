@@ -34,7 +34,6 @@ BAV = {
 		ruling_party = republicanism
 			}
 }
-add_to_faction = SAR
 
 # Starting tech
 set_technology = {

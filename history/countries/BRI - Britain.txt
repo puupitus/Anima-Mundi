@@ -3,7 +3,7 @@ capital = 126
 oob = "BRI_1936"
 set_country_flag = EUROPEAN
 set_major = yes
-create_faction = "Eighth Coalition"
+create_faction = "Socialist International"
 add_to_faction = AST
 add_to_faction = IND
 add_to_faction = SIC
@@ -77,8 +77,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Harry Pollitt"
-	picture = "harry_pollitt.dds"
+	name = "Clement Attlee"
+	picture = "clement_attlee.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
