@@ -1361,12 +1361,11 @@ country = {
 
 		completion_reward = {
     add_stability = 0.1
-    set_country_flag = PATH_CHOSEN
     add_ideas = mon_drift
 		}
 
 		ai_will_do = {
-			factor = 80
+			factor = 90
 			}
 	}
   focus = {
@@ -1403,7 +1402,6 @@ country = {
 			add_political_power = 50
       add_stability = 0.1
       DEN = { end_puppet = SWE }
-      DEN = { add_to_faction = SWE }
       create_country_leader = { name = "Harald I" picture = "harald_i.dds" ideology = absolutism }
       set_cosmetic_tag = SWE_king_den
       set_capital = 138
@@ -1429,7 +1427,7 @@ country = {
 		}
 
 		ai_will_do = {
-			factor = 20
+			factor = 10
 			}
 	}
   focus = {
@@ -1444,14 +1442,11 @@ country = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-    set_country_flag = PATH_CHOSEN
     add_ideas = mon_drift
     DEN = { end_puppet = SWE }
-    DEN = { remove_from_faction = SWE }
-    set_country_flag = LEFT_OLDENBURG_REALMS
     set_cosmetic_tag = SWE_king
     create_country_leader = { name = "Gustaf V" picture = "gustaf_v.dds" ideology = absolutism }
-    set_country_flag = PATH_CHOSEN
+    FRA = { add_to_faction = SWE }
     }
 		ai_will_do = {
 			factor = 50
@@ -1472,11 +1467,8 @@ country = {
 			add_stability = -0.1
       add_political_power = 100
       add_ideas = tp_drift
-      DEN = { end_puppet = SWE }
-      DEN = { remove_from_faction = SWE }
-      set_country_flag = LEFT_OLDENBURG_REALMS
       set_politics = { ruling_party = third_position elections_allowed = no }
-      set_country_flag = PATH_CHOSEN
+      POL = { add_to_faction = SWE }
 		}
 
 		ai_will_do = {

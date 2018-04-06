@@ -377,11 +377,11 @@
  FIN_third_position_ADJ:0 "Finnish"
  ################################################################################
 
- FRA_monarchism:0 "French Empire"
+ FRA_monarchism:0 "Empire Français"
  FRA_republicanism:0 "Fédération Française"
  FRA_socialism:0 "French Socialist Republic"
  FRA_third_position:0 "État Français"
- FRA_monarchism_DEF:0 "The French Empire"
+ FRA_monarchism_DEF:0 "The Empire Français"
  FRA_republicanism_DEF:0 "The Fédération Française"
  FRA_socialism_DEF:0 "The French Socialist Republic"
  FRA_third_position_DEF:0 "The État Français"
@@ -629,11 +629,11 @@
  MOR_third_position_ADJ:0 "Moravian"
  ################################################################################
 
- NOR_monarchism:0 "Kingdom of Norway"
+ NOR_monarchism:0 "Kingdom of Danish Norway"
  NOR_republicanism:0 "Republic of Norway"
  NOR_socialism:0 "People's Democracy of Norway"
  NOR_third_position:0 "Norgesveldet"
- NOR_monarchism_DEF:0 "The Kingdom of Norway"
+ NOR_monarchism_DEF:0 "The Kingdom of Danish Norway"
  NOR_republicanism_DEF:0 "The Republic of Norway"
  NOR_socialism_DEF:0 "The People's Democracy of Norway"
  NOR_third_position_DEF:0 "The Norgesveldet"

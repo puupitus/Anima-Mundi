@@ -1331,7 +1331,7 @@ country = {
   focus = {
 		id = WFI_forge_our_path
 		icon = GFX_forge_our_path
-    available = { has_country_flag = FINNISH_CIVIL_WAR_OVER }
+
 		x = 9
 		y = 6
 		cost = 10
@@ -1347,41 +1347,14 @@ country = {
 			}
 	}
   focus = {
-		id = WFI_finnic_republic
-		icon = GFX_finnic_republic_wfi
-    prerequisite = { focus = WFI_forge_our_path }
-    available = { has_country_flag = FINNISH_CIVIL_WAR_OVER }
-    mutually_exclusive = {
-    focus = WFI_finnic_monarchy
-    focus = WFI_greater_finland
-    }
-		x = 5
-		y = 7
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = rep_drift
-      set_politics = { ruling_party = republicanism elections_allowed = no }
-      add_stability = -0.2
-      set_country_flag = PATH_CHOSEN
-		}
-
-		ai_will_do = {
-			factor = 10
-			}
-	}
-  focus = {
 		id = WFI_finnic_monarchy
 		icon = GFX_finnic_monarchy
     prerequisite = { focus = WFI_forge_our_path }
-    available = { has_country_flag = FINNISH_CIVIL_WAR_OVER }
+
     mutually_exclusive = {
-    focus = WFI_finnic_republic
     focus = WFI_greater_finland
     }
-		x = 9
+		x = 7
 		y = 7
 		cost = 10
 
@@ -1391,7 +1364,7 @@ country = {
 			add_ideas = mon_drift
       set_politics = { ruling_party = monarchism elections_allowed = no }
       add_stability = -0.2
-      set_country_flag = PATH_CHOSEN
+      DEN = { add_to_faction = WFI }
 		}
 
 		ai_will_do = {
@@ -1402,12 +1375,11 @@ country = {
 		id = WFI_greater_finland
 		icon = GFX_greater_finland
     prerequisite = { focus = WFI_forge_our_path }
-    available = { has_country_flag = FINNISH_CIVIL_WAR_OVER }
+
     mutually_exclusive = {
-    focus = WFI_finnic_republic
     focus = WFI_finnic_monarchy
     }
-		x = 13
+		x = 11
 		y = 7
 		cost = 10
 
@@ -1416,35 +1388,12 @@ country = {
 		completion_reward = {
 			add_ideas = tp_drift
       add_stability = 0.2
-      set_country_flag = PATH_CHOSEN
       set_cosmetic_tag = WFI_gfi
+      POL = { add_to_faction = WFI }
 		}
 
 		ai_will_do = {
 			factor = 80
-			}
-	}
-  focus = {
-		id = WFI_one_finland
-		icon = GFX_one_finland
-    prerequisite = {
-    focus = WFI_greater_finland
-    focus = WFI_finnic_republic
-    focus = WFI_finnic_monarchy
-    }
-    available = { has_country_flag = FINNISH_CIVIL_WAR_OVER }
-		x = 9
-		y = 8
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = one_finland
-		}
-
-		ai_will_do = {
-			factor = 10
 			}
 	}
 }

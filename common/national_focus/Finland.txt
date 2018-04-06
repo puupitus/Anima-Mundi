@@ -1331,7 +1331,7 @@ country = {
   focus = {
 		id = FIN_forge_our_path
 		icon = GFX_forge_our_path
-    available = { has_country_flag = FINNISH_CIVIL_WAR_OVER }
+
 		x = 9
 		y = 6
 		cost = 10
@@ -1350,7 +1350,7 @@ country = {
 		id = FIN_finnic_republic
 		icon = GFX_finnic_republic_fin
     prerequisite = { focus = FIN_forge_our_path }
-    available = { has_country_flag = FINNISH_CIVIL_WAR_OVER }
+
     mutually_exclusive = {
     focus = FIN_proletarian_dictatorship
     }
@@ -1364,7 +1364,7 @@ country = {
 			add_ideas = rep_drift
       set_politics = { ruling_party = republicanism elections_allowed = no }
       add_stability = -0.2
-      set_country_flag = PATH_CHOSEN
+      SIB = { add_to_faction = FIN }
 		}
 
 		ai_will_do = {
@@ -1375,7 +1375,7 @@ country = {
 		id = FIN_proletarian_dictatorship
 		icon = GFX_proletarian_dictatorship
     prerequisite = { focus = FIN_forge_our_path }
-    available = { has_country_flag = FINNISH_CIVIL_WAR_OVER }
+
     mutually_exclusive = {
     focus = FIN_finnic_republic
     }
@@ -1388,33 +1388,12 @@ country = {
 		completion_reward = {
 			add_ideas = soc_drift
       add_stability = 0.2
-      set_country_flag = PATH_CHOSEN
+      set_cosmetic_tag = FIN_prole
+      BRI = { add_to_faction = FIN }
 		}
 
 		ai_will_do = {
 			factor = 80
-			}
-	}
-  focus = {
-		id = FIN_one_finland
-		icon = GFX_one_finland
-    prerequisite = {
-    focus = FIN_proletarian_dictatorship
-    focus = FIN_finnic_republic
-    }
-    available = { has_country_flag = FINNISH_CIVIL_WAR_OVER }
-		x = 9
-		y = 8
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = one_finland
-		}
-
-		ai_will_do = {
-			factor = 10
 			}
 	}
 }

@@ -1030,6 +1030,38 @@ spriteTypes = {
 		name = "GFX_svea_rike"
 		texturefile = "gfx/interface/goals/svea_rike.dds"
 	}
+	SpriteType = {
+		name = "GFX_independent_norwegian_kingdom"
+		texturefile = "gfx/interface/goals/independent_norwegian_kingdom.dds"
+	}
+	SpriteType = {
+		name = "GFX_norgesveldet"
+		texturefile = "gfx/interface/goals/norgesveldet.dds"
+	}
+	SpriteType = {
+		name = "GFX_livonian_confederation"
+		texturefile = "gfx/interface/goals/livonian_confederation.dds"
+	}
+	SpriteType = {
+		name = "GFX_terra_mariana"
+		texturefile = "gfx/interface/goals/terra_mariana.dds"
+	}
+	SpriteType = {
+		name = "GFX_united_baltic_duchy"
+		texturefile = "gfx/interface/goals/united_baltic_duchy.dds"
+	}
+	SpriteType = {
+		name = "GFX_byelorussian_republic"
+		texturefile = "gfx/interface/goals/byelorussian_republic.dds"
+	}
+	SpriteType = {
+		name = "GFX_soviet_socialist_republic"
+		texturefile = "gfx/interface/goals/soviet_socialist_republic.dds"
+	}
+	SpriteType = {
+		name = "GFX_national_bolshevik"
+		texturefile = "gfx/interface/goals/national_bolshevik.dds"
+	}
 
 
 
