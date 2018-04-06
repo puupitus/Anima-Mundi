@@ -12,7 +12,8 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = republicanism }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
+      ROOT = { has_country_flag = PATH_CHOSEN }
+			NOT = { ROOT = { has_country_flag = LEFT_EIGHTH_COALITION } }
 		}
 
 		#If this trigger matches a country.
@@ -21,8 +22,12 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = SIB } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = republicanism }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		NOT = { ROOT = { has_country_flag = LEFT_EIGHTH_COALITION } }
 		}
 
 		complete_effect = {
@@ -45,7 +50,8 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = third_position }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
+      ROOT = { has_country_flag = PATH_CHOSEN }
+			NOT = { ROOT = { has_country_flag = LEFT_ZEITGEIST_PACT } }
 		}
 
 		#If this trigger matches a country.
@@ -54,8 +60,12 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = POL } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = third_position }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		NOT = { ROOT = { has_country_flag = LEFT_ZEITGEIST_PACT } }
 		}
 
 		complete_effect = {
@@ -78,7 +88,8 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = republicanism }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
+      ROOT = { has_country_flag = PATH_CHOSEN }
+			NOT = { ROOT = { has_country_flag = LEFT_NOUVEAU_REGIME } }
 		}
 
 		#If this trigger matches a country.
@@ -87,8 +98,12 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = FRA } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = republicanism }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		NOT = { ROOT = { has_country_flag = LEFT_NOUVEAU_REGIME } }
 		}
 
 		complete_effect = {
@@ -111,7 +126,8 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = socialism }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
+      ROOT = { has_country_flag = PATH_CHOSEN }
+			NOT = { ROOT = { has_country_flag = LEFT_SOCIALIST_INTERNATIONAL } }
 		}
 
 		#If this trigger matches a country.
@@ -120,8 +136,12 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = BRI } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = socialism }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		NOT = { ROOT = { has_country_flag = LEFT_SOCIALIST_INTERNATIONAL } }
 		}
 
 		complete_effect = {
@@ -144,8 +164,9 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
+      ROOT = { has_country_flag = PATH_CHOSEN }
       ROOT = { has_country_flag = AFRICAN }
+			NOT = { ROOT = { has_country_flag = LEFT_AFRICAN_UNION } }
 		}
 
 		#If this trigger matches a country.
@@ -154,8 +175,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = ABY } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		ROOT = { has_country_flag = AFRICAN }
+		NOT = { ROOT = { has_country_flag = LEFT_AFRICAN_UNION } }
 		}
 
 		complete_effect = {
@@ -178,8 +204,9 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
+      ROOT = { has_country_flag = PATH_CHOSEN }
       ROOT = { has_country_flag = EUROPEAN }
+			NOT = { ROOT = { has_country_flag = LEFT_OLDENBURG_REALMS } }
 		}
 
 		#If this trigger matches a country.
@@ -188,8 +215,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = DEN } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		ROOT = { has_country_flag = EUROPEAN }
+		NOT = { ROOT = { has_country_flag = LEFT_OLDENBURG_REALMS } }
 		}
 
 		complete_effect = {
@@ -212,8 +244,9 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
+      ROOT = { has_country_flag = PATH_CHOSEN }
       ROOT = { has_country_flag = EUROPEAN }
+			NOT = { ROOT = { has_country_flag = LEFT_SACRUM_IMPERIUM_ROMANUM } }
 		}
 
 		#If this trigger matches a country.
@@ -222,8 +255,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = HUN } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		ROOT = { has_country_flag = EUROPEAN }
+		NOT = { ROOT = { has_country_flag = LEFT_SACRUM_IMPERIUM_ROMANUM } }
 		}
 
 		complete_effect = {
@@ -246,8 +284,9 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
-      ROOT = { has_country_flag = ASIAN }
+      ROOT = { has_country_flag = PATH_CHOSEN }
+			ROOT = { has_country_flag = ASIAN }
+			NOT = { ROOT = { has_country_flag = LEFT_LEAGUE_OF_HARMONY_AND_JUSTICE } }
 		}
 
 		#If this trigger matches a country.
@@ -256,8 +295,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = PRC } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		ROOT = { has_country_flag = ASIAN }
+		NOT = { ROOT = { has_country_flag = LEFT_LEAGUE_OF_HARMONY_AND_JUSTICE } }
 		}
 
 		complete_effect = {
@@ -280,9 +324,10 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
+      ROOT = { has_country_flag = PATH_CHOSEN }
       ROOT = { has_country_flag = ASIAN }
       ROOT = { has_country_flag = MUSLIM }
+			NOT = { ROOT = { has_country_flag = LEFT_ASIAN_MUSLIM_LEAGUE } }
 		}
 
 		#If this trigger matches a country.
@@ -291,8 +336,14 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = BEN } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		ROOT = { has_country_flag = ASIAN }
+		ROOT = { has_country_flag = MUSLIM }
+		NOT = { ROOT = { has_country_flag = LEFT_ASIAN_MUSLIM_LEAGUE } }
 		}
 
 		complete_effect = {
@@ -315,11 +366,12 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
+      ROOT = { has_country_flag = PATH_CHOSEN }
       ROOT = { OR = {
       has_country_flag = AFRICAN
       has_country_flag = MIDDLE_EASTERN } }
       ROOT = { has_country_flag = MUSLIM }
+			NOT = { ROOT = { has_country_flag = LEFT_OTTOMAN_EMPIRE } }
 		}
 
 		#If this trigger matches a country.
@@ -328,8 +380,16 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = OTT } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		ROOT = { OR = {
+		has_country_flag = AFRICAN
+		has_country_flag = MIDDLE_EASTERN } }
+		ROOT = { has_country_flag = MUSLIM }
+		NOT = { ROOT = { has_country_flag = LEFT_OTTOMAN_EMPIRE } }
 		}
 
 		complete_effect = {
@@ -352,8 +412,9 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = third_position }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
+      ROOT = { has_country_flag = PATH_CHOSEN }
       ROOT = { has_country_flag = ASIAN }
+			NOT = { ROOT = { has_country_flag = LEFT_DAI_TOA_KYOEIKEN } }
 		}
 
 		#If this trigger matches a country.
@@ -362,8 +423,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = JAP } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = third_position }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		ROOT = { has_country_flag = ASIAN }
+		NOT = { ROOT = { has_country_flag = LEFT_DAI_TOA_KYOEIKEN } }
 		}
 
 		complete_effect = {
@@ -386,8 +452,9 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
+      ROOT = { has_country_flag = PATH_CHOSEN }
       ROOT = { NOT = { has_country_flag = EUROPEAN } }
+			NOT = { ROOT = { has_country_flag = LEFT_IMPERIO_PORTUGUES } }
 		}
 
 		#If this trigger matches a country.
@@ -396,8 +463,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = SSA } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		ROOT = { NOT = { has_country_flag = EUROPEAN } }
+		NOT = { ROOT = { has_country_flag = LEFT_IMPERIO_PORTUGUES } }
 		}
 
 		complete_effect = {
@@ -420,8 +492,9 @@ political_actions = {
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
+      ROOT = { has_country_flag = PATH_CHOSEN }
       ROOT = { NOT = { has_country_flag = EUROPEAN } }
+			NOT = { ROOT = { has_country_flag = LEFT_IMPERIO_ESPANOL } }
 		}
 
 		#If this trigger matches a country.
@@ -430,8 +503,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		NOT = { ROOT = { has_war_with = SPA } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_country_flag = PATH_CHOSEN }
+		ROOT = { NOT = { has_country_flag = EUROPEAN } }
+		NOT = { ROOT = { has_country_flag = LEFT_IMPERIO_ESPANOL } }
 		}
 
 		complete_effect = {
@@ -513,38 +591,6 @@ political_actions = {
 				add = 1
 				has_war_support < 0.5
 			}
-		}
-	}
-  leave_eighth_coalition = {
-
-		icon = generic_decision
-
-		allowed = {
-		}
-
-		available = {
-			ROOT = { is_in_faction_with = SIB }
-      ROOT = { NOT = { has_government = republicanism } }
-      ROOT = { is_subject = no }
-      ROOT = { has_country_flag = PATH_CHOSEN_2 }
-		}
-
-		#If this trigger matches a country.
-		target_trigger = {
-				}
-
-
-		visible = {
-    ROOT = { is_in_faction_with = SIB }
-    ROOT = { is_subject = no }
-		}
-
-		complete_effect = {
-			SIB = { remove_from_faction = ROOT }
-		}
-
-		ai_will_do = {
-			factor = 20
 		}
 	}
 }

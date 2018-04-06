@@ -909,11 +909,11 @@
  SSA_third_position_ADJ:0 "Portuguese"
  ################################################################################
 
- SWE_monarchism:0 "Kingdom of Sweden"
+ SWE_monarchism:0 "Grand Duchy of Sweden"
  SWE_republicanism:0 "Republic of Sweden"
  SWE_socialism:0 "People's Democracy of Sweden"
  SWE_third_position:0 "Svea Rike"
- SWE_monarchism_DEF:0 "The Kingdom of Sweden"
+ SWE_monarchism_DEF:0 "The Grand Duchy of Sweden"
  SWE_republicanism_DEF:0 "The Republic of Sweden"
  SWE_socialism_DEF:0 "The People's Democracy of Sweden"
  SWE_third_position_DEF:0 "The Svea Rike"

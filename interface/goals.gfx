@@ -1006,6 +1006,30 @@ spriteTypes = {
 		name = "GFX_finnic_monarchy"
 		texturefile = "gfx/interface/goals/finnic_monarchy.dds"
 	}
+	SpriteType = {
+		name = "GFX_forge_our_path"
+		texturefile = "gfx/interface/goals/forge_our_path.dds"
+	}
+	SpriteType = {
+		name = "GFX_finnic_republic_wfi"
+		texturefile = "gfx/interface/goals/finnic_republic_wfi.dds"
+	}
+	SpriteType = {
+		name = "GFX_finnic_republic_fin"
+		texturefile = "gfx/interface/goals/finnic_republic_fin.dds"
+	}
+	SpriteType = {
+		name = "GFX_crowning_of_harald_i"
+		texturefile = "gfx/interface/goals/crowning_of_harald_i.dds"
+	}
+	SpriteType = {
+		name = "GFX_independent_swedish_kingdom"
+		texturefile = "gfx/interface/goals/independent_swedish_kingdom.dds"
+	}
+	SpriteType = {
+		name = "GFX_svea_rike"
+		texturefile = "gfx/interface/goals/svea_rike.dds"
+	}
 
 
 

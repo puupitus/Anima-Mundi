@@ -31,11 +31,11 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 20
+				popularity = 30
 			}
 
 			socialism = {
-				popularity = 30
+				popularity = 20
 			}
 
 			republicanism = {
@@ -61,7 +61,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Harald I"
+	name = "Prince Harald of Denmark"
 	picture = "harald_i.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default

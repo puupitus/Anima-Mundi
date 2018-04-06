@@ -44,8 +44,6 @@ country_event = {
     FIN = { create_wargoal = { type = annex_everything target = WFI } }
     WFI = { create_wargoal = { type = annex_everything target = FIN } }
     WFI = { declare_war_on = { target = FIN type = annex_everything } }
-    FIN = { set_country_flag = FINNISH_CIVIL_WAR }
-    WFI = { set_country_flag = FINNISH_CIVIL_WAR }
 	}
 }
 news_event = {		#Finnish Civil War

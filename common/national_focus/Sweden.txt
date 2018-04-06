@@ -1328,3 +1328,159 @@ country = {
 			}
 		}
 	}
+  focus = {
+		id = SWE_forge_our_path
+		icon = GFX_forge_our_path
+    available = { }
+    prerequisite = { }
+    mutually_exclusive = { }
+		x = 9
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+
+		ai_will_do = {
+			factor = 10
+			}
+	}
+  focus = {
+		id = SWE_loyalty
+		icon = GFX_focus_generic_diplomatic_treaty
+    prerequisite = { focus = SWE_forge_our_path }
+    mutually_exclusive = { focus = SWE_disloyalty }
+		x = 5
+		y = 7
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    add_stability = 0.1
+    set_country_flag = PATH_CHOSEN
+    add_ideas = mon_drift
+		}
+
+		ai_will_do = {
+			factor = 80
+			}
+	}
+  focus = {
+		id = SWE_denmark_returns_territory
+		icon = GFX_goal_generic_position_armies
+    prerequisite = { focus = SWE_loyalty }
+		x = 5
+		y = 8
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			SWE = { transfer_state = 140 }
+      SWE = { transfer_state = 139 }
+      SWE = { transfer_state = 138 }
+		}
+
+		ai_will_do = {
+			factor = 80
+			}
+	}
+  focus = {
+		id = SWE_crowning_of_harald_i
+		icon = GFX_crowning_of_harald_i
+    prerequisite = { focus = SWE_denmark_returns_territory }
+		x = 5
+		y = 9
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+      add_stability = 0.1
+      DEN = { end_puppet = SWE }
+      DEN = { add_to_faction = SWE }
+      create_country_leader = { name = "Harald I" picture = "harald_i.dds" ideology = absolutism }
+      set_cosmetic_tag = SWE_king_den
+      set_capital = 138
+		}
+
+		ai_will_do = {
+			factor = 80
+			}
+	}
+  focus = {
+		id = SWE_disloyalty
+		icon = GFX_focus_generic_support_the_left_right
+    prerequisite = { focus = SWE_forge_our_path }
+    mutually_exclusive = { focus = SWE_loyalty }
+		x = 13
+		y = 7
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+			factor = 20
+			}
+	}
+  focus = {
+		id = SWE_independent_swedish_kingdom
+		icon = GFX_independent_swedish_kingdom
+    prerequisite = { focus = SWE_disloyalty }
+    mutually_exclusive = { focus = SWE_svea_rike }
+		x = 11
+		y = 8
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    set_country_flag = PATH_CHOSEN
+    add_ideas = mon_drift
+    DEN = { end_puppet = SWE }
+    DEN = { remove_from_faction = SWE }
+    set_country_flag = LEFT_OLDENBURG_REALMS
+    set_cosmetic_tag = SWE_king
+    create_country_leader = { name = "Gustaf V" picture = "gustaf_v.dds" ideology = absolutism }
+    set_country_flag = PATH_CHOSEN
+    }
+		ai_will_do = {
+			factor = 50
+			}
+	}
+  focus = {
+		id = SWE_svea_rike
+		icon = GFX_svea_rike
+    prerequisite = { focus = SWE_disloyalty }
+    mutually_exclusive = { focus = SWE_independent_swedish_kingdom }
+		x = 15
+		y = 8
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = -0.1
+      add_political_power = 100
+      add_ideas = tp_drift
+      DEN = { end_puppet = SWE }
+      DEN = { remove_from_faction = SWE }
+      set_country_flag = LEFT_OLDENBURG_REALMS
+      set_politics = { ruling_party = third_position elections_allowed = no }
+      set_country_flag = PATH_CHOSEN
+		}
+
+		ai_will_do = {
+			factor = 50
+			}
+	}
+}
