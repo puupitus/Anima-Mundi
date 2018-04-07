@@ -1421,6 +1421,7 @@ country = {
 
 		completion_reward = {
     add_ideas = mon_drift
+    set_cosmetic_tag = NOR_king
     FRA = { add_to_faction = NOR }
     }
 		ai_will_do = {
