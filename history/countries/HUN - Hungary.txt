@@ -46,7 +46,6 @@ BOH = {
 		ruling_party = monarchism
 			}
 }
-add_to_faction = ITA
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

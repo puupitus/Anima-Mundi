@@ -1134,6 +1134,18 @@ spriteTypes = {
 		name = "GFX_austrofascist_swiss_austria"
 		texturefile = "gfx/interface/goals/austrofascist_swiss_austria.dds"
 	}
+	SpriteType = {
+		name = "GFX_kingdom_of_austrian_netherlands"
+		texturefile = "gfx/interface/goals/kingdom_of_austrian_netherlands.dds"
+	}
+	SpriteType = {
+		name = "GFX_batavian_republic"
+		texturefile = "gfx/interface/goals/batavian_republic.dds"
+	}
+	SpriteType = {
+		name = "GFX_bataafse_rijk"
+		texturefile = "gfx/interface/goals/bataafse_rijk.dds"
+	}
 
 
 

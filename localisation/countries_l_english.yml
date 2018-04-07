@@ -126,11 +126,11 @@
  ################################################################################
 
  BNL_monarchism:0 "Governorate of Austrian Netherlands"
- BNL_republicanism:0 "Batavian Confederation"
+ BNL_republicanism:0 "Batavian Republic"
  BNL_socialism:0 "People's Republic of Batavia"
  BNL_third_position:0 "Bataafse Rijk"
  BNL_monarchism_DEF:0 "The Governorate of Austrian Netherlands"
- BNL_republicanism_DEF:0 "The Batavian Confederation"
+ BNL_republicanism_DEF:0 "The Batavian Republic"
  BNL_socialism_DEF:0 "The People's Republic of Batavia"
  BNL_third_position_DEF:0 "The Bataafse Rijk"
  BNL_monarchism_ADJ:0 "Batavian"
@@ -885,7 +885,7 @@
  SPA_republicanism:0 "Republic of Nueva España"
  SPA_socialism:0 "Socialist Republic of Nueva España"
  SPA_third_position:0 "Falangist Nueva España"
- SPA_monarchism_DEF:0 "The Empire of Nueva España"
+ SPA_monarchism_DEF:0 "The Nueva España"
  SPA_republicanism_DEF:0 "The Republic of Nueva España"
  SPA_socialism_DEF:0 "The Socialist Republic of Nueva España"
  SPA_third_position_DEF:0 "The Falangist Nueva España"
