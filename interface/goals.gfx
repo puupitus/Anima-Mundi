@@ -1124,16 +1124,17 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_schwarze_front_bohmen"
-		texturefile = "gfx/interface/goals/GFX_schwarze_front_bohmen.dds"
+		texturefile = "gfx/interface/goals/schwarze_front_bohmen.dds"
 	}
 	SpriteType = {
 		name = "GFX_cisleithania"
-		texturefile = "gfx/interface/goals/GFX_cisleithania.dds"
+		texturefile = "gfx/interface/goals/cisleithania.dds"
 	}
 	SpriteType = {
 		name = "GFX_austrofascist_swiss_austria"
-		texturefile = "gfx/interface/goals/GFX_austrofascist_swiss_austria.dds"
+		texturefile = "gfx/interface/goals/austrofascist_swiss_austria.dds"
 	}
+
 
 
 
