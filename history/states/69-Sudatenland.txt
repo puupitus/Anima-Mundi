@@ -54,6 +54,7 @@ state=
 		add_core_of = HAN
 		add_core_of = BRA
 		add_core_of = KRA
+		add_core_of = SWI
 
 		1938.9.30 = {
 			owner = GER

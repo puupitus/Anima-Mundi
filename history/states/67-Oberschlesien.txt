@@ -24,6 +24,7 @@ state={
 		add_core_of = POL
 		add_core_of = MOR
 		add_core_of = BOH
+		add_core_of = SWI
 	}
 
 	provinces={

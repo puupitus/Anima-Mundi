@@ -21,6 +21,7 @@ state=
 		add_core_of = SIC
 		add_core_of = SAR
 		add_core_of = YUG
+		add_core_of = SWI
 	}
 	provinces={
 		596 665 3631 3654 6650 6672 9596 9627 11612 	}

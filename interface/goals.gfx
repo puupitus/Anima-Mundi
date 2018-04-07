@@ -1094,6 +1094,46 @@ spriteTypes = {
 		name = "GFX_makhnovshchyna_ukraine"
 		texturefile = "gfx/interface/goals/makhnovshchyna_ukraine.dds"
 	}
+	SpriteType = {
+		name = "GFX_kingdom_of_wallachia"
+		texturefile = "gfx/interface/goals/kingdom_of_wallachia.dds"
+	}
+	SpriteType = {
+		name = "GFX_iron_guard_wallachia"
+		texturefile = "gfx/interface/goals/iron_guard_wallachia.dds"
+	}
+	SpriteType = {
+		name = "GFX_kingdom_of_krakow"
+		texturefile = "gfx/interface/goals/kingdom_of_krakow.dds"
+	}
+	SpriteType = {
+		name = "GFX_krakow_commune"
+		texturefile = "gfx/interface/goals/krakow_commune.dds"
+	}
+	SpriteType = {
+		name = "GFX_kingdom_of_moravia"
+		texturefile = "gfx/interface/goals/kingdom_of_moravia.dds"
+	}
+	SpriteType = {
+		name = "GFX_great_moravia"
+		texturefile = "gfx/interface/goals/great_moravia.dds"
+	}
+	SpriteType = {
+		name = "GFX_kingdom_of_bohemia"
+		texturefile = "gfx/interface/goals/kingdom_of_bohemia.dds"
+	}
+	SpriteType = {
+		name = "GFX_schwarze_front_bohmen"
+		texturefile = "gfx/interface/goals/GFX_schwarze_front_bohmen.dds"
+	}
+	SpriteType = {
+		name = "GFX_cisleithania"
+		texturefile = "gfx/interface/goals/GFX_cisleithania.dds"
+	}
+	SpriteType = {
+		name = "GFX_austrofascist_swiss_austria"
+		texturefile = "gfx/interface/goals/GFX_austrofascist_swiss_austria.dds"
+	}
 
 
 
