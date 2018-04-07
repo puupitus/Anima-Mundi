@@ -1,12 +1,12 @@
 focus_tree = {
-id = BAL_focus
+id = TEO_focus
 
 country = {
   factor = 0
 
   modifier = {
     add = 10
-    tag = BAL
+    tag = TEO
   }
 }
 
@@ -19,7 +19,7 @@ country = {
 ####################
 
 	focus = {
-		id = BAL_war_games
+		id = TEO_war_games
 		icon = GFX_goal_generic_build_tank
 		x = 5
 		y = 0
@@ -37,9 +37,9 @@ country = {
 	}
 
 	focus = {
-		id = BAL_army_effort
+		id = TEO_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BAL_war_games }
+		prerequisite = { focus = TEO_war_games }
 		x = 1
 		y = 1
 		cost = 10
@@ -60,10 +60,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_infantry_equipment
+		id = TEO_infantry_equipment
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = BAL_army_effort }
-		mutually_exclusive = { focus = BAL_special_forces }
+		prerequisite = { focus = TEO_army_effort }
+		mutually_exclusive = { focus = TEO_special_forces }
 		x = 0
 		y = 2
 		cost = 10
@@ -83,10 +83,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_special_forces
+		id = TEO_special_forces
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = BAL_army_effort }
-		mutually_exclusive = { focus = BAL_infantry_equipment }
+		prerequisite = { focus = TEO_army_effort }
+		mutually_exclusive = { focus = TEO_infantry_equipment }
 		x = 2
 		y = 2
 		cost = 10
@@ -115,10 +115,10 @@ country = {
 
 
 	focus = {
-		id = BAL_support_equipment
+		id = TEO_support_equipment
 		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = BAL_infantry_equipment focus = BAL_special_forces }
-		mutually_exclusive = { focus = BAL_artillery_equipment }
+		prerequisite = { focus = TEO_infantry_equipment focus = TEO_special_forces }
+		mutually_exclusive = { focus = TEO_artillery_equipment }
 		x = 0
 		y = 3
 		cost = 10
@@ -138,10 +138,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_artillery_equipment
+		id = TEO_artillery_equipment
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = BAL_infantry_equipment focus = BAL_special_forces }
-		mutually_exclusive = { focus = BAL_support_equipment }
+		prerequisite = { focus = TEO_infantry_equipment focus = TEO_special_forces }
+		mutually_exclusive = { focus = TEO_support_equipment }
 		x = 2
 		y = 3
 		cost = 10
@@ -161,10 +161,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_doctrines
+		id = TEO_doctrines
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = BAL_support_equipment focus = BAL_artillery_equipment }
-		mutually_exclusive = { focus = BAL_mechanization }
+		prerequisite = { focus = TEO_support_equipment focus = TEO_artillery_equipment }
+		mutually_exclusive = { focus = TEO_mechanization }
 		x = 0
 		y = 4
 		cost = 10
@@ -184,10 +184,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_mechanization
+		id = TEO_mechanization
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = BAL_support_equipment focus = BAL_artillery_equipment }
-		mutually_exclusive = { focus = BAL_doctrines }
+		prerequisite = { focus = TEO_support_equipment focus = TEO_artillery_equipment }
+		mutually_exclusive = { focus = TEO_doctrines }
 		x = 2
 		y = 4
 		cost = 10
@@ -208,10 +208,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_elite_training
+		id = TEO_elite_training
 		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = BAL_doctrines focus = BAL_mechanization }
-		mutually_exclusive = { focus = BAL_mass_conscription }
+		prerequisite = { focus = TEO_doctrines focus = TEO_mechanization }
+		mutually_exclusive = { focus = TEO_mass_conscription }
 		x = 0
 		y = 5
 		cost = 10
@@ -227,10 +227,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_mass_conscription
+		id = TEO_mass_conscription
 		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = BAL_doctrines focus = BAL_mechanization }
-		mutually_exclusive = { focus = BAL_elite_training }
+		prerequisite = { focus = TEO_doctrines focus = TEO_mechanization }
+		mutually_exclusive = { focus = TEO_elite_training }
 		x = 2
 		y = 5
 		cost = 10
@@ -246,9 +246,9 @@ country = {
 	}
 
 	focus = {
-		id = BAL_aviation_effort
+		id = TEO_aviation_effort
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = BAL_war_games }
+		prerequisite = { focus = TEO_war_games }
 		x = 5
 		y = 1
 		cost = 10
@@ -332,10 +332,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_fighter_focus
+		id = TEO_fighter_focus
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = BAL_aviation_effort }
-		mutually_exclusive = { focus = BAL_bomber_focus }
+		prerequisite = { focus = TEO_aviation_effort }
+		mutually_exclusive = { focus = TEO_bomber_focus }
 		x = 4
 		y = 2
 		cost = 10
@@ -360,10 +360,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_bomber_focus
+		id = TEO_bomber_focus
 		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = BAL_aviation_effort }
-		mutually_exclusive = { focus = BAL_fighter_focus }
+		prerequisite = { focus = TEO_aviation_effort }
+		mutually_exclusive = { focus = TEO_fighter_focus }
 		x = 6
 		y = 2
 		cost = 10
@@ -389,10 +389,10 @@ country = {
 
 
 	focus = {
-		id = BAL_CAS_effort
+		id = TEO_CAS_effort
 		icon = GFX_goal_generic_CAS
 		prerequisite = { focus = fighter_focus focus = bomber_focus }
-		mutually_exclusive = { focus = BAL_NAV_effort }
+		mutually_exclusive = { focus = TEO_NAV_effort }
 		x = 4
 		y = 3
 		cost = 10
@@ -413,10 +413,10 @@ country = {
 
 
 	focus = {
-		id = BAL_NAV_effort
+		id = TEO_NAV_effort
 		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { focus = BAL_fighter_focus focus = BAL_bomber_focus }
-		mutually_exclusive = { focus = BAL_CAS_effort }
+		prerequisite = { focus = TEO_fighter_focus focus = TEO_bomber_focus }
+		mutually_exclusive = { focus = TEO_CAS_effort }
 		x = 6
 		y = 3
 		cost = 10
@@ -436,9 +436,9 @@ country = {
 	}
 
 	focus = {
-		id = BAL_naval_effort
+		id = TEO_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = BAL_war_games }
+		prerequisite = { focus = TEO_war_games }
 		x = 9
 		y = 1
 		cost = 10
@@ -565,10 +565,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_submarines
+		id = TEO_submarines
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = BAL_naval_effort }
-		mutually_exclusive = { focus = BAL_destroyers }
+		prerequisite = { focus = TEO_naval_effort }
+		mutually_exclusive = { focus = TEO_destroyers }
 		x = 8
 		y = 2
 		cost = 10
@@ -593,10 +593,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_destroyers
+		id = TEO_destroyers
 		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { focus = BAL_naval_effort }
-		mutually_exclusive = { focus = BAL_submarines }
+		prerequisite = { focus = TEO_naval_effort }
+		mutually_exclusive = { focus = TEO_submarines }
 		x = 10
 		y = 2
 		cost = 10
@@ -621,10 +621,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_naval_doctrines
+		id = TEO_naval_doctrines
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = BAL_submarines focus = BAL_destroyers }
-		mutually_exclusive = { focus = BAL_capital_ships }
+		prerequisite = { focus = TEO_submarines focus = TEO_destroyers }
+		mutually_exclusive = { focus = TEO_capital_ships }
 		x = 8
 		y = 3
 		cost = 10
@@ -648,10 +648,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_capital_ships
+		id = TEO_capital_ships
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = BAL_submarines focus = BAL_destroyers }
-		mutually_exclusive = { focus = BAL_naval_doctrines}
+		prerequisite = { focus = TEO_submarines focus = TEO_destroyers }
+		mutually_exclusive = { focus = TEO_naval_doctrines}
 		x = 10
 		y = 3
 		cost = 10
@@ -688,10 +688,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_coastal_defense
+		id = TEO_coastal_defense
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = BAL_naval_doctrines focus = BAL_capital_ships }
-		mutually_exclusive = { focus = BAL_power_projection}
+		prerequisite = { focus = TEO_naval_doctrines focus = TEO_capital_ships }
+		mutually_exclusive = { focus = TEO_power_projection}
 		x = 8
 		y = 4
 		cost = 10
@@ -709,10 +709,10 @@ country = {
 	}
 
 	focus = {
-		id = BAL_power_projection
+		id = TEO_power_projection
 		icon = GFX_goal_generic_navy_carrier
-		prerequisite = { focus = BAL_naval_doctrines focus = BAL_capital_ships }
-		mutually_exclusive = { focus = BAL_coastal_defense}
+		prerequisite = { focus = TEO_naval_doctrines focus = TEO_capital_ships }
+		mutually_exclusive = { focus = TEO_coastal_defense}
 		x = 10
 		y = 4
 		cost = 10
@@ -730,7 +730,7 @@ country = {
 	}
 
 	focus = {
-		id = BAL_industrial_effort
+		id = TEO_industrial_effort
 		icon = GFX_goal_generic_production
 		x = 14
 		y = 0
@@ -752,9 +752,9 @@ country = {
 	}
 
 	focus = {
-		id = BAL_construction_effort
+		id = TEO_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = BAL_industrial_effort }
+		prerequisite = { focus = TEO_industrial_effort }
 		x = 12
 		y = 1
 		cost = 10
@@ -824,9 +824,9 @@ country = {
 	}
 
 	focus = {
-		id = BAL_armament_effort
+		id = TEO_armament_effort
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = BAL_industrial_effort }
+		prerequisite = { focus = TEO_industrial_effort }
 		x = 14
 		y = 1
 		cost = 10
@@ -895,9 +895,9 @@ country = {
 	}
 
 	focus = {
-		id = BAL_construction_effort_2
+		id = TEO_construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = BAL_construction_effort }
+		prerequisite = { focus = TEO_construction_effort }
 		x = 12
 		y = 2
 		cost = 10
@@ -966,9 +966,9 @@ country = {
 	}
 
 	focus = {
-		id = BAL_armament_effort_2
+		id = TEO_armament_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = BAL_armament_effort }
+		prerequisite = { focus = TEO_armament_effort }
 		x = 14
 		y = 2
 		cost = 10
@@ -1037,9 +1037,9 @@ country = {
 	}
 
 	focus = {
-		id = BAL_construction_effort_3
+		id = TEO_construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = BAL_construction_effort_2 }
+		prerequisite = { focus = TEO_construction_effort_2 }
 		x = 12
 		y = 3
 		cost = 10
@@ -1108,9 +1108,9 @@ country = {
 	}
 
 	focus = {
-		id = BAL_armament_effort_3
+		id = TEO_armament_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = BAL_armament_effort_2 }
+		prerequisite = { focus = TEO_armament_effort_2 }
 		x = 14
 		y = 3
 		cost = 10
@@ -1179,9 +1179,9 @@ country = {
 	}
 
 	focus = {
-		id = BAL_infrastructure_effort
+		id = TEO_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = BAL_industrial_effort }
+		prerequisite = { focus = TEO_industrial_effort }
 		x = 16
 		y = 1
 		cost = 10
@@ -1274,9 +1274,9 @@ country = {
 	}
 
 	focus = {
-		id = BAL_radar_technology
+		id = TEO_radar_technology
 		icon = GFX_goal_generic_radar
-		prerequisite = { focus = BAL_infrastructure_effort }
+		prerequisite = { focus = TEO_infrastructure_effort }
 		x = 16
 		y = 2
 		cost = 10
@@ -1300,9 +1300,9 @@ country = {
 	}
 
 	focus = {
-		id = BAL_advanced_technologies
+		id = TEO_advanced_technologies
 		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = BAL_radar_technology }
+		prerequisite = { focus = TEO_radar_technology }
 		x = 16
 		y = 3
 		cost = 10
@@ -1329,11 +1329,9 @@ country = {
 		}
 	}
   focus = {
-		id = BAL_forge_our_path
+		id = TEO_forge_our_path
 		icon = GFX_forge_our_path
-    available = { }
-    prerequisite = { }
-    mutually_exclusive = { }
+
 		x = 9
 		y = 6
 		cost = 10
@@ -1349,19 +1347,23 @@ country = {
 			}
 	}
   focus = {
-		id = BAL_loyalty
-		icon = GFX_focus_generic_diplomatic_treaty
-    prerequisite = { focus = BAL_forge_our_path }
-    mutually_exclusive = { focus = BAL_disloyalty }
-		x = 5
+		id = TEO_teutonic_order
+		icon = GFX_teutonic_order
+    prerequisite = { focus = TEO_forge_our_path }
+
+    mutually_exclusive = {
+    focus = TEO_teutonic_dictatorial_order
+    }
+		x = 7
 		y = 7
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-    add_stability = 0.1
-    add_ideas = mon_drift
+			add_ideas = mon_drift
+      add_stability = 0.2
+      HUN = { add_to_faction = TEO }
 		}
 
 		ai_will_do = {
@@ -1369,99 +1371,28 @@ country = {
 			}
 	}
   focus = {
-		id = BAL_disloyalty
-		icon = GFX_focus_generic_support_the_left_right
-    prerequisite = { focus = BAL_forge_our_path }
-    mutually_exclusive = { focus = BAL_loyalty }
-		x = 13
+		id = TEO_teutonic_dictatorial_order
+		icon = GFX_teutonic_dictatorial_order
+    prerequisite = { focus = TEO_forge_our_path }
+
+    mutually_exclusive = {
+    focus = TEO_teutonic_order
+    }
+		x = 11
 		y = 7
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-    add_stability = -0.1
+			add_ideas = tp_drift
+      add_stability = -0.2
+      set_politics = { ruling_party = third_position elections_allowed = no }
+      SIB = { add_to_faction = TEO }
 		}
 
 		ai_will_do = {
 			factor = 10
 			}
 	}
-  focus = {
-		id = BAL_united_baltic_duchy
-		icon = GFX_united_baltic_duchy
-    prerequisite = { focus = BAL_loyalty }
-    available = {
-    OR = {
-    is_in_faction_with = BAL
-    tag = BAL }
-    AND = {
-    controls_state = 96
-    controls_state = 13
-    controls_state = 12
-    controls_state = 11
-    controls_state = 189 }
-    }
-		x = 5
-		y = 8
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-    add_stability = 0.1
-    add_political_power = 150
-    set_cosmetic_tag = BAL_ubd
-    DEN = { end_puppet = BAL }
-		}
-
-		ai_will_do = {
-			factor = 10
-			}
-	}
-  focus = {
-		id = BAL_livonian_confederation
-		icon = GFX_livonian_confederation
-    prerequisite = { focus = BAL_disloyalty }
-    mutually_exclusive = { focus = BAL_terra_mariana }
-		x = 12
-		y = 8
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-    add_stability = -0.1
-    add_ideas = rep_drift
-    set_politics = { ruling_party = republicanism elections_allowed = no }
-    SIB = { add_to_faction = BAL }
-		}
-
-		ai_will_do = {
-			factor = 50
-			}
-	}
-  focus = {
-		id = BAL_terra_mariana
-		icon = GFX_terra_mariana
-    prerequisite = { focus = BAL_disloyalty }
-    mutually_exclusive = { focus = BAL_livonian_confederation }
-		x = 14
-		y = 8
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-    add_stability = -0.1
-    add_ideas = tp_drift
-    set_politics = { ruling_party = third_position elections_allowed = no }
-    POL = { add_to_faction = BAL }
-		}
-
-		ai_will_do = {
-			factor = 50
-			}
-	}
-
 }

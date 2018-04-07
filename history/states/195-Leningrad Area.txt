@@ -30,6 +30,7 @@ state={
 		add_core_of = SOV
 		add_core_of = SIB
 		add_core_of = TCS
+		add_core_of = TEO
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 7

@@ -4,12 +4,7 @@ oob = "POL_1936"
 set_country_flag = EUROPEAN
 set_major = yes
 create_faction = "Zeitgeist Pact"
-puppet = PRS
-PRS = {
-	set_politics = {
-		ruling_party = third_position
-			}
-}
+add_to_faction = PRS
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

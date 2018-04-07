@@ -20,7 +20,6 @@ state={
 		}
 		add_core_of = FRA
 		add_core_of = IBE
-		add_core_of = ITA
 	}
 
 	provinces={

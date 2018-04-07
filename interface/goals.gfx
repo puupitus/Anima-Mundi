@@ -1062,6 +1062,38 @@ spriteTypes = {
 		name = "GFX_national_bolshevik"
 		texturefile = "gfx/interface/goals/national_bolshevik.dds"
 	}
+	SpriteType = {
+		name = "GFX_government_of_west_russia"
+		texturefile = "gfx/interface/goals/government_of_west_russia.dds"
+	}
+	SpriteType = {
+		name = "GFX_grand_duchy_of_novgorod"
+		texturefile = "gfx/interface/goals/grand_duchy_of_novgorod.dds"
+	}
+	SpriteType = {
+		name = "GFX_teutonic_order"
+		texturefile = "gfx/interface/goals/teutonic_order.dds"
+	}
+	SpriteType = {
+		name = "GFX_teutonic_dictatorial_order"
+		texturefile = "gfx/interface/goals/teutonic_dictatorial_order.dds"
+	}
+	SpriteType = {
+		name = "GFX_hetmanate"
+		texturefile = "gfx/interface/goals/hetmanate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ukrainian_soviet_socialist_republic"
+		texturefile = "gfx/interface/goals/ukrainian_soviet_socialist_republic.dds"
+	}
+	SpriteType = {
+		name = "GFX_republic_of_ukraine"
+		texturefile = "gfx/interface/goals/republic_of_ukraine.dds"
+	}
+	SpriteType = {
+		name = "GFX_makhnovshchyna_ukraine"
+		texturefile = "gfx/interface/goals/makhnovshchyna_ukraine.dds"
+	}
 
 
 
