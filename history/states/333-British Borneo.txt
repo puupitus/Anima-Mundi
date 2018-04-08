@@ -27,6 +27,7 @@ state=
 		}
 		add_core_of = BEN
 		add_core_of = INS
+		add_core_of = PHI
 	}
 
 	provinces={

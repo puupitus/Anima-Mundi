@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = PAK
+		owner = IND
 		add_core_of = MYS
 		add_core_of = IND
 		add_core_of = PAK

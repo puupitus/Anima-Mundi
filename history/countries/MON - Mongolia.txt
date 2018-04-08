@@ -31,11 +31,11 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 30
+				popularity = 20
 			}
 
 			socialism = {
-				popularity = 40
+				popularity = 30
 			}
 
 			republicanism = {
@@ -43,10 +43,10 @@ set_politics = {
 			}
 
 			monarchism = {
-				popularity = 20
+				popularity = 40
 			}
 		}
-	ruling_party = socialism
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Khorloogiin Choibalsan"
 	picture = "khorloogiin_choibalsan.dds"
 	ideology = conservatistic
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -64,7 +64,7 @@ create_country_leader = {
 	name = "Bogd Khan"
 	picture = "bogd_khan.dds"
 	ideology = absolutism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "Khorloogiin Choibalsan"
 	picture = "khorloogiin_choibalsan.dds"
 	ideology = marxist
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Khorloogiin Choibalsan"
 	picture = "khorloogiin_choibalsan.dds"
 	ideology = nazism
-	traits = {
+	traits = { zeitgeist_default
 		#
 	}
 }

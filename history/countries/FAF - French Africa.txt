@@ -32,7 +32,7 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 30
+				popularity = 10
 			}
 
 			socialism = {
@@ -40,22 +40,22 @@ set_politics = {
 			}
 
 			republicanism = {
-				popularity = 40
+				popularity = 30
 			}
 
 			monarchism = {
-				popularity = 10
+				popularity = 40
 			}
 		}
-	ruling_party = republicanism
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "François Darlan"
-	picture = "francois_darlan.dds"
+	name = "Mostefa Ben Boulaïd"
+	picture = "mostefa_ben_boulaid.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#

@@ -1838,6 +1838,21 @@ SIA = {
 	 }
 	callsigns = { }
 }
+BUR = {
+	male = {
+		names = {
+			Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = {
+		Suriyawongse Saovabha Chichalerm Nitithada Phonphayuhasena
+
+	 }
+	callsigns = { }
+}
 ROC = {
 	male = {
 		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }

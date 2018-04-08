@@ -9,6 +9,7 @@ state={
 		owner = DAI
 		add_core_of = DAI
 		add_core_of = SIA
+		add_core_of = BUR
 		buildings = {
 			infrastructure = 2
 		}

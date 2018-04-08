@@ -9,7 +9,7 @@ state={
 		chromium=2 # was: 2
 	}
 	history={
-		owner = PAK
+		owner = IND
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

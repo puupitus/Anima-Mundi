@@ -13,6 +13,7 @@ state={
 		owner = IND
 		add_core_of = MYS
 		add_core_of = IND
+		add_core_of = BUR
 		buildings = {
 			infrastructure = 1
 		}

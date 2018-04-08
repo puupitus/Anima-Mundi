@@ -8,7 +8,7 @@ state=
 
 	history=
 	{
-		owner = IBE
+		owner = PHI
 		buildings = {
 			infrastructure = 3
 			12118 = {
@@ -21,6 +21,7 @@ state=
 		}
 		add_core_of = AST
 		add_core_of = JAP
+		add_core_of = PHI
 	}
 
 	provinces={

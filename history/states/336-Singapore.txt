@@ -43,6 +43,7 @@ state={
 		add_core_of = SIA
 		add_core_of = INS
 		add_core_of = BEN
+		add_core_of = BUR
 	}
 
 	provinces={

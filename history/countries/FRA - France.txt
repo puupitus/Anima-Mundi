@@ -7,7 +7,7 @@ create_faction = "Nouveau Régime"
 puppet = FAF
 FAF = {
 	set_politics = {
-		ruling_party = republicanism
+		ruling_party = monarchism
 			}
 		}
 puppet = QUE
@@ -19,19 +19,19 @@ QUE = {
 puppet = DAI
 DAI = {
 	set_politics = {
-		ruling_party = republicanism
+		ruling_party = monarchism
 			}
 		}
 puppet = CAF
 CAF = {
 	set_politics = {
-		ruling_party = republicanism
+		ruling_party = monarchism
 			}
 }
 puppet = BAV
 BAV = {
 	set_politics = {
-		ruling_party = republicanism
+		ruling_party = monarchism
 			}
 }
 

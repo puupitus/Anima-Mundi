@@ -16,7 +16,12 @@ MAN = {
 		ruling_party = third_position
 			}
 }
-
+puppet = BUR
+BUR = {
+	set_politics = {
+		ruling_party = third_position
+			}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

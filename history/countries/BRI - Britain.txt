@@ -8,6 +8,7 @@ add_to_faction = AST
 add_to_faction = IND
 add_to_faction = SIC
 add_to_faction = HAN
+add_to_faction = TCS
 
 
 # Starting tech

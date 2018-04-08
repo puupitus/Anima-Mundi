@@ -7,10 +7,11 @@ state={
 	state_category = town
 
 	history={
-		owner = IND
+		owner = BUR
 		add_core_of = MYS
 		add_core_of = IND
 		add_core_of = SIA
+		add_core_of = BUR
 		buildings = {
 			infrastructure = 3
 			air_base = 1

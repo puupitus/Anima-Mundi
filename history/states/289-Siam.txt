@@ -33,6 +33,7 @@ state={
 		}
 		add_core_of = SIA
 		add_core_of = DAI
+		add_core_of = BUR
 	}
 
 	provinces={

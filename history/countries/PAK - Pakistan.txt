@@ -1,15 +1,9 @@
-capital = 439
+capital = 267
 
 oob = "PAK_1936"
 set_country_flag = ASIAN
 set_country_flag = MUSLIM
 set_major = yes
-puppet = IRA
-IRA = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -69,8 +63,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Muhammad Ali Jinnah"
-	picture = "muhammad_ali_jinnah.dds"
+	name = "Amanullah I"
+	picture = "amanullah_i.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#

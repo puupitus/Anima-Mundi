@@ -14,6 +14,7 @@ state={
 	owner = SIA
 	add_core_of = SIA
 	add_core_of = BEN
+	add_core_of = BUR
 		buildings = {
 			infrastructure = 3
 		}

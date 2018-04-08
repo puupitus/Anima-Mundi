@@ -40,8 +40,8 @@ color = rgb { 229 192 192 }
 color_ui = rgb { 229 192 192 }
 }
 BNL = {
-color = rgb { 250 224 66 }
-color_ui = rgb { 250 224 66 }
+color = rgb { 255 128 25 }
+color_ui = rgb { 255 128 25 }
 }
 BOH = {
 color = rgb { 255 225 219 }
@@ -58,6 +58,10 @@ BRI = {
 BUL = {
 color = rgb { 0 150 110 }
 color_ui = rgb { 0 150 110 }
+}
+BUR = {
+color = rgb { 58 119 40 }
+color_ui = rgb { 58 119 40 }
 }
 BYZ = {
 color = rgb { 13  94  175 }
@@ -132,8 +136,8 @@ color = rgb { 119 48 39 }
 color_ui = rgb { 155 62 51 }
 }
 HUN = {
-color = rgb { 255 204 30 }
-color_ui = rgb { 255 204 30 }
+color = rgb { 67 111 77 }
+color_ui = rgb { 67 111 77 }
 }
 IBE = {
 color = rgb { 242 205 94 }
@@ -172,8 +176,8 @@ color = rgb { 255 231 0 }
 color_ui = rgb { 255 231 0 }
 }
 LOM = {
-	color = rgb { 67 127 63 }
-	color_ui = rgb { 87 165 82 }
+	color = rgb { 81 153 76 }
+	color_ui = rgb { 81 153 76 }
 }
 LUS = {
 	color = rgb { 30 20 20 }
@@ -214,6 +218,10 @@ color_ui = rgb { 222 247 198 }
 PAK = {
 color = rgb { 1 65 28 }
 color_ui = rgb { 1 65 28 }
+}
+PHI = {
+color = rgb { 97 120 165 }
+color_ui = rgb { 97 120 165 }
 }
 PRU = {
 color = rgb { 235 16 35 }

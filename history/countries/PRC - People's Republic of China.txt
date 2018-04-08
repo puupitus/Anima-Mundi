@@ -4,6 +4,8 @@ oob = "PRC_1936"
 set_country_flag = ASIAN
 set_major = yes
 create_faction = "League of Harmony and Justice"
+add_to_faction = MON
+add_to_faction = JOS
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
