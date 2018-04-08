@@ -1,12 +1,12 @@
 focus_tree = {
-id = BLR_focus
+id = BRA_focus
 
 country = {
   factor = 0
 
   modifier = {
     add = 10
-    tag = BLR
+    tag = BRA
   }
 }
 
@@ -19,7 +19,7 @@ country = {
 ####################
 
 	focus = {
-		id = BLR_war_games
+		id = BRA_war_games
 		icon = GFX_goal_generic_build_tank
 		x = 5
 		y = 0
@@ -37,9 +37,9 @@ country = {
 	}
 
 	focus = {
-		id = BLR_army_effort
+		id = BRA_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BLR_war_games }
+		prerequisite = { focus = BRA_war_games }
 		x = 1
 		y = 1
 		cost = 10
@@ -60,10 +60,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_infantry_equipment
+		id = BRA_infantry_equipment
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = BLR_army_effort }
-		mutually_exclusive = { focus = BLR_special_forces }
+		prerequisite = { focus = BRA_army_effort }
+		mutually_exclusive = { focus = BRA_special_forces }
 		x = 0
 		y = 2
 		cost = 10
@@ -83,10 +83,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_special_forces
+		id = BRA_special_forces
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = BLR_army_effort }
-		mutually_exclusive = { focus = BLR_infantry_equipment }
+		prerequisite = { focus = BRA_army_effort }
+		mutually_exclusive = { focus = BRA_infantry_equipment }
 		x = 2
 		y = 2
 		cost = 10
@@ -115,10 +115,10 @@ country = {
 
 
 	focus = {
-		id = BLR_support_equipment
+		id = BRA_support_equipment
 		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = BLR_infantry_equipment focus = BLR_special_forces }
-		mutually_exclusive = { focus = BLR_artillery_equipment }
+		prerequisite = { focus = BRA_infantry_equipment focus = BRA_special_forces }
+		mutually_exclusive = { focus = BRA_artillery_equipment }
 		x = 0
 		y = 3
 		cost = 10
@@ -138,10 +138,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_artillery_equipment
+		id = BRA_artillery_equipment
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = BLR_infantry_equipment focus = BLR_special_forces }
-		mutually_exclusive = { focus = BLR_support_equipment }
+		prerequisite = { focus = BRA_infantry_equipment focus = BRA_special_forces }
+		mutually_exclusive = { focus = BRA_support_equipment }
 		x = 2
 		y = 3
 		cost = 10
@@ -161,10 +161,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_doctrines
+		id = BRA_doctrines
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = BLR_support_equipment focus = BLR_artillery_equipment }
-		mutually_exclusive = { focus = BLR_mechanization }
+		prerequisite = { focus = BRA_support_equipment focus = BRA_artillery_equipment }
+		mutually_exclusive = { focus = BRA_mechanization }
 		x = 0
 		y = 4
 		cost = 10
@@ -184,10 +184,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_mechanization
+		id = BRA_mechanization
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = BLR_support_equipment focus = BLR_artillery_equipment }
-		mutually_exclusive = { focus = BLR_doctrines }
+		prerequisite = { focus = BRA_support_equipment focus = BRA_artillery_equipment }
+		mutually_exclusive = { focus = BRA_doctrines }
 		x = 2
 		y = 4
 		cost = 10
@@ -208,10 +208,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_elite_training
+		id = BRA_elite_training
 		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = BLR_doctrines focus = BLR_mechanization }
-		mutually_exclusive = { focus = BLR_mass_conscription }
+		prerequisite = { focus = BRA_doctrines focus = BRA_mechanization }
+		mutually_exclusive = { focus = BRA_mass_conscription }
 		x = 0
 		y = 5
 		cost = 10
@@ -227,10 +227,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_mass_conscription
+		id = BRA_mass_conscription
 		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = BLR_doctrines focus = BLR_mechanization }
-		mutually_exclusive = { focus = BLR_elite_training }
+		prerequisite = { focus = BRA_doctrines focus = BRA_mechanization }
+		mutually_exclusive = { focus = BRA_elite_training }
 		x = 2
 		y = 5
 		cost = 10
@@ -246,9 +246,9 @@ country = {
 	}
 
 	focus = {
-		id = BLR_aviation_effort
+		id = BRA_aviation_effort
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = BLR_war_games }
+		prerequisite = { focus = BRA_war_games }
 		x = 5
 		y = 1
 		cost = 10
@@ -332,10 +332,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_fighter_focus
+		id = BRA_fighter_focus
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = BLR_aviation_effort }
-		mutually_exclusive = { focus = BLR_bomber_focus }
+		prerequisite = { focus = BRA_aviation_effort }
+		mutually_exclusive = { focus = BRA_bomber_focus }
 		x = 4
 		y = 2
 		cost = 10
@@ -360,10 +360,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_bomber_focus
+		id = BRA_bomber_focus
 		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = BLR_aviation_effort }
-		mutually_exclusive = { focus = BLR_fighter_focus }
+		prerequisite = { focus = BRA_aviation_effort }
+		mutually_exclusive = { focus = BRA_fighter_focus }
 		x = 6
 		y = 2
 		cost = 10
@@ -389,10 +389,10 @@ country = {
 
 
 	focus = {
-		id = BLR_CAS_effort
+		id = BRA_CAS_effort
 		icon = GFX_goal_generic_CAS
 		prerequisite = { focus = fighter_focus focus = bomber_focus }
-		mutually_exclusive = { focus = BLR_NAV_effort }
+		mutually_exclusive = { focus = BRA_NAV_effort }
 		x = 4
 		y = 3
 		cost = 10
@@ -413,10 +413,10 @@ country = {
 
 
 	focus = {
-		id = BLR_NAV_effort
+		id = BRA_NAV_effort
 		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { focus = BLR_fighter_focus focus = BLR_bomber_focus }
-		mutually_exclusive = { focus = BLR_CAS_effort }
+		prerequisite = { focus = BRA_fighter_focus focus = BRA_bomber_focus }
+		mutually_exclusive = { focus = BRA_CAS_effort }
 		x = 6
 		y = 3
 		cost = 10
@@ -436,9 +436,9 @@ country = {
 	}
 
 	focus = {
-		id = BLR_naval_effort
+		id = BRA_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = BLR_war_games }
+		prerequisite = { focus = BRA_war_games }
 		x = 9
 		y = 1
 		cost = 10
@@ -565,10 +565,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_submarines
+		id = BRA_submarines
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = BLR_naval_effort }
-		mutually_exclusive = { focus = BLR_destroyers }
+		prerequisite = { focus = BRA_naval_effort }
+		mutually_exclusive = { focus = BRA_destroyers }
 		x = 8
 		y = 2
 		cost = 10
@@ -593,10 +593,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_destroyers
+		id = BRA_destroyers
 		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { focus = BLR_naval_effort }
-		mutually_exclusive = { focus = BLR_submarines }
+		prerequisite = { focus = BRA_naval_effort }
+		mutually_exclusive = { focus = BRA_submarines }
 		x = 10
 		y = 2
 		cost = 10
@@ -621,10 +621,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_naval_doctrines
+		id = BRA_naval_doctrines
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = BLR_submarines focus = BLR_destroyers }
-		mutually_exclusive = { focus = BLR_capital_ships }
+		prerequisite = { focus = BRA_submarines focus = BRA_destroyers }
+		mutually_exclusive = { focus = BRA_capital_ships }
 		x = 8
 		y = 3
 		cost = 10
@@ -648,10 +648,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_capital_ships
+		id = BRA_capital_ships
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = BLR_submarines focus = BLR_destroyers }
-		mutually_exclusive = { focus = BLR_naval_doctrines}
+		prerequisite = { focus = BRA_submarines focus = BRA_destroyers }
+		mutually_exclusive = { focus = BRA_naval_doctrines}
 		x = 10
 		y = 3
 		cost = 10
@@ -688,10 +688,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_coastal_defense
+		id = BRA_coastal_defense
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = BLR_naval_doctrines focus = BLR_capital_ships }
-		mutually_exclusive = { focus = BLR_power_projection}
+		prerequisite = { focus = BRA_naval_doctrines focus = BRA_capital_ships }
+		mutually_exclusive = { focus = BRA_power_projection}
 		x = 8
 		y = 4
 		cost = 10
@@ -709,10 +709,10 @@ country = {
 	}
 
 	focus = {
-		id = BLR_power_projection
+		id = BRA_power_projection
 		icon = GFX_goal_generic_navy_carrier
-		prerequisite = { focus = BLR_naval_doctrines focus = BLR_capital_ships }
-		mutually_exclusive = { focus = BLR_coastal_defense}
+		prerequisite = { focus = BRA_naval_doctrines focus = BRA_capital_ships }
+		mutually_exclusive = { focus = BRA_coastal_defense}
 		x = 10
 		y = 4
 		cost = 10
@@ -730,7 +730,7 @@ country = {
 	}
 
 	focus = {
-		id = BLR_industrial_effort
+		id = BRA_industrial_effort
 		icon = GFX_goal_generic_production
 		x = 14
 		y = 0
@@ -752,9 +752,9 @@ country = {
 	}
 
 	focus = {
-		id = BLR_construction_effort
+		id = BRA_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = BLR_industrial_effort }
+		prerequisite = { focus = BRA_industrial_effort }
 		x = 12
 		y = 1
 		cost = 10
@@ -824,9 +824,9 @@ country = {
 	}
 
 	focus = {
-		id = BLR_armament_effort
+		id = BRA_armament_effort
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = BLR_industrial_effort }
+		prerequisite = { focus = BRA_industrial_effort }
 		x = 14
 		y = 1
 		cost = 10
@@ -895,9 +895,9 @@ country = {
 	}
 
 	focus = {
-		id = BLR_construction_effort_2
+		id = BRA_construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = BLR_construction_effort }
+		prerequisite = { focus = BRA_construction_effort }
 		x = 12
 		y = 2
 		cost = 10
@@ -966,9 +966,9 @@ country = {
 	}
 
 	focus = {
-		id = BLR_armament_effort_2
+		id = BRA_armament_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = BLR_armament_effort }
+		prerequisite = { focus = BRA_armament_effort }
 		x = 14
 		y = 2
 		cost = 10
@@ -1037,9 +1037,9 @@ country = {
 	}
 
 	focus = {
-		id = BLR_construction_effort_3
+		id = BRA_construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = BLR_construction_effort_2 }
+		prerequisite = { focus = BRA_construction_effort_2 }
 		x = 12
 		y = 3
 		cost = 10
@@ -1108,9 +1108,9 @@ country = {
 	}
 
 	focus = {
-		id = BLR_armament_effort_3
+		id = BRA_armament_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = BLR_armament_effort_2 }
+		prerequisite = { focus = BRA_armament_effort_2 }
 		x = 14
 		y = 3
 		cost = 10
@@ -1179,9 +1179,9 @@ country = {
 	}
 
 	focus = {
-		id = BLR_infrastructure_effort
+		id = BRA_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = BLR_industrial_effort }
+		prerequisite = { focus = BRA_industrial_effort }
 		x = 16
 		y = 1
 		cost = 10
@@ -1274,9 +1274,9 @@ country = {
 	}
 
 	focus = {
-		id = BLR_radar_technology
+		id = BRA_radar_technology
 		icon = GFX_goal_generic_radar
-		prerequisite = { focus = BLR_infrastructure_effort }
+		prerequisite = { focus = BRA_infrastructure_effort }
 		x = 16
 		y = 2
 		cost = 10
@@ -1300,9 +1300,9 @@ country = {
 	}
 
 	focus = {
-		id = BLR_advanced_technologies
+		id = BRA_advanced_technologies
 		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = BLR_radar_technology }
+		prerequisite = { focus = BRA_radar_technology }
 		x = 16
 		y = 3
 		cost = 10
@@ -1329,9 +1329,11 @@ country = {
 		}
 	}
   focus = {
-		id = BLR_forge_our_path
+		id = BRA_forge_our_path
 		icon = GFX_forge_our_path
-
+    available = { }
+    prerequisite = { }
+    mutually_exclusive = { }
 		x = 9
 		y = 6
 		cost = 10
@@ -1340,6 +1342,7 @@ country = {
 
 		completion_reward = {
 			add_political_power = 150
+      add_ideas = mon_drift
 		}
 
 		ai_will_do = {
@@ -1347,36 +1350,22 @@ country = {
 			}
 	}
   focus = {
-		id = BLR_byelorussian_republic
-		icon = GFX_byelorussian_republic
-    prerequisite = { focus = BLR_forge_our_path }
-    mutually_exclusive = {
-    focus = BLR_soviet_socialist_republic
-    focus = BLR_national_bolshevik
+		id = BRA_north_german_empire
+		icon = GFX_north_german_empire
+    available = {
+    BRA = { has_government = monarchism }
+    OR = {
+    is_in_faction_with = BRA
+    tag = BRA }
+    AND = {
+    controls_state = 55
+    controls_state = 59
+    controls_state = 62
+    controls_state = 64
+    controls_state = 85 }
     }
-		x = 6
-		y = 7
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = rep_drift
-      add_stability = 0.2
-      IBE = { add_to_faction = BLR }
-		}
-
-		ai_will_do = {
-			factor = 80
-			}
-	}
-  focus = {
-		id = BLR_soviet_socialist_republic
-		icon = GFX_soviet_socialist_republic
-    prerequisite = { focus = BLR_forge_our_path }
+    prerequisite = { focus = BRA_forge_our_path }
     mutually_exclusive = {
-    focus = BLR_byelorussian_republic
-    focus = BLR_national_bolshevik
     }
 		x = 9
 		y = 7
@@ -1385,39 +1374,21 @@ country = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = soc_drift
-      set_politics = { ruling_party = socialism elections_allowed = no }
-      add_stability = -0.2
-      BRI = { add_to_faction = BLR }
+			add_stability = 0.2
+      add_political_power = 150
+      set_cosmetic_tag = NOG_empire
+      HUN = { end_puppet = BRA }
+      annex_country = { target = RHI }
+      annex_country = { target = BAV }
+      annex_country = { target = HAN }
+      annex_country = { target = PRS }
+      create_country_leader = { name = "Wilhelm II" picture = "wilhelm_ii.dds" ideology = absolutism }
 		}
 
 		ai_will_do = {
 			factor = 10
 			}
 	}
-  focus = {
-		id = BLR_national_bolshevik
-		icon = GFX_national_bolshevik
-    prerequisite = { focus = BLR_forge_our_path }
-    mutually_exclusive = {
-    focus = BLR_byelorussian_republic
-    focus = BLR_soviet_socialist_republic
-    }
-		x = 12
-		y = 7
-		cost = 10
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			add_ideas = tp_drift
-      set_politics = { ruling_party = third_position elections_allowed = no }
-      add_stability = -0.2
-      POL = { add_to_faction = BLR }
-		}
-
-		ai_will_do = {
-			factor = 10
-			}
-	}
 }

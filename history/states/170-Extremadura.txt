@@ -18,6 +18,7 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = IBE
+add_core_of = LUS
 		add_core_of = SPA
 	}
 

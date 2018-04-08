@@ -8,6 +8,7 @@ state=
 		owner = OSJ
 		add_core_of = BRI
 		add_core_of = IBE
+add_core_of = LUS
 		add_core_of = FRA
 		add_core_of = BYZ
 		add_core_of = ITA

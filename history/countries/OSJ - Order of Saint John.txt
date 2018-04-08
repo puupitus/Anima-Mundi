@@ -2,6 +2,7 @@ capital = 116
 
 oob = "OSJ_1936"
 set_country_flag = EUROPEAN
+add_ideas = knights_hospitaller
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

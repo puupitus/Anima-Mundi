@@ -4,9 +4,6 @@ oob = "SIB_1936"
 set_country_flag = ASIAN
 set_country_flag = EUROPEAN
 set_major = yes
-create_faction = "Eighth Coalition"
-add_to_faction = IBE
-add_to_faction = IRE
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

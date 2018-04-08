@@ -1416,7 +1416,7 @@ country = {
 			add_ideas = rep_drift
       set_politics = { ruling_party = republicanism elections_allowed = no }
       add_stability = -0.2
-      SIB = { add_to_faction = UKR }
+      IBE = { add_to_faction = UKR }
 		}
 
 		ai_will_do = {

@@ -11,6 +11,7 @@ state=
 		owner = IBE
 		add_core_of = BNL
 		add_core_of = IBE
+add_core_of = LUS
 		buildings = {
 			infrastructure = 2
 			1903 = {

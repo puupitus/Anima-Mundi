@@ -1,12 +1,1 @@
-WFI_gfi = {
-color = rgb { 184  186  224 }
-color_ui = rgb { 184  186  224 }
-}
-SWE_king = {
-color = rgb { 0  106  167 }
-color_ui = rgb { 0  106  167 }
-}
-SWE_king_den = {
-color = rgb { 0  106  167 }
-color_ui = rgb { 0  106  167 }
-}
+

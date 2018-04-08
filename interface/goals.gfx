@@ -1146,6 +1146,14 @@ spriteTypes = {
 		name = "GFX_bataafse_rijk"
 		texturefile = "gfx/interface/goals/bataafse_rijk.dds"
 	}
+	SpriteType = {
+		name = "GFX_north_german_empire"
+		texturefile = "gfx/interface/goals/north_german_empire.dds"
+	}
+	SpriteType = {
+		name = "GFX_north_german_socialist_republic"
+		texturefile = "gfx/interface/goals/north_german_socialist_republic.dds"
+	}
 
 
 
