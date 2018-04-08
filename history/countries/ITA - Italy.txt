@@ -2,7 +2,6 @@ capital = 2
 
 oob = "ITA_1936"
 set_country_flag = EUROPEAN
-
 puppet = OSJ
 OSJ = {
 	set_politics = {

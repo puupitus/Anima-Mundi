@@ -8,6 +8,7 @@ state={
 		add_core_of = MAN
 		add_core_of = ROC
 		add_core_of = XIN
+		add_core_of = ALT
 		buildings = {
 			infrastructure = 1
 

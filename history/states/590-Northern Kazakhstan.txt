@@ -7,7 +7,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = ALT
+		owner = SIB
 		victory_points = {
 			4333 1
 		}
@@ -15,7 +15,10 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = ALT
-		#add_core_of = KAZ
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = SIB
+		add_core_of = TCS
 	}
 
 	provinces={

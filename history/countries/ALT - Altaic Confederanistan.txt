@@ -1,4 +1,4 @@
-capital = 586
+capital = 585
 
 oob = "ALT_1936"
 set_country_flag = ASIAN
@@ -32,22 +32,22 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 10
-			}
-
-			socialism = {
 				popularity = 30
 			}
 
+			socialism = {
+				popularity = 20
+			}
+
 			republicanism = {
-				popularity = 40
+				popularity = 10
 			}
 
 			monarchism = {
-				popularity = 20
+				popularity = 40
 			}
 		}
-	ruling_party = republicanism
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -62,24 +62,24 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Levon Mirzoyan"
-	picture = "levon_mirzoyan.dds"
+	name = "Mohammed Alim Khan"
+	picture = "mohammed_alim_khan.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Levon Mirzoyan"
-	picture = "levon_mirzoyan.dds"
+	name = "Fayzulla Khodzhayev"
+	picture = "fayzulla_khodzhayev.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Levon Mirzoyan"
-	picture = "levon_mirzoyan.dds"
+	name = "Alikhan Bukeikhanov"
+	picture = "alikhan_bukeikhanov.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

@@ -10,12 +10,6 @@ PRS = {
 		ruling_party = third_position
 			}
 }
-puppet = LOM
-LOM = {
-	set_politics = {
-		ruling_party = third_position
-			}
-}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

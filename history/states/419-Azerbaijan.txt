@@ -14,11 +14,7 @@ state={
 			1896 3
 		}
 		add_core_of = IRA
-		add_core_of = PAK
-		add_core_of = RUS
-		add_core_of = SOV
-		add_core_of = SIB
-		add_core_of = TCS
+		add_core_of = OTT
 	}
 
 	provinces={

@@ -6,7 +6,9 @@ state={
 		owner = ALT
 		buildings = {
 			infrastructure = 3
-
+		}
+		victory_points = {
+			4499 10
 		}
 		add_core_of = ALT
 	}

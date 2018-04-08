@@ -4,12 +4,12 @@ oob = "BRI_1936"
 set_country_flag = EUROPEAN
 set_major = yes
 create_faction = "Socialist International"
-add_to_faction = AST
-add_to_faction = IND
-add_to_faction = SIC
-add_to_faction = HAN
-add_to_faction = TCS
-
+puppet = HAN
+HAN = {
+	set_politics = {
+		ruling_party = socialism
+			}
+}
 
 # Starting tech
 set_technology = {
