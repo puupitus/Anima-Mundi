@@ -23,12 +23,6 @@ ALB = {
 		ruling_party = monarchism
 			}
 }
-puppet = ARA
-ARA = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
 puppet = EGY
 EGY = {
 	set_politics = {

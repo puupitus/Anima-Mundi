@@ -1362,7 +1362,7 @@ country = {
 		completion_reward = {
     add_stability = 0.1
     add_ideas = mon_drift
-    HUN = { end_puppet = SWI }
+    IMP = { end_puppet = SWI }
 		}
 
 		ai_will_do = {
@@ -1404,11 +1404,8 @@ country = {
     add_stability = 0.1
     add_political_power = 150
     set_cosmetic_tag = SWI_king
-    HUN = { set_cosmetic_tag = HUN_king }
-    SWI = { transfer_state = 4 }
-    SWI = { transfer_state = 102 }
+    set_capital = 53
     SWI = { transfer_state = 736 }
-    set_capital = 4
 		}
 
 		ai_will_do = {

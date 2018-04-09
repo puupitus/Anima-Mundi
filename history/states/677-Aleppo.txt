@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = OTT
+		owner = SIP
 		victory_points = {
 			12473 1
 		}

@@ -1377,7 +1377,7 @@ country = {
 			add_stability = 0.2
       add_political_power = 150
       set_cosmetic_tag = NOG_empire
-      HUN = { end_puppet = BRA }
+      IMP = { end_puppet = BRA }
       annex_country = { target = RHI }
       annex_country = { target = BAV }
       annex_country = { target = HAN }

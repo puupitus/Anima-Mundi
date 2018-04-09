@@ -1,4 +1,4 @@
-capital = 454
+capital = 554
 
 oob = "SIP_1936"
 set_country_flag = MIDDLE_EASTERN
@@ -54,32 +54,32 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Henri Gouraud"
-	picture = "henri_gouraud.dds"
+	name = "Akram al-Hawrani"
+	picture = "akram_al_hawrani.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Amin al-Husseini"
-	picture = "amin_al_husseini.dds"
+	name = "Mohammed Ali Bey al-Abed"
+	picture = "mohammed_ali_bey_al_abed.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Eliezer Preminger"
-	picture = "eliezer_preminger.dds"
+	name = "Akram al-Hawrani"
+	picture = "akram_al_hawrani.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Walter Rothschild"
-	picture = "walter_rothschild.dds"
+	name = "Akram al-Hawrani"
+	picture = "akram_al_hawrani.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

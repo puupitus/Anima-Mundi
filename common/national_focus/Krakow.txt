@@ -1362,7 +1362,7 @@ country = {
 		completion_reward = {
     add_stability = 0.1
     add_ideas = mon_drift
-    HUN = { end_puppet = KRA }
+    IMP = { end_puppet = KRA }
 		}
 
 		ai_will_do = {

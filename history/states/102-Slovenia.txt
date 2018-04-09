@@ -8,7 +8,7 @@ state=
 
 	history =
 	{
-		owner = HUN
+		owner = IMP
 		buildings = {
 			infrastructure = 6
 		}
@@ -22,6 +22,7 @@ state=
 		add_core_of = SAR
 		add_core_of = YUG
 		add_core_of = SWI
+		add_core_of = IMP
 	}
 	provinces={
 		596 665 3631 3654 6650 6672 9596 9627 11612 	}

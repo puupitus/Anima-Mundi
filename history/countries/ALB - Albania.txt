@@ -60,8 +60,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Zog I"
-	picture = "zog_i.dds"
+	name = "Vidi I"
+	picture = "william_of_wied.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#

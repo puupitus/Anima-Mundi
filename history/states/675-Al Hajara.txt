@@ -6,12 +6,13 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = ARA
+		owner = OTT
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = SIP
 		add_core_of = ARA
+		add_core_of = OTT
 	}
 
 	provinces={

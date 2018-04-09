@@ -3,49 +3,6 @@ capital = 43
 oob = "HUN_1936"
 set_country_flag = EUROPEAN
 set_major = yes
-create_faction = "Sacrum Romanum Imperium"
-puppet = BNL
-BNL = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = SWI
-SWI = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = BRA
-BRA = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = ROM
-ROM = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = MOR
-MOR = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = KRA
-KRA = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = BOH
-BOH = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
 
 # Starting tech
 set_technology = {

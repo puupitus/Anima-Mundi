@@ -10,7 +10,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = HUN
+		owner = IMP
 		victory_points = {
 			11666 30.0
 		}
@@ -28,6 +28,7 @@ state={
 		add_core_of = PRS
 		add_core_of = RHI
 		add_core_of = SWI
+		add_core_of = IMP
 
 		1938.3.12 = {
 			owner = GER
