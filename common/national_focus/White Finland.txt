@@ -1363,15 +1363,14 @@ country = {
 
 		completion_reward = {
 			add_ideas = mon_drift
-      set_politics = { ruling_party = monarchism elections_allowed = no }
-      add_stability = -0.2
+      add_stability = 0.2
       DEN = { add_to_faction = WFI }
       WFI = { transfer_state = 145 }
       create_country_leader = { name = "Nuutti I" picture = "nuutti_i.dds" ideology = absolutism }
 		}
 
 		ai_will_do = {
-			factor = 10
+			factor = 50
 			}
 	}
   focus = {
@@ -1390,13 +1389,12 @@ country = {
 
 		completion_reward = {
 			add_ideas = mon_drift
-      set_politics = { ruling_party = monarchism elections_allowed = no }
-      add_stability = -0.2
+      add_stability = 0.2
       IMP = { add_to_faction = WFI }
 		}
 
 		ai_will_do = {
-			factor = 10
+			factor = 50
 			}
 	}
   focus = {
@@ -1416,13 +1414,14 @@ country = {
 
 		completion_reward = {
 			add_ideas = tp_drift
-      add_stability = 0.2
+      add_stability = -0.2
+      set_politics = { ruling_party = third_position elections_allowed = no }
       set_cosmetic_tag = WFI_gfi
       POL = { add_to_faction = WFI }
 		}
 
 		ai_will_do = {
-			factor = 80
+			factor = 20
 			}
 	}
 }

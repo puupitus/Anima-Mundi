@@ -107,6 +107,10 @@ DEN = {
 color = rgb { 153 116 93 }
 color_ui = rgb { 153 116 93 }
 }
+DIN = {
+color = rgb { 244 42 65 }
+color_ui = rgb { 244 42 65 }
+}
 EGY = {
 color = rgb { 231 214 158 }
 color_ui = rgb { 231 214 158 }

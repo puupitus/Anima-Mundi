@@ -1,8 +1,8 @@
-capital = 361
+capital = 430
 
-oob = "USA_1936"
-set_country_flag = AMERICAN
-set_major = yes
+oob = "DIN_1936"
+set_country_flag = ASIAN
+set_country_flag = MUSLIM
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -32,54 +32,54 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 30
-			}
-
-			socialism = {
 				popularity = 10
 			}
 
+			socialism = {
+				popularity = 30
+			}
+
 			republicanism = {
-				popularity = 40
+				popularity = 20
 			}
 
 			monarchism = {
-				popularity = 20
+				popularity = 40
 			}
 		}
-	ruling_party = republicanism
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Franklin D. Roosevelt"
-	picture = "franklin_d_roosevelt.dds"
+	name = "A. K. Fazlul Huq"
+	picture = "a_k_fazlul_huq.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "August von Mackensen"
-	picture = "august_von_mackensen.dds"
+	name = "Prince Frederick of Denmark"
+	picture = "frederick_ix.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Norman Thomas"
-	picture = "norman_thomas.dds"
+	name = "Shawkat Ali"
+	picture = "shawkat_ali.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Fritz Julius Kuhn"
-	picture = "fritz_julius_kuhn.dds"
+	name = "Huseyn Shaheed Suhrawardy"
+	picture = "huseyn_shaheed_suhrawardy.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

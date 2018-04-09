@@ -40,6 +40,12 @@ BAL = {
 		ruling_party = monarchism
 			}
 }
+puppet = DIN
+DIN = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
 
 
 # Starting tech

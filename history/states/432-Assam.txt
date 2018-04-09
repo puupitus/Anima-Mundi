@@ -11,11 +11,12 @@ state={
 	}
 
 	history={
-		owner = IND
+		owner = BUR
 		add_core_of = MYS
 		add_core_of = IND
 		add_core_of = PAK
 		add_core_of = BUR
+		add_core_of = DIN
 		buildings = {
 			infrastructure = 3
 		}
