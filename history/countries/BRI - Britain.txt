@@ -10,6 +10,18 @@ HAN = {
 		ruling_party = socialism
 			}
 }
+puppet = AST
+AST = {
+	set_politics = {
+		ruling_party = socialism
+			}
+}
+puppet = IND
+IND = {
+	set_politics = {
+		ruling_party = socialism
+			}
+}
 
 # Starting tech
 set_technology = {

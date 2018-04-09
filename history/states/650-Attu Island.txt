@@ -11,6 +11,10 @@ state=
 		add_core_of = CAL
 		add_core_of = AST
 		add_core_of = JAP
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = SIB
+		add_core_of = TCS
 		victory_points = {
 			13067 1
 		}

@@ -1,8 +1,7 @@
-﻿capital = 271
+capital = 454
 
-oob = "ABY_1936"
-set_country_flag = AFRICAN
-
+oob = "JER_1936"
+set_country_flag = EUROPEAN
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -31,15 +30,15 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 10
-			}
-
-			socialism = {
 				popularity = 30
 			}
 
-			republicanism = {
+			socialism = {
 				popularity = 20
+			}
+
+			republicanism = {
+				popularity = 10
 			}
 
 			monarchism = {
@@ -53,32 +52,32 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Haile Selassie"
-	picture = "haile_selassie.dds"
-	ideology = absolutism
-	traits = { zeitgeist_default
-		#
-	}
-}
-create_country_leader = {
-	name = "Aman Andom"
-	picture = "aman_andom.dds"
+	name = "Amin al-Husseini"
+	picture = "amin_al_husseini.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Aman Andom"
-	picture = "aman_andom.dds"
+	name = "Eugenio Maria Giuseppe Giovanni Pacelli"
+	picture = "eugenio_maria_giuseppe_giovanni_pacelli.dds"
+	ideology = absolutism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Enzo Sereni"
+	picture = "enzo_sereni.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Aman Andom"
-	picture = "aman_andom.dds"
+	name = "David Ben-Gurion"
+	picture = "david_ben_gurion.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

@@ -8,6 +8,12 @@ OSJ = {
 		ruling_party = monarchism
 			}
 }
+puppet = JER
+JER = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
