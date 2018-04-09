@@ -90,20 +90,3 @@ create_country_leader = {
 		#
 	}
 }
-create_corps_commander = {
-	name = "Giovanni Messe"
-	picture = "giovanni_messe.dds"
-	skill = 1
-}
-
-create_navy_leader = {
-	name = "Angelo Iachino"
-	picture = "angelo_iachino.dds"
-	skill = 1
-}
-
-create_field_marshal = {
-	name = "Pietro Badoglio"
-	picture = "pietro_badoglio.dds"
-	skill = 2
-}

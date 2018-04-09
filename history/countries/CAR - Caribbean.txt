@@ -84,8 +84,3 @@ create_country_leader = {
 		#
 	}
 }
-create_field_marshal = {
-	name = "Fulgencio Batista"
-	picture = "fulgencio_batista.dds"
-	skill = 2
-}

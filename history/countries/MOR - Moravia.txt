@@ -84,8 +84,3 @@ create_country_leader = {
 		#
 	}
 }
-create_corps_commander = {
-	name = "Ján Golian"
-	picture = "jan_golian.dds"
-	skill = 1
-}

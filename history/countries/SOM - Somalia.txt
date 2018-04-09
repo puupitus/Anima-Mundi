@@ -85,8 +85,3 @@ create_country_leader = {
 		#
 	}
 }
-create_corps_commander = {
-	name = "Mohamed Siad Barre"
-	picture = "mohamed_siad_barre.dds"
-	skill = 1
-}

@@ -84,8 +84,3 @@ create_country_leader = {
 		#
 	}
 }
-create_field_marshal = {
-	name = "Michał Rola-Żymierski"
-	picture = "michal_rola_zymierski.dds"
-	skill = 2
-}

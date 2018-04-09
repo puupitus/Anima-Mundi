@@ -84,8 +84,3 @@ create_country_leader = {
 		#
 	}
 }
-create_corps_commander = {
-	name = "Ludvík Svoboda"
-	picture = "ludvik_svoboda.dds"
-	skill = 1
-}

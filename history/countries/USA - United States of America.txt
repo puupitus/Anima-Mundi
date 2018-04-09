@@ -85,20 +85,3 @@ create_country_leader = {
 		#
 	}
 }
-create_corps_commander = {
-	name = "George S. Patton"
-	picture = "george_s_patton.dds"
-	skill = 1
-}
-
-create_navy_leader = {
-	name = "Chester W. Nimitz"
-	picture = "chester_w_nimitz.dds"
-	skill = 1
-}
-
-create_field_marshal = {
-	name = "Dwight D. Eisenhower"
-	picture = "dwight_d_eisenhower.dds"
-	skill = 2
-}

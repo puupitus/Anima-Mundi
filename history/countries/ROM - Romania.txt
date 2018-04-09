@@ -84,13 +84,3 @@ create_country_leader = {
 		#
 	}
 }
-create_field_marshal = {
-	name = "Ion Antonescu"
-	picture = "ion_antonescu.dds"
-	skill = 2
-}
-create_navy_leader = {
-	name = "Horia Macellariu"
-	picture = "horia_macellariu.dds"
-	skill = 1
-}

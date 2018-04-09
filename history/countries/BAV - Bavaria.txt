@@ -84,15 +84,3 @@ create_country_leader = {
 		#
 	}
 }
-create_corps_commander = {
-	name = "Heinz Guderian"
-	picture = "heinz_guderian.dds"
-	skill = 1
-}
-
-
-create_field_marshal = {
-	name = "Walter Model"
-	picture = "walter_model.dds"
-	skill = 2
-}
