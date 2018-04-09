@@ -40,12 +40,6 @@ ARG = {
 		ruling_party = monarchism
 			}
 }
-puppet = MEX
-MEX = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
 
 # Starting tech
 set_technology = {

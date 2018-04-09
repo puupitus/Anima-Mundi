@@ -1347,14 +1347,41 @@ country = {
 			}
 	}
   focus = {
+		id = FIN_finnic_monarchy2
+		icon = GFX_finnic_monarchy2
+    prerequisite = { focus = FIN_forge_our_path }
+
+    mutually_exclusive = {
+    focus = FIN_proletarian_dictatorship
+    focus = FIN_finnic_republic
+    }
+		x = 7
+		y = 7
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = mon_drift
+      set_politics = { ruling_party = monarchism elections_allowed = no }
+      add_stability = -0.2
+      FRA = { add_to_faction = FIN }
+		}
+
+		ai_will_do = {
+			factor = 10
+			}
+	}
+  focus = {
 		id = FIN_finnic_republic
 		icon = GFX_finnic_republic_fin
     prerequisite = { focus = FIN_forge_our_path }
 
     mutually_exclusive = {
     focus = FIN_proletarian_dictatorship
+    focus = FIN_finnic_monarchy2
     }
-		x = 7
+		x = 9
 		y = 7
 		cost = 10
 
@@ -1368,7 +1395,7 @@ country = {
 		}
 
 		ai_will_do = {
-			factor = 20
+			factor = 10
 			}
 	}
   focus = {
@@ -1378,6 +1405,7 @@ country = {
 
     mutually_exclusive = {
     focus = FIN_finnic_republic
+    focus = FIN_finnic_monarchy2
     }
 		x = 11
 		y = 7
@@ -1389,7 +1417,7 @@ country = {
 			add_ideas = soc_drift
       add_stability = 0.2
       set_cosmetic_tag = FIN_prole
-      BRI = { add_to_faction = FIN }
+      MEX = { add_to_faction = FIN }
 		}
 
 		ai_will_do = {

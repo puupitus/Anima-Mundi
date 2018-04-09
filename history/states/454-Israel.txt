@@ -23,12 +23,12 @@ state={
 			4206 1
 		}
 		add_core_of = SIP
-		add_core_of = ABY
 		add_core_of = ARA
 		add_core_of = BYZ
 		add_core_of = OSJ
 		add_core_of = JER
 		add_core_of = EGY
+		add_core_of = ABY
 	}
 
 	provinces={

@@ -1347,12 +1347,13 @@ country = {
 			}
 	}
   focus = {
-		id = WFI_finnic_monarchy
-		icon = GFX_finnic_monarchy
+		id = WFI_danish_monarchy
+		icon = GFX_danish_monarchy
     prerequisite = { focus = WFI_forge_our_path }
 
     mutually_exclusive = {
     focus = WFI_greater_finland
+    focus = WFI_finnic_monarchy
     }
 		x = 7
 		y = 7
@@ -1365,6 +1366,33 @@ country = {
       set_politics = { ruling_party = monarchism elections_allowed = no }
       add_stability = -0.2
       DEN = { add_to_faction = WFI }
+      WFI = { transfer_state = 145 }
+      create_country_leader = { name = "Nuutti I" picture = "nuutti_i.dds" ideology = absolutism }
+		}
+
+		ai_will_do = {
+			factor = 10
+			}
+	}
+  focus = {
+		id = WFI_finnic_monarchy
+		icon = GFX_finnic_monarchy
+    prerequisite = { focus = WFI_forge_our_path }
+
+    mutually_exclusive = {
+    focus = WFI_greater_finland
+    }
+		x = 9
+		y = 7
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = mon_drift
+      set_politics = { ruling_party = monarchism elections_allowed = no }
+      add_stability = -0.2
+      IMP = { add_to_faction = WFI }
 		}
 
 		ai_will_do = {
@@ -1378,6 +1406,7 @@ country = {
 
     mutually_exclusive = {
     focus = WFI_finnic_monarchy
+    focus = WFI_danish_monarchy_monarchy
     }
 		x = 11
 		y = 7

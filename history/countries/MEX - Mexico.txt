@@ -3,6 +3,7 @@ capital = 277
 oob = "MEX_1936"
 set_country_flag = AMERICAN
 set_major = yes
+create_faction = "Socialist International"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -36,7 +37,7 @@ set_politics = {
 			}
 
 			socialism = {
-				popularity = 30
+				popularity = 40
 			}
 
 			republicanism = {
@@ -44,10 +45,10 @@ set_politics = {
 			}
 
 			monarchism = {
-				popularity = 40
+				popularity = 30
 			}
 		}
-	ruling_party = monarchism
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

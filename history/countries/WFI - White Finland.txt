@@ -54,8 +54,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Edwin Linkomies"
-	picture = "edwin_linkomies.dds"
+	name = "Carl Gustaf Emil Mannerheim"
+	picture = "carl_gustaf_emil_mannerheim.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#

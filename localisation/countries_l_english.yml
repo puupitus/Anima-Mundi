@@ -1,16 +1,16 @@
 ﻿l_english:
  ABY_monarchism:0 "Abyssinian Empire"
- ABY_republicanism:0 "Federal Democratic Republic of Abyssinia"
- ABY_socialism:0 "Federal Socialist Republic of Abyssinia"
- ABY_third_position:0 "Abyssinian State"
+ ABY_republicanism:0 "Federal Democratic Republic of Ethiopia"
+ ABY_socialism:0 "Federal Socialist Republic of Ethiopia"
+ ABY_third_position:0 "Rastafarian Ethiopia"
  ABY_monarchism_DEF:0 "The Abyssinian Empire"
- ABY_republicanism_DEF:0 "The Federal Democratic Republic of Abyssinia"
- ABY_socialism_DEF:0 "The Federal Socialist Republic of Abyssinia"
- ABY_third_position_DEF:0 "The Abyssinian State"
+ ABY_republicanism_DEF:0 "The Federal Democratic Republic of Ethiopia"
+ ABY_socialism_DEF:0 "The Federal Socialist Republic of Ethiopia"
+ ABY_third_position_DEF:0 "The Rastafarian Ethiopia"
  ABY_monarchism_ADJ:0 "Abyssinian"
- ABY_republicanism_ADJ:0 "Abyssinian"
- ABY_socialism_ADJ:0 "Abyssinian"
- ABY_third_position_ADJ:0 "Abyssinian"
+ ABY_republicanism_ADJ:0 "Ethiopian"
+ ABY_socialism_ADJ:0 "Ethiopian"
+ ABY_third_position_ADJ:0 "Ethiopian"
  ################################################################################
 
  ALT_monarchism:0 "Emirate of Bukhara"
@@ -589,7 +589,7 @@
 
  MEX_monarchism:0 "Viceroyalty of Mexico"
  MEX_republicanism:0 "Confederate States of Mexico"
- MEX_socialism:0 "Socialist States of Mexico"
+ MEX_socialism:0 "United Socialist States of America"
  MEX_third_position:0 "Synarchist Mexico"
  MEX_monarchism_DEF:0 "The Viceroyalty of Mexico"
  MEX_republicanism_DEF:0 "The Confederate States of Mexico"
@@ -597,7 +597,7 @@
  MEX_third_position_DEF:0 "The Synarchist Mexico"
  MEX_monarchism_ADJ:0 "Mexican"
  MEX_republicanism_ADJ:0 "Mexican"
- MEX_socialism_ADJ:0 "Mexican"
+ MEX_socialism_ADJ:0 "American"
  MEX_third_position_ADJ:0 "Mexican"
  ################################################################################
 
@@ -990,7 +990,7 @@
  USA_monarchism_ADJ:0 "American"
  USA_republicanism_ADJ:0 "American"
  USA_socialism_ADJ:0 "American"
- USA_third_position_ADJ:0 "American"
+ USA_third_position_ADJ:0 "German-American"
  ################################################################################
 
  WAF_monarchism:0 "Archduchy of Danish Africa"

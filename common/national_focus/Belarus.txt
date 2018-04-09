@@ -1388,7 +1388,7 @@ country = {
 			add_ideas = soc_drift
       set_politics = { ruling_party = socialism elections_allowed = no }
       add_stability = -0.2
-      BRI = { add_to_faction = BLR }
+      MEX = { add_to_faction = BLR }
 		}
 
 		ai_will_do = {

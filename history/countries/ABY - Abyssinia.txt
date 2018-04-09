@@ -31,7 +31,7 @@ set_politics = {
 
 		parties = {
 			third_position = {
-				popularity = 10
+				popularity = 20
 			}
 
 			socialism = {
@@ -39,7 +39,7 @@ set_politics = {
 			}
 
 			republicanism = {
-				popularity = 20
+				popularity = 10
 			}
 
 			monarchism = {
@@ -77,8 +77,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Aman Andom"
-	picture = "aman_andom.dds"
+	name = "Haile Selassie"
+	picture = "haile_selassie.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

@@ -1425,7 +1425,7 @@ country = {
     add_stability = -0.1
     add_ideas = soc_drift
     set_politics = { ruling_party = socialism elections_allowed = no }
-    BRI = { add_to_faction = KRA }
+    MEX = { add_to_faction = KRA }
 		}
 
 		ai_will_do = {

@@ -196,8 +196,8 @@ color = rgb { 255 197 0 }
 color_ui = rgb { 255 197 0 }
 }
 MEX = {
-	color = rgb { 104 152 83 }
-	color_ui = rgb { 104 152 83 }
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }
 MON = {
 color = rgb { 147 12 20 }

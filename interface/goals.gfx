@@ -1154,6 +1154,14 @@ spriteTypes = {
 		name = "GFX_north_german_socialist_republic"
 		texturefile = "gfx/interface/goals/north_german_socialist_republic.dds"
 	}
+	SpriteType = {
+		name = "GFX_finnic_monarchy2"
+		texturefile = "gfx/interface/goals/finnic_monarchy2.dds"
+	}
+	SpriteType = {
+		name = "GFX_danish_monarchy"
+		texturefile = "gfx/interface/goals/danish_monarchy.dds"
+	}
 
 
 
