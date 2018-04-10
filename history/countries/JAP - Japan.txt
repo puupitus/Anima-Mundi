@@ -89,8 +89,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Hideki Tojo"
-	picture = "hideki_tojo.dds"
+	name = "Tokugawa Yoshichika"
+	picture = "tokugawa_yoshichika.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

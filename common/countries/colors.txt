@@ -72,8 +72,8 @@ CAF = {
 	color_ui = rgb { 251 222 10 }
 }
 CAL = {
-color = rgb { 255 224 207 }
-color_ui = rgb { 255 224 207 }
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
 }
 CAM = {
 color = rgb { 0 115 207 }
@@ -172,8 +172,8 @@ ITA = {
 	color_ui = rgb { 233 234 192 }
 }
 JAP = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+color = rgb { 255 224 207 }
+color_ui = rgb { 255 224 207 }
 }
 JER = {
 	color = rgb { 204 48 170 }
