@@ -537,7 +537,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/monarchism_group.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_third_position_group"
-		texturefile = "gfx/interface/ideologies/third_position_group.dds"
+		name = "GFX_ideology_nationalism_group"
+		texturefile = "gfx/interface/ideologies/nationalism_group.dds"
 	}
 }

@@ -15,13 +15,13 @@ bookmarks = {
 		}
 		"POL"={
 			history = "POL_ZEITGEIST_DESC"
-			ideology = third_position
+			ideology = nationalism
 			ideas = {	}
 			focuses = { }
 		}
 		"JAP"={
 			history = "JAP_ZEITGEIST_DESC"
-			ideology = third_position
+			ideology = nationalism
 			ideas = {	}
 			focuses = { }
 		}
@@ -57,7 +57,7 @@ bookmarks = {
 		"WFI"={
 			minor = yes
 			history = "WFI_ZEITGEIST_DESC"
-			ideology = third_position
+			ideology = nationalism
 			ideas = {	}
 			focuses = { }
 		}

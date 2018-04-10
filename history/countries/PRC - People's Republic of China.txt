@@ -32,7 +32,7 @@ set_research_slots = 5
 set_politics = {
 
 		parties = {
-			third_position = {
+			nationalism = {
 				popularity = 10
 			}
 

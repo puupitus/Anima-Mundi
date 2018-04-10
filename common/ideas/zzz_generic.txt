@@ -629,7 +629,7 @@ modifier = {
 socialism_drift = 0.1
 	 }
 }
-tp_drift = {
+nat_drift = {
 
 
 allowed = {
@@ -645,7 +645,7 @@ removal_cost = -1
 picture = generic_fascism_drift_bonus
 
 modifier = {
-third_position_drift = 0.1
+nationalism_drift = 0.1
 	 }
 }
 mon_drift = {

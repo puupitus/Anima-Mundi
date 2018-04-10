@@ -1,6 +1,6 @@
 ideologies = {
 
-	third_position = {
+	nationalism = {
 
 		types = {
 

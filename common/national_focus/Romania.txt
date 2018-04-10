@@ -1423,8 +1423,8 @@ country = {
 
 		completion_reward = {
     add_stability = -0.1
-    add_ideas = tp_drift
-    set_politics = { ruling_party = third_position elections_allowed = no }
+    add_ideas = nat_drift
+    set_politics = { ruling_party = nationalism elections_allowed = no }
     POL = { add_to_faction = ROM }
 		}
 

@@ -7,7 +7,7 @@ create_faction = "Zeitgeist Pact"
 puppet = PRS
 PRS = {
 	set_politics = {
-		ruling_party = third_position
+		ruling_party = nationalism
 			}
 }
 # Starting tech
@@ -38,7 +38,7 @@ set_research_slots = 5
 set_politics = {
 
 		parties = {
-			third_position = {
+			nationalism = {
 				popularity = 40
 			}
 
@@ -54,7 +54,7 @@ set_politics = {
 				popularity = 10
 			}
 		}
-	ruling_party = third_position
+	ruling_party = nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

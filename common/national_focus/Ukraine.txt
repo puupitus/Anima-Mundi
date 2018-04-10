@@ -1439,8 +1439,8 @@ country = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = tp_drift
-      set_politics = { ruling_party = third_position elections_allowed = no }
+			add_ideas = nat_drift
+      set_politics = { ruling_party = nationalism elections_allowed = no }
       add_stability = -0.2
       POL = { add_to_faction = UKR }
 		}

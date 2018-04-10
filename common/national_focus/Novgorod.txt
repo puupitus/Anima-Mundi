@@ -1361,7 +1361,7 @@ country = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = tp_drift
+			add_ideas = nat_drift
       add_stability = 0.2
       POL = { add_to_faction = SOV }
 		}
