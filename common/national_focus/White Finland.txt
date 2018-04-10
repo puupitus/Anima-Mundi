@@ -1352,10 +1352,12 @@ country = {
     prerequisite = { focus = WFI_forge_our_path }
 
     mutually_exclusive = {
-    focus = WFI_greater_finland
+    focus = WFI_radical_white_finland
     focus = WFI_finnic_monarchy
+    focus = WFI_republic_of_white_finland
+    focus = WFI_finnish_democratic_republic
     }
-		x = 7
+		x = 5
 		y = 7
 		cost = 10
 
@@ -1363,11 +1365,15 @@ country = {
 
 		completion_reward = {
 			add_ideas = mon_drift
-      add_stability = 0.2
+      add_stability = -0.2
+      set_politics = { ruling_party = monarchism elections_allowed = no }
       DEN = { add_to_faction = WFI }
       WFI = { transfer_state = 145 }
       create_country_leader = { name = "Nuutti I" picture = "nuutti_i.dds" ideology = absolutism }
+      hidden_effect = { set_cosmetic_tag = WFI_danish }
+      custom_effect_tooltip = danish_finland_tt
 		}
+
 
 		ai_will_do = {
 			factor = 50
@@ -1379,9 +1385,12 @@ country = {
     prerequisite = { focus = WFI_forge_our_path }
 
     mutually_exclusive = {
-    focus = WFI_greater_finland
+    focus = WFI_radical_white_finland
+    focus = WFI_danish_monarchy
+    focus = WFI_republic_of_white_finland
+    focus = WFI_finnish_democratic_republic
     }
-		x = 9
+		x = 7
 		y = 7
 		cost = 10
 
@@ -1389,8 +1398,11 @@ country = {
 
 		completion_reward = {
 			add_ideas = mon_drift
-      add_stability = 0.2
+      add_stability = -0.2
+      set_politics = { ruling_party = monarchism elections_allowed = no }
       IMP = { add_to_faction = WFI }
+      create_country_leader = { name = "Gustaf I" picture = "carl_gustaf_emil_mannerheim.dds" ideology = absolutism }
+      set_cosmetic_tag = WFI_finnish
 		}
 
 		ai_will_do = {
@@ -1398,15 +1410,17 @@ country = {
 			}
 	}
   focus = {
-		id = WFI_greater_finland
-		icon = GFX_greater_finland
+		id = WFI_radical_white_finland
+		icon = GFX_radical_white_finland
     prerequisite = { focus = WFI_forge_our_path }
 
     mutually_exclusive = {
     focus = WFI_finnic_monarchy
-    focus = WFI_danish_monarchy_monarchy
+    focus = WFI_danish_monarchy
+    focus = WFI_republic_of_white_finland
+    focus = WFI_finnish_democratic_republic
     }
-		x = 11
+		x = 9
 		y = 7
 		cost = 10
 
@@ -1416,12 +1430,66 @@ country = {
 			add_ideas = tp_drift
       add_stability = -0.2
       set_politics = { ruling_party = third_position elections_allowed = no }
-      set_cosmetic_tag = WFI_gfi
       POL = { add_to_faction = WFI }
 		}
 
 		ai_will_do = {
-			factor = 20
+			factor = 30
+			}
+	}
+  focus = {
+		id = WFI_republic_of_white_finland
+		icon = GFX_republic_of_white_finland
+    prerequisite = { focus = WFI_forge_our_path }
+
+    mutually_exclusive = {
+    focus = WFI_finnic_monarchy
+    focus = WFI_danish_monarchy
+    focus = WFI_radical_white_finland
+    focus = WFI_finnish_democratic_republic
+    }
+		x = 11
+		y = 7
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = rep_drift
+      add_stability = 0.2
+      IBE = { add_to_faction = WFI }
+		}
+
+		ai_will_do = {
+			factor = 10
+			}
+	}
+  focus = {
+		id = WFI_finnish_democratic_republic
+		icon = GFX_finnish_democratic_republic
+    prerequisite = { focus = WFI_forge_our_path }
+
+    mutually_exclusive = {
+    focus = WFI_finnic_monarchy
+    focus = WFI_danish_monarchy
+    focus = WFI_radical_white_finland
+    focus = WFI_republic_of_white_finland
+    }
+		x = 13
+		y = 7
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = soc_drift
+      add_stability = -0.2
+      set_politics = { ruling_party = socialism elections_allowed = no }
+      MEX = { add_to_faction = WFI }
+		}
+
+		ai_will_do = {
+			factor = 10
 			}
 	}
 }

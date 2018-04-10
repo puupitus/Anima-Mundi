@@ -2,7 +2,6 @@ capital = 149
 
 oob = "WFI_1936"
 set_country_flag = EUROPEAN
-set_country_flag = WHITE_FINLAND
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -47,15 +46,15 @@ set_politics = {
 				popularity = 40
 			}
 		}
-	ruling_party = monarchism
+	ruling_party = republicanism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Carl Gustaf Emil Mannerheim"
-	picture = "carl_gustaf_emil_mannerheim.dds"
+	name = "Juho Kusti Paasikivi"
+	picture = "juho_kusti_paasikivi.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#

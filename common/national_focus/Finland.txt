@@ -1352,10 +1352,10 @@ country = {
     prerequisite = { focus = FIN_forge_our_path }
 
     mutually_exclusive = {
-    focus = FIN_proletarian_dictatorship
+    focus = FIN_finnish_socialist_workers_republic
     focus = FIN_finnic_republic
     }
-		x = 7
+		x = 6
 		y = 7
 		cost = 10
 
@@ -1366,6 +1366,7 @@ country = {
       set_politics = { ruling_party = monarchism elections_allowed = no }
       add_stability = -0.2
       FRA = { add_to_faction = FIN }
+      set_cosmetic_tag = FIN_king
 		}
 
 		ai_will_do = {
@@ -1378,10 +1379,11 @@ country = {
     prerequisite = { focus = FIN_forge_our_path }
 
     mutually_exclusive = {
-    focus = FIN_proletarian_dictatorship
+    focus = FIN_finnish_socialist_workers_republic
     focus = FIN_finnic_monarchy2
+    focus = FIN_national_bolshevik_red_finland
     }
-		x = 9
+		x = 8
 		y = 7
 		cost = 10
 
@@ -1389,8 +1391,7 @@ country = {
 
 		completion_reward = {
 			add_ideas = rep_drift
-      set_politics = { ruling_party = republicanism elections_allowed = no }
-      add_stability = -0.2
+      add_stability = 0.2
       IBE = { add_to_faction = FIN }
 		}
 
@@ -1399,15 +1400,16 @@ country = {
 			}
 	}
   focus = {
-		id = FIN_proletarian_dictatorship
-		icon = GFX_proletarian_dictatorship
+		id = FIN_finnish_socialist_workers_republic
+		icon = GFX_finnish_socialist_workers_republic
     prerequisite = { focus = FIN_forge_our_path }
 
     mutually_exclusive = {
     focus = FIN_finnic_republic
     focus = FIN_finnic_monarchy2
+    focus = FIN_national_bolshevik_red_finland
     }
-		x = 11
+		x = 10
 		y = 7
 		cost = 10
 
@@ -1415,13 +1417,40 @@ country = {
 
 		completion_reward = {
 			add_ideas = soc_drift
-      add_stability = 0.2
-      set_cosmetic_tag = FIN_prole
+      add_stability = -0.2
+      set_politics = { ruling_party = socialism elections_allowed = no }
       MEX = { add_to_faction = FIN }
 		}
 
 		ai_will_do = {
 			factor = 80
+			}
+	}
+  focus = {
+		id = FIN_national_bolshevik_red_finland
+		icon = GFX_national_bolshevik_red_finland
+    prerequisite = { focus = FIN_forge_our_path }
+
+    mutually_exclusive = {
+    focus = FIN_finnic_republic
+    focus = FIN_finnic_monarchy2
+    focus = FIN_finnish_socialist_workers_republic
+    }
+		x = 12
+		y = 7
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = tp_drift
+      add_stability = -0.2
+      set_politics = { ruling_party = third_position elections_allowed = no }
+      POL = { add_to_faction = FIN }
+		}
+
+		ai_will_do = {
+			factor = 10
 			}
 	}
 }

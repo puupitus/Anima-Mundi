@@ -1162,6 +1162,26 @@ spriteTypes = {
 		name = "GFX_danish_monarchy"
 		texturefile = "gfx/interface/goals/danish_monarchy.dds"
 	}
+	SpriteType = {
+		name = "GFX_radical_white_finland"
+		texturefile = "gfx/interface/goals/radical_white_finland.dds"
+	}
+	SpriteType = {
+		name = "GFX_republic_of_white_finland"
+		texturefile = "gfx/interface/goals/republic_of_white_finland.dds"
+	}
+	SpriteType = {
+		name = "GFX_finnish_democratic_republic"
+		texturefile = "gfx/interface/goals/finnish_democratic_republic.dds"
+	}
+	SpriteType = {
+		name = "GFX_national_bolshevik_red_finland"
+		texturefile = "gfx/interface/goals/national_bolshevik_red_finland.dds"
+	}
+	SpriteType = {
+		name = "GFX_finnish_socialist_workers_republic"
+		texturefile = "gfx/interface/goals/finnish_socialist_workers_republic.dds"
+	}
 
 
 
