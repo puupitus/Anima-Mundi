@@ -14,6 +14,8 @@ state={
 		}
 		add_core_of = CYR
 		add_core_of = TUA
+		add_core_of = MCO
+		add_core_of = FAF
 	}
 
 	provinces={

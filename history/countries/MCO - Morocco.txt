@@ -1,7 +1,7 @@
-capital = 430
+capital = 461
 
-oob = "DIN_1936"
-set_country_flag = ASIAN
+oob = "MCO_1936"
+set_country_flag = AFRICAN
 set_country_flag = MUSLIM
 # Starting tech
 set_technology = {
@@ -36,11 +36,11 @@ set_politics = {
 			}
 
 			socialism = {
-				popularity = 30
+				popularity = 20
 			}
 
 			republicanism = {
-				popularity = 20
+				popularity = 30
 			}
 
 			monarchism = {
@@ -54,32 +54,32 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "A. K. Fazlul Huq"
-	picture = "a_k_fazlul_huq.dds"
+	name = "Abd el-Krim"
+	picture = "abd_el_krim.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Prince Frederick of Denmark"
-	picture = "frederick_ix.dds"
+	name = "Marcel Peyrouton"
+	picture = "marcel_peyrouton.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Manabendra Nath Roy"
-	picture = "manabendra_nath_roy.dds"
+	name = "Ali Yata"
+	picture = "ali_yata.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Huseyn Shaheed Suhrawardy"
-	picture = "huseyn_shaheed_suhrawardy.dds"
+	name = "Abd el-Krim"
+	picture = "abd_el_krim.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

@@ -11,6 +11,8 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = CYR
+		add_core_of = MCO
+		add_core_of = FAF
 	}
 
 	provinces={

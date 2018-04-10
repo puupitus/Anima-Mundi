@@ -11,6 +11,7 @@ state={
 		owner = FAF
 		add_core_of = FAF
 		add_core_of = TUA
+		add_core_of = MCO
 		buildings = {
 			infrastructure = 0
 		}

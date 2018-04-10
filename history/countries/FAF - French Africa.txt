@@ -62,24 +62,24 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "François Darlan"
-	picture = "francois_darlan.dds"
+	name = "Jules Carde"
+	picture = "jules_carde.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "André Mallarmé"
-	picture = "andre_mallarme.dds"
+	name = "Amar Ouzegane"
+	picture = "amar_ouzegane.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "André Mallarmé"
-	picture = "andre_mallarme.dds"
+	name = "Abdelhamid Ben Badis"
+	picture = "abdelhamid_ben_badis.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

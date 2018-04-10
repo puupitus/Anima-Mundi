@@ -7,13 +7,17 @@ state={
 	state_category = rural
 
 	history={
-		owner = IBE
+		owner = MCO
 		add_core_of = FAF
 		add_core_of = IBE
 add_core_of = LUS
+add_core_of = MCO
 
 		victory_points = {
-			7069 10
+			10070 10
+		}
+		victory_points = {
+			7069 5
 		}
 		buildings = {
 			infrastructure = 3

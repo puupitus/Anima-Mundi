@@ -6,6 +6,7 @@ state={
 		owner = FAF
 		add_core_of = FAF
 		add_core_of = CYR
+		add_core_of = MCO
 		buildings = {
 			infrastructure = 3
 
