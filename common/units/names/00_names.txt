@@ -3255,7 +3255,7 @@ PER = {
 	}
 }
 
-PHI = {
+PHL = {
 	submarine = {
 		prefix = "RPS"
 		generic = { "Submarine" }

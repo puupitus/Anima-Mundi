@@ -4,8 +4,8 @@ oob = "IBE_1936"
 set_country_flag = EUROPEAN
 set_major = yes
 create_faction = "Eighth Coalition"
-puppet = PHI
-PHI = {
+puppet = PHL
+PHL = {
 	set_politics = {
 		ruling_party = republicanism
 			}

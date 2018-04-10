@@ -235,7 +235,7 @@ PAK = {
 color = rgb { 1 65 28 }
 color_ui = rgb { 1 65 28 }
 }
-PHI = {
+PHL = {
 color = rgb { 97 120 165 }
 color_ui = rgb { 97 120 165 }
 }

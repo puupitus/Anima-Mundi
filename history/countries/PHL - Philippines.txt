@@ -1,6 +1,6 @@
 capital = 327
 
-oob = "PHI_1936"
+oob = "PHL_1936"
 set_country_flag = ASIAN
 # Starting tech
 set_technology = {
