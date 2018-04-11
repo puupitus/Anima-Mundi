@@ -5,7 +5,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = FRA
+		owner = DEN
 		add_core_of = FRA
 		add_core_of = DEN
 		add_core_of = BUR

@@ -12,6 +12,8 @@ state={
 		owner = FAF
 		add_core_of = FAF
 		add_core_of = TUA
+		add_core_of = LIB
+		add_core_of = WAF
 		buildings = {
 			infrastructure = 3
 		}

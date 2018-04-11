@@ -9,7 +9,7 @@ state={
 		rubber=1
 	}
 	history={
-		owner = SSA
+		owner = ANG
 		buildings = {
 			infrastructure = 2
 			8248 ={
@@ -17,14 +17,15 @@ state={
 			}
 		}
 		victory_points = {
-			8248 1
+			8248 5
 		}
 		victory_points = {
 			10966 1
 		}
-		add_core_of = CAF
+		add_core_of = AFE
 		add_core_of = SSA
 		add_core_of = SAF
+		add_core_of = ANG
 	}
 
 	provinces={

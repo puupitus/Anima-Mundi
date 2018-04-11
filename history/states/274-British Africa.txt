@@ -7,8 +7,10 @@ state={
 	history={
 		owner = WAF
 		add_core_of = WAF
+		add_core_of = FAF
+		add_core_of = LIB
 		victory_points = {
-			10862 1
+			10862 5
 		}
 		buildings = {
 			infrastructure = 3

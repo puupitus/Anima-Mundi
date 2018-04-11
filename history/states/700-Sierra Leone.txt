@@ -7,8 +7,11 @@ state={
 
 	history=
 	{
-		owner = USA
+		owner = LIB
 		add_core_of = USA
+		add_core_of = FAF
+		add_core_of = LIB
+		add_core_of = WAF
 		victory_points = {
 			2038 1
 		}

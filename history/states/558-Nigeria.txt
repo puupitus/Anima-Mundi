@@ -9,9 +9,11 @@ state={
 		rubber=3
 	}
 	history={
-		owner = WAF
+		owner = AFE
+		add_core_of = FAF
+		add_core_of = LIB
 		add_core_of = WAF
-		add_core_of = CAF
+		add_core_of = AFE
 		buildings = {
 			infrastructure = 3
 			arms_factory = 0

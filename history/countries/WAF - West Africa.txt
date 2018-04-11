@@ -53,8 +53,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "William Tubman"
-	picture = "william_tubman.dds"
+	name = "Kwame Nkrumah"
+	picture = "kwame_nkrumah.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
@@ -69,16 +69,16 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "William Tubman"
-	picture = "william_tubman.dds"
+	name = "Kwame Nkrumah"
+	picture = "kwame_nkrumah.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "William Tubman"
-	picture = "william_tubman.dds"
+	name = "Kwame Nkrumah"
+	picture = "kwame_nkrumah.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

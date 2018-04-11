@@ -7,13 +7,14 @@ state={
 		rubber=4
 	}
 	history={
-		owner = BNL
+	owner = AFE
+	add_core_of = CAF
+	add_core_of = AFE
+	add_core_of = ABY
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = BNL
-		add_core_of = ABY
 	}
 
 	provinces={

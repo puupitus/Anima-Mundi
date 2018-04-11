@@ -21,6 +21,7 @@ state={
 		add_core_of = BNL
 		add_core_of = ABY
 		add_core_of = SOM
+		add_core_of = AFE
 	}
 
 	provinces={

@@ -11,9 +11,9 @@ state={
 		owner = EGY
 		add_core_of = EGY
 		add_core_of = TUA
-		add_core_of = CAF
 		add_core_of = ABY
 		add_core_of = SOM
+		add_core_of = AFE
 		buildings = {
 			infrastructure = 3
 		}

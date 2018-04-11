@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = SSA
+		owner = MZB
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -19,11 +19,11 @@ state={
 			}
 		}
 		victory_points = {
-			8245 1
+			8245 5
 		}
-		add_core_of = CAF
 		add_core_of = SSA
 		add_core_of = SAF
+		add_core_of = MZB
 	}
 
 	provinces={
