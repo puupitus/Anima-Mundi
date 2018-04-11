@@ -1641,7 +1641,7 @@ country = {
 		}
 
 		ai_will_do = {
-			factor = 10
+			factor = 90
 		}
 	}
   focus = {
@@ -2009,6 +2009,7 @@ country = {
 		completion_reward = {
     add_stability = 0.1
     add_political_power = 50
+    news_event = news.7
 		}
 
 		ai_will_do = {
@@ -2109,6 +2110,7 @@ country = {
     set_politics = { ruling_party = monarchism elections_allowed = no }
     set_cosmetic_tag = USA_king
     create_country_leader = { name = "August I" picture = "august_von_mackensen.dds" ideology = absolutism }
+    set_capital = 357
     add_stability = 0.1
     news_event = news.6
 		}
@@ -2138,7 +2140,7 @@ country = {
 
 		completion_reward = {
     JAP = { add_to_faction = USA }
-    add_polical_power = 50
+    add_political_power = 50
 		}
 
 		ai_will_do = {
@@ -2166,7 +2168,7 @@ country = {
 
 		completion_reward = {
     POL = { add_to_faction = USA }
-    add_polical_power = 50
+    add_political_power = 50
 		}
 
 		ai_will_do = {
@@ -2195,7 +2197,7 @@ country = {
 
 		completion_reward = {
     PRC = { add_to_faction = USA }
-    add_polical_power = 50
+    add_political_power = 50
 		}
 
 		ai_will_do = {
@@ -2224,7 +2226,7 @@ country = {
 
 		completion_reward = {
     FRA = { add_to_faction = USA }
-    add_polical_power = 50
+    add_political_power = 50
 		}
 
 		ai_will_do = {
@@ -2253,7 +2255,7 @@ country = {
 
 		completion_reward = {
     IMP = { add_to_faction = USA }
-    add_polical_power = 50
+    add_political_power = 50
 		}
 
 		ai_will_do = {

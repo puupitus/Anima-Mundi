@@ -1,1 +1,12 @@
-
+USA_con = {
+	color = rgb { 191 10 48 }
+	color_ui = rgb { 191 10 48 }
+}
+USA_king = {
+	color = rgb { 96 96 96 }
+	color_ui = rgb { 96 96 96 }
+}
+USA_amerika_reich = {
+	color = rgb { 96 96 96 }
+	color_ui = rgb { 96 96 96 }
+}

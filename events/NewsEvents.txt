@@ -96,3 +96,18 @@ news_event = {
 	}
 
 }
+# Duke von Mackensen's Speech
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_zeitgeist
+
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.7.a
+	}
+
+}

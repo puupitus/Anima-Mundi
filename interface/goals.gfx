@@ -1182,6 +1182,62 @@ spriteTypes = {
 		name = "GFX_finnish_socialist_workers_republic"
 		texturefile = "gfx/interface/goals/finnish_socialist_workers_republic.dds"
 	}
+	SpriteType = {
+		name = "GFX_confederate_states_of_america"
+		texturefile = "gfx/interface/goals/confederate_states_of_america.dds"
+	}
+	SpriteType = {
+		name = "GFX_united_states_of_america"
+		texturefile = "gfx/interface/goals/united_states_of_america.dds"
+	}
+	SpriteType = {
+		name = "GFX_join_eighth_coalition"
+		texturefile = "gfx/interface/goals/join_eighth_coalition.dds"
+	}
+	SpriteType = {
+		name = "GFX_join_international_african_association"
+		texturefile = "gfx/interface/goals/join_international_african_association.dds"
+	}
+	SpriteType = {
+		name = "GFX_german_american_nationalism"
+		texturefile = "gfx/interface/goals/german_american_nationalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_amerikanische_reich2"
+		texturefile = "gfx/interface/goals/amerikanische_reich2.dds"
+	}
+	SpriteType = {
+		name = "GFX_join_dai_toa_kyoeiken"
+		texturefile = "gfx/interface/goals/join_dai_toa_kyoeiken.dds"
+	}
+	SpriteType = {
+		name = "GFX_join_zeitgeist_pact"
+		texturefile = "gfx/interface/goals/join_zeitgeist_pact.dds"
+	}
+	SpriteType = {
+		name = "GFX_duke_von_mackensens_speech"
+		texturefile = "gfx/interface/goals/duke_von_mackensens_speech.dds"
+	}
+	SpriteType = {
+		name = "GFX_freikorps_amerika"
+		texturefile = "gfx/interface/goals/freikorps_amerika.dds"
+	}
+	SpriteType = {
+		name = "GFX_ein_amerika_ein_konig"
+		texturefile = "gfx/interface/goals/ein_amerika_ein_konig.dds"
+	}
+	SpriteType = {
+		name = "GFX_join_league_of_harmony_and_justice"
+		texturefile = "gfx/interface/goals/join_league_of_harmony_and_justice.dds"
+	}
+	SpriteType = {
+		name = "GFX_join_nouveau_regime"
+		texturefile = "gfx/interface/goals/join_nouveau_regime.dds"
+	}
+	SpriteType = {
+		name = "GFX_join_sacrum_romanum_imperium"
+		texturefile = "gfx/interface/goals/join_sacrum_romanum_imperium.dds"
+	}
 
 
 
