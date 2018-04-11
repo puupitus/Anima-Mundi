@@ -1,0 +1,98 @@
+add_namespace = news
+
+# President Long
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_zeitgeist
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.1.a
+	}
+
+}
+# President Roosevelt
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_zeitgeist
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.2.a
+	}
+
+}
+# USA Referendum Fails
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_zeitgeist
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.3.a
+	}
+
+}
+# USA Referendum Passes
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_zeitgeist
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.4.a
+	}
+
+}
+# Amerikanische Reich
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_zeitgeist
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.5.a
+	}
+
+}
+# Ein Amerika Ein König
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_zeitgeist
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.6.a
+	}
+
+}
