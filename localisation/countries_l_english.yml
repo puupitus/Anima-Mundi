@@ -979,15 +979,15 @@
  UKR_nationalism_ADJ:0 "Ukrainian"
  ################################################################################
 
- USA_monarchism:0 "Kingdom of New Prussia"
+ USA_monarchism:0 "Duchy of Appalachia"
  USA_republicanism:0 "Appalachian Federal Republic"
  USA_socialism:0 "People's Republic of Appalachia"
  USA_nationalism:0 "German American Bund"
- USA_monarchism_DEF:0 "The Kingdom of New Prussia"
+ USA_monarchism_DEF:0 "The Duchy of Appalachia"
  USA_republicanism_DEF:0 "The Appalachian Federal Republic"
  USA_socialism_DEF:0 "The People's Republic of Appalachia"
  USA_nationalism_DEF:0 "The German American Bund"
- USA_monarchism_ADJ:0 "American"
+ USA_monarchism_ADJ:0 "German-American"
  USA_republicanism_ADJ:0 "American"
  USA_socialism_ADJ:0 "American"
  USA_nationalism_ADJ:0 "German-American"

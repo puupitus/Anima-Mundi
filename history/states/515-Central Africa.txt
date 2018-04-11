@@ -9,9 +9,6 @@ state={
 		owner = TUA
 		add_core_of = TUA
 		add_core_of = FAF
-		victory_points = {
-			7939 5
-		}
 		buildings = {
 			infrastructure = 1
 

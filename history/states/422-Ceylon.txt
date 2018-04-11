@@ -14,6 +14,7 @@ state=
 		owner = DIN
 		add_core_of = MYS
 		add_core_of = IND
+		add_core_of = DIN
 		victory_points = {
 			10201 3
 		}
