@@ -1,4 +1,4 @@
-capital = 263
+﻿capital = 263
 
 oob = "SOV_1936"
 set_country_flag = EUROPEAN

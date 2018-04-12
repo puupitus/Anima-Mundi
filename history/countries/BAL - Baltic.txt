@@ -1,4 +1,4 @@
-capital = 12
+﻿capital = 12
 
 oob = "BAL_1936"
 set_country_flag = EUROPEAN
@@ -53,7 +53,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Konstantin Päts"
+	name = "Konstantin PÃ¤ts"
 	picture = "konstantin_pats.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -61,7 +61,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Kārlis Ulmanis"
+	name = "KÄrlis Ulmanis"
 	picture = "karlis_ulmanis.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default

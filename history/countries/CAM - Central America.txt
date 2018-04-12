@@ -1,4 +1,4 @@
-capital = 316
+﻿capital = 316
 
 oob = "CAM_1936"
 set_country_flag = AMERICAN
@@ -61,7 +61,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Jorge Ubico Castañeda"
+	name = "Jorge Ubico CastaÃ±eda"
 	picture = "jorge_ubico_castaneda.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
@@ -69,7 +69,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Augusto César Sandino"
+	name = "Augusto CÃ©sar Sandino"
 	picture = "augusto_cesar_sandino.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
@@ -77,7 +77,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Jacobo Árbenz Guzmán"
+	name = "Jacobo Ãrbenz GuzmÃ¡n"
 	picture = "jacobo_arbenz_guzman.dds"
 	ideology = nazism
 	traits = { zeitgeist_default

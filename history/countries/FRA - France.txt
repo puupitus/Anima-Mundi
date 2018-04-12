@@ -1,9 +1,9 @@
-capital = 16
+﻿capital = 16
 
 oob = "FRA_1936"
 set_country_flag = EUROPEAN
 set_major = yes
-create_faction = "Nouveau Régime"
+create_faction = "Nouveau RÃ©gime"
 puppet = FAF
 FAF = {
 	set_politics = {
@@ -116,7 +116,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Philippe Pétain"
+	name = "Philippe PÃ©tain"
 	picture = "philippe_petain.dds"
 	ideology = nazism
 	traits = { zeitgeist_default

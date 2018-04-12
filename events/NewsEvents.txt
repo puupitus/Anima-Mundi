@@ -1,4 +1,4 @@
-add_namespace = news
+﻿add_namespace = news
 
 # President Long
 news_event = {
@@ -80,7 +80,7 @@ news_event = {
 	}
 
 }
-# Ein Amerika Ein König
+# Ein Amerika Ein KÃ¶nig
 news_event = {
 	id = news.6
 	title = news.6.t

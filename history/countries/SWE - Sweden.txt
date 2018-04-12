@@ -1,4 +1,4 @@
-capital = 141
+﻿capital = 141
 
 oob = "SWE_1936"
 set_country_flag = EUROPEAN
@@ -77,7 +77,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Birger Furugård"
+	name = "Birger FurugÃ¥rd"
 	picture = "birger_furugard.dds"
 	ideology = nazism
 	traits = { zeitgeist_default

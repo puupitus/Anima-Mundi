@@ -1,4 +1,4 @@
-capital = 206
+﻿capital = 206
 
 oob = "BLR_1936"
 set_country_flag = EUROPEAN
@@ -53,7 +53,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Radasłaŭ Astroŭski"
+	name = "RadasÅ‚aÅ­ AstroÅ­ski"
 	picture = "radaslau_astrouski.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -77,7 +77,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Michał Vituška"
+	name = "MichaÅ‚ VituÅ¡ka"
 	picture = "michal_vituska.dds"
 	ideology = nazism
 	traits = { zeitgeist_default

@@ -1,4 +1,4 @@
-capital = 88
+﻿capital = 88
 
 oob = "KRA_1936"
 set_country_flag = EUROPEAN
@@ -53,7 +53,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Zdzisław Lubomirski"
+	name = "ZdzisÅ‚aw Lubomirski"
 	picture = "zdzislaw_lubomirski.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -61,7 +61,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Karol Olbracht Habsburg-Lotaryński"
+	name = "Karol Olbracht Habsburg-LotaryÅ„ski"
 	picture = "karl_albrecht.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default

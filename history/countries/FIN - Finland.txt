@@ -1,4 +1,4 @@
-capital = 111
+﻿capital = 111
 
 oob = "FIN_1936"
 set_country_flag = EUROPEAN
@@ -53,7 +53,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Väinö Tanner"
+	name = "VÃ¤inÃ¶ Tanner"
 	picture = "vaino_tanner.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default

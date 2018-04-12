@@ -1,4 +1,4 @@
-capital = 64
+﻿capital = 64
 
 oob = "BRA_1936"
 set_country_flag = EUROPEAN
@@ -53,7 +53,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Karl Dönitz"
+	name = "Karl DÃ¶nitz"
 	picture = "karl_donitz.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -69,7 +69,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Herman Göring"
+	name = "Herman GÃ¶ring"
 	picture = "herman_goring.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
@@ -77,7 +77,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Hermann Göring"
+	name = "Hermann GÃ¶ring"
 	picture = "hermann_goring.dds"
 	ideology = marxist
 	traits = { zeitgeist_default

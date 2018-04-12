@@ -1,4 +1,4 @@
-capital = 613
+﻿capital = 613
 
 oob = "ROC_1936"
 set_major = yes

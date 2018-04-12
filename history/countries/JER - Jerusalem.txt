@@ -1,4 +1,4 @@
-capital = 454
+﻿capital = 454
 
 oob = "JER_1936"
 set_country_flag = EUROPEAN

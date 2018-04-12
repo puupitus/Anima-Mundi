@@ -1,4 +1,4 @@
-capital = 46
+﻿capital = 46
 
 oob = "ROM_1936"
 set_country_flag = EUROPEAN
@@ -53,7 +53,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Armand Călinescu"
+	name = "Armand CÄƒlinescu"
 	picture = "armand_calinescu.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -69,7 +69,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Constantin Pîrvulescu"
+	name = "Constantin PÃ®rvulescu"
 	picture = "constantin_pirvulescu.dds"
 	ideology = marxist
 	traits = { zeitgeist_default

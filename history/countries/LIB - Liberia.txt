@@ -1,4 +1,4 @@
-capital = 298
+﻿capital = 298
 
 oob = "LIB_1936"
 set_country_flag = AFRICAN

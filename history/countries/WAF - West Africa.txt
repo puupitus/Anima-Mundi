@@ -1,4 +1,4 @@
-capital = 274
+﻿capital = 274
 
 oob = "WAF_1936"
 set_country_flag = AFRICAN

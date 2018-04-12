@@ -1,9 +1,9 @@
-capital = 307
+﻿capital = 307
 
 oob = "SPA_1936"
 set_country_flag = AMERICAN
 set_major = yes
-create_faction = "Imperio Español"
+create_faction = "Imperio EspaÃ±ol"
 puppet = CAR
 CAR = {
 	set_politics = {
@@ -92,7 +92,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Diego Martínez Barrio"
+	name = "Diego MartÃ­nez Barrio"
 	picture = "diego_martinez_barrio.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default

@@ -1,4 +1,4 @@
-capital = 461
+﻿capital = 461
 
 oob = "MCO_1936"
 set_country_flag = AFRICAN

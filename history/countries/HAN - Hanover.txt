@@ -1,4 +1,4 @@
-capital = 59
+﻿capital = 59
 
 oob = "HAN_1936"
 set_country_flag = EUROPEAN
@@ -69,7 +69,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Ernst Thälmann"
+	name = "Ernst ThÃ¤lmann"
 	picture = "ernst_thalmann.dds"
 	ideology = marxist
 	traits = { zeitgeist_default

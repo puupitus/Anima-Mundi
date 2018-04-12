@@ -1,4 +1,4 @@
-capital = 278
+﻿capital = 278
 
 oob = "ARG_1936"
 set_country_flag = AMERICAN
@@ -53,7 +53,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Agustín Pedro Justo"
+	name = "AgustÃ­n Pedro Justo"
 	picture = "agustin_pedro_justo.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -61,7 +61,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "José Félix Uriburu"
+	name = "JosÃ© FÃ©lix Uriburu"
 	picture = "jose_felix_uriburu.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
@@ -77,7 +77,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Juan Perón"
+	name = "Juan PerÃ³n"
 	picture = "juan_peron.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
@@ -85,7 +85,7 @@ create_country_leader = {
 	}
 }
 create_field_marshal = {
-	name = "Juan Perón"
+	name = "Juan PerÃ³n"
 	picture = "juan_peron.dds"
 	skill = 2
 }

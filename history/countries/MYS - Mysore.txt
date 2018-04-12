@@ -1,4 +1,4 @@
-capital = 425
+﻿capital = 425
 
 oob = "MYS_1936"
 set_country_flag = ASIAN

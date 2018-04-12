@@ -1,4 +1,4 @@
-capital = 459
+﻿capital = 459
 
 oob = "FAF_1936"
 set_country_flag = AFRICAN
@@ -54,7 +54,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Mostefa Ben Boulaïd"
+	name = "Mostefa Ben BoulaÃ¯d"
 	picture = "mostefa_ben_boulaid.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default

@@ -1,4 +1,4 @@
-capital = 468
+﻿capital = 468
 
 oob = "QUE_1936"
 set_country_flag = AMERICAN
@@ -53,7 +53,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Adélard Godbout"
+	name = "AdÃ©lard Godbout"
 	picture = "adelard_godbout.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default

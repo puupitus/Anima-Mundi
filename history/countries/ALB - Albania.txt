@@ -1,4 +1,4 @@
-capital = 44
+﻿capital = 44
 
 oob = "ALB_1936"
 set_country_flag = EUROPEAN
@@ -52,7 +52,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Shefqet Vërlaci"
+	name = "Shefqet VÃ«rlaci"
 	picture = "shefqet_verlaci.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default

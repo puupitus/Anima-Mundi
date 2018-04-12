@@ -1,4 +1,4 @@
-capital = 448
+﻿capital = 448
 
 oob = "CYR_1936"
 set_country_flag = AFRICAN

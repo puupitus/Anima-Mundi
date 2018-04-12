@@ -1,4 +1,4 @@
-capital = 327
+﻿capital = 327
 
 oob = "PHL_1936"
 set_country_flag = ASIAN
@@ -77,7 +77,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "José P. Laurel"
+	name = "JosÃ© P. Laurel"
 	picture = "jose_p_laurel.dds"
 	ideology = nazism
 	traits = { zeitgeist_default

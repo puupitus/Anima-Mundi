@@ -1,4 +1,4 @@
-capital = 5
+﻿capital = 5
 
 oob = "TEO_1936"
 set_country_flag = EUROPEAN
@@ -52,7 +52,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Robert Schälzky"
+	name = "Robert SchÃ¤lzky"
 	picture = "robert_schalzky.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -60,7 +60,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Robert Schälzky"
+	name = "Robert SchÃ¤lzky"
 	picture = "robert_schalzky.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
@@ -68,7 +68,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Robert Schälzky"
+	name = "Robert SchÃ¤lzky"
 	picture = "robert_schalzky.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
@@ -76,7 +76,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Robert Schälzky"
+	name = "Robert SchÃ¤lzky"
 	picture = "robert_schalzky.dds"
 	ideology = nazism
 	traits = { zeitgeist_default

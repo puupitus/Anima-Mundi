@@ -1,4 +1,4 @@
-capital = 660
+﻿capital = 660
 
 oob = "TUA_1936"
 set_country_flag = AFRICAN

@@ -1,4 +1,4 @@
-capital = 277
+﻿capital = 277
 
 oob = "MEX_1936"
 set_country_flag = AMERICAN
@@ -55,7 +55,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Lázaro Cárdenas"
+	name = "LÃ¡zaro CÃ¡rdenas"
 	picture = "lazaro_cardenas.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -63,7 +63,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Plutarco Elías Calles"
+	name = "Plutarco ElÃ­as Calles"
 	picture = "plutarco_elias_calles.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
