@@ -1,9 +1,9 @@
-﻿capital = 282
+capital = 282
 
 oob = "JAP_1936"
 set_country_flag = ASIAN
 set_major = yes
-create_faction = "Dai TÅa KyÅeiken"
+create_faction = "Dai Tōa Kyōeiken"
 puppet = CAL
 CAL = {
 	set_politics = {
@@ -97,7 +97,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "SanzÅ Nosaka"
+	name = "Sanzō Nosaka"
 	picture = "sanzo_nosaka.dds"
 	ideology = marxist
 	traits = { zeitgeist_default

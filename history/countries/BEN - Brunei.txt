@@ -1,4 +1,4 @@
-﻿capital = 333
+capital = 333
 
 oob = "BEN_1936"
 set_country_flag = ASIAN

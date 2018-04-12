@@ -1,4 +1,4 @@
-﻿capital = 4
+capital = 4
 
 oob = "IMP_1936"
 set_country_flag = EUROPEAN

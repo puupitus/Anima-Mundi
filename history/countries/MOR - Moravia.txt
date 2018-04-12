@@ -1,4 +1,4 @@
-﻿capital = 75
+capital = 75
 
 oob = "MOR_1936"
 set_country_flag = EUROPEAN
@@ -69,7 +69,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Jan Å verma"
+	name = "Jan Šverma"
 	picture = "jan_sverma.dds"
 	ideology = marxist
 	traits = { zeitgeist_default

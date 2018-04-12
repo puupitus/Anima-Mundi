@@ -1,9 +1,9 @@
-﻿capital = 500
+capital = 500
 
 oob = "SSA_1936"
 set_country_flag = AMERICAN
 set_major = yes
-create_faction = "ImpÃ©rio PortuguÃªs"
+create_faction = "Império Português"
 puppet = MYS
 MYS = {
 	set_politics = {
@@ -61,7 +61,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "GetÃºlio Vargas"
+	name = "Getúlio Vargas"
 	picture = "getulio_vargas.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
@@ -69,7 +69,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "AntÃ³nio de Oliveira Salazar"
+	name = "António de Oliveira Salazar"
 	picture = "antonio_de_oliveira_salazar.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -85,7 +85,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Bento AntÃ³nio GonÃ§alves"
+	name = "Bento António Gonçalves"
 	picture = "bento_antonio_goncalves.dds"
 	ideology = marxist
 	traits = { zeitgeist_default

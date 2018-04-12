@@ -1,4 +1,4 @@
-﻿capital = 473
+capital = 473
 
 oob = "RUS_1936"
 set_country_flag = EUROPEAN

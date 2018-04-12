@@ -1,4 +1,4 @@
-﻿capital = 43
+capital = 43
 
 oob = "HUN_1936"
 set_country_flag = EUROPEAN
@@ -55,7 +55,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "MiklÃ³s Horthy"
+	name = "Miklós Horthy"
 	picture = "miklos_horthy.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -71,7 +71,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "IstvÃ¡n Dobi"
+	name = "István Dobi"
 	picture = "istvan_dobi.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
@@ -79,7 +79,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Ferenc SzÃ¡lasi"
+	name = "Ferenc Szálasi"
 	picture = "ferenc_szalasi.dds"
 	ideology = nazism
 	traits = { zeitgeist_default

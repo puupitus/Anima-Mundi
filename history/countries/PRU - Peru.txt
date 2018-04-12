@@ -1,4 +1,4 @@
-﻿capital = 303
+capital = 303
 
 oob = "PRU_1936"
 set_country_flag = AMERICAN
@@ -53,7 +53,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "JosÃ© Bustamante y Rivero"
+	name = "José Bustamante y Rivero"
 	picture = "jose_bustamante_y_rivero.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -61,7 +61,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Ã“scar R. Benavides"
+	name = "Óscar R. Benavides"
 	picture = "oscar_r_benavides.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
@@ -69,7 +69,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "JosÃ© Carlos MariÃ¡tegui"
+	name = "José Carlos Mariátegui"
 	picture = "jose_carlos_mariategui.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
@@ -77,7 +77,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Manuel A. OdrÃ­a"
+	name = "Manuel A. Odría"
 	picture = "manuel_a_odria.dds"
 	ideology = nazism
 	traits = { zeitgeist_default

@@ -1,4 +1,4 @@
-﻿capital = 683
+capital = 683
 
 oob = "HBC_1936"
 set_country_flag = AMERICAN

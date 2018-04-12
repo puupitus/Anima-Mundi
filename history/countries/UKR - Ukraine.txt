@@ -1,4 +1,4 @@
-﻿capital = 202
+capital = 202
 
 oob = "UKR_1936"
 set_country_flag = EUROPEAN

@@ -1,4 +1,4 @@
-﻿capital = 292
+capital = 292
 
 oob = "ARA_1936"
 set_country_flag = MIDDLE_EASTERN

@@ -1,4 +1,4 @@
-﻿capital = 408
+capital = 408
 
 oob = "GUK_1936"
 set_country_flag = ASIAN

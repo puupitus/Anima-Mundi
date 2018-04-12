@@ -1,4 +1,4 @@
-﻿capital = 540
+capital = 540
 
 oob = "ANG_1936"
 set_country_flag = AFRICAN
@@ -52,7 +52,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Henrique GalvÃ£o"
+	name = "Henrique Galvão"
 	picture = "henrique_galvao.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -60,7 +60,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Henrique GalvÃ£o"
+	name = "Henrique Galvão"
 	picture = "henrique_galvao.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
@@ -68,7 +68,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Henrique GalvÃ£o"
+	name = "Henrique Galvão"
 	picture = "henrique_galvao.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
@@ -76,7 +76,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Henrique GalvÃ£o"
+	name = "Henrique Galvão"
 	picture = "henrique_galvao.dds"
 	ideology = nazism
 	traits = { zeitgeist_default

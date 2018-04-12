@@ -1,4 +1,4 @@
-﻿capital = 41
+capital = 41
 
 oob = "IBE_1936"
 set_country_flag = EUROPEAN
@@ -61,7 +61,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Niceto AlcalÃ¡-Zamora"
+	name = "Niceto Alcalá-Zamora"
 	picture = "niceto_alcala_zamora.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -77,7 +77,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "JosÃ© DÃ­az"
+	name = "José Díaz"
 	picture = "jose_diaz.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
@@ -85,7 +85,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "RamÃ³n Serrano SuÃ±er"
+	name = "Ramón Serrano Suñer"
 	picture = "ramon_serrano_suner.dds"
 	ideology = nazism
 	traits = { zeitgeist_default

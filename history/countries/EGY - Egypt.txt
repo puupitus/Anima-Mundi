@@ -1,4 +1,4 @@
-﻿capital = 446
+capital = 446
 
 oob = "EGY_1936"
 set_country_flag = AFRICAN

@@ -1,4 +1,4 @@
-﻿capital = 571
+capital = 571
 
 oob = "SIB_1936"
 set_country_flag = ASIAN

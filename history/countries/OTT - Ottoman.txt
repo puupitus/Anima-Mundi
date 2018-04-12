@@ -1,4 +1,4 @@
-﻿capital = 341
+capital = 341
 
 oob = "OTT_1936"
 set_country_flag = MIDDLE_EASTERN
@@ -92,7 +92,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Mustafa Kemal AtatÃ¼rk"
+	name = "Mustafa Kemal Atatürk"
 	picture = "mustafa_kemal_ataturk.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
@@ -108,7 +108,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Åžefik HÃ¼snÃ¼"
+	name = "Şefik Hüsnü"
 	picture = "sefik_husnu.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
@@ -116,7 +116,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Mustafa Kemal AtatÃ¼rk"
+	name = "Mustafa Kemal Atatürk"
 	picture = "mustafa_kemal_ataturk.dds"
 	ideology = nazism
 	traits = { zeitgeist_default

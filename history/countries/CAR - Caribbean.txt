@@ -1,4 +1,4 @@
-﻿capital = 319
+capital = 319
 
 oob = "CAR_1936"
 set_country_flag = AMERICAN
@@ -53,7 +53,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "RamÃ³n Grau"
+	name = "Ramón Grau"
 	picture = "ramon_grau.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default

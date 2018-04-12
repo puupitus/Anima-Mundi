@@ -1,4 +1,4 @@
-﻿capital = 55
+capital = 55
 
 oob = "BAV_1936"
 set_country_flag = EUROPEAN
