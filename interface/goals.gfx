@@ -1235,6 +1235,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/join_nouveau_regime.dds"
 	}
 	SpriteType = {
+		name = "GFX_assassinate_president_long"
+		texturefile = "gfx/interface/goals/assassinate_president_long.dds"
+	}
+	SpriteType = {
+		name = "GFX_the_queenfish_retaliates"
+		texturefile = "gfx/interface/goals/the_queenfish_retaliates.dds"
+	}
+	SpriteType = {
+		name = "GFX_abre_los_ojos_americano"
+		texturefile = "gfx/interface/goals/abre_los_ojos_americano.dds"
+	}
+	SpriteType = {
+		name = "GFX_james_p_cannon"
+		texturefile = "gfx/interface/goals/james_p_cannon.dds"
+	}
+	SpriteType = {
+		name = "GFX_earl_browder"
+		texturefile = "gfx/interface/goals/earl_browder.dds"
+	}
+	SpriteType = {
+		name = "GFX_join_internationalist_union"
+		texturefile = "gfx/interface/goals/join_internationalist_union.dds"
+	}
+	SpriteType = {
+		name = "GFX_trotskys_gift"
+		texturefile = "gfx/interface/goals/trotskys_gift.dds"
+	}
+	SpriteType = {
 		name = "GFX_join_sacrum_romanum_imperium"
 		texturefile = "gfx/interface/goals/join_sacrum_romanum_imperium.dds"
 	}

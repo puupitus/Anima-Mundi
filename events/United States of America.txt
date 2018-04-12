@@ -54,3 +54,52 @@ country_event = {
   }
 
 }
+country_event = {
+	id = usa.3
+	title = usa.3.t
+	desc = usa.3.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		name = usa.3.a
+      ai_chance = {
+        factor = 50
+      }
+      kill_country_leader = yes
+			create_country_leader = { name = "Rose McConnell Long" picture = "rose_mcconnell_long.dds" ideology = conservatistic }
+			add_stability = -0.2
+      news_event = news.8
+  }
+
+}
+country_event = {
+	id = usa.4
+	title = usa.4.t
+	desc = usa.4.d
+	picture = GFX_zeitgeist2
+
+	is_triggered_only = yes
+
+	option = {
+		name = usa.4.a
+      ai_chance = {
+        factor = 50
+      }
+      set_country_flag = USA_CHAIRMAN_CANNON
+			create_country_leader = { name = "James P. Cannon" picture = "james_p_cannon.dds" ideology = marxist }
+      news_event = news.9
+  }
+	option = {
+		name = usa.4.b
+      ai_chance = {
+        factor = 50
+      }
+      set_country_flag = USA_CHAIRMAN_BROWDER
+			create_country_leader = { name = "Earl Browder" picture = "earl_browder.dds" ideology = marxist }
+      news_event = news.10
+  }
+
+
+}

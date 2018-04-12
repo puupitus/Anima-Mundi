@@ -690,24 +690,46 @@ army_org = 30
 army_morale_factor = 0.3
 	 }
 }
-knights_hospitaller = {
+		knights_hospitaller = {
 
 
-allowed = {
-always = no
-}
+		allowed = {
+		always = no
+		}
 
-allowed_civil_war = {
-always = yes
-}
+		allowed_civil_war = {
+		always = yes
+		}
 
-removal_cost = -1
+		removal_cost = -1
 
-picture = tfv_can_conscription_crisis
+		picture = tfv_can_conscription_crisis
 
-modifier = {
-non_core_manpower = 3.00 
-	 }
-}
-}
+		modifier = {
+		non_core_manpower = 3.00
+	 			}
+	 	}
+		usa_sftu = {
+
+
+		allowed = {
+		always = no
+		}
+
+		allowed_civil_war = {
+		always = yes
+		}
+
+		removal_cost = -1
+
+		picture = generic_communist_army
+
+		modifier = {
+		consumer_goods_factor = -0.15
+		conscription_factor = -0.4
+	 			}
+	 	}
+
+
+	}
 }

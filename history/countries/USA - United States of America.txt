@@ -32,11 +32,11 @@ set_politics = {
 
 		parties = {
 			nationalism = {
-				popularity = 30
+				popularity = 20
 			}
 
 			socialism = {
-				popularity = 10
+				popularity = 20
 			}
 
 			republicanism = {
@@ -70,8 +70,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Earl Browder"
-	picture = "earl_browder.dds"
+	name = "Norman Thomas"
+	picture = "norman_thomas.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#

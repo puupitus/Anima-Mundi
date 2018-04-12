@@ -127,3 +127,33 @@ news_event = {
 	}
 
 }
+# Chairman James P. Cannon
+news_event = {
+	id = news.9
+	title = news.9.t
+	desc = news97.d
+	picture = GFX_zeitgeist
+
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.9.a
+	}
+
+}
+# Chairman Earl Browder
+news_event = {
+	id = news.10
+	title = news.10.t
+	desc = news.10.d
+	picture = GFX_zeitgeist
+
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.10.a
+	}
+
+}
