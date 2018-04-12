@@ -70,8 +70,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Norman Thomas"
-	picture = "norman_thomas.dds"
+	name = "Earl Browder"
+	picture = "earl_browder.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#

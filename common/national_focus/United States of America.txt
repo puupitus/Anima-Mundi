@@ -11,7 +11,7 @@ country = {
 }
 
 	default = no
-  continuous_focus_position = { x = 0 y = 2000 }
+  continuous_focus_position = { x = 1800 y = 150 }
 	reset_on_civilwar = no
 
 ####################
@@ -1340,7 +1340,7 @@ country = {
     mutually_exclusive = {
 
     }
-		x = 6
+		x = 12
 		y = 6
 		cost = 10
 
@@ -1366,7 +1366,7 @@ country = {
     mutually_exclusive = {
     focus = USA_germanization
     }
-		x = 2
+		x = 8
 		y = 7
 		cost = 10
 
@@ -1393,7 +1393,7 @@ country = {
     mutually_exclusive = {
 
     }
-		x = 0
+		x = 6
 		y = 8
 		cost = 10
 
@@ -1421,7 +1421,7 @@ country = {
     mutually_exclusive = {
 
     }
-		x = 2
+		x = 8
 		y = 8
 		cost = 10
 
@@ -1448,7 +1448,7 @@ country = {
     }
     mutually_exclusive = {
     }
-		x = 4
+		x = 10
 		y = 8
 		cost = 10
 
@@ -1480,7 +1480,7 @@ country = {
     mutually_exclusive = {
 
     }
-		x = 2
+		x = 8
 		y = 9
 		cost = 10
 
@@ -1507,7 +1507,7 @@ country = {
     mutually_exclusive = {
     focus = USA_united_states_of_america
     }
-		x = 1
+		x = 7
 		y = 10
 		cost = 10
 
@@ -1535,7 +1535,7 @@ country = {
     mutually_exclusive = {
     focus = USA_confederate_states_of_america
     }
-		x = 3
+		x = 9
 		y = 10
 		cost = 10
 
@@ -1561,7 +1561,7 @@ country = {
     }
     mutually_exclusive = {
     }
-		x = 1
+		x = 7
 		y = 11
 		cost = 10
 
@@ -1594,7 +1594,7 @@ country = {
     }
     mutually_exclusive = {
     }
-		x = 3
+		x = 9
 		y = 11
 		cost = 10
 
@@ -1617,6 +1617,34 @@ country = {
 		}
 	}
   focus = {
+		id = USA_assassinate_president_long
+		icon = GFX_assassinate_president_long
+    available = {
+
+    }
+		prerequisite = {
+    focus = USA_southern_development
+    }
+    mutually_exclusive = {
+    focus = USA_join_international_african_association
+    focus = USA_join_eighth_coalition
+    }
+		x = 5
+		y = 12
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    kill_country_leader = yes
+    news_event = news.8 
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
 		id = USA_join_eighth_coalition
 		icon = GFX_join_eighth_coalition
     available = {
@@ -1628,8 +1656,9 @@ country = {
     }
     mutually_exclusive = {
     focus = USA_join_international_african_association
+    focus = USA_assassinate_president_long
     }
-		x = 1
+		x = 7
 		y = 12
 		cost = 10
 
@@ -1656,8 +1685,9 @@ country = {
     }
     mutually_exclusive = {
     focus = USA_join_eighth_coalition
+    focus = USA_assassinate_president_long
     }
-		x = 3
+		x = 9
 		y = 12
 		cost = 10
 
@@ -1684,7 +1714,7 @@ country = {
     }
     mutually_exclusive = {
     }
-		x = 2
+		x = 8
 		y = 13
 		cost = 10
 
@@ -1709,7 +1739,7 @@ country = {
     }
     mutually_exclusive = {
     }
-		x = 2
+		x = 8
 		y = 14
 		cost = 10
 
@@ -1767,6 +1797,215 @@ country = {
 		}
 	}
   focus = {
+		id = USA_abre_los_ojos_americano
+		icon = GFX_abre_los_ojos_americano
+    available = {
+
+    }
+		prerequisite = {
+    focus = USA_assassinate_president_long
+    }
+    mutually_exclusive = {
+    }
+		x = 5
+		y = 13
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    add_war_support = 0.3
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_march_on_richmond
+		icon = GFX_march_on_richmond
+    available = {
+
+    }
+		prerequisite = {
+    focus = USA_abre_los_ojos_americano
+    }
+    mutually_exclusive = {
+    }
+		x = 5
+		y = 14
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    add_war_support = 0.3
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_national_chairman_vote
+		icon = GFX_national_chairman_vote
+    available = {
+
+    }
+		prerequisite = {
+    focus = USA_march_on_richmond
+    }
+    mutually_exclusive = {
+    }
+		x = 5
+		y = 15
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    add_war_support = 0.3
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_james_p_cannon
+		icon = GFX_james_p_cannon
+    available = {
+
+    }
+		prerequisite = {
+    focus = USA_national_chairman_vote
+    }
+    mutually_exclusive = {
+    focus = USA_earl_browder
+    }
+		x = 4
+		y = 16
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    add_war_support = 0.3
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_earl_browder
+		icon = GFX_earl_browder
+    available = {
+
+    }
+		prerequisite = {
+    focus = USA_national_chairman_vote
+    }
+    mutually_exclusive = {
+    focus = USA_james_p_cannon
+    }
+		x = 6
+		y = 16
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    add_war_support = 0.3
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_join_internationalist_union
+		icon = GFX_join_internationalist_union
+    available = {
+
+    }
+		prerequisite = {
+    focus = USA_james_p_cannon
+    focus = USA_earl_browder
+    }
+    mutually_exclusive = {
+    }
+		x = 5
+		y = 17
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    add_war_support = 0.3
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_trotskys_gift
+		icon = GFX_trotskys_gift
+    available = {
+
+    }
+		prerequisite = {
+    focus = USA_join_internationalist_union
+    }
+    prerequisite = {
+    focus = USA_james_p_cannon
+    }
+    mutually_exclusive = {
+    }
+		x = 4
+		y = 18
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    add_war_support = 0.3
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_syndicate_for_the_union
+		icon = GFX_syndicate_for_the_union
+    available = {
+
+    }
+		prerequisite = {
+    focus = USA_join_internationalist_union
+    }
+    prerequisite = {
+    focus = USA_earl_browder
+    }
+    mutually_exclusive = {
+    }
+		x = 6
+		y = 18
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    add_war_support = 0.3
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
 		id = USA_germanization
 		icon = GFX_goal_support_fascism
     available = {
@@ -1777,7 +2016,7 @@ country = {
     }
     mutually_exclusive = {
     }
-		x = 10
+		x = 16
 		y = 7
 		cost = 10
 
@@ -1802,7 +2041,7 @@ country = {
     }
     mutually_exclusive = {
     }
-		x = 10
+		x = 16
 		y = 8
 		cost = 10
 
@@ -1829,7 +2068,7 @@ country = {
     mutually_exclusive = {
     focus = USA_the_royal_future
     }
-		x = 7
+		x = 13
 		y = 9
 		cost = 10
 
@@ -1855,7 +2094,7 @@ country = {
     }
     mutually_exclusive = {
     }
-		x = 7
+		x = 13
 		y = 10
 		cost = 10
 
@@ -1881,7 +2120,7 @@ country = {
     }
     mutually_exclusive = {
     }
-		x = 6
+		x = 12
 		y = 11
 		cost = 10
 
@@ -1914,7 +2153,7 @@ country = {
     }
     mutually_exclusive = {
     }
-		x = 8
+		x = 14
 		y = 11
 		cost = 10
 
@@ -1944,7 +2183,7 @@ country = {
     }
     mutually_exclusive = {
     }
-		x = 7
+		x = 13
 		y = 12
 		cost = 10
 
@@ -1973,7 +2212,7 @@ country = {
     mutually_exclusive = {
     focus = USA_german_american_nationalism
     }
-		x = 13
+		x = 19
 		y = 9
 		cost = 10
 
@@ -2000,7 +2239,7 @@ country = {
     mutually_exclusive = {
 
     }
-		x = 13
+		x = 19
 		y = 10
 		cost = 10
 
@@ -2028,7 +2267,7 @@ country = {
     mutually_exclusive = {
 
     }
-		x = 12
+		x = 18
 		y = 11
 		cost = 10
 
@@ -2062,7 +2301,7 @@ country = {
     mutually_exclusive = {
 
     }
-		x = 14
+		x = 20
 		y = 11
 		cost = 10
 
@@ -2100,7 +2339,7 @@ country = {
     mutually_exclusive = {
 
     }
-		x = 13
+		x = 19
 		y = 12
 		cost = 10
 
@@ -2132,7 +2371,7 @@ country = {
     mutually_exclusive = {
     focus = USA_join_zeitgeist_pact
     }
-		x = 6
+		x = 12
 		y = 13
 		cost = 10
 
@@ -2160,7 +2399,7 @@ country = {
     mutually_exclusive = {
     focus = USA_join_dai_toa_kyoeiken
     }
-		x = 8
+		x = 14
 		y = 13
 		cost = 10
 
@@ -2189,7 +2428,7 @@ country = {
     focus = USA_join_sacrum_romanum_imperium
     focus = USA_join_nouveau_regime
     }
-		x = 11
+		x = 17
 		y = 13
 		cost = 10
 
@@ -2218,7 +2457,7 @@ country = {
     focus = USA_join_league_of_harmony_and_justice
     focus = USA_join_sacrum_romanum_imperium
     }
-		x = 13
+		x = 19
 		y = 13
 		cost = 10
 
@@ -2247,7 +2486,7 @@ country = {
     focus = USA_join_league_of_harmony_and_justice
     focus = USA_join_nouveau_regime
     }
-		x = 15
+		x = 21
 		y = 13
 		cost = 10
 
@@ -2278,7 +2517,7 @@ country = {
     mutually_exclusive = {
 
     }
-		x = 10
+		x = 16
 		y = 14
 		cost = 10
 
@@ -2304,7 +2543,7 @@ country = {
     mutually_exclusive = {
 
     }
-		x = 10
+		x = 16
 		y = 15
 		cost = 10
 
