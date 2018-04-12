@@ -1725,64 +1725,7 @@ country = {
 			factor = 50
 		}
 	}
-  focus = {
-		id = USA_join_eighth_coalition
-		icon = GFX_join_eighth_coalition
-    available = {
 
-    }
-		prerequisite = {
-    focus = USA_southern_development
-    focus = USA_northern_development
-    }
-    mutually_exclusive = {
-    focus = USA_join_international_african_association
-    focus = USA_assassinate_president_long
-    }
-		x = 7
-		y = 15
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-    IBE = { add_to_faction = USA }
-    add_political_power = 50
-		}
-
-		ai_will_do = {
-			factor = 90
-		}
-	}
-  focus = {
-		id = USA_join_international_african_association
-		icon = GFX_join_international_african_association
-    available = {
-
-    }
-		prerequisite = {
-    focus = USA_southern_development
-    focus = USA_northern_development
-    }
-    mutually_exclusive = {
-    focus = USA_join_eighth_coalition
-    focus = USA_assassinate_president_long
-    }
-		x = 9
-		y = 15
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-    AFE = { add_to_faction = USA }
-    add_political_power = 50
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
   focus = {
 		id = USA_look_beyond_the_mountains
 		icon = GFX_goal_generic_position_armies
@@ -1790,13 +1733,13 @@ country = {
 
     }
 		prerequisite = {
-    focus = USA_join_eighth_coalition
-    focus = USA_join_international_african_association
+    focus = USA_southern_development
+    focus = USA_northern_development
     }
     mutually_exclusive = {
     }
 		x = 8
-		y = 16
+		y = 15
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1813,7 +1756,7 @@ country = {
 		id = USA_manifest_destiny
 		icon = GFX_goal_generic_military_deal
     available = {
-
+    world_tension > 50
     }
 		prerequisite = {
     focus = USA_look_beyond_the_mountains
@@ -1821,7 +1764,7 @@ country = {
     mutually_exclusive = {
     }
 		x = 8
-		y = 17
+		y = 16
 		cost = 10
 
 		available_if_capitulated = yes
@@ -2025,7 +1968,7 @@ country = {
     }
 		x = 3
 		y = 18
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -2459,149 +2402,7 @@ country = {
 			factor = 10
 		}
 	}
-  focus = {
-		id = USA_join_dai_toa_kyoeiken
-		icon = GFX_join_dai_toa_kyoeiken
-    available = {
 
-    }
-		prerequisite = {
-    focus = USA_amerikanische_reich
-    }
-
-    mutually_exclusive = {
-    focus = USA_join_zeitgeist_pact
-    }
-		x = 12
-		y = 13
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-    JAP = { add_to_faction = USA }
-    add_political_power = 50
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
-  focus = {
-		id = USA_join_zeitgeist_pact
-		icon = GFX_join_zeitgeist_pact
-    available = {
-
-    }
-		prerequisite = {
-    focus = USA_amerikanische_reich
-    }
-
-    mutually_exclusive = {
-    focus = USA_join_dai_toa_kyoeiken
-    }
-		x = 14
-		y = 13
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-    POL = { add_to_faction = USA }
-    add_political_power = 50
-		}
-
-		ai_will_do = {
-			factor = 90
-		}
-	}
-  focus = {
-		id = USA_join_league_of_harmony_and_justice
-		icon = GFX_join_league_of_harmony_and_justice
-    available = {
-
-    }
-		prerequisite = {
-    focus = USA_ein_amerika_ein_konig
-    }
-
-    mutually_exclusive = {
-    focus = USA_join_sacrum_romanum_imperium
-    focus = USA_join_nouveau_regime
-    }
-		x = 17
-		y = 13
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-    PRC = { add_to_faction = USA }
-    add_political_power = 50
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
-  focus = {
-		id = USA_join_nouveau_regime
-		icon = GFX_join_nouveau_regime
-    available = {
-
-    }
-		prerequisite = {
-    focus = USA_ein_amerika_ein_konig
-    }
-
-    mutually_exclusive = {
-    focus = USA_join_league_of_harmony_and_justice
-    focus = USA_join_sacrum_romanum_imperium
-    }
-		x = 19
-		y = 13
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-    FRA = { add_to_faction = USA }
-    add_political_power = 50
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
-  focus = {
-		id = USA_join_sacrum_romanum_imperium
-		icon = GFX_join_sacrum_romanum_imperium
-    available = {
-
-    }
-		prerequisite = {
-    focus = USA_ein_amerika_ein_konig
-    }
-
-    mutually_exclusive = {
-    focus = USA_join_league_of_harmony_and_justice
-    focus = USA_join_nouveau_regime
-    }
-		x = 21
-		y = 13
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-    IMP = { add_to_faction = USA }
-    add_political_power = 50
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
   focus = {
 		id = USA_lebensraum
 		icon = GFX_goal_generic_position_armies
@@ -2609,17 +2410,14 @@ country = {
 
     }
 		prerequisite = {
-    focus = USA_join_dai_toa_kyoeiken
-    focus = USA_join_zeitgeist_pact
-    focus = USA_join_league_of_harmony_and_justice
-    focus = USA_join_nouveau_regime
-    focus = USA_join_sacrum_romanum_imperium
+    focus = USA_ein_amerika_ein_konig
+    focus = USA_amerikanische_reich
     }
     mutually_exclusive = {
 
     }
 		x = 16
-		y = 14
+		y = 13
 		cost = 10
 
 		available_if_capitulated = yes
@@ -2645,7 +2443,7 @@ country = {
 
     }
 		x = 16
-		y = 15
+		y = 14
 		cost = 10
 
 		available_if_capitulated = yes
