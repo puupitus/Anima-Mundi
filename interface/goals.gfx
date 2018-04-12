@@ -1266,6 +1266,18 @@ spriteTypes = {
 		name = "GFX_join_sacrum_romanum_imperium"
 		texturefile = "gfx/interface/goals/join_sacrum_romanum_imperium.dds"
 	}
+	SpriteType = {
+		name = "GFX_draft_treaty"
+		texturefile = "gfx/interface/goals/draft_treaty.dds"
+	}
+	SpriteType = {
+		name = "GFX_confederate_socialist_states_of_america"
+		texturefile = "gfx/interface/goals/confederate_socialist_states_of_america.dds"
+	}
+	SpriteType = {
+		name = "GFX_syndicate_of_appalachia"
+		texturefile = "gfx/interface/goals/syndicate_of_appalachia.dds"
+	}
 
 
 

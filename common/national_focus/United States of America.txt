@@ -1496,8 +1496,8 @@ country = {
 		}
 	}
   focus = {
-		id = USA_confederate_states_of_america
-		icon = GFX_confederate_states_of_america
+		id = USA_draft_confederate_states_constitution
+		icon = GFX_draft_treaty
     available = {
     has_country_flag = PRESIDENT_LONG
     }
@@ -1505,7 +1505,7 @@ country = {
     focus = USA_presidential_election
     }
     mutually_exclusive = {
-    focus = USA_united_states_of_america
+    focus = USA_draft_united_states_constitution
     }
 		x = 7
 		y = 10
@@ -1514,9 +1514,59 @@ country = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+    add_political_power = 150
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_draft_united_states_constitution
+		icon = GFX_draft_treaty
+    available = {
+    has_country_flag = PRESIDENT_ROOSEVELT
+    }
+		prerequisite = {
+    focus = USA_presidential_election
+    }
+    mutually_exclusive = {
+    focus = USA_draft_confederate_states_constitution
+    }
+		x = 9
+		y = 10
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    add_political_power = 150
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_confederate_states_of_america
+		icon = GFX_confederate_states_of_america
+    available = {
+    }
+		prerequisite = {
+    focus = USA_draft_confederate_states_constitution
+    }
+    mutually_exclusive = {
+    }
+		x = 7
+		y = 11
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
     set_cosmetic_tag = USA_con
     set_capital = 362
-    add_political_power = 150
+    add_stability = 0.1
 		}
 
 		ai_will_do = {
@@ -1527,23 +1577,21 @@ country = {
 		id = USA_united_states_of_america
 		icon = GFX_united_states_of_america
     available = {
-    has_country_flag = PRESIDENT_ROOSEVELT
     }
 		prerequisite = {
-    focus = USA_presidential_election
+    focus = USA_draft_united_states_constitution
     }
     mutually_exclusive = {
-    focus = USA_confederate_states_of_america
     }
 		x = 9
-		y = 10
+		y = 11
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
     set_cosmetic_tag = USA_uni
-    add_political_power = 150
+    add_stability = 0.1
 		}
 
 		ai_will_do = {
@@ -1564,7 +1612,7 @@ country = {
     focus = USA_abre_los_ojos_americano
     }
 		x = 7
-		y = 13
+		y = 14
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1597,7 +1645,7 @@ country = {
     mutually_exclusive = {
     }
 		x = 9
-		y = 13
+		y = 14
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1633,7 +1681,7 @@ country = {
     mutually_exclusive = {
     }
 		x = 3
-		y = 11
+		y = 12
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1658,7 +1706,7 @@ country = {
     mutually_exclusive = {
     }
 		x = 5
-		y = 12
+		y = 13
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1692,7 +1740,7 @@ country = {
     focus = USA_assassinate_president_long
     }
 		x = 7
-		y = 14
+		y = 15
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1721,7 +1769,7 @@ country = {
     focus = USA_assassinate_president_long
     }
 		x = 9
-		y = 14
+		y = 15
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1748,7 +1796,7 @@ country = {
     mutually_exclusive = {
     }
 		x = 8
-		y = 15
+		y = 16
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1773,7 +1821,7 @@ country = {
     mutually_exclusive = {
     }
 		x = 8
-		y = 16
+		y = 17
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1842,7 +1890,7 @@ country = {
     focus = USA_southern_development
     }
 		x = 3
-		y = 13
+		y = 14
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1868,7 +1916,7 @@ country = {
     mutually_exclusive = {
     }
 		x = 3
-		y = 14
+		y = 15
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1894,7 +1942,7 @@ country = {
     mutually_exclusive = {
     }
 		x = 3
-		y = 15
+		y = 16
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1910,8 +1958,8 @@ country = {
 		}
 	}
   focus = {
-		id = USA_james_p_cannon
-		icon = GFX_james_p_cannon
+		id = USA_confederate_socialist_states_of_america
+		icon = GFX_confederate_socialist_states_of_america
     available = {
     has_country_flag = USA_CHAIRMAN_CANNON
     }
@@ -1919,10 +1967,10 @@ country = {
     focus = USA_national_chairman_vote
     }
     mutually_exclusive = {
-    focus = USA_earl_browder
+    focus = USA_syndicate_of_appalachia
     }
 		x = 2
-		y = 16
+		y = 17
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1937,8 +1985,8 @@ country = {
 		}
 	}
   focus = {
-		id = USA_earl_browder
-		icon = GFX_earl_browder
+		id = USA_syndicate_of_appalachia
+		icon = GFX_syndicate_of_appalachia
     available = {
     has_country_flag = USA_CHAIRMAN_BROWDER
     }
@@ -1946,10 +1994,10 @@ country = {
     focus = USA_national_chairman_vote
     }
     mutually_exclusive = {
-    focus = USA_james_p_cannon
+    focus = USA_confederate_socialist_states_of_america
     }
 		x = 4
-		y = 16
+		y = 17
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1970,13 +2018,13 @@ country = {
 
     }
 		prerequisite = {
-    focus = USA_james_p_cannon
-    focus = USA_earl_browder
+    focus = USA_confederate_socialist_states_of_america
+    focus = USA_syndicate_of_appalachia
     }
     mutually_exclusive = {
     }
 		x = 3
-		y = 17
+		y = 18
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1999,12 +2047,13 @@ country = {
     focus = USA_join_internationalist_union
     }
     prerequisite = {
-    focus = USA_james_p_cannon
+    focus = USA_confederate_socialist_states_of_america
     }
     mutually_exclusive = {
+    focus = USA_syndicate_for_the_union
     }
 		x = 2
-		y = 18
+		y = 19
 		cost = 10
 
 		available_if_capitulated = yes
@@ -2034,12 +2083,13 @@ country = {
     focus = USA_join_internationalist_union
     }
     prerequisite = {
-    focus = USA_earl_browder
+    focus = USA_syndicate_of_appalachia
     }
     mutually_exclusive = {
+    focus = USA_trotskys_gift
     }
 		x = 4
-		y = 18
+		y = 19
 		cost = 10
 
 		available_if_capitulated = yes
