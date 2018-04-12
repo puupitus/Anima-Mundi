@@ -1,5 +1,455 @@
 political_actions = {
 
+	join_eighth_coalition = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+    NOT = { ROOT = { has_war_with = IBE } }
+    ROOT = { is_in_faction = no }
+    ROOT = { has_government = republicanism }
+    ROOT = { is_subject = no }
+    ROOT = { has_war_together_with = IBE }
+    }
+
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			IBE = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+	}
+  join_zeitgeist_pact = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+      NOT = { ROOT = { has_war_with = POL } }
+			ROOT = { is_in_faction = no }
+      ROOT = { has_government = nationalism }
+      ROOT = { is_subject = no }
+      ROOT = { has_war_together_with = POL }
+      ROOT = { NOT = { has_country_flag = ASIAN } }
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			POL = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+	}
+  join_nouveau_regime = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+      NOT = { ROOT = { has_war_with = FRA } }
+			ROOT = { is_in_faction = no }
+      ROOT = { has_government = monarchism }
+      ROOT = { is_subject = no }
+      ROOT = { has_war_together_with = FRA }
+      ROOT = { NOT = { has_country_flag = ASIAN } }
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			FRA = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+  join_internationalist_union = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+      NOT = { ROOT = { has_war_with = MEX } }
+			ROOT = { is_in_faction = no }
+      ROOT = { has_government = socialism }
+      ROOT = { is_subject = no }
+      ROOT = { has_war_together_with = MEX }
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			MEX = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+	}
+  join_international_african_association = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+      NOT = { ROOT = { has_war_with = AFE } }
+			ROOT = { is_in_faction = no }
+      ROOT = { has_government = republicanism }
+      ROOT = { is_subject = no }
+      ROOT = { has_war_together_with = AFE }
+      ROOT = { has_country_flag = AFRICAN }
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			AFE = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+	}
+  join_oldenburg_realms = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+      NOT = { ROOT = { has_war_with = DEN } }
+			ROOT = { is_in_faction = no }
+      ROOT = { has_government = monarchism }
+      ROOT = { is_subject = no }
+      ROOT = { has_war_together_with = DEN }
+      ROOT = { has_country_flag = EUROPEAN }
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			DEN = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+	}
+  join_sacrum_romanum_imperium = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+      NOT = { ROOT = { has_war_with = IMP } }
+			ROOT = { is_in_faction = no }
+      ROOT = { has_government = monarchism }
+      ROOT = { is_subject = no }
+      ROOT = { has_war_together_with = IMP }
+      ROOT = { has_country_flag = EUROPEAN }
+      ROOT = { has_country_flag = AMERICAN }
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			IMP = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+	}
+  join_league_of_harmony_and_justice = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+      NOT = { ROOT = { has_war_with = PRC } }
+			ROOT = { is_in_faction = no }
+      ROOT = { has_government = monarchism }
+      ROOT = { is_subject = no }
+      ROOT = { has_war_together_with = IMP }
+      ROOT = { has_country_flag = ASIAN }
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			PRC = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 80
+		}
+	}
+  join_asian_muslim_league = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+      NOT = { ROOT = { has_war_with = BEN } }
+			ROOT = { is_in_faction = no }
+      ROOT = { has_government = monarchism }
+      ROOT = { is_subject = no }
+      ROOT = { has_war_together_with = BEN }
+      ROOT = { has_country_flag = ASIAN }
+      ROOT = { has_country_flag = MUSLIM }
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			BEN = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+	}
+  join_ottoman_empire = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+      NOT = { ROOT = { has_war_with = OTT } }
+			ROOT = { is_in_faction = no }
+      ROOT = { has_government = monarchism }
+      ROOT = { is_subject = no }
+      ROOT = { has_war_together_with = OTT }
+      ROOT = { OR = {
+      has_country_flag = AFRICAN
+      has_country_flag = MIDDLE_EASTERN } }
+      ROOT = { has_country_flag = MUSLIM }
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			OTT = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+	}
+  join_dai_toa_kyoeiken = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+      NOT = { ROOT = { has_war_with = JAP } }
+			ROOT = { is_in_faction = no }
+      ROOT = { has_government = nationalism }
+      ROOT = { is_subject = no }
+      ROOT = { has_war_together_with = JAP }
+      ROOT = { has_country_flag = ASIAN }
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			JAP = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+	}
+  join_imperio_portugues = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+      NOT = { ROOT = { has_war_with = SSA } }
+			ROOT = { is_in_faction = no }
+      ROOT = { has_government = monarchism }
+      ROOT = { is_subject = no }
+      ROOT = { has_war_together_with = SSA }
+      ROOT = { NOT = { has_country_flag = EUROPEAN } }
+      ROOT = { NOT = { has_country_flag = ASIAN } }
+      ROOT = { NOT = { has_country_flag = MIDDLE_EASTERN } }
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			SSA = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+	}
+  join_imperio_espanol = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+      NOT = { ROOT = { has_war_with = SPA } }
+			ROOT = { is_in_faction = no }
+      ROOT = { has_government = monarchism }
+      ROOT = { is_subject = no }
+      ROOT = { has_war_together_with = SPA }
+      ROOT = { NOT = { has_country_flag = EUROPEAN } }
+      ROOT = { NOT = { has_country_flag = AFRICAN } }
+      ROOT = { NOT = { has_country_flag = MIDDLE_EASTERN } }
+		}
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+    ROOT = { is_in_faction = no }
+    ROOT = { is_subject = no }
+		}
+
+		complete_effect = {
+			SPA = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+}
   boost_stability = {
 
 		icon = generic_political_discourse

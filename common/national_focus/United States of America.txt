@@ -1756,7 +1756,7 @@ country = {
 		id = USA_manifest_destiny
 		icon = GFX_goal_generic_military_deal
     available = {
-    world_tension > 50
+    threat > 0.5
     }
 		prerequisite = {
     focus = USA_look_beyond_the_mountains
@@ -1770,49 +1770,10 @@ country = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-    IF = {
-      limit = {
-        ROOT = {
-          NOT = {
-            is_in_faction_with = QUE
-            }
-          }
-        }
-      declare_war_on = { target = QUE type = take_claimed_state }
-    }
-
-    IF = {
-      limit = {
-        ROOT = {
-          NOT = {
-            is_in_faction_with = HBC
-            }
-          }
-        }
-      declare_war_on = { target = HBC type = take_claimed_state }
-    }
-
-    IF = {
-      limit = {
-        ROOT = {
-          NOT = {
-            is_in_faction_with = MEX
-            }
-          }
-        }
-      declare_war_on = { target = MEX type = take_claimed_state }
-    }
-
-    IF = {
-      limit = {
-        ROOT = {
-          NOT = {
-            is_in_faction_with = CAL
-            }
-          }
-        }
-      declare_war_on = { target = CAL type = take_claimed_state }
-    }
+    create_wargoal = { type = take_claimed_state  target = QUE }
+    create_wargoal = { type = take_claimed_state  target = MEX }
+    create_wargoal = { type = take_claimed_state  target = HBC }
+    create_wargoal = { type = take_claimed_state  target = CAL }
 
 		}
 
@@ -2434,7 +2395,7 @@ country = {
 		id = USA_offensichtliche_bestimmung
 		icon = GFX_goal_generic_military_deal
     available = {
-
+    threat > 0.5
     }
 		prerequisite = {
     focus = USA_lebensraum
