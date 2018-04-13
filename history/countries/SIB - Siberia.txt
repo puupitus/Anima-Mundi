@@ -1,9 +1,7 @@
 capital = 571
 
 oob = "SIB_1936"
-set_country_flag = ASIAN
 set_country_flag = EUROPEAN
-set_major = yes
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

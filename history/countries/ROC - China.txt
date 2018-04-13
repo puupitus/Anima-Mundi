@@ -2,7 +2,7 @@ capital = 613
 
 oob = "ROC_1936"
 set_major = yes
-
+set_country_flag = ASIAN
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

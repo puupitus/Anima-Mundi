@@ -223,8 +223,10 @@ political_actions = {
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
       ROOT = { has_war_together_with = IMP }
+			OR = {
       ROOT = { has_country_flag = EUROPEAN }
-      ROOT = { has_country_flag = AMERICAN }
+      ROOT = { has_country_flag = AMERICAN } }
+			NOT = { ROOT = { has_country_flag = MUSLIM } }
 		}
 
 		#If this trigger matches a country.
@@ -403,9 +405,7 @@ political_actions = {
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
       ROOT = { has_war_together_with = SSA }
-      ROOT = { NOT = { has_country_flag = EUROPEAN } }
-      ROOT = { NOT = { has_country_flag = ASIAN } }
-      ROOT = { NOT = { has_country_flag = MIDDLE_EASTERN } }
+      ROOT = { has_country_flag = AFRICAN }
 		}
 
 		#If this trigger matches a country.
@@ -440,9 +440,7 @@ political_actions = {
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
       ROOT = { has_war_together_with = SPA }
-      ROOT = { NOT = { has_country_flag = EUROPEAN } }
-      ROOT = { NOT = { has_country_flag = AFRICAN } }
-      ROOT = { NOT = { has_country_flag = MIDDLE_EASTERN } }
+			ROOT = { has_country_flag = AMERICAN }
 		}
 
 		#If this trigger matches a country.

@@ -3,24 +3,6 @@ capital = 126
 oob = "BRI_1936"
 set_country_flag = EUROPEAN
 set_major = yes
-puppet = HAN
-HAN = {
-	set_politics = {
-		ruling_party = socialism
-			}
-}
-puppet = AST
-AST = {
-	set_politics = {
-		ruling_party = socialism
-			}
-}
-puppet = IND
-IND = {
-	set_politics = {
-		ruling_party = socialism
-			}
-}
 
 # Starting tech
 set_technology = {
