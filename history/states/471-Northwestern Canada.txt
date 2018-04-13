@@ -7,7 +7,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = CAL
+		owner = HBC
 		buildings = {
 			infrastructure = 1
 			10548 = {
