@@ -1753,27 +1753,99 @@ country = {
 		}
 	}
   focus = {
-		id = USA_manifest_destiny
+		id = USA_virtue
 		icon = GFX_goal_generic_military_deal
     available = {
-    threat > 0.5
+    threat > 0.25
+    NOT = { is_in_faction_with = MEX }
+    NOT = { is_subject = yes }
     }
 		prerequisite = {
     focus = USA_look_beyond_the_mountains
     }
     mutually_exclusive = {
     }
-		x = 8
+		x = 7
 		y = 16
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-    create_wargoal = { type = take_claimed_state  target = QUE }
-    create_wargoal = { type = take_claimed_state  target = MEX }
-    create_wargoal = { type = take_claimed_state  target = HBC }
-    create_wargoal = { type = take_claimed_state  target = CAL }
+    create_wargoal = { target = MEX type = take_claimed_state }
+    declare_war_on = { target = MEX type = take_claimed_state }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_mission
+		icon = GFX_goal_generic_military_deal
+    available = {
+    threat > 0.25
+    NOT = { is_in_faction_with = CAL }
+    NOT = { is_subject = yes }
+    OR = {
+    is_in_faction_with = USA
+    tag = USA }
+    AND = {
+    controls_state = 382
+    controls_state = 377 }
+    MEX = { has_capitulated = yes }
+    }
+		prerequisite = {
+    focus = USA_look_beyond_the_mountains
+    }
+    mutually_exclusive = {
+    }
+		x = 9
+		y = 16
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    create_wargoal = { target = CAL type = take_claimed_state }
+    declare_war_on = { target = CAL type = take_claimed_state }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_manifest_destiny
+		icon = GFX_goal_generic_forceful_treaty
+    available = {
+    OR = {
+    is_in_faction_with = USA
+    tag = USA }
+    AND = {
+    controls_state = 277
+    controls_state = 378 }
+    CAL = { has_capitulated = yes }
+    MEX = { has_capitulated = yes }
+    }
+		prerequisite = {
+    focus = USA_virtue
+    }
+    prerequisite = {
+    focus = USA_mission
+    }
+    mutually_exclusive = {
+    }
+		x = 8
+		y = 17
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    annex_country = { target = MEX }
+    annex_country = { target = CAL }
+    every_owned_state = { add_core_of = USA }
 
 		}
 
@@ -1919,7 +1991,10 @@ country = {
 		id = USA_join_internationalist_union
 		icon = GFX_join_internationalist_union
     available = {
-
+    MEX = { is_faction_leader = yes }
+    NOT = { is_subject = yes }
+    NOT = { has_war_with = MEX }
+    ROOT = { NOT = { is_in_faction = yes } }
     }
 		prerequisite = {
     focus = USA_confederate_socialist_states_of_america
@@ -2392,10 +2467,12 @@ country = {
 		}
 	}
   focus = {
-		id = USA_offensichtliche_bestimmung
+		id = USA_plan_nord
 		icon = GFX_goal_generic_military_deal
     available = {
-    threat > 0.5
+    threat > 0.25
+    NOT = { is_in_faction_with = QUE }
+    NOT = { is_subject = yes }
     }
 		prerequisite = {
     focus = USA_lebensraum
@@ -2403,56 +2480,92 @@ country = {
     mutually_exclusive = {
 
     }
-		x = 16
+		x = 15
 		y = 14
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-    IF = {
-      limit = {
-        ROOT = {
-          NOT = {
-            is_in_faction_with = QUE
-            }
-          }
-        }
-      declare_war_on = { target = QUE type = take_claimed_state }
-    }
+    create_wargoal = { target = QUE type = take_claimed_state }
+    declare_war_on = { target = QUE type = take_claimed_state }
+		}
 
-    IF = {
-      limit = {
-        ROOT = {
-          NOT = {
-            is_in_faction_with = HBC
-            }
-          }
-        }
-      declare_war_on = { target = HBC type = take_claimed_state }
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_plan_nordwest
+		icon = GFX_goal_generic_military_deal
+    available = {
+    threat > 0.25
+    NOT = { is_in_faction_with = HBC }
+    NOT = { is_subject = yes }
+    OR = {
+    is_in_faction_with = USA
+    tag = USA }
+    AND = {
+    controls_state = 276
+    controls_state = 391
+    controls_state = 392
+    controls_state = 393
+    controls_state = 394 }
+    QUE = { has_capitulated = yes }
     }
+		prerequisite = {
+    focus = USA_lebensraum
+    }
+    mutually_exclusive = {
 
-    IF = {
-      limit = {
-        ROOT = {
-          NOT = {
-            is_in_faction_with = MEX
-            }
-          }
-        }
-      declare_war_on = { target = MEX type = take_claimed_state }
     }
+		x = 17
+		y = 14
+		cost = 10
 
-    IF = {
-      limit = {
-        ROOT = {
-          NOT = {
-            is_in_faction_with = CAL
-            }
-          }
-        }
-      declare_war_on = { target = CAL type = take_claimed_state }
+		available_if_capitulated = yes
+
+		completion_reward = {
+    create_wargoal = { target = HBC type = take_claimed_state }
+    declare_war_on = { target = HBC type = take_claimed_state }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+  focus = {
+		id = USA_offensichtliche_bestimmung
+		icon = GFX_goal_generic_forceful_treaty
+    available = {
+    OR = {
+    is_in_faction_with = USA
+    tag = USA }
+    AND = {
+    controls_state = 468
+    controls_state = 683 }
+    QUE = { has_capitulated = yes }
+    HBC = { has_capitulated = yes }
     }
+		prerequisite = {
+    focus = USA_plan_nord
+    }
+    prerequisite = {
+    focus = USA_plan_nordwest
+    }
+    mutually_exclusive = {
+
+    }
+		x = 16
+		y = 15
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+    annex_country = { target = QUE }
+    annex_country = { target = HBC }
+    every_owned_state = { add_core_of = USA }
 		}
 
 		ai_will_do = {
