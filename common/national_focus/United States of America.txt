@@ -1373,7 +1373,6 @@ country = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-    add_ideas = rep_drift
     add_stability = 0.05
 		}
 
@@ -1488,6 +1487,7 @@ country = {
 
 		completion_reward = {
     add_stability = 0.05
+    add_popularity = { ideology = republicanism popularity = 0.1 }
     country_event = usa.1
 		}
 
@@ -1877,8 +1877,6 @@ country = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-    remove_ideas = rep_drift
-    add_ideas = soc_drift
 		}
 
 		ai_will_do = {
@@ -2159,8 +2157,8 @@ country = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-    add_ideas = nat_drift
     add_political_power = 50
+    add_popularity = { ideology = nationalism popularity = 0.2 }
 		}
 
 		ai_will_do = {
@@ -2304,8 +2302,8 @@ country = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-    add_ideas = mon_drift
     add_political_power = 50
+    add_popularity = { ideology = monarchism popularity = 0.2 }
 		}
 
 		ai_will_do = {
