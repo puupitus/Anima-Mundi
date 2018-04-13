@@ -1765,6 +1765,9 @@ country = {
     }
     mutually_exclusive = {
     }
+    bypass = {
+    has_war_with = MEX
+    }
 		x = 7
 		y = 16
 		cost = 10
@@ -1798,6 +1801,9 @@ country = {
     focus = USA_look_beyond_the_mountains
     }
     mutually_exclusive = {
+    }
+    bypass = {
+    has_war_with = CAL
     }
 		x = 9
 		y = 16
@@ -2479,6 +2485,9 @@ country = {
     mutually_exclusive = {
 
     }
+    bypass = {
+    has_war_with = QUE
+    }
 		x = 15
 		y = 14
 		cost = 10
@@ -2516,6 +2525,9 @@ country = {
     }
     mutually_exclusive = {
 
+    }
+    bypass = {
+    has_war_with = HBC
     }
 		x = 17
 		y = 14

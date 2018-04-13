@@ -542,12 +542,12 @@ political_actions = {
 
 		available = {
 			has_government = monarchism
-			monarchism < 0.5
+			monarchism < 0.4
 		}
 
 		visible = {
 		has_government = monarchism
-		monarchism < 0.5
+		monarchism < 0.4
 		}
 
 		remove_trigger = {
@@ -579,12 +579,11 @@ boost_republicanism_popularity = {
 
   available = {
     has_government = republicanism
-    republicanism < 0.5
+	  republicanism < 0.4
   }
 
   visible = {
   has_government = republicanism
-  republicanism < 0.5
   }
 
   remove_trigger = {
@@ -616,12 +615,10 @@ boost_socialism_popularity = {
 
   available = {
     has_government = socialism
-    socialism < 0.5
   }
 
   visible = {
   has_government = socialism
-  socialism < 0.5
   }
 
   remove_trigger = {
@@ -653,12 +650,11 @@ boost_nationalism_popularity = {
 
   available = {
     has_government = nationalism
-    nationalism < 0.5
   }
 
   visible = {
   has_government = nationalism
-  nationalism < 0.5
+  nationalism < 0.4
   }
 
   remove_trigger = {
