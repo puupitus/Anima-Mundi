@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = TCS
+		owner = UKR
 		buildings = {
 			infrastructure = 4
 			air_base = 2
@@ -19,6 +19,7 @@ state={
 		add_core_of = SOV
 		add_core_of = SIB
 		add_core_of = TCS
+		add_core_of = UKR
 	}
 
 	provinces={

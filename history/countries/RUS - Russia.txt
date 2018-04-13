@@ -1,7 +1,8 @@
-capital = 473
+capital = 217
 
 oob = "RUS_1936"
 set_country_flag = EUROPEAN
+set_major = yes
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -61,8 +62,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Alexander Kerensky"
-	picture = "alexander_kerensky.dds"
+	name = "Irina I"
+	picture = "irina_i.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#

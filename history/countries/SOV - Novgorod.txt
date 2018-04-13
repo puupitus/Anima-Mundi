@@ -1,4 +1,4 @@
-capital = 263
+capital = 195
 
 oob = "SOV_1936"
 set_country_flag = EUROPEAN
@@ -62,8 +62,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Felix Yusupov"
-	picture = "felix_yusupov.dds"
+	name = "Prince Andrei Alexandrovich"
+	picture = "andrei_alexandrovich.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#

@@ -304,8 +304,8 @@ SIA = {
 	color_ui = rgb { 171 190 152 }
 }
 SIB = {
-color = rgb { 0 135 221 }
-color_ui = rgb { 0 135 221 }
+color = rgb { 7 137 48 }
+color_ui = rgb { 7 137 48 }
 }
 SIC = {
 color = rgb { 224 0 11 }

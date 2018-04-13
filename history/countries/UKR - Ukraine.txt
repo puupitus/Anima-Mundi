@@ -1,4 +1,4 @@
-capital = 202
+capital = 137
 
 oob = "UKR_1936"
 set_country_flag = EUROPEAN
@@ -39,22 +39,22 @@ set_politics = {
 			}
 
 			republicanism = {
-				popularity = 10
+				popularity = 40
 			}
 
 			monarchism = {
-				popularity = 40
+				popularity = 10
 			}
 		}
-	ruling_party = monarchism
+	ruling_party = republicanism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Nikita Khrushchev"
-	picture = "nikita_khrushchev.dds"
+	name = "Anton Denikin"
+	picture = "anton_denikin.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
@@ -69,8 +69,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Lazar Kaganovich"
-	picture = "lazar_kaganovich.dds"
+	name = "Nikita Khrushchev"
+	picture = "nikita_khrushchev.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#

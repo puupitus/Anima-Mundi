@@ -7,7 +7,7 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = OSJ
+		owner = SOV
 		victory_points = {
 			3151 30.0
 		}

@@ -1,4 +1,4 @@
-capital = 217
+capital = 219
 
 oob = "TCS_1936"
 set_country_flag = EUROPEAN
@@ -31,11 +31,11 @@ set_politics = {
 
 		parties = {
 			nationalism = {
-				popularity = 30
+				popularity = 40
 			}
 
 			socialism = {
-				popularity = 40
+				popularity = 30
 			}
 
 			republicanism = {
@@ -46,24 +46,32 @@ set_politics = {
 				popularity = 10
 			}
 		}
-	ruling_party = socialism
+	ruling_party = nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Noe Zhordania"
-	picture = "noe_zhordania.dds"
+	name = "Pyotr Nikolayevich Wrangel"
+	picture = "pyotr_nikolayevich_wrangel.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Giorgi Mazniashvili"
-	picture = "giorgi_mazniashvili.dds"
+	name = "Felix Yusupov"
+	picture = "felix_yusupov.dds"
 	ideology = absolutism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Lev Kamenev"
+	picture = "lev_kamenev.dds"
+	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
@@ -71,14 +79,6 @@ create_country_leader = {
 create_country_leader = {
 	name = "Josif Stalin"
 	picture = "josif_stalin.dds"
-	ideology = marxist
-	traits = { zeitgeist_default
-		#
-	}
-}
-create_country_leader = {
-	name = "Maria Nikiforova"
-	picture = "maria_nikiforova.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#
