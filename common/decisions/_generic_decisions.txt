@@ -32,7 +32,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 100
 		}
 	}
   join_zeitgeist_pact = {
@@ -67,7 +67,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 100
 		}
 	}
   join_nouveau_regime = {
@@ -102,7 +102,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 0
+			factor = 100
 		}
 	}
   join_internationalist_union = {
@@ -136,7 +136,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 100
 		}
 	}
   join_international_african_association = {
@@ -171,7 +171,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 100
 		}
 	}
   join_oldenburg_realms = {
@@ -206,7 +206,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 100
 		}
 	}
   join_sacrum_romanum_imperium = {
@@ -244,7 +244,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 100
 		}
 	}
   join_league_of_harmony_and_justice = {
@@ -279,7 +279,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 80
+			factor = 100
 		}
 	}
   join_asian_muslim_league = {
@@ -315,7 +315,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 100
 		}
 	}
   join_ottoman_empire = {
@@ -353,7 +353,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 100
 		}
 	}
   join_dai_toa_kyoeiken = {
@@ -388,7 +388,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 100
 		}
 	}
   join_imperio_portugues = {
@@ -423,7 +423,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 100
 		}
 	}
   join_imperio_espanol = {
@@ -458,7 +458,7 @@ political_actions = {
 		}
 
 		ai_will_do = {
-			factor = 20
+			factor = 100
 		}
 }
   boost_stability = {
@@ -466,7 +466,7 @@ political_actions = {
 		icon = generic_political_discourse
 
 		available = {
-
+		has_stability < 0.6
 		}
 
 		visible = {
@@ -476,20 +476,20 @@ political_actions = {
 		fire_only_once = no
 
 		modifier = {
-			stability_weekly = 0.01
+			stability_weekly = 0.005
+			political_power_gain = -0.25
 		}
 
 		days_remove = 180
 		days_re_enable = 180
 
-		cost = 90
 
 		complete_effect = {
 
 		}
 
 		ai_will_do = {
-			base = 0
+			factor = 0
 			modifier = {
 				add = 1
 				has_stability < 0.6
@@ -501,7 +501,8 @@ political_actions = {
 		icon = generic_political_discourse
 
 		available = {
-			has_war_support < 0.9
+			has_war_support < 0.6
+			has_war = yes
 		}
 
 		visible = {
@@ -514,24 +515,172 @@ political_actions = {
 		fire_only_once = no
 
 		modifier = {
-			war_support_weekly = 0.01
+			war_support_weekly = 0.005
+			political_power_gain = -0.25
+
 		}
 
 		days_remove = 180
 		days_re_enable = 180
 
-		cost = 90
 
 		complete_effect = {
 
 		}
 
 		ai_will_do = {
-			base = 0
+			factor = 0
 			modifier = {
 				add = 1
-				has_war_support < 0.5
+				has_war_support < 0.6
 			}
 		}
 	}
+	boost_monarchism_popularity = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_government = monarchism
+			monarchism < 0.5
+		}
+
+		visible = {
+		has_government = monarchism
+		monarchism < 0.5
+		}
+
+		remove_trigger = {
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			monarchism_drift = 0.1
+			political_power_gain = -0.25
+		}
+
+		days_remove = 180
+		days_re_enable = 360
+
+
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			factor = 20
+	}
+}
+boost_republicanism_popularity = {
+
+  icon = generic_political_discourse
+
+  available = {
+    has_government = republicanism
+    republicanism < 0.5
+  }
+
+  visible = {
+  has_government = republicanism
+  republicanism < 0.5
+  }
+
+  remove_trigger = {
+  }
+
+  fire_only_once = no
+
+  modifier = {
+    republicanism_drift = 0.1
+    political_power_gain = -0.25
+  }
+
+  days_remove = 180
+  days_re_enable = 360
+
+
+
+  complete_effect = {
+
+  }
+
+  ai_will_do = {
+    factor = 20
+}
+}
+boost_socialism_popularity = {
+
+  icon = generic_political_discourse
+
+  available = {
+    has_government = socialism
+    socialism < 0.5
+  }
+
+  visible = {
+  has_government = socialism
+  socialism < 0.5
+  }
+
+  remove_trigger = {
+  }
+
+  fire_only_once = no
+
+  modifier = {
+    socialism_drift = 0.1
+    political_power_gain = -0.25
+  }
+
+  days_remove = 180
+  days_re_enable = 360
+
+
+
+  complete_effect = {
+
+  }
+
+  ai_will_do = {
+    factor = 20
+}
+}
+boost_nationalism_popularity = {
+
+  icon = generic_political_discourse
+
+  available = {
+    has_government = nationalism
+    nationalism < 0.5
+  }
+
+  visible = {
+  has_government = nationalism
+  nationalism < 0.5
+  }
+
+  remove_trigger = {
+  }
+
+  fire_only_once = no
+
+  modifier = {
+    nationalism_drift = 0.1
+    political_power_gain = -0.25
+  }
+
+  days_remove = 180
+  days_re_enable = 360
+
+
+
+  complete_effect = {
+
+  }
+
+  ai_will_do = {
+    factor = 20
+}
 }

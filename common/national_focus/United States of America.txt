@@ -1784,7 +1784,6 @@ country = {
 		id = USA_mission
 		icon = GFX_goal_generic_military_deal
     available = {
-    threat > 0.25
     NOT = { is_in_faction_with = CAL }
     NOT = { is_subject = yes }
     OR = {
@@ -2499,7 +2498,6 @@ country = {
 		id = USA_plan_nordwest
 		icon = GFX_goal_generic_military_deal
     available = {
-    threat > 0.25
     NOT = { is_in_faction_with = HBC }
     NOT = { is_subject = yes }
     OR = {

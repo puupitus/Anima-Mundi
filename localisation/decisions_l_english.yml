@@ -25,3 +25,7 @@
  join_imperio_espanol:0 "Join Imperio Español"
  boost_stability:0 "Boost Stability"
  boost_war_support:0 "Boost War Support"
+ boost_socialism_popularity:0 "Boost Socialism Support"
+ boost_monarchism_popularity:0 "Boost Monarchism Support"
+ boost_nationalism_popularity:0 "Boost Nationalism Support"
+ boost_republicanism_popularity:0 "Boost Republicanism Support"
