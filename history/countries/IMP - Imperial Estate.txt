@@ -16,12 +16,7 @@ SWI = {
 		ruling_party = monarchism
 			}
 }
-puppet = BRA
-BRA = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
+
 puppet = ROM
 ROM = {
 	set_politics = {

@@ -28,12 +28,6 @@ BYZ = {
 		ruling_party = monarchism
 			}
 }
-puppet = RHI
-RHI = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
 puppet = BAL
 BAL = {
 	set_politics = {
@@ -46,7 +40,12 @@ DIN = {
 		ruling_party = monarchism
 			}
 }
-
+puppet = RHI
+RHI = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
 
 # Starting tech
 set_technology = {

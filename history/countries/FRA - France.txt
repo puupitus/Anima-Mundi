@@ -28,18 +28,13 @@ CAF = {
 		ruling_party = monarchism
 			}
 }
-puppet = BAV
-BAV = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
 puppet = MCO
 MCO = {
 	set_politics = {
 		ruling_party = monarchism
 			}
 }
+add_to_faction = RUS
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

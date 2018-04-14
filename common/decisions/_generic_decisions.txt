@@ -1,45 +1,7 @@
 political_actions = {
 
+
 	join_eighth_coalition = {
-
-		icon = generic_decision
-
-		allowed = {
-		}
-
-		available = {
-		IBE = { is_faction_leader = yes }
-    NOT = { ROOT = { has_war_with = IBE } }
-    ROOT = { is_in_faction = no }
-    ROOT = { has_government = republicanism }
-    ROOT = { is_subject = no }
-    ROOT = { has_war_together_with = IBE }
-    }
-
-
-		#If this trigger matches a country.
-		target_trigger = {
-				}
-
-
-		visible = {
-		IBE = { is_faction_leader = yes }
-    NOT = { ROOT = { has_war_with = IBE } }
-    ROOT = { is_in_faction = no }
-    ROOT = { has_government = republicanism }
-    ROOT = { is_subject = no }
-    ROOT = { has_war_together_with = IBE }
-		}
-
-		complete_effect = {
-			IBE = { add_to_faction = ROOT }
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-	}
-	join_eighth_coalition2 = {
 
 		icon = generic_decision
 

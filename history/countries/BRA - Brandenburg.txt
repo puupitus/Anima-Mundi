@@ -61,8 +61,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Erich von Manstein"
-	picture = "erich_von_manstein.dds"
+	name = "Wilhelm II"
+	picture = "wilhelm_ii.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
