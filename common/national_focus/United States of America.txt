@@ -1824,6 +1824,7 @@ country = {
 		id = USA_manifest_destiny
 		icon = GFX_goal_generic_forceful_treaty
     available = {
+    NOT = { is_subject = yes }
     OR = {
     is_in_faction_with = USA
     tag = USA }
@@ -2546,6 +2547,7 @@ country = {
 		id = USA_offensichtliche_bestimmung
 		icon = GFX_goal_generic_forceful_treaty
     available = {
+    NOT = { is_subject = yes }
     OR = {
     is_in_faction_with = USA
     tag = USA }

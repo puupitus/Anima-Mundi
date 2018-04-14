@@ -11,6 +11,7 @@
  DECISION_COST_DESC:0 "It costs £pol_power $VAL|H0$ to take the decision"
  DECISION_COST_NOT_ENOUGH:0 "It costs £pol_power $VAL|HR0$ to take the decision"
  join_eighth_coalition:0 "Join Eighth Coalition"
+ join_eighth_coalition2:0 "Join Eighth Coalition"
  join_zeitgeist_pact:0 "Join Zeitgeist Pact"
  join_nouveau_regime:0 "Join Nouveau Régime"
  join_internationalist_union:0 "Join Internationalist Union"

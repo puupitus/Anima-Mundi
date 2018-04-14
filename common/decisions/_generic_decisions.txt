@@ -23,12 +23,55 @@ political_actions = {
 
 
 		visible = {
+		IBE = { is_faction_leader = yes }
+    NOT = { ROOT = { has_war_with = IBE } }
     ROOT = { is_in_faction = no }
+    ROOT = { has_government = republicanism }
     ROOT = { is_subject = no }
+    ROOT = { has_war_together_with = IBE }
 		}
 
 		complete_effect = {
 			IBE = { add_to_faction = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	join_eighth_coalition2 = {
+
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		available = {
+		UKR = { is_faction_leader = yes }
+    NOT = { ROOT = { has_war_with = UKR } }
+    ROOT = { is_in_faction = no }
+    ROOT = { has_government = republicanism }
+    ROOT = { is_subject = no }
+    ROOT = { has_war_together_with = UKR }
+    }
+
+
+		#If this trigger matches a country.
+		target_trigger = {
+				}
+
+
+		visible = {
+		UKR = { is_faction_leader = yes }
+    NOT = { ROOT = { has_war_with = UKR } }
+    ROOT = { is_in_faction = no }
+    ROOT = { has_government = republicanism }
+    ROOT = { is_subject = no }
+    ROOT = { has_war_together_with = UKR }
+		}
+
+		complete_effect = {
+			UKR = { add_to_faction = ROOT }
 		}
 
 		ai_will_do = {
@@ -58,8 +101,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		POL = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = POL } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = nationalism }
+		ROOT = { is_subject = no }
+		ROOT = { has_war_together_with = POL }
+		ROOT = { NOT = { has_country_flag = ASIAN } }
 		}
 
 		complete_effect = {
@@ -93,8 +141,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		FRA = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = FRA } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_war_together_with = FRA }
+		ROOT = { NOT = { has_country_flag = ASIAN } }
 		}
 
 		complete_effect = {
@@ -127,8 +180,12 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		MEX = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = MEX } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = socialism }
+		ROOT = { is_subject = no }
+		ROOT = { has_war_together_with = MEX }
 		}
 
 		complete_effect = {
@@ -162,8 +219,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		AFE = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = AFE } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = republicanism }
+		ROOT = { is_subject = no }
+		ROOT = { has_war_together_with = AFE }
+		ROOT = { has_country_flag = AFRICAN }
 		}
 
 		complete_effect = {
@@ -197,8 +259,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		DEN = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = DEN } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_war_together_with = DEN }
+		ROOT = { has_country_flag = EUROPEAN }
 		}
 
 		complete_effect = {
@@ -235,8 +302,16 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		IMP = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = IMP } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_war_together_with = IMP }
+		OR = {
+		ROOT = { has_country_flag = EUROPEAN }
+		ROOT = { has_country_flag = AMERICAN } }
+		NOT = { ROOT = { has_country_flag = MUSLIM } }
 		}
 
 		complete_effect = {
@@ -270,8 +345,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		PRC = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = PRC } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_war_together_with = IMP }
+		ROOT = { has_country_flag = ASIAN }
 		}
 
 		complete_effect = {
@@ -306,8 +386,14 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		BEN = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = BEN } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_war_together_with = BEN }
+		ROOT = { has_country_flag = ASIAN }
+		ROOT = { has_country_flag = MUSLIM }
 		}
 
 		complete_effect = {
@@ -344,8 +430,16 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		OTT = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = OTT } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_war_together_with = OTT }
+		ROOT = { OR = {
+		has_country_flag = AFRICAN
+		has_country_flag = MIDDLE_EASTERN } }
+		ROOT = { has_country_flag = MUSLIM }
 		}
 
 		complete_effect = {
@@ -379,8 +473,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		JAP = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = JAP } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = nationalism }
+		ROOT = { is_subject = no }
+		ROOT = { has_war_together_with = JAP }
+		ROOT = { has_country_flag = ASIAN }
 		}
 
 		complete_effect = {
@@ -414,8 +513,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		SSA = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = SSA } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_war_together_with = SSA }
+		ROOT = { has_country_flag = AFRICAN }
 		}
 
 		complete_effect = {
@@ -449,8 +553,13 @@ political_actions = {
 
 
 		visible = {
-    ROOT = { is_in_faction = no }
-    ROOT = { is_subject = no }
+		SPA = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = SPA } }
+		ROOT = { is_in_faction = no }
+		ROOT = { has_government = monarchism }
+		ROOT = { is_subject = no }
+		ROOT = { has_war_together_with = SPA }
+		ROOT = { has_country_flag = AMERICAN }
 		}
 
 		complete_effect = {

@@ -40,7 +40,6 @@ MCO = {
 		ruling_party = monarchism
 			}
 }
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
