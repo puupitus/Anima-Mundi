@@ -32,7 +32,7 @@ country = {
     }
 		x = 10
 		y = 1
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -58,7 +58,7 @@ country = {
     }
 		x = 6
 		y = 2
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -85,7 +85,7 @@ country = {
     }
 		x = 8
 		y = 3
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -114,7 +114,7 @@ country = {
     }
 		x = 6
 		y = 3
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -143,7 +143,7 @@ country = {
     }
 		x = 4
 		y = 3
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -170,8 +170,8 @@ country = {
 
     }
 		x = 6
-		y = 3
-		cost = 10
+		y = 4
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -199,7 +199,7 @@ country = {
     }
 		x = 5
 		y = 5
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -225,7 +225,7 @@ country = {
     }
 		x = 7
 		y = 5
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -249,7 +249,7 @@ country = {
     }
 		x = 5
 		y = 6
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -275,7 +275,7 @@ country = {
     }
 		x = 7
 		y = 6
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -303,7 +303,7 @@ country = {
     }
 		x = 5
 		y = 9
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -336,7 +336,7 @@ country = {
     }
 		x = 7
 		y = 9
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -372,7 +372,7 @@ country = {
     }
 		x = 1
 		y = 7
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -397,7 +397,7 @@ country = {
     }
 		x = 3
 		y = 8
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -430,7 +430,7 @@ country = {
     }
 		x = 6
 		y = 10
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -460,7 +460,7 @@ country = {
     }
 		x = 5
 		y = 11
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -497,7 +497,7 @@ country = {
     }
 		x = 7
 		y = 11
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -534,7 +534,7 @@ country = {
     }
 		x = 6
 		y = 12
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -563,7 +563,7 @@ country = {
     }
 		x = 1
 		y = 9
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -587,7 +587,7 @@ country = {
     }
 		x = 1
 		y = 10
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -613,7 +613,7 @@ country = {
     }
 		x = 1
 		y = 11
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -641,7 +641,7 @@ country = {
     }
 		x = 0
 		y = 12
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -668,7 +668,7 @@ country = {
     }
 		x = 2
 		y = 12
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -698,7 +698,7 @@ country = {
     }
 		x = 1
 		y = 13
-		cost = 5
+		cost = 2
 
 		available_if_capitulated = yes
 
@@ -727,7 +727,7 @@ country = {
     }
 		x = 0
 		y = 14
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -763,7 +763,7 @@ country = {
     }
 		x = 2
 		y = 14
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -791,7 +791,7 @@ country = {
     }
 		x = 14
 		y = 2
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -816,7 +816,7 @@ country = {
     }
 		x = 14
 		y = 3
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -843,7 +843,7 @@ country = {
     }
 		x = 11
 		y = 4
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -869,7 +869,7 @@ country = {
     }
 		x = 11
 		y = 5
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -895,7 +895,7 @@ country = {
     }
 		x = 10
 		y = 6
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -928,7 +928,7 @@ country = {
     }
 		x = 12
 		y = 6
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -959,7 +959,7 @@ country = {
     }
 		x = 11
 		y = 7
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -988,7 +988,7 @@ country = {
     }
 		x = 17
 		y = 4
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -1015,7 +1015,7 @@ country = {
     }
 		x = 17
 		y = 5
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -1043,7 +1043,7 @@ country = {
     }
 		x = 16
 		y = 6
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -1077,7 +1077,7 @@ country = {
     }
 		x = 18
 		y = 6
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -1115,7 +1115,7 @@ country = {
     }
 		x = 17
 		y = 7
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -1148,7 +1148,7 @@ country = {
     }
 		x = 14
 		y = 8
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -1179,7 +1179,7 @@ country = {
     }
 		x = 13
 		y = 9
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -1220,7 +1220,7 @@ country = {
     }
 		x = 15
 		y = 9
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
@@ -1258,7 +1258,7 @@ country = {
     }
 		x = 14
 		y = 10
-		cost = 10
+		cost = 14.3
 
 		available_if_capitulated = yes
 
