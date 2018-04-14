@@ -9,6 +9,7 @@ state={
 		owner = GUK
 		add_core_of = JAP
 		add_core_of = RUS
+add_core_of = UKR
 		add_core_of = SOV
 		add_core_of = SIB
 		add_core_of = TCS

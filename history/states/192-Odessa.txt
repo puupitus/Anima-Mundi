@@ -20,8 +20,9 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = UKR
+		
 		add_core_of = RUS
+add_core_of = UKR
 		add_core_of = SOV
 		add_core_of = SIB
 		add_core_of = TCS
