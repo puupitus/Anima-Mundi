@@ -22,7 +22,7 @@ state={
 			}
 		}
 		add_core_of = OTT
-		add_core_of = SIP
+		add_core_of = SYR
 		add_core_of = BYZ
 	}
 

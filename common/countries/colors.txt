@@ -311,7 +311,7 @@ SIC = {
 color = rgb { 224 0 11 }
 color_ui = rgb { 224 0 11 }
 }
-SIP = {
+SYR = {
 color = rgb { 206 17 38 }
 color_ui = rgb { 206 17 38 }
 }
