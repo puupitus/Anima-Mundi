@@ -393,16 +393,16 @@
 
  GUK_monarchism:0 "Green Ukraine"
  GUK_republicanism:0 "Far Eastern Republic"
- GUK_socialism:0 "Far Eastern Socialist Republic"
- GUK_nationalism:0 "Statist Green Ukraine"
+ GUK_socialism:0 "Kyōsan Nippon-koku"
+ GUK_nationalism:0 "Priamursky Zemsky Krai"
  GUK_monarchism_DEF:0 "The Green Ukraine"
  GUK_republicanism_DEF:0 "The Far Eastern Republic"
- GUK_socialism_DEF:0 "The Far Eastern Socialist Republic"
- GUK_nationalism_DEF:0 "The Statist Green Ukraine"
+ GUK_socialism_DEF:0 "The Kyōsan Nippon-koku"
+ GUK_nationalism_DEF:0 "The Priamursky Zemsky Krai"
  GUK_monarchism_ADJ:0 "Green Ukrainian"
  GUK_republicanism_ADJ:0 "Green Ukrainian"
- GUK_socialism_ADJ:0 "Green Ukrainian"
- GUK_nationalism_ADJ:0 "Green Ukrainian"
+ GUK_socialism_ADJ:0 "Japanese"
+ GUK_nationalism_ADJ:0 "Priamurian"
  ################################################################################
 
  HBC_monarchism:0 "Hudson's Bay Company"

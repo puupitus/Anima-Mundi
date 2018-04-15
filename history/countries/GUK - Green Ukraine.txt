@@ -32,19 +32,19 @@ set_politics = {
 
 		parties = {
 			nationalism = {
-				popularity = 20
+				popularity = 40
 			}
 
 			socialism = {
-				popularity = 10
-			}
-
-			republicanism = {
 				popularity = 30
 			}
 
+			republicanism = {
+				popularity = 10
+			}
+
 			monarchism = {
-				popularity = 40
+				popularity = 20
 			}
 		}
 	ruling_party = monarchism
@@ -70,16 +70,16 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Grigory Semyonov"
-	picture = "grigory_semyonov.dds"
+	name = "Sanzō Nosaka"
+	picture = "sanzo_nosaka.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Grigory Semyonov"
-	picture = "grigory_semyonov.dds"
+	name = "Mikhail Diterikhs"
+	picture = "mikhail_diterikhs.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#
