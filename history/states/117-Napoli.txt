@@ -28,6 +28,7 @@ state={
 		add_core_of = LOM
 		add_core_of = SIC
 		add_core_of = SAR
+add_core_of = TUS
 		add_core_of = ALB
 		1939.1.1 = {
 			buildings = {

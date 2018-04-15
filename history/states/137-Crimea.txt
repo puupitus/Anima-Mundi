@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = SRU
+add_core_of = SRU
 		victory_points = {
 			3686 20
 		}
@@ -24,10 +25,10 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		
+
 		add_core_of = RUS
-add_core_of = SRU
-		add_core_of = WRU
+		add_core_of = UKR
+
 		add_core_of = SIB
 		add_core_of = MOS
 		1939.1.1 = {

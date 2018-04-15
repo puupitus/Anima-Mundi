@@ -7,14 +7,15 @@ state={
 	state_category = town
 
 	history={
-		owner = UKR
+		owner = MOS
+add_core_of = UKR
 		buildings = {
 			infrastructure = 5
 		}
 
 		add_core_of = RUS
-add_core_of = SRU
-		add_core_of = WRU
+
+
 		add_core_of = SIB
 		add_core_of = MOS
 		1939.1.1 = {

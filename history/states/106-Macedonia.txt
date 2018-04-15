@@ -26,6 +26,7 @@ state={
 		add_core_of = BUL
 		add_core_of = YUG
 		add_core_of = ALB
+		add_core_of = MNT
 	}
 
 	provinces={

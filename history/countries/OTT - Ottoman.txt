@@ -11,6 +11,12 @@ BUL = {
 		ruling_party = monarchism
 			}
 }
+puppet = BOS
+BOS = {
+	set_politics = {
+		ruling_party = monarchism
+			}
+}
 puppet = ALB
 ALB = {
 	set_politics = {

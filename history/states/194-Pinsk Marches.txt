@@ -14,8 +14,8 @@ state={
 		}
 		add_core_of = BLR
 		add_core_of = RUS
-add_core_of = SRU
-		add_core_of = WRU
+		add_core_of = UKR
+
 		add_core_of = SIB
 		add_core_of = MOS
 	}

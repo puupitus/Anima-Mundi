@@ -15,8 +15,8 @@ state={
 			10696 3
 		}
 		add_core_of = RUS
-add_core_of = SRU
-		add_core_of = WRU
+
+		
 		add_core_of = SIB
 		add_core_of = MOS
 		1939.1.1 = {

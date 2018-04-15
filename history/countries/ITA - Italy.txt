@@ -2,18 +2,7 @@ capital = 2
 
 oob = "ITA_1936"
 set_country_flag = EUROPEAN
-puppet = OSJ
-OSJ = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
-puppet = JER
-JER = {
-	set_politics = {
-		ruling_party = monarchism
-			}
-}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

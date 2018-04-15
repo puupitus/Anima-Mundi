@@ -54,16 +54,16 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Vittorio Emanuele III"
-	picture = "vittorio_emanuele_iii.dds"
+	name = "Benito Mussolini"
+	picture = "benito_mussolini.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Vittorio Emanuele III"
-	picture = "vittorio_emanuele_iii.dds"
+	name = "Benito Mussolini"
+	picture = "benito_mussolini.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#

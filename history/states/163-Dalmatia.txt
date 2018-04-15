@@ -19,7 +19,10 @@ state=
 		add_core_of = LOM
 		add_core_of = SIC
 		add_core_of = SAR
+add_core_of = TUS
 		add_core_of = YUG
+		add_core_of = BOS
+		add_core_of = MNT
 	}
 	provinces={
 		3943

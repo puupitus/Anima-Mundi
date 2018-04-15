@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = SRU
+add_core_of = SRU
 		victory_points = {
 			12320 1
 		}
@@ -15,8 +16,8 @@ state={
 		}
 		add_core_of = OTT
 		add_core_of = RUS
-add_core_of = SRU
-		add_core_of = WRU
+
+		
 		add_core_of = SIB
 		add_core_of = MOS
 

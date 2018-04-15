@@ -28,6 +28,12 @@ GUK = {
 		ruling_party = nationalism
 			}
 }
+puppet = RYU
+RYU = {
+	set_politics = {
+		ruling_party = nationalism
+			}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

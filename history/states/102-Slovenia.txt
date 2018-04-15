@@ -20,9 +20,12 @@ state=
 		add_core_of = LOM
 		add_core_of = SIC
 		add_core_of = SAR
+add_core_of = TUS
 		add_core_of = YUG
 		add_core_of = SWI
 		add_core_of = IMP
+		add_core_of = BOS
+		add_core_of = MNT
 	}
 	provinces={
 		596 665 3631 3654 6650 6672 9596 9627 11612 	}

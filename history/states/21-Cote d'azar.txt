@@ -38,6 +38,7 @@ add_core_of = LUS
 		add_core_of = LOM
 		add_core_of = SIC
 		add_core_of = SAR
+add_core_of = TUS
 		1939.1.1 = {
 			buildings = {
 				dockyard = 3

@@ -17,7 +17,7 @@ state={
 		add_core_of = NOR
 		add_core_of = WFI
 		add_core_of = RUS
-add_core_of = SRU
+
 	}
 
 	provinces={
