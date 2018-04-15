@@ -1378,8 +1378,8 @@ country = {
       add_political_power = 150
       set_cosmetic_tag = NOG_empire
       IMP = { end_puppet = BRA }
+      annex_country = { target = POM }
       annex_country = { target = RHI }
-      annex_country = { target = BAV }
       annex_country = { target = HAN }
       annex_country = { target = PRS }
       create_country_leader = { name = "Wilhelm II" picture = "wilhelm_ii.dds" ideology = absolutism }

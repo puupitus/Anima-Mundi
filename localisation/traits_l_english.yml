@@ -393,7 +393,7 @@
  BOOST_PLANNING_FACTOR:4 "More likely to gain §HPlanning§! skill on level up"
  INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE:0 "Increased chance of executing §HBlitz§! and §HEncirclement§! tactics"
  INCREASED_COUNTERATTACK_CHANCE:0 "Increased chance of executing §HCounterattack§! tactics"
- INCREASED_ASSAULT_AND_SHOCK_CHANCE:0 "Increased chance of executing §HAssault§! and §HShock§! tactics"
+ INCREASED_APORULT_AND_SHOCK_CHANCE:0 "Increased chance of executing §HAssault§! and §HShock§! tactics"
  skirmisher:0 "Skirmisher"
  skirmisher_desc:1 "Skilled at using probing attacks to test the enemy's strength and to wear them down."
  camouflage_expert:0 "Camouflage Expert"

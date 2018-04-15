@@ -17,7 +17,7 @@ country_event = {		#Conquer Colombia
 		ai_chance = { factor = 100 }
 		name = pru.1.a
         PRU = { annex_country = { target = COL }}
-        SSA = { transfer_state = 488 }
+        POR = { transfer_state = 488 }
 
 
 	}

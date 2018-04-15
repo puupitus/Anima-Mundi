@@ -16,8 +16,8 @@ state={
 		victory_points = {
 			11544 10
 		}
+		add_core_of = POM
 		add_core_of = RHI
-		add_core_of = BAV
 		add_core_of = PRS
 		add_core_of = HAN
 		add_core_of = BRA

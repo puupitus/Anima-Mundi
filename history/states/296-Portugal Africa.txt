@@ -9,8 +9,8 @@ state={
 		rubber=1
 	}
 	history={
-		owner = SSA
-		add_core_of = SSA
+		owner = POR
+		add_core_of = POR
 		add_core_of = FAF
 		add_core_of = LIB
 		add_core_of = WAF

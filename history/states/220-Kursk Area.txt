@@ -6,7 +6,7 @@ state={
 	state_category = city
 
 	history={
-		owner = UKR
+		owner = SRU
 		victory_points = {
 			3580 5
 		}
@@ -15,10 +15,10 @@ state={
 			air_base = 1
 		}
 		add_core_of = RUS
-add_core_of = UKR
-		add_core_of = SOV
+add_core_of = SRU
+		add_core_of = WRU
 		add_core_of = SIB
-		add_core_of = TCS
+		add_core_of = MOS
 		
 	}
 

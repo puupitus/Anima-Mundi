@@ -6,11 +6,11 @@ state={
 	state_category = enclave
 
 	history={
-		owner = SSA
+		owner = POR
 		add_core_of = PRC
 		add_core_of = MAN
 		add_core_of = XIN
-		add_core_of = SSA
+		add_core_of = POR
 		victory_points = {
 			4189 1
 		}

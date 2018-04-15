@@ -14,7 +14,7 @@ state={
 	}
 
 	history={
-		owner = BEN
+		owner = BRU
 		victory_points = {
 			12299 10
 		}
@@ -42,7 +42,7 @@ state={
 		add_core_of = AST
 		add_core_of = SIA
 		add_core_of = INS
-		add_core_of = BEN
+		add_core_of = BRU
 		add_core_of = BUR
 	}
 

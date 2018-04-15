@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = RHI
+		owner = POM
 		victory_points = {
 			321 1
 		}
@@ -21,8 +21,8 @@ state={
 			air_base = 3
 		}
 		add_core_of = PRS
-		add_core_of = BAV
 		add_core_of = RHI
+		add_core_of = POM
 		add_core_of = HAN
 		add_core_of = BRA
 		add_core_of = POL

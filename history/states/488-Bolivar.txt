@@ -13,7 +13,7 @@ state={
 
 		}
 		add_core_of = COL
-		add_core_of = SSA
+		add_core_of = POR
 		add_core_of = SPA
 	}
 

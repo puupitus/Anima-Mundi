@@ -8,7 +8,7 @@ state={
 	}
 	history={
 	owner = AFE
-	add_core_of = CAF
+	add_core_of = WAL
 	add_core_of = AFE
 	add_core_of = ABY
 		buildings = {

@@ -7,7 +7,7 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = SOV
+		owner = WRU
 		victory_points = {
 			3151 30.0
 		}
@@ -27,10 +27,10 @@ state={
 		add_core_of = SWE
 		add_core_of = WFI
 		add_core_of = RUS
-add_core_of = UKR
-		add_core_of = SOV
+add_core_of = SRU
+		add_core_of = WRU
 		add_core_of = SIB
-		add_core_of = TCS
+		add_core_of = MOS
 		add_core_of = TEO
 		1939.1.1 = {
 			buildings = {

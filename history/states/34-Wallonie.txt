@@ -7,7 +7,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = CAF
+		owner = WAL
 		victory_points = {
 			3516 10
 		}
@@ -23,7 +23,7 @@ state={
 		}
 		add_core_of = BNL
 		add_core_of = FRA
-		add_core_of = CAF
+		add_core_of = WAL
 	}
 
 	provinces={

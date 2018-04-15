@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = BNL
-		add_core_of = CAF
+		add_core_of = WAL
 		add_core_of = BNL
 		buildings = {
 			infrastructure = 6

@@ -53,9 +53,9 @@ country_event = {		#Establish Island Communes
     CAM = { transfer_state = 692 }
     CAM = { transfer_state = 691 }
     CAM = { transfer_state = 695 }
-    SSA = { transfer_state = 309 }
-    SSA = { transfer_state = 310 }
-    SSA = { transfer_state = 687 }
+    POR = { transfer_state = 309 }
+    POR = { transfer_state = 310 }
+    POR = { transfer_state = 687 }
     689 = { add_core_of = CAM }
     315 = { add_core_of = CAM }
 		318 = { add_core_of = CAM }

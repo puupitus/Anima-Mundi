@@ -1379,8 +1379,8 @@ country = {
       set_cosmetic_tag = NOG_soc
       BRI = { end_puppet = HAN }
       annex_country = { target = BRA }
-      annex_country = { target = BAV }
       annex_country = { target = RHI }
+      annex_country = { target = POM }
       annex_country = { target = PRS }
       set_capital = 64
 		}

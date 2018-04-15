@@ -10,9 +10,9 @@ state={
 
 
 	history= {
-		owner = BEN
+		owner = BRU
 		add_core_of = INS
-		add_core_of = BEN
+		add_core_of = BRU
 		victory_points = {
 			10263 3
 		}

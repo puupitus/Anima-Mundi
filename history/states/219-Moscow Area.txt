@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = TCS
+		owner = MOS
 		victory_points = {
 			6380 50
 		}
@@ -21,10 +21,10 @@ state={
 			air_base = 10
 		}
 		add_core_of = RUS
-add_core_of = UKR
-		add_core_of = SOV
+add_core_of = SRU
+		add_core_of = WRU
 		add_core_of = SIB
-		add_core_of = TCS
+		add_core_of = MOS
 		add_core_of = BLR
 		1939.1.1 = {
 			buildings = {

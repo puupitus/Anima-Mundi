@@ -1,12 +1,12 @@
 focus_tree = {
-id = UKR_focus
+id = SRU_focus
 
 country = {
   factor = 0
 
   modifier = {
     add = 10
-    tag = UKR
+    tag = SRU
   }
 }
 
@@ -19,7 +19,7 @@ country = {
 ####################
 
 	focus = {
-		id = UKR_war_games
+		id = SRU_war_games
 		icon = GFX_goal_generic_build_tank
 		x = 5
 		y = 0
@@ -37,9 +37,9 @@ country = {
 	}
 
 	focus = {
-		id = UKR_army_effort
+		id = SRU_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = UKR_war_games }
+		prerequisite = { focus = SRU_war_games }
 		x = 1
 		y = 1
 		cost = 10
@@ -60,10 +60,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_infantry_equipment
+		id = SRU_infantry_equipment
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = UKR_army_effort }
-		mutually_exclusive = { focus = UKR_special_forces }
+		prerequisite = { focus = SRU_army_effort }
+		mutually_exclusive = { focus = SRU_special_forces }
 		x = 0
 		y = 2
 		cost = 10
@@ -83,10 +83,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_special_forces
+		id = SRU_special_forces
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = UKR_army_effort }
-		mutually_exclusive = { focus = UKR_infantry_equipment }
+		prerequisite = { focus = SRU_army_effort }
+		mutually_exclusive = { focus = SRU_infantry_equipment }
 		x = 2
 		y = 2
 		cost = 10
@@ -115,10 +115,10 @@ country = {
 
 
 	focus = {
-		id = UKR_support_equipment
+		id = SRU_support_equipment
 		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = UKR_infantry_equipment focus = UKR_special_forces }
-		mutually_exclusive = { focus = UKR_artillery_equipment }
+		prerequisite = { focus = SRU_infantry_equipment focus = SRU_special_forces }
+		mutually_exclusive = { focus = SRU_artillery_equipment }
 		x = 0
 		y = 3
 		cost = 10
@@ -138,10 +138,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_artillery_equipment
+		id = SRU_artillery_equipment
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = UKR_infantry_equipment focus = UKR_special_forces }
-		mutually_exclusive = { focus = UKR_support_equipment }
+		prerequisite = { focus = SRU_infantry_equipment focus = SRU_special_forces }
+		mutually_exclusive = { focus = SRU_support_equipment }
 		x = 2
 		y = 3
 		cost = 10
@@ -161,10 +161,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_doctrines
+		id = SRU_doctrines
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = UKR_support_equipment focus = UKR_artillery_equipment }
-		mutually_exclusive = { focus = UKR_mechanization }
+		prerequisite = { focus = SRU_support_equipment focus = SRU_artillery_equipment }
+		mutually_exclusive = { focus = SRU_mechanization }
 		x = 0
 		y = 4
 		cost = 10
@@ -184,10 +184,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_mechanization
+		id = SRU_mechanization
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = UKR_support_equipment focus = UKR_artillery_equipment }
-		mutually_exclusive = { focus = UKR_doctrines }
+		prerequisite = { focus = SRU_support_equipment focus = SRU_artillery_equipment }
+		mutually_exclusive = { focus = SRU_doctrines }
 		x = 2
 		y = 4
 		cost = 10
@@ -208,10 +208,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_elite_training
+		id = SRU_elite_training
 		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = UKR_doctrines focus = UKR_mechanization }
-		mutually_exclusive = { focus = UKR_mass_conscription }
+		prerequisite = { focus = SRU_doctrines focus = SRU_mechanization }
+		mutually_exclusive = { focus = SRU_mass_conscription }
 		x = 0
 		y = 5
 		cost = 10
@@ -227,10 +227,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_mass_conscription
+		id = SRU_mass_conscription
 		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = UKR_doctrines focus = UKR_mechanization }
-		mutually_exclusive = { focus = UKR_elite_training }
+		prerequisite = { focus = SRU_doctrines focus = SRU_mechanization }
+		mutually_exclusive = { focus = SRU_elite_training }
 		x = 2
 		y = 5
 		cost = 10
@@ -246,9 +246,9 @@ country = {
 	}
 
 	focus = {
-		id = UKR_aviation_effort
+		id = SRU_aviation_effort
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = UKR_war_games }
+		prerequisite = { focus = SRU_war_games }
 		x = 5
 		y = 1
 		cost = 10
@@ -332,10 +332,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_fighter_focus
+		id = SRU_fighter_focus
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = UKR_aviation_effort }
-		mutually_exclusive = { focus = UKR_bomber_focus }
+		prerequisite = { focus = SRU_aviation_effort }
+		mutually_exclusive = { focus = SRU_bomber_focus }
 		x = 4
 		y = 2
 		cost = 10
@@ -360,10 +360,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_bomber_focus
+		id = SRU_bomber_focus
 		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = UKR_aviation_effort }
-		mutually_exclusive = { focus = UKR_fighter_focus }
+		prerequisite = { focus = SRU_aviation_effort }
+		mutually_exclusive = { focus = SRU_fighter_focus }
 		x = 6
 		y = 2
 		cost = 10
@@ -389,10 +389,10 @@ country = {
 
 
 	focus = {
-		id = UKR_CAS_effort
+		id = SRU_CAS_effort
 		icon = GFX_goal_generic_CAS
 		prerequisite = { focus = fighter_focus focus = bomber_focus }
-		mutually_exclusive = { focus = UKR_NAV_effort }
+		mutually_exclusive = { focus = SRU_NAV_effort }
 		x = 4
 		y = 3
 		cost = 10
@@ -413,10 +413,10 @@ country = {
 
 
 	focus = {
-		id = UKR_NAV_effort
+		id = SRU_NAV_effort
 		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { focus = UKR_fighter_focus focus = UKR_bomber_focus }
-		mutually_exclusive = { focus = UKR_CAS_effort }
+		prerequisite = { focus = SRU_fighter_focus focus = SRU_bomber_focus }
+		mutually_exclusive = { focus = SRU_CAS_effort }
 		x = 6
 		y = 3
 		cost = 10
@@ -436,9 +436,9 @@ country = {
 	}
 
 	focus = {
-		id = UKR_naval_effort
+		id = SRU_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = UKR_war_games }
+		prerequisite = { focus = SRU_war_games }
 		x = 9
 		y = 1
 		cost = 10
@@ -565,10 +565,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_submarines
+		id = SRU_submarines
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = UKR_naval_effort }
-		mutually_exclusive = { focus = UKR_destroyers }
+		prerequisite = { focus = SRU_naval_effort }
+		mutually_exclusive = { focus = SRU_destroyers }
 		x = 8
 		y = 2
 		cost = 10
@@ -593,10 +593,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_destroyers
+		id = SRU_destroyers
 		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { focus = UKR_naval_effort }
-		mutually_exclusive = { focus = UKR_submarines }
+		prerequisite = { focus = SRU_naval_effort }
+		mutually_exclusive = { focus = SRU_submarines }
 		x = 10
 		y = 2
 		cost = 10
@@ -621,10 +621,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_naval_doctrines
+		id = SRU_naval_doctrines
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = UKR_submarines focus = UKR_destroyers }
-		mutually_exclusive = { focus = UKR_capital_ships }
+		prerequisite = { focus = SRU_submarines focus = SRU_destroyers }
+		mutually_exclusive = { focus = SRU_capital_ships }
 		x = 8
 		y = 3
 		cost = 10
@@ -648,10 +648,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_capital_ships
+		id = SRU_capital_ships
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = UKR_submarines focus = UKR_destroyers }
-		mutually_exclusive = { focus = UKR_naval_doctrines}
+		prerequisite = { focus = SRU_submarines focus = SRU_destroyers }
+		mutually_exclusive = { focus = SRU_naval_doctrines}
 		x = 10
 		y = 3
 		cost = 10
@@ -688,10 +688,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_coastal_defense
+		id = SRU_coastal_defense
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = UKR_naval_doctrines focus = UKR_capital_ships }
-		mutually_exclusive = { focus = UKR_power_projection}
+		prerequisite = { focus = SRU_naval_doctrines focus = SRU_capital_ships }
+		mutually_exclusive = { focus = SRU_power_projection}
 		x = 8
 		y = 4
 		cost = 10
@@ -709,10 +709,10 @@ country = {
 	}
 
 	focus = {
-		id = UKR_power_projection
+		id = SRU_power_projection
 		icon = GFX_goal_generic_navy_carrier
-		prerequisite = { focus = UKR_naval_doctrines focus = UKR_capital_ships }
-		mutually_exclusive = { focus = UKR_coastal_defense}
+		prerequisite = { focus = SRU_naval_doctrines focus = SRU_capital_ships }
+		mutually_exclusive = { focus = SRU_coastal_defense}
 		x = 10
 		y = 4
 		cost = 10
@@ -730,7 +730,7 @@ country = {
 	}
 
 	focus = {
-		id = UKR_industrial_effort
+		id = SRU_industrial_effort
 		icon = GFX_goal_generic_production
 		x = 14
 		y = 0
@@ -752,9 +752,9 @@ country = {
 	}
 
 	focus = {
-		id = UKR_construction_effort
+		id = SRU_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = UKR_industrial_effort }
+		prerequisite = { focus = SRU_industrial_effort }
 		x = 12
 		y = 1
 		cost = 10
@@ -824,9 +824,9 @@ country = {
 	}
 
 	focus = {
-		id = UKR_armament_effort
+		id = SRU_armament_effort
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = UKR_industrial_effort }
+		prerequisite = { focus = SRU_industrial_effort }
 		x = 14
 		y = 1
 		cost = 10
@@ -895,9 +895,9 @@ country = {
 	}
 
 	focus = {
-		id = UKR_construction_effort_2
+		id = SRU_construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = UKR_construction_effort }
+		prerequisite = { focus = SRU_construction_effort }
 		x = 12
 		y = 2
 		cost = 10
@@ -966,9 +966,9 @@ country = {
 	}
 
 	focus = {
-		id = UKR_armament_effort_2
+		id = SRU_armament_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = UKR_armament_effort }
+		prerequisite = { focus = SRU_armament_effort }
 		x = 14
 		y = 2
 		cost = 10
@@ -1037,9 +1037,9 @@ country = {
 	}
 
 	focus = {
-		id = UKR_construction_effort_3
+		id = SRU_construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = UKR_construction_effort_2 }
+		prerequisite = { focus = SRU_construction_effort_2 }
 		x = 12
 		y = 3
 		cost = 10
@@ -1108,9 +1108,9 @@ country = {
 	}
 
 	focus = {
-		id = UKR_armament_effort_3
+		id = SRU_armament_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = UKR_armament_effort_2 }
+		prerequisite = { focus = SRU_armament_effort_2 }
 		x = 14
 		y = 3
 		cost = 10
@@ -1179,9 +1179,9 @@ country = {
 	}
 
 	focus = {
-		id = UKR_infrastructure_effort
+		id = SRU_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = UKR_industrial_effort }
+		prerequisite = { focus = SRU_industrial_effort }
 		x = 16
 		y = 1
 		cost = 10
@@ -1274,9 +1274,9 @@ country = {
 	}
 
 	focus = {
-		id = UKR_radar_technology
+		id = SRU_radar_technology
 		icon = GFX_goal_generic_radar
-		prerequisite = { focus = UKR_infrastructure_effort }
+		prerequisite = { focus = SRU_infrastructure_effort }
 		x = 16
 		y = 2
 		cost = 10
@@ -1300,9 +1300,9 @@ country = {
 	}
 
 	focus = {
-		id = UKR_advanced_technologies
+		id = SRU_advanced_technologies
 		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = UKR_radar_technology }
+		prerequisite = { focus = SRU_radar_technology }
 		x = 16
 		y = 3
 		cost = 10
@@ -1329,7 +1329,7 @@ country = {
 		}
 	}
   focus = {
-		id = UKR_forge_our_path
+		id = SRU_forge_our_path
 		icon = GFX_forge_our_path
 
 		x = 9
@@ -1347,13 +1347,13 @@ country = {
 			}
 	}
   focus = {
-		id = UKR_hetmanate
+		id = SRU_hetmanate
 		icon = GFX_hetmanate
-    prerequisite = { focus = UKR_forge_our_path }
+    prerequisite = { focus = SRU_forge_our_path }
     mutually_exclusive = {
-    focus = UKR_ukrainian_soviet_socialist_republic
-    focus = UKR_makhnovshchyna_ukraine
-    focus = UKR_republic_of_ukraine
+    focus = SRU_ukrainian_soviet_socialist_republic
+    focus = SRU_makhnovshchyna_ukraine
+    focus = SRU_republic_of_ukraine
     }
 		x = 6
 		y = 7
@@ -1364,7 +1364,7 @@ country = {
 		completion_reward = {
 			add_ideas = mon_drift
       add_stability = 0.2
-      FRA = { add_to_faction = UKR }
+      FRA = { add_to_faction = SRU }
 		}
 
 		ai_will_do = {
@@ -1372,13 +1372,13 @@ country = {
 			}
 	}
   focus = {
-		id = UKR_ukrainian_soviet_socialist_republic
+		id = SRU_ukrainian_soviet_socialist_republic
 		icon = GFX_ukrainian_soviet_socialist_republic
-    prerequisite = { focus = UKR_forge_our_path }
+    prerequisite = { focus = SRU_forge_our_path }
     mutually_exclusive = {
-    focus = UKR_hetmanate
-    focus = UKR_makhnovshchyna_ukraine
-    focus = UKR_republic_of_ukraine
+    focus = SRU_hetmanate
+    focus = SRU_makhnovshchyna_ukraine
+    focus = SRU_republic_of_ukraine
     }
 		x = 8
 		y = 7
@@ -1390,7 +1390,7 @@ country = {
 			add_ideas = soc_drift
       set_politics = { ruling_party = socialism elections_allowed = no }
       add_stability = -0.2
-      BRI = { add_to_faction = UKR }
+      BRI = { add_to_faction = SRU }
 		}
 
 		ai_will_do = {
@@ -1398,13 +1398,13 @@ country = {
 			}
 	}
   focus = {
-		id = UKR_republic_of_ukraine
+		id = SRU_republic_of_ukraine
 		icon = GFX_republic_of_ukraine
-    prerequisite = { focus = UKR_forge_our_path }
+    prerequisite = { focus = SRU_forge_our_path }
     mutually_exclusive = {
-    focus = UKR_hetmanate
-    focus = UKR_ukrainian_soviet_socialist_republic
-    focus = UKR_makhnovshchyna_ukraine
+    focus = SRU_hetmanate
+    focus = SRU_ukrainian_soviet_socialist_republic
+    focus = SRU_makhnovshchyna_ukraine
     }
 		x = 10
 		y = 7
@@ -1416,7 +1416,7 @@ country = {
 			add_ideas = rep_drift
       set_politics = { ruling_party = republicanism elections_allowed = no }
       add_stability = -0.2
-      IBE = { add_to_faction = UKR }
+      IBE = { add_to_faction = SRU }
 		}
 
 		ai_will_do = {
@@ -1424,13 +1424,13 @@ country = {
 			}
 	}
   focus = {
-		id = UKR_makhnovshchyna_ukraine
+		id = SRU_makhnovshchyna_ukraine
 		icon = GFX_makhnovshchyna_ukraine
-    prerequisite = { focus = UKR_forge_our_path }
+    prerequisite = { focus = SRU_forge_our_path }
     mutually_exclusive = {
-    focus = UKR_hetmanate
-    focus = UKR_ukrainian_soviet_socialist_republic
-    focus = UKR_republic_of_ukraine
+    focus = SRU_hetmanate
+    focus = SRU_ukrainian_soviet_socialist_republic
+    focus = SRU_republic_of_ukraine
     }
 		x = 12
 		y = 7
@@ -1442,7 +1442,7 @@ country = {
 			add_ideas = nat_drift
       set_politics = { ruling_party = nationalism elections_allowed = no }
       add_stability = -0.2
-      POL = { add_to_faction = UKR }
+      POL = { add_to_faction = SRU }
 		}
 
 		ai_will_do = {

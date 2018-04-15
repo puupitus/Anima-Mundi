@@ -1,4 +1,4 @@
-capital = 62
+capital = 55
 
 oob = "RHI_1936"
 set_country_flag = EUROPEAN
@@ -39,48 +39,47 @@ set_politics = {
 			}
 
 			republicanism = {
-				popularity = 30
+				popularity = 40
 			}
 
 			monarchism = {
-				popularity = 40
+				popularity = 30
 			}
 		}
-	ruling_party = monarchism
+	ruling_party = republicanism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-
 create_country_leader = {
-	name = "Paul von Hindenburg"
-	picture = "paul_von_hindenburg.dds"
-	ideology = absolutism
-	traits = { zeitgeist_default
-		#
-	}
-}
-create_country_leader = {
-	name = "Paul von Hindenburg"
-	picture = "paul_von_hindenburg.dds"
+	name = "Konrad Adenauer"
+	picture = "konrad_adenauer.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Rosa Luxemburg"
-	picture = "rosa_luxemburg.dds"
-	ideology = marxist
+	name = "Friedrich Karl"
+	picture = "friedrich_karl.dds"
+	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Rudolf Hess"
-	picture = "rudolf_hess.dds"
+	name = "Martin Bormann"
+	picture = "martin_bormann.dds"
 	ideology = nazism
+	traits = { zeitgeist_default
+		#
+	}
+}
+create_country_leader = {
+	name = "Karl Liebknecht"
+	picture = "karl_liebknecht.dds"
+	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}

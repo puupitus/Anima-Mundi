@@ -40,8 +40,8 @@ DIN = {
 		ruling_party = monarchism
 			}
 }
-puppet = RHI
-RHI = {
+puppet = POM
+POM = {
 	set_politics = {
 		ruling_party = monarchism
 			}

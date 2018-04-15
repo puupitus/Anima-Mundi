@@ -22,7 +22,7 @@ default = {
 ###############################################################
 # The Majors
 ###############################################################
-RHI = {
+POM = {
 	male = {
 		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich
 			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
@@ -86,7 +86,7 @@ HAN = {
 		}
 	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
 }
-BAV = {
+RHI = {
 	male = {
 		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich
 			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
@@ -141,7 +141,7 @@ BRI = {
 	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
 }
 
-SOV = {
+WRU = {
 	male = {
 		names = { Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady
                                  Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim
@@ -162,7 +162,7 @@ SOV = {
 	}
 	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
 }
-UKR = {
+SRU = {
 	male = {
 		names = { Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady
                                  Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim
@@ -204,7 +204,7 @@ BLR = {
 	}
 	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
 }
-TCS = {
+MOS = {
 	male = {
 		names = { Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady
                                  Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim
@@ -1199,7 +1199,7 @@ LUX = {
 	 }
 	callsigns = { }
 }
-CAF = {
+WAL = {
 	male = {
 		names = {
 			Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant
@@ -1796,7 +1796,7 @@ INS = {
 	surnames = { Widodo Bowo Subianto Sadikin Sosroatmodjo Ngantung Permatasari Damono Wibowo Thukul Hartinah Gunawan Haryanto Suprianto Sabara Abubakar "Bagus Oka" "Bagus Mantra" Martha}
 	callsigns = { }
 }
-BEN = {
+BRU = {
 	male = {
 		names = { Joko Fauzi Prabowo Ali Soemarno Henk Widji Teuku Hadi Azwar Mustafa Zaini Abdul Anak Ida Dewa }
 	}
@@ -2513,7 +2513,7 @@ HAI = {
 ###############################################################
 # South America
 ###############################################################
-SSA = {
+POR = {
 	male = {
 		names = {
 			Afonso Antônio Artur Augusto Aurélio Benjamin Cândido Carlos Celso Custódio

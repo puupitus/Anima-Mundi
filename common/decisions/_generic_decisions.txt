@@ -9,12 +9,12 @@ political_actions = {
 		}
 
 		available = {
-		UKR = { is_faction_leader = yes }
-    NOT = { ROOT = { has_war_with = UKR } }
+		SRU = { is_faction_leader = yes }
+    NOT = { ROOT = { has_war_with = SRU } }
     ROOT = { is_in_faction = no }
     ROOT = { has_government = republicanism }
     ROOT = { is_subject = no }
-    ROOT = { has_war_together_with = UKR }
+    ROOT = { has_war_together_with = SRU }
     }
 
 
@@ -24,16 +24,16 @@ political_actions = {
 
 
 		visible = {
-		UKR = { is_faction_leader = yes }
-    NOT = { ROOT = { has_war_with = UKR } }
+		SRU = { is_faction_leader = yes }
+    NOT = { ROOT = { has_war_with = SRU } }
     ROOT = { is_in_faction = no }
     ROOT = { has_government = republicanism }
     ROOT = { is_subject = no }
-    ROOT = { has_war_together_with = UKR }
+    ROOT = { has_war_together_with = SRU }
 		}
 
 		complete_effect = {
-			UKR = { add_to_faction = ROOT }
+			SRU = { add_to_faction = ROOT }
 		}
 
 		ai_will_do = {
@@ -332,12 +332,12 @@ political_actions = {
 		}
 
 		available = {
-			BEN = { is_faction_leader = yes }
-      NOT = { ROOT = { has_war_with = BEN } }
+			BRU = { is_faction_leader = yes }
+      NOT = { ROOT = { has_war_with = BRU } }
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
-      ROOT = { has_war_together_with = BEN }
+      ROOT = { has_war_together_with = BRU }
       ROOT = { has_country_flag = ASIAN }
       ROOT = { has_country_flag = MUSLIM }
 		}
@@ -348,18 +348,18 @@ political_actions = {
 
 
 		visible = {
-		BEN = { is_faction_leader = yes }
-		NOT = { ROOT = { has_war_with = BEN } }
+		BRU = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = BRU } }
 		ROOT = { is_in_faction = no }
 		ROOT = { has_government = monarchism }
 		ROOT = { is_subject = no }
-		ROOT = { has_war_together_with = BEN }
+		ROOT = { has_war_together_with = BRU }
 		ROOT = { has_country_flag = ASIAN }
 		ROOT = { has_country_flag = MUSLIM }
 		}
 
 		complete_effect = {
-			BEN = { add_to_faction = ROOT }
+			BRU = { add_to_faction = ROOT }
 		}
 
 		ai_will_do = {
@@ -460,12 +460,12 @@ political_actions = {
 		}
 
 		available = {
-			SSA = { is_faction_leader = yes }
-      NOT = { ROOT = { has_war_with = SSA } }
+			POR = { is_faction_leader = yes }
+      NOT = { ROOT = { has_war_with = POR } }
 			ROOT = { is_in_faction = no }
       ROOT = { has_government = monarchism }
       ROOT = { is_subject = no }
-      ROOT = { has_war_together_with = SSA }
+      ROOT = { has_war_together_with = POR }
       ROOT = { has_country_flag = AFRICAN }
 		}
 
@@ -475,17 +475,17 @@ political_actions = {
 
 
 		visible = {
-		SSA = { is_faction_leader = yes }
-		NOT = { ROOT = { has_war_with = SSA } }
+		POR = { is_faction_leader = yes }
+		NOT = { ROOT = { has_war_with = POR } }
 		ROOT = { is_in_faction = no }
 		ROOT = { has_government = monarchism }
 		ROOT = { is_subject = no }
-		ROOT = { has_war_together_with = SSA }
+		ROOT = { has_war_together_with = POR }
 		ROOT = { has_country_flag = AFRICAN }
 		}
 
 		complete_effect = {
-			SSA = { add_to_faction = ROOT }
+			POR = { add_to_faction = ROOT }
 		}
 
 		ai_will_do = {

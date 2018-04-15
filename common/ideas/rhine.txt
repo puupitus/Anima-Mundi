@@ -1,7 +1,7 @@
 ideas = {
   country = {
 
-        RHI_rot = {
+        POM_rot = {
 
 
     	  allowed = {
@@ -20,7 +20,7 @@ ideas = {
     		conscription = 0.03
     	     }
         }
-        RHI_lw = {
+        POM_lw = {
 
 
     	  allowed = {

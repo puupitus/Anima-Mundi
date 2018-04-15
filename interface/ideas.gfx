@@ -218,8 +218,8 @@ spriteTypes = {
 	}		
 	
 	spriteType = {
-		name = "GFX_idea_SOV_scientist_defect"
-		texturefile = "gfx/interface/ideas/SOV_scientist_defect.dds"
+		name = "GFX_idea_WRU_scientist_defect"
+		texturefile = "gfx/interface/ideas/WRU_scientist_defect.dds"
 	}	
 	
 	spriteType = {

@@ -10,7 +10,7 @@ state={
 
 		}
 		add_core_of = ALT
-		add_core_of = TCS
+		add_core_of = MOS
 		add_core_of = IRA
 
 	}

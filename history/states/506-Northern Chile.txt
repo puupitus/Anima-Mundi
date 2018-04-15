@@ -22,7 +22,7 @@ state={
 		add_core_of = CHL
 		add_core_of = ARG
 		add_core_of = PRU
-		add_core_of = SSA
+		add_core_of = POR
 		victory_points = {
 			12994 1
 		}

@@ -22,8 +22,8 @@ DAI = {
 		ruling_party = monarchism
 			}
 		}
-puppet = CAF
-CAF = {
+puppet = WAL
+WAL = {
 	set_politics = {
 		ruling_party = monarchism
 			}

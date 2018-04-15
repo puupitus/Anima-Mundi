@@ -48,9 +48,9 @@ state=
 		}
 		add_core_of = BOH
 		add_core_of = MOR
-		add_core_of = BAV
-		add_core_of = PRS
 		add_core_of = RHI
+		add_core_of = PRS
+		add_core_of = POM
 		add_core_of = HAN
 		add_core_of = BRA
 		add_core_of = KRA

@@ -21,8 +21,8 @@ state={
 		}
 		add_core_of = SWI
 		add_core_of = PRS
+		add_core_of = POM
 		add_core_of = RHI
-		add_core_of = BAV
 		add_core_of = FRA
 	}
 

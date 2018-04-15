@@ -7,10 +7,10 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = BEN
+		owner = BRU
 		add_core_of = INS
 		add_core_of = PHL
-		add_core_of = BEN
+		add_core_of = BRU
 		buildings = {
 			infrastructure = 3
 			1574 = {

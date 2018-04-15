@@ -1,12 +1,12 @@
 focus_tree = {
-id = SOV_focus
+id = WRU_focus
 
 country = {
   factor = 0
 
   modifier = {
     add = 10
-    tag = SOV
+    tag = WRU
   }
 }
 
@@ -19,7 +19,7 @@ country = {
 ####################
 
 	focus = {
-		id = SOV_war_games
+		id = WRU_war_games
 		icon = GFX_goal_generic_build_tank
 		x = 5
 		y = 0
@@ -37,9 +37,9 @@ country = {
 	}
 
 	focus = {
-		id = SOV_army_effort
+		id = WRU_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = SOV_war_games }
+		prerequisite = { focus = WRU_war_games }
 		x = 1
 		y = 1
 		cost = 10
@@ -60,10 +60,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_infantry_equipment
+		id = WRU_infantry_equipment
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = SOV_army_effort }
-		mutually_exclusive = { focus = SOV_special_forces }
+		prerequisite = { focus = WRU_army_effort }
+		mutually_exclusive = { focus = WRU_special_forces }
 		x = 0
 		y = 2
 		cost = 10
@@ -83,10 +83,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_special_forces
+		id = WRU_special_forces
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = SOV_army_effort }
-		mutually_exclusive = { focus = SOV_infantry_equipment }
+		prerequisite = { focus = WRU_army_effort }
+		mutually_exclusive = { focus = WRU_infantry_equipment }
 		x = 2
 		y = 2
 		cost = 10
@@ -115,10 +115,10 @@ country = {
 
 
 	focus = {
-		id = SOV_support_equipment
+		id = WRU_support_equipment
 		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = SOV_infantry_equipment focus = SOV_special_forces }
-		mutually_exclusive = { focus = SOV_artillery_equipment }
+		prerequisite = { focus = WRU_infantry_equipment focus = WRU_special_forces }
+		mutually_exclusive = { focus = WRU_artillery_equipment }
 		x = 0
 		y = 3
 		cost = 10
@@ -138,10 +138,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_artillery_equipment
+		id = WRU_artillery_equipment
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = SOV_infantry_equipment focus = SOV_special_forces }
-		mutually_exclusive = { focus = SOV_support_equipment }
+		prerequisite = { focus = WRU_infantry_equipment focus = WRU_special_forces }
+		mutually_exclusive = { focus = WRU_support_equipment }
 		x = 2
 		y = 3
 		cost = 10
@@ -161,10 +161,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_doctrines
+		id = WRU_doctrines
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = SOV_support_equipment focus = SOV_artillery_equipment }
-		mutually_exclusive = { focus = SOV_mechanization }
+		prerequisite = { focus = WRU_support_equipment focus = WRU_artillery_equipment }
+		mutually_exclusive = { focus = WRU_mechanization }
 		x = 0
 		y = 4
 		cost = 10
@@ -184,10 +184,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_mechanization
+		id = WRU_mechanization
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = SOV_support_equipment focus = SOV_artillery_equipment }
-		mutually_exclusive = { focus = SOV_doctrines }
+		prerequisite = { focus = WRU_support_equipment focus = WRU_artillery_equipment }
+		mutually_exclusive = { focus = WRU_doctrines }
 		x = 2
 		y = 4
 		cost = 10
@@ -208,10 +208,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_elite_training
+		id = WRU_elite_training
 		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = SOV_doctrines focus = SOV_mechanization }
-		mutually_exclusive = { focus = SOV_mass_conscription }
+		prerequisite = { focus = WRU_doctrines focus = WRU_mechanization }
+		mutually_exclusive = { focus = WRU_mass_conscription }
 		x = 0
 		y = 5
 		cost = 10
@@ -227,10 +227,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_mass_conscription
+		id = WRU_mass_conscription
 		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = SOV_doctrines focus = SOV_mechanization }
-		mutually_exclusive = { focus = SOV_elite_training }
+		prerequisite = { focus = WRU_doctrines focus = WRU_mechanization }
+		mutually_exclusive = { focus = WRU_elite_training }
 		x = 2
 		y = 5
 		cost = 10
@@ -246,9 +246,9 @@ country = {
 	}
 
 	focus = {
-		id = SOV_aviation_effort
+		id = WRU_aviation_effort
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = SOV_war_games }
+		prerequisite = { focus = WRU_war_games }
 		x = 5
 		y = 1
 		cost = 10
@@ -332,10 +332,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_fighter_focus
+		id = WRU_fighter_focus
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = SOV_aviation_effort }
-		mutually_exclusive = { focus = SOV_bomber_focus }
+		prerequisite = { focus = WRU_aviation_effort }
+		mutually_exclusive = { focus = WRU_bomber_focus }
 		x = 4
 		y = 2
 		cost = 10
@@ -360,10 +360,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_bomber_focus
+		id = WRU_bomber_focus
 		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = SOV_aviation_effort }
-		mutually_exclusive = { focus = SOV_fighter_focus }
+		prerequisite = { focus = WRU_aviation_effort }
+		mutually_exclusive = { focus = WRU_fighter_focus }
 		x = 6
 		y = 2
 		cost = 10
@@ -389,10 +389,10 @@ country = {
 
 
 	focus = {
-		id = SOV_CAS_effort
+		id = WRU_CAS_effort
 		icon = GFX_goal_generic_CAS
 		prerequisite = { focus = fighter_focus focus = bomber_focus }
-		mutually_exclusive = { focus = SOV_NAV_effort }
+		mutually_exclusive = { focus = WRU_NAV_effort }
 		x = 4
 		y = 3
 		cost = 10
@@ -413,10 +413,10 @@ country = {
 
 
 	focus = {
-		id = SOV_NAV_effort
+		id = WRU_NAV_effort
 		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { focus = SOV_fighter_focus focus = SOV_bomber_focus }
-		mutually_exclusive = { focus = SOV_CAS_effort }
+		prerequisite = { focus = WRU_fighter_focus focus = WRU_bomber_focus }
+		mutually_exclusive = { focus = WRU_CAS_effort }
 		x = 6
 		y = 3
 		cost = 10
@@ -436,9 +436,9 @@ country = {
 	}
 
 	focus = {
-		id = SOV_naval_effort
+		id = WRU_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = SOV_war_games }
+		prerequisite = { focus = WRU_war_games }
 		x = 9
 		y = 1
 		cost = 10
@@ -565,10 +565,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_submarines
+		id = WRU_submarines
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = SOV_naval_effort }
-		mutually_exclusive = { focus = SOV_destroyers }
+		prerequisite = { focus = WRU_naval_effort }
+		mutually_exclusive = { focus = WRU_destroyers }
 		x = 8
 		y = 2
 		cost = 10
@@ -593,10 +593,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_destroyers
+		id = WRU_destroyers
 		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { focus = SOV_naval_effort }
-		mutually_exclusive = { focus = SOV_submarines }
+		prerequisite = { focus = WRU_naval_effort }
+		mutually_exclusive = { focus = WRU_submarines }
 		x = 10
 		y = 2
 		cost = 10
@@ -621,10 +621,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_naval_doctrines
+		id = WRU_naval_doctrines
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = SOV_submarines focus = SOV_destroyers }
-		mutually_exclusive = { focus = SOV_capital_ships }
+		prerequisite = { focus = WRU_submarines focus = WRU_destroyers }
+		mutually_exclusive = { focus = WRU_capital_ships }
 		x = 8
 		y = 3
 		cost = 10
@@ -648,10 +648,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_capital_ships
+		id = WRU_capital_ships
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = SOV_submarines focus = SOV_destroyers }
-		mutually_exclusive = { focus = SOV_naval_doctrines}
+		prerequisite = { focus = WRU_submarines focus = WRU_destroyers }
+		mutually_exclusive = { focus = WRU_naval_doctrines}
 		x = 10
 		y = 3
 		cost = 10
@@ -688,10 +688,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_coastal_defense
+		id = WRU_coastal_defense
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = SOV_naval_doctrines focus = SOV_capital_ships }
-		mutually_exclusive = { focus = SOV_power_projection}
+		prerequisite = { focus = WRU_naval_doctrines focus = WRU_capital_ships }
+		mutually_exclusive = { focus = WRU_power_projection}
 		x = 8
 		y = 4
 		cost = 10
@@ -709,10 +709,10 @@ country = {
 	}
 
 	focus = {
-		id = SOV_power_projection
+		id = WRU_power_projection
 		icon = GFX_goal_generic_navy_carrier
-		prerequisite = { focus = SOV_naval_doctrines focus = SOV_capital_ships }
-		mutually_exclusive = { focus = SOV_coastal_defense}
+		prerequisite = { focus = WRU_naval_doctrines focus = WRU_capital_ships }
+		mutually_exclusive = { focus = WRU_coastal_defense}
 		x = 10
 		y = 4
 		cost = 10
@@ -730,7 +730,7 @@ country = {
 	}
 
 	focus = {
-		id = SOV_industrial_effort
+		id = WRU_industrial_effort
 		icon = GFX_goal_generic_production
 		x = 14
 		y = 0
@@ -752,9 +752,9 @@ country = {
 	}
 
 	focus = {
-		id = SOV_construction_effort
+		id = WRU_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = SOV_industrial_effort }
+		prerequisite = { focus = WRU_industrial_effort }
 		x = 12
 		y = 1
 		cost = 10
@@ -824,9 +824,9 @@ country = {
 	}
 
 	focus = {
-		id = SOV_armament_effort
+		id = WRU_armament_effort
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = SOV_industrial_effort }
+		prerequisite = { focus = WRU_industrial_effort }
 		x = 14
 		y = 1
 		cost = 10
@@ -895,9 +895,9 @@ country = {
 	}
 
 	focus = {
-		id = SOV_construction_effort_2
+		id = WRU_construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = SOV_construction_effort }
+		prerequisite = { focus = WRU_construction_effort }
 		x = 12
 		y = 2
 		cost = 10
@@ -966,9 +966,9 @@ country = {
 	}
 
 	focus = {
-		id = SOV_armament_effort_2
+		id = WRU_armament_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = SOV_armament_effort }
+		prerequisite = { focus = WRU_armament_effort }
 		x = 14
 		y = 2
 		cost = 10
@@ -1037,9 +1037,9 @@ country = {
 	}
 
 	focus = {
-		id = SOV_construction_effort_3
+		id = WRU_construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = SOV_construction_effort_2 }
+		prerequisite = { focus = WRU_construction_effort_2 }
 		x = 12
 		y = 3
 		cost = 10
@@ -1108,9 +1108,9 @@ country = {
 	}
 
 	focus = {
-		id = SOV_armament_effort_3
+		id = WRU_armament_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = SOV_armament_effort_2 }
+		prerequisite = { focus = WRU_armament_effort_2 }
 		x = 14
 		y = 3
 		cost = 10
@@ -1179,9 +1179,9 @@ country = {
 	}
 
 	focus = {
-		id = SOV_infrastructure_effort
+		id = WRU_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = SOV_industrial_effort }
+		prerequisite = { focus = WRU_industrial_effort }
 		x = 16
 		y = 1
 		cost = 10
@@ -1274,9 +1274,9 @@ country = {
 	}
 
 	focus = {
-		id = SOV_radar_technology
+		id = WRU_radar_technology
 		icon = GFX_goal_generic_radar
-		prerequisite = { focus = SOV_infrastructure_effort }
+		prerequisite = { focus = WRU_infrastructure_effort }
 		x = 16
 		y = 2
 		cost = 10
@@ -1300,9 +1300,9 @@ country = {
 	}
 
 	focus = {
-		id = SOV_advanced_technologies
+		id = WRU_advanced_technologies
 		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = SOV_radar_technology }
+		prerequisite = { focus = WRU_radar_technology }
 		x = 16
 		y = 3
 		cost = 10
@@ -1329,7 +1329,7 @@ country = {
 		}
 	}
   focus = {
-		id = SOV_forge_our_path
+		id = WRU_forge_our_path
 		icon = GFX_forge_our_path
 
 		x = 9
@@ -1347,12 +1347,12 @@ country = {
 			}
 	}
   focus = {
-		id = SOV_government_of_west_russia
+		id = WRU_government_of_west_russia
 		icon = GFX_government_of_west_russia
-    prerequisite = { focus = SOV_forge_our_path }
+    prerequisite = { focus = WRU_forge_our_path }
 
     mutually_exclusive = {
-    focus = SOV_grand_duchy_of_novgorod
+    focus = WRU_grand_duchy_of_novgorod
     }
 		x = 7
 		y = 7
@@ -1363,7 +1363,7 @@ country = {
 		completion_reward = {
 			add_ideas = nat_drift
       add_stability = 0.2
-      POL = { add_to_faction = SOV }
+      POL = { add_to_faction = WRU }
 		}
 
 		ai_will_do = {
@@ -1371,12 +1371,12 @@ country = {
 			}
 	}
   focus = {
-		id = SOV_grand_duchy_of_novgorod
+		id = WRU_grand_duchy_of_novgorod
 		icon = GFX_grand_duchy_of_novgorod
-    prerequisite = { focus = SOV_forge_our_path }
+    prerequisite = { focus = WRU_forge_our_path }
 
     mutually_exclusive = {
-    focus = SOV_government_of_west_russia
+    focus = WRU_government_of_west_russia
     }
 		x = 11
 		y = 7
@@ -1388,7 +1388,7 @@ country = {
 			add_ideas = mon_drift
       add_stability = -0.2
       set_politics = { ruling_party = monarchism elections_allowed = no }
-      DEN = { add_to_faction = SOV }
+      DEN = { add_to_faction = WRU }
 		}
 
 		ai_will_do = {

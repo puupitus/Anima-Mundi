@@ -61,9 +61,9 @@ bookmarks = {
 			ideas = {	}
 			focuses = { }
 		}
-		"RHI"={
+		"POM"={
 			minor = yes
-			history = "RHI_ZEITGEIST_DESC"
+			history = "POM_ZEITGEIST_DESC"
 			ideology = monarchism
 			ideas = {	}
 			focuses = { }
@@ -75,9 +75,9 @@ bookmarks = {
 			ideas = {	}
 			focuses = { }
 		}
-		"BAV"={
+		"RHI"={
 			minor = yes
-			history = "BAV_ZEITGEIST_DESC"
+			history = "RHI_ZEITGEIST_DESC"
 			ideology = socialism
 			ideas = {	}
 			focuses = { }

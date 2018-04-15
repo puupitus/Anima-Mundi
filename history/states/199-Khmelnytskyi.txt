@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = UKR
+		owner = SRU
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -15,10 +15,10 @@ state={
 		}
 		
 		add_core_of = RUS
-add_core_of = UKR
-		add_core_of = SOV
+add_core_of = SRU
+		add_core_of = WRU
 		add_core_of = SIB
-		add_core_of = TCS
+		add_core_of = MOS
 	}
 
 	provinces={

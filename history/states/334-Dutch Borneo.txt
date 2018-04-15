@@ -10,9 +10,9 @@ state= {
 	state_category = rural
 
 	history= {
-		owner = BEN
+		owner = BRU
 		add_core_of = INS
-		add_core_of = BEN
+		add_core_of = BRU
 		add_core_of = PHL
 		victory_points = {
 			10237 1

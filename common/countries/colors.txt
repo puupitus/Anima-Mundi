@@ -35,11 +35,11 @@ BAL = {
 color = rgb { 165  165  165 }
 color_ui = rgb { 165  165  165 }
 }
-BAV = {
+RHI = {
 color = rgb { 50 240 50 }
 color_ui = rgb { 50 240 50 }
 }
-BEN = {
+BRU = {
 color = rgb { 247 224 23 }
 color_ui = rgb { 247 224 23 }
 }
@@ -75,7 +75,7 @@ BYZ = {
 color = rgb { 13  94  175 }
 color_ui = rgb { 13  94  175 }
 }
-CAF = {
+WAL = {
 	color 	 = rgb { 193 171 8  }
 	color_ui = rgb { 251 222 10 }
 }
@@ -275,7 +275,7 @@ QUE = {
 color = rgb { 24  28  170 }
 color_ui = rgb { 24  28  170 }
 }
-RHI = {
+POM = {
 color = rgb { 232  54  41 }
 color_ui = rgb { 232  54  41 }
 }
@@ -315,7 +315,7 @@ SIP = {
 color = rgb { 206 17 38 }
 color_ui = rgb { 206 17 38 }
 }
-SOV = {
+WRU = {
 	color = rgb { 255 204 51 }
 	color_ui = rgb { 255 204 51 }
 }
@@ -327,7 +327,7 @@ SPA = {
 		color = rgb { 255 255 232 }
 		color_ui = rgb { 255 255 232 }
 }
-SSA = {
+POR = {
 color = rgb { 0  146  63 }
 color_ui = rgb { 0  146  63 }
 }
@@ -343,7 +343,7 @@ TEO = {
 color = rgb { 53 53 53 }
 color_ui = rgb { 53 53 53 }
 }
-TCS = {
+MOS = {
 color = rgb { 155 12 46 }
 color_ui = rgb { 155 12 46 }
 }
@@ -351,7 +351,7 @@ TUA = {
 	color = rgb { 149  59  21 }
 	color_ui = rgb { 149  59  21 }
 }
-UKR = {
+SRU = {
 color = rgb { 58 118 197 }
 color_ui = rgb { 58 118 197 }
 }
