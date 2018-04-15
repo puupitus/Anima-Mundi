@@ -9,12 +9,12 @@ political_actions = {
 		}
 
 		available = {
-		SRU = { is_faction_leader = yes }
-    NOT = { ROOT = { has_war_with = SRU } }
+		SIB = { is_faction_leader = yes }
+    NOT = { ROOT = { has_war_with = SIB } }
     ROOT = { is_in_faction = no }
     ROOT = { has_government = republicanism }
     ROOT = { is_subject = no }
-    ROOT = { has_war_together_with = SRU }
+    ROOT = { has_war_together_with = SIB }
     }
 
 
@@ -24,16 +24,16 @@ political_actions = {
 
 
 		visible = {
-		SRU = { is_faction_leader = yes }
-    NOT = { ROOT = { has_war_with = SRU } }
+		SIB = { is_faction_leader = yes }
+    NOT = { ROOT = { has_war_with = SIB } }
     ROOT = { is_in_faction = no }
     ROOT = { has_government = republicanism }
     ROOT = { is_subject = no }
-    ROOT = { has_war_together_with = SRU }
+    ROOT = { has_war_together_with = SIB }
 		}
 
 		complete_effect = {
-			SRU = { add_to_faction = ROOT }
+			SIB = { add_to_faction = ROOT }
 		}
 
 		ai_will_do = {

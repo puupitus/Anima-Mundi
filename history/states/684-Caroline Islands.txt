@@ -6,8 +6,10 @@ state={
 	state_category = small_island
 
 	history={
-		owner = JAP
-		add_core_of = JAP
+		owner = RYU
+		add_core_of = RYU
+		add_core_of = PHL
+		add_core_of = AST
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -38,15 +40,15 @@ state={
 			}
 		}
 		victory_points = {
-			2489 5 
+			2489 5
 		}
 		victory_points = {
-			13028 1 
+			13028 1
 		}
 
 	}
 
 	provinces={
-		2489 13027 13028 13029 13030 13031 13032 13033 13034 13035 13036 
+		2489 13027 13028 13029 13030 13031 13032 13033 13034 13035 13036
 	}
 }

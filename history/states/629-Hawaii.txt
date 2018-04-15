@@ -14,7 +14,7 @@ state={
 			}
 		}
 		add_core_of = CAL
-		add_core_of = JAP
+		add_core_of = RYU
 		add_core_of = AST
 		victory_points = {
 			4180 15

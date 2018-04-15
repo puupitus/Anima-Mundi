@@ -6,9 +6,9 @@ state=
 	manpower=75153
 	history=
 	{
-		owner = CAL
+		owner = RYU
 		add_core_of = CAL
-		add_core_of = JAP
+		add_core_of = RYU
 		add_core_of = AST
 		buildings = {
 			infrastructure = 5

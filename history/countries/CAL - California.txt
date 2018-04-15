@@ -53,16 +53,16 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Herbert Hoover"
-	picture = "herbert_hoover.dds"
+	name = "Yoshimichi Hara"
+	picture = "yoshimichi_hara.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Yoshimichi Hara"
-	picture = "yoshimichi_hara.dds"
+	name = "Tsuneo Matsudaira"
+	picture = "tsuneo_matsudaira.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

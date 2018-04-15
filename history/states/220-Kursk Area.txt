@@ -6,7 +6,7 @@ state={
 	state_category = city
 
 	history={
-		owner = SRU
+		owner = UKR
 		victory_points = {
 			3580 5
 		}
@@ -19,7 +19,7 @@ add_core_of = SRU
 		add_core_of = WRU
 		add_core_of = SIB
 		add_core_of = MOS
-		
+
 	}
 
 	provinces={

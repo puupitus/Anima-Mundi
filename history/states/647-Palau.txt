@@ -6,10 +6,11 @@ state=
 	manpower = 12100
 	history=
 	{
-		owner = JAP
-		add_core_of = JAP
+		owner = RYU
+		add_core_of = RYU
 		add_core_of = AST
 		add_core_of = PHL
+
 		buildings = {
 			infrastructure = 3
 			air_base = 1

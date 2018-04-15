@@ -17,7 +17,7 @@ state=
 			4288 1
 		}
 		add_core_of = AST
-		add_core_of = JAP
+		add_core_of = RYU
 		add_core_of = PHL
 	}
 	provinces={

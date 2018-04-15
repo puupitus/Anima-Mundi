@@ -6,10 +6,10 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = CAL
+		owner = RYU
 		add_core_of = CAL
 		add_core_of = AST
-		add_core_of = JAP
+		add_core_of = RYU
 		buildings = {
 			infrastructure = 3
 			13047 = {

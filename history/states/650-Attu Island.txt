@@ -7,10 +7,10 @@ state=
 
 	history=
 	{
-		owner = JAP
+		owner = RYU
 		add_core_of = CAL
 		add_core_of = AST
-		add_core_of = JAP
+		add_core_of = RYU
 		add_core_of = RUS
 add_core_of = SRU
 		add_core_of = WRU

@@ -3,7 +3,7 @@ state={
 	name="STATE_231"
 
 	history={
-		owner = OTT
+		owner = SRU
 		victory_points = {
 			1599 5
 		}
@@ -27,7 +27,7 @@ add_core_of = SRU
 		add_core_of = WRU
 		add_core_of = SIB
 		add_core_of = MOS
-		
+
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3

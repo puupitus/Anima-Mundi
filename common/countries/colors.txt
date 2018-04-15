@@ -136,8 +136,8 @@ FRA = {
 	color_ui = rgb { 0  35  149 }
 }
 GUK = {
-	color = rgb { 255 221 255 }
-	color_ui = rgb { 255 221 255 }
+	color = rgb { 109 129 165 }
+	color_ui = rgb { 109 129 165 }
 }
 HAN = {
 color = rgb { 206 0 8 }
@@ -291,6 +291,10 @@ RUS = {
 	color = rgb { 71 113 97 }
 	color_ui = rgb { 71 113 97 }
 }
+RYU = {
+	color = rgb { 98 98 206 }
+	color_ui = rgb { 98 98 206 }
+}
 SAF = {
 	color = rgb { 255 178 102 }
 	color_ui = rgb { 255 178 102 }
@@ -304,8 +308,8 @@ SIA = {
 	color_ui = rgb { 171 190 152 }
 }
 SIB = {
-color = rgb { 7 137 48 }
-color_ui = rgb { 7 137 48 }
+color = rgb { 210 239 196 }
+color_ui = rgb { 210 239 196 }
 }
 SIC = {
 color = rgb { 224 0 11 }
@@ -352,6 +356,10 @@ TUA = {
 	color_ui = rgb { 149  59  21 }
 }
 SRU = {
+color = rgb { 153 0 0 }
+color_ui = rgb { 153 0 0 }
+}
+UKR = {
 color = rgb { 58 118 197 }
 color_ui = rgb { 58 118 197 }
 }
