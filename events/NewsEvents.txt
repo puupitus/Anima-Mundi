@@ -157,3 +157,18 @@ news_event = {
 	}
 
 }
+# Ask For British Terms
+news_event = {
+	id = news.11
+	title = news.11.t
+	desc = news.11.d
+	picture = GFX_zeitgeist
+
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.11.a
+	}
+
+}

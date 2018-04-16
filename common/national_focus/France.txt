@@ -19,7 +19,7 @@ country = {
 ####################
 
 focus = {
-  id = FRA_defensive_action
+  id = FRA_war_preparations
   icon = GFX_goal_generic_national_unity
   available = {
 
@@ -37,7 +37,529 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
+  add_stability = 0.15
+  add_popularity = { ideology = monarchism popularity = 0.1 }
+  }
 
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_expand_maginot_line
+  icon = GFX_goal_generic_national_unity
+  available = {
+
+  }
+  prerequisite = {
+  focus = FRA_war_preparations
+  }
+  mutually_exclusive = {
+
+  }
+  x = 7
+  y = 2
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  3 = { set_building_level = { type = bunker level = 10 province = { all_provinces = yes limit_to_border = yes  } } }
+  735 = { set_building_level = { type = bunker level = 10 province = { all_provinces = yes limit_to_border = yes  } } }
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_plan_d
+  icon = GFX_goal_generic_national_unity
+  available = {
+
+  }
+  prerequisite = {
+  focus = FRA_war_preparations
+  }
+  mutually_exclusive = {
+
+  }
+  x = 9
+  y = 2
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  8 = { set_building_level = { type = bunker level = 10 province = { all_provinces = yes limit_to_border = yes  } } }
+  34 = { set_building_level = { type = bunker level = 10 province = { all_provinces = yes limit_to_border = yes  } } }
+  29 = { set_building_level = { type = bunker level = 10 province = { all_provinces = yes limit_to_border = yes  } } }
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_mur_de_latlantique
+  icon = GFX_goal_generic_national_unity
+  available = {
+
+  }
+  prerequisite = {
+  focus = FRA_war_preparations
+  }
+  mutually_exclusive = {
+
+  }
+  x = 11
+  y = 2
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  29 = { set_building_level = { type = coastal_bunker level = 3 province = { all_provinces = yes limit_to_border = yes  } } }
+  15 = { set_building_level = { type = coastal_bunker level = 3 province = { all_provinces = yes limit_to_border = yes  } } }
+  14 = { set_building_level = { type = coastal_bunker level = 3 province = { all_provinces = yes limit_to_border = yes  } } }
+  30 = { set_building_level = { type = coastal_bunker level = 3 province = { all_provinces = yes limit_to_border = yes  } } }
+  23 = { set_building_level = { type = coastal_bunker level = 3 province = { all_provinces = yes limit_to_border = yes  } } }
+  19 = { set_building_level = { type = coastal_bunker level = 3 province = { all_provinces = yes limit_to_border = yes  } } }
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_central_industry
+  icon = GFX_goal_generic_national_unity
+  available = {
+
+  }
+  prerequisite = {
+  focus = FRA_expand_maginot_line
+  }
+  mutually_exclusive = {
+
+  }
+  x = 7
+  y = 3
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  24 = { add_building_construction = { type = industrial_complex level = 4 instant_build = yes }
+  }
+  24 = { add_building_construction = { type = arms_factory level = 4 instant_build = yes }
+  }
+  24 = { add_extra_state_shared_building_slots = 8}
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_la_rochelle_expansion
+  icon = GFX_goal_generic_national_unity
+  available = {
+
+  }
+  prerequisite = {
+  focus = FRA_mur_de_latlantique
+  }
+  mutually_exclusive = {
+
+  }
+  x = 11
+  y = 3
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  23 = { add_building_construction = { type = dockyard level = 8 instant_build = yes }
+  }
+  23 = { add_extra_state_shared_building_slots = 8}
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_legion_etrangere_recruitment_programme
+  icon = GFX_goal_generic_national_unity
+  available = {
+
+  }
+  prerequisite = {
+  focus = FRA_la_rochelle_expansion
+  }
+  prerequisite = {
+  focus = FRA_central_industry
+  }
+  prerequisite = {
+  focus = FRA_plan_d
+  }
+  mutually_exclusive = {
+
+  }
+  x = 9
+  y = 4
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  add_ideas = FRA_lerp
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_the_british_question
+  icon = GFX_goal_generic_national_unity
+  available = {
+
+  }
+  prerequisite = {
+
+  }
+  mutually_exclusive = {
+
+  }
+  x = 9
+  y = 6
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  add_war_support = 0.2
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_start_negotiations_with_the_british
+  icon = GFX_goal_generic_national_unity
+  available = {
+
+  }
+  prerequisite = {
+  focus = FRA_the_british_question
+  }
+  mutually_exclusive = {
+
+  }
+  x = 9
+  y = 7
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  add_political_power = 200
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_ask_for_british_terms
+  icon = GFX_goal_generic_national_unity
+  available = {
+  BRI = { has_country_flag = MONARCHISM_PATH }
+  }
+  prerequisite = {
+  focus = FRA_start_negotiations_with_the_british
+  }
+  mutually_exclusive = {
+  focus = FRA_ultimatum
+  }
+  x = 5
+  y = 8
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  news_event = news.11
+  add_political_power = 100
+  add_war_support = 0.1
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_ultimatum
+  icon = GFX_goal_generic_national_unity
+  available = {
+
+  }
+  prerequisite = {
+  focus = FRA_start_negotiations_with_the_british
+  }
+  mutually_exclusive = {
+  focus = FRA_ask_for_british_terms
+  }
+  x = 13
+  y = 8
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  BRI = { country_event = fra.1 }
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_approach_ireland
+  icon = GFX_goal_generic_national_unity
+  available = {
+
+  }
+  prerequisite = {
+  focus = FRA_ask_for_british_terms
+  }
+  mutually_exclusive = {
+  }
+  x = 5
+  y = 9
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  IRE = { country_event = fra.2 }
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_install_a_british_monarch
+  icon = GFX_goal_generic_national_unity
+  available = {
+  BRI = { owns_state = 119 }
+  }
+  prerequisite = {
+  focus = FRA_approach_ireland
+  }
+  mutually_exclusive = {
+  }
+  x = 4
+  y = 10
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  IF = {
+  limit = {
+  NOT = { BRI = { has_government = monarchism } } }
+  BRI = { set_politics = { ruling_party = monarchism elections_allowed = no } }
+    }
+  add_political_power = 200
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_operation_pomme_de_terre
+  icon = GFX_goal_generic_national_unity
+  available = {
+  has_country_flag = IRELAND_DECLINES
+  }
+  prerequisite = {
+  focus = FRA_approach_ireland
+  }
+  mutually_exclusive = {
+  }
+  x = 6
+  y = 10
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  add_to_faction = BRI
+  BRI = { create_wargoal = { target = IRE type = annex_everything } }
+  BRI = { declare_war_on = { target = IRE type = annex_everything } }
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_new_king_for_britain
+  icon = GFX_goal_generic_national_unity
+  available = {
+  has_country_flag = BRITAIN_SUBMITS
+  }
+  prerequisite = {
+  focus = FRA_ultimatum
+  }
+  mutually_exclusive = {
+  focus = FRA_de_gaulle_plan
+  }
+  x = 12
+  y = 9
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  add_political_power = 200
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_de_gaulle_plan
+  icon = GFX_goal_generic_national_unity
+  available = {
+  has_country_flag = BRITAIN_REJECTS
+  }
+  prerequisite = {
+  focus = FRA_ultimatum
+  }
+  mutually_exclusive = {
+  focus = FRA_new_king_for_britain
+  }
+  x = 14
+  y = 9
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  add_timed_idea = { idea = FRA_dgp days = 200 }
+
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_strike_britain
+  icon = GFX_goal_generic_national_unity
+  available = {
+  }
+  prerequisite = {
+  focus = FRA_de_gaulle_plan
+  }
+  mutually_exclusive = {
+  }
+  x = 14
+  y = 10
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  create_wargoal = { target = BRI type = annex_everything }
+  declare_war_on = { target = BRI type = annex_everything }
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_britain_no_more
+  icon = GFX_goal_generic_national_unity
+  available = {
+  }
+  prerequisite = {
+  focus = FRA_strike_britain
+  }
+  mutually_exclusive = {
+  }
+  x = 14
+  y = 11
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  annex_country = { target = BRI transfer_troops = yes }
+  every_state = {
+  limit = {
+  is_core_of = BRI }
+  add_core_of = FRA }
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_the_iberian_question
+  icon = GFX_goal_generic_national_unity
+  available = {
+  }
+  prerequisite = {
+  focus = FRA_britain_no_more
+  focus = FRA_install_a_british_monarch
+  focus = FRA_new_king_for_britain
+  }
+  mutually_exclusive = {
+  }
+  x = 9
+  y = 13
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  add_war_support = 0.1
+  add_political_power = 100
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_east_iberia_or_war
+  icon = GFX_goal_generic_national_unity
+  available = {
+  }
+  prerequisite = {
+  focus = FRA_the_iberian_question
+  }
+  mutually_exclusive = {
+  }
+  x = 9
+  y = 14
+  cost = 14.3
+
+  available_if_capitulated = yes
+
+  completion_reward = {
+  IBE = { country_event = fra.3 }
   }
 
   ai_will_do = {
