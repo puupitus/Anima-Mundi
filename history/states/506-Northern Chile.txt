@@ -23,6 +23,7 @@ state={
 		add_core_of = ARG
 		add_core_of = PRU
 		add_core_of = POR
+add_core_of = LUS
 		victory_points = {
 			12994 1
 		}

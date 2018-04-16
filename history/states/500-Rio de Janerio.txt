@@ -9,6 +9,7 @@ state={
 	history={
 		owner = POR
 		add_core_of = POR
+add_core_of = LUS
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
