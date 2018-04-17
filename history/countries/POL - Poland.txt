@@ -3,7 +3,6 @@ capital = 10
 oob = "POL_1936"
 set_country_flag = EUROPEAN
 set_major = yes
-create_faction = "Zeitgeist Pact"
 
 # Starting tech
 set_technology = {

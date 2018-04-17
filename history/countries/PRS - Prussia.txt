@@ -1,4 +1,4 @@
-capital = 5
+capital = 85
 
 oob = "PRS_1936"
 set_country_flag = EUROPEAN
@@ -31,54 +31,54 @@ set_politics = {
 
 		parties = {
 			nationalism = {
-				popularity = 40
+				popularity = 30
 			}
 
 			socialism = {
-				popularity = 10
-			}
-
-			republicanism = {
 				popularity = 20
 			}
 
+			republicanism = {
+				popularity = 40
+			}
+
 			monarchism = {
-				popularity = 30
+				popularity = 10
 			}
 		}
-	ruling_party = nationalism
+	ruling_party = republicanism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Karl Dönitz"
-	picture = "karl_donitz.dds"
+	name = "Ignacy Mościcki"
+	picture = "ignacy_moscicki.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Erich Raeder"
-	picture = "erich_raeder.dds"
+	name = "Ignacy Mościcki"
+	picture = "ignacy_moscicki.dds"
 	ideology = absolutism
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Paul Levi"
-	picture = "paul_levi.dds"
+	name = "Ignacy Mościcki"
+	picture = "ignacy_moscicki.dds"
 	ideology = marxist
 	traits = { zeitgeist_default
 		#
 	}
 }
 create_country_leader = {
-	name = "Adolf Hitler"
-	picture = "adolf_hitler.dds"
+	name = "Ignacy Mościcki"
+	picture = "ignacy_moscicki.dds"
 	ideology = nazism
 	traits = { zeitgeist_default
 		#

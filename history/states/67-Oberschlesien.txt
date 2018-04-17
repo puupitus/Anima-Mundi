@@ -15,13 +15,14 @@ state={
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = PRS
+		
 		add_core_of = RHI
 		add_core_of = POM
 		add_core_of = HAN
 		add_core_of = BRA
 		add_core_of = KRA
 		add_core_of = POL
+add_core_of = PRS
 		add_core_of = MOR
 		add_core_of = BOH
 	}

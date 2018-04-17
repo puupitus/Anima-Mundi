@@ -18,6 +18,7 @@ state=
 		}
 		add_core_of = BAL
 		add_core_of = POL
+add_core_of = PRS
 		add_core_of = TEO
 
 		1939.3.22 = {
