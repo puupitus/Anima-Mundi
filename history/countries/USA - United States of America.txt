@@ -54,8 +54,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Franklin D. Roosevelt"
-	picture = "franklin_d_roosevelt.dds"
+	name = "Franz von Papen"
+	picture = "franz_von_papen.dds"
 	ideology = conservatistic
 	traits = { zeitgeist_default
 		#

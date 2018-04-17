@@ -23,6 +23,7 @@ country_event = {
       ai_chance = {
         factor = 50
       }
+			create_country_leader = { name = "Franklin D. Roosevelt" picture = "franklin_d_roosevelt.dds" ideology = conservatistic }
       set_country_flag = PRESIDENT_ROOSEVELT
       news_event = news.2
   }

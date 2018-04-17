@@ -292,7 +292,7 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-  news_event = news.11
+  BRI = { country_event = fra.1 }
   add_political_power = 100
   add_war_support = 0.1
   }
@@ -320,7 +320,7 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-  BRI = { country_event = fra.1 }
+  BRI = { country_event = fra.2 }
   }
 
   ai_will_do = {
@@ -331,7 +331,7 @@ focus = {
   id = FRA_approach_ireland
   icon = GFX_goal_generic_national_unity
   available = {
-
+  NOT = { FRA = { has_country_flag = NO_TERMS } }
   }
   prerequisite = {
   focus = FRA_ask_for_british_terms
@@ -345,7 +345,7 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-  IRE = { country_event = fra.2 }
+  IRE = { country_event = fra.3 }
   }
 
   ai_will_do = {
@@ -356,10 +356,14 @@ focus = {
   id = FRA_install_a_british_monarch
   icon = GFX_goal_generic_national_unity
   available = {
+  OR = {
   BRI = { owns_state = 119 }
+  FRA = { has_country_flag = NO_TERMS } }
   }
   prerequisite = {
+
   focus = FRA_approach_ireland
+  focus = FRA_ask_for_british_terms
   }
   mutually_exclusive = {
   }
@@ -375,6 +379,10 @@ focus = {
   NOT = { BRI = { has_government = monarchism } } }
   BRI = { set_politics = { ruling_party = monarchism elections_allowed = no } }
     }
+  IF = {
+  limit = {
+  NOT = { BRI = { is_in_faction_with = FRA } } }
+  FRA = { add_to_faction = BRI } }
   add_political_power = 200
   }
 
@@ -428,7 +436,17 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
+  IF = {
+  limit = {
+  NOT = { BRI = { has_government = monarchism } } }
+  BRI = { set_politics = { ruling_party = monarchism elections_allowed = no } }
+    }
+  IF = {
+  limit = {
+  NOT = { BRI = { is_in_faction_with = FRA } } }
+  FRA = { add_to_faction = BRI } }
   add_political_power = 200
+
   }
 
   ai_will_do = {
@@ -505,6 +523,29 @@ focus = {
 
   completion_reward = {
   annex_country = { target = BRI transfer_troops = yes }
+  }
+
+  ai_will_do = {
+    factor = 10
+    }
+}
+focus = {
+  id = FRA_total_assimilation
+  icon = GFX_goal_generic_national_unity
+  available = {
+  }
+  prerequisite = {
+  focus = FRA_britain_no_more
+  }
+  mutually_exclusive = {
+  }
+  x = 14
+  y = 12
+  cost = 28.6
+
+  available_if_capitulated = yes
+
+  completion_reward = {
   every_state = {
   limit = {
   is_core_of = BRI }
@@ -559,7 +600,7 @@ focus = {
   available_if_capitulated = yes
 
   completion_reward = {
-  IBE = { country_event = fra.3 }
+  IBE = { country_event = fra.4 }
   }
 
   ai_will_do = {

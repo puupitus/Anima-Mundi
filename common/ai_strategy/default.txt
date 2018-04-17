@@ -251,10 +251,10 @@ slightly_naval_focused_nation = {
 			tag = USA
 			tag = BRI
 			tag = FRA
-			tag = ITA
-			tag = LUS
+			tag = SPA
+			tag = IBE
 			tag = AST
-			tag = CSA
+			tag = POR
 		}
 	}
 
@@ -286,12 +286,14 @@ slightly_naval_focused_nation = {
 more_naval_focused_nation = {
 	enable = {
 		OR = {
-			tag = JAP
-			tag = USA
-			tag = BRI
-			tag = LUS
-			tag = AST
-			tag = FRA
+		tag = JAP
+		tag = USA
+		tag = BRI
+		tag = FRA
+		tag = SPA
+		tag = IBE
+		tag = AST
+		tag = POR
 		}
 		date > "1941.1.1" #Delaying it by a couple of years
 	}
